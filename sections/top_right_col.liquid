@@ -1,0 +1,85 @@
+<style>
+  .section_topbar{ background-color:{{ section.settings.background_color}}; color:#fff;}
+  .section_topbar .container{display:flex; justify-content:space-between; align-items:center;}
+  .section_topbar a, .section_topbar span{ color:#fff; text-decoration:none;}
+  .section_topbar .rightcol .header__menu-item svg path{ fill:white;}
+  .section_topbar .rightcol ul.header__submenu{background:#5f807f; border:none; border-top-left-radius: 0px; border-top-right-radius: 0px; padding:0px; min-width:260px;}
+  .section_topbar .rightcol ul.header__submenu li{ list-style-type:none;} 
+    .section_topbar .rightcol ul.header__submenu li a{ text-decoration:none;}
+
+  #top_left_menu li .mega-menu{ position:relative;}
+  #top_left_menu li .header__menu-item svg path{ fill:white;}
+  #top_left_menu li .mega-menu__content{background:#5f807f; border:none; padding:0px 0px 10px 0px;  position:absolute; left:0px; right:0px; top:100%;}
+  #top_left_menu li ul.mega-menu__list{background:#5f807f; border:none; border-top-left-radius: 0px; border-top-right-radius: 0px; padding:0px;}
+  #top_left_menu li ul.mega-menu__list li{ list-style-type:none;}
+  #top_left_menu li ul.mega-menu__list li a{ text-decoration:none; padding:8px 0px;}
+  
+</style>
+<div class="container">
+<div class="leftcol">
+{%- liquid
+      if linklists.top-left-menu.links != blank
+            render 'header-mega-menu-topleft'
+      endif
+    %}
+ 
+{{ section.settings.announcement_text }}
+</div>
+<div class="rightcol">
+{%- liquid
+      if section.settings.menu != blank
+        if section.settings.menu_type_desktop == 'dropdown'
+          render 'header-mega-menu'
+        elsif section.settings.menu_type_desktop != 'drawer'
+          render 'header-mega-menu-topright'          
+        endif
+      endif
+    %}
+
+ 
+  
+</div>
+</div>
+{% schema %}
+{
+  "name": "Header Top Bar",
+  "tag": "section",
+  "class": "section_topbar",
+  "limit": 1,
+  "settings": [
+    {
+      "type":"color",
+      "id": "background_color",
+      "label":"Top Bar Color"
+    },
+    {
+      "type": "link_list",
+      "id": "top_leftmenu",
+      "label": "Top Left Menu"
+    },
+    {
+      "type":"text",
+      "id": "announcement_text",
+      "label":"Announcement Text"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Top Right Menu"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Header Top Bar",
+      "settings": {
+      }
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
