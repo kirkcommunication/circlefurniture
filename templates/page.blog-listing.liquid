@@ -1,0 +1,78 @@
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<div id="breadcrumb_wrapper">
+<ul class="page-width">
+    <h1>Blog</h1>
+</ul>
+  </div>
+<div class="articlesContainer">
+{% assign blog_handles = 'about-circle,options-customizations,tips-inspiration,reviews-comparisons,care-maintenance' | split: ',' %}
+{% for blog_handle in blog_handles %}
+  {% assign blog = blogs[blog_handle] %}  
+  {% for article in blog.articles %}
+
+    <div class="article post_listing">
+      <a class="content" href="../../blogs/{{ article.handle }}">
+        <div class="img_box">
+       <img
+                srcset="
+                  {% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
+                  {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %}
+                  {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %}
+                  {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %}
+                  {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %}
+                  {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
+                  {{ article.image | image_url }} {{ article.image.width }}w
+                "
+                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
+                src="{{ article.image | image_url: width: 1100 }}"
+                loading="eager"
+                fetchpriority="high"
+                width="{{ article.image.width }}"
+                height="{{ article.image.height }}"
+                alt="{{ article.image.alt | escape }}"
+              >
+        </div>
+        <div class="content_box">
+      <h3>{{ article.title }}</h3>
+        <div class="meta_data">
+      <div class="publish-date"> <span>Publish on :</span> {{ article.published_at | date: "%B %d, %Y" }}</div>
+      <div class="author_name">{{ article.author }}</div></div>
+      <p>{{ article.content | strip_html | truncatewords: 20 }}</p>
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+  {% endfor %}
+</div>
+<script>  
+  $(document).ready(function() {
+    $('.articlesContainer').addClass('wrapper');
+    var articlesContainer = $('.articlesContainer');
+    var article = articlesContainer.find('.article');
+    
+    var sortedArticles = article.toArray().sort(function(a, b) {
+      var dateA = new Date($(a).find('.publish-date').text().split(':')[1]);
+       var dateB = new Date($(b).find('.publish-date').text().split(':')[1]);
+         return dateB - dateA;
+
+    });
+    $(sortedArticles).appendTo(articlesContainer);
+  });
+</script>
+<style>
+  #breadcrumb_wrapper{ background:#5f807f; padding:1px 0px;}
+  #breadcrumb_wrapper h1{ color:#fff; font-size:45px; font-weight:400;}
+  .articlesContainer{ display:none;}
+  .articlesContainer.wrapper{ diplay:block;}
+  .articlesContainer.wrapper .post_listing a{ text-decoration:none;}
+    .articlesContainer.wrapper .post_listing:hover{ box-shadow:0 4px 20px #DEE9EF; border-radius:10px;}
+  .articlesContainer.wrapper{ display:flex; max-width:1400px; padding:50px 10px; gap:30px 20px; flex-wrap:wrap; margin:0 auto;}
+  .articlesContainer.wrapper .post_listing{ max-width:32.35%; padding:0px;}
+  .articlesContainer.wrapper .post_listing .img_box{ max-height:250px; display:flex; align-items:center; overflow:hidden; border-top-left-radius:10px; border-top-right-radius:10px;}
+  .articlesContainer.wrapper .post_listing img{ width:100%; object-fit:cover; height:100%;}
+  .articlesContainer.wrapper .post_listing .content_box{ padding:15px;}
+  .articlesContainer.wrapper .post_listing .content_box h3{ font-size:24px; font-weight:500; min-height:58px; margin:10px 0px;}
+  .articlesContainer.wrapper .post_listing .content_box .meta_data{ display:flex; gap:20px; color:#5f807f;}
+  .articlesContainer.wrapper .post_listing .content_box .meta_data .publish-date span{ display:none;}
+  .articlesContainer.wrapper .post_listing .content_box p{color:#000;}
+</style>
