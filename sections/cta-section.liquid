@@ -1,0 +1,54 @@
+  <div class="container">
+    <div class="content_wrapper">
+      {% if section.settings.button_text == '' %}
+      <div class="text_center">{{ section.settings.cta_text }}</div>        
+      {% else %}
+      <div class="left_content">{{ section.settings.cta_text }}</div>
+      <div class="right_content"><a href="{{ section.settings.cta_button_url}}">{{ section.settings.button_text }}</a></div>
+      {% endif %}    
+  </div>
+  </div>
+
+{% stylesheet %}
+  .ctasection{ background-color:#5f807f; padding:25px 10px;}
+  .ctasection .content_wrapper{ display:flex; justify-content:space-between; align-items:center;}
+  .ctasection .content_wrapper .text_center{ width:100%; text-align:center; font-size:50px; color:#fff;}
+  .ctasection .content_wrapper .left_content{width:75%; font-size:50px; color:#fff;}
+  .ctasection .content_wrapper .left_content p, .ctasection .content_wrapper .text_center p{ line-height:initial; margin:0px; padding:0px;}
+  .ctasection .content_wrapper .right_content{width:25%; display:flex; justify-content:right;}
+  .ctasection .content_wrapper .right_content a{ background:#fff; padding:10px 20px; line-height:initial;
+color:#000; font-size:20px; text-decoration:none;}
+{% endstylesheet %}
+{% schema %}
+{
+  "name": "Call To Action",
+  "tag": "section",
+  "class": "ctasection",
+  "settings": [
+    {
+      "type": "richtext",
+      "label": "CTA Text",
+      "id": "cta_text"
+    },
+    {
+      "type": "url",
+      "label": "CTA Button URL",
+      "id": "cta_button_url"
+    },
+    {
+      "type": "text",
+      "label": "Button Text",
+      "id": "button_text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Call To Action"
+    }
+  ]
+}
+{% endschema %}
+
+
+{% javascript %}
+{% endjavascript %}
