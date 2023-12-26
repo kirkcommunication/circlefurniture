@@ -1,0 +1,103 @@
+<div class="container">
+  <div class="btnbox_wrapper">
+    {%for block in section.blocks%}
+    <a href="{{ block.settings.button_url }}">{{ block.settings.button_text }}</a>
+{% endfor %}
+  </div>
+</div>
+
+{%- style -%}
+  .btnbox_wrapper{ display:flex; flex-wrap:wrap; justify-content:space-around; gap:50px;}
+    .btnbox_wrapper a{ background:{{ section.settings.btn_color}}; padding:15px 40px; line-height:initial; color:{{section.settings.btn_text_color}}; font-size:20px; text-decoration:none;}
+    .btnbox_wrapper a:hover{ background:{{ section.settings.btn_hover_color}};}
+  section.button_grid_wrapper{ padding:50px 10px; background-color: {{section.settings.background_color}};
+    margin-top: {{ section.settings.margin_top }}px;
+    margin-bottom: {{ section.settings.margin_bottom }}px;
+  }
+{%- endstyle -%}
+
+{% schema %}
+{
+  "name": "Button Grid",
+  "tag": "section",
+  "class": "button_grid_wrapper",
+  "settings": [
+    {
+      "type": "color",
+      "label": "Section Background Color",
+      "id": "background_color",
+      "default":"#30514e"
+    },
+    {
+      "type": "color",
+      "label": "Button Background Color",
+      "id": "btn_color",
+      "default":"#30514e"
+    },
+    {
+      "type": "color",
+      "label": "Button Hover Color",
+      "id": "btn_hover_color",
+      "default":"#5F817F"
+    },
+    {
+      "type": "color",
+      "label": "Button Text Color",
+      "id": "btn_text_color",
+      "default":"#000"
+    },
+    {
+      "type": "header",
+      "content": "Section Margin"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "button_grid",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Button Text",
+          "id": "button_text"
+        },
+        {
+          "type": "url",
+          "label": "Button URL",
+          "id": "button_url"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Button Grid"
+    }
+  ]
+}
+{% endschema %}
+
+
+
+{% javascript %}
+{% endjavascript %}

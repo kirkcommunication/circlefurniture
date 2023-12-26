@@ -1,0 +1,97 @@
+<div class="container">
+  <div class="btnbox_outer">
+    {%for block in section.blocks%}
+    <a href="{{ block.settings.button_url }}">{{ block.settings.button_text }}</a>
+{% endfor %}
+  </div>
+</div>
+
+{%- style -%}
+  .btnbox_outer{ display:flex; flex-wrap:wrap; justify-content:space-around; gap:50px;}
+  .btnbox_outer a{background-color: {{section.settings.background_color}}; padding:50px 30px; line-height:initial; color: {{section.settings.button_text_color}}; font-size:50px; text-decoration:none;}
+  .btnbox_outer a:hover{ background-color:{{section.settings.button_hover_color}};}
+  section.button_grid_section{ padding:10px; margin-top: {{ section.settings.margin_top }}px;
+    margin-bottom: {{ section.settings.margin_bottom }}px;}
+  
+{%- endstyle -%}
+
+{% schema %}
+{
+  "name": "Button Grid Three Column",
+  "tag": "section",
+  "class": "button_grid_section",
+  "settings": [
+    {
+        "type": "color",
+      "label": "Button Background Color",
+      "id": "background_color",
+      "default":"#5f807f"
+    },
+    {
+        "type": "color",
+      "label": "Button Hover Color",
+      "id": "button_hover_color",
+      "default":"#30514e"
+    },
+    {
+        "type": "color",
+      "label": "Button Text Color",
+      "id": "button_text_color",
+      "default":"#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Section Margin"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "button_grid",
+      "name": "Button",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "label": "Button Text",
+          "id": "button_text"
+        },
+        {
+          "type": "url",
+          "label": "Button URL",
+          "id": "button_url"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Button Grid Three Column"
+    }
+  ]
+}
+{% endschema %}
+
+
+
+{% javascript %}
+{% endjavascript %}
