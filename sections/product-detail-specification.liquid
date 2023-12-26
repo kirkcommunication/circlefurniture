@@ -1,0 +1,92 @@
+<style>
+.accordion{margin:10px 0;padding:0;list-style:none;}
+.accordion-item{list-style:none!important;}
+.accordion-thumb{margin:0;padding:16px 10px;cursor:pointer;font-weight:normal; background:#f2f2f2; color:#000;}
+.accordion-thumb::before{content: '';display:inline-block;height:12px;width:12px; position:relative; top:-6px; margin-right:20px;margin-left:20px;vertical-align:middle;border-right:1px solid;border-bottom:1px solid;transform:rotate(-45deg);transition:transform 0.2s ease-out;}
+.accordion-panel{margin:0;padding-bottom:0.8rem;display:none;}
+.accordion-item.is-active .accordion-thumb::before{transform:rotate(45deg);}
+.accordion-item.is-active h3{ background:#5f807f; color:#fff;}
+.specification_data{ margin:15px 0px;}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $(function() {
+	$(".accordion > .accordion-item.is-active").children(".accordion-panel").slideDown();	
+	$(".accordion > .accordion-item").click(function() {
+		$(this).siblings(".accordion-item").removeClass("is-active").children(".accordion-panel").slideUp();
+		$(this).toggleClass("is-active").children(".accordion-panel").slideToggle("ease-out");
+	});
+});
+</script>
+
+<div class="container">
+<ul class="accordion">
+ {%- if product.description != blank -%}
+<li class="accordion-item is-active">
+<h3 class="accordion-thumb" id="detail_description"> {{ product.title | escape }} Description</h3>
+<div class="accordion-panel">{{ product.metafields.custom.product_description | metafield_tag }}</div>
+</li>
+  {% endif %}
+<li class="accordion-item">
+<h3 class="accordion-thumb">Product Details</h3>
+<div class="accordion-panel">
+{% if product.type == 'Upholstery' %}
+    {% render 'product-detail-upholstery' %}
+  {% elsif product.type == 'Case Goods' %}
+    {% render 'product-detail-casegoods' %}
+  {% elsif product.type == 'Mattress & Foundation' %}
+   {% render 'product-detail-mattress' %}
+  {% elsif product.type == 'Decor' %}
+   {% render 'product-detail-decor' %}
+  {% elsif product.type == 'Rugs' %}
+   {% render 'product-detail-rugs' %}
+  {% else %}  
+
+  
+  
+{% endif %} 
+</div>
+</li>
+ {%- if product.metafields.custom.specifications != blank -%}
+<li class="accordion-item">
+<h3 class="accordion-thumb" id="detail_description">Product Specification</h3>
+<div class="accordion-panel specification_data">{{ product.metafields.custom.specifications | metafield_tag }}</div>
+</li>
+{% endif %} 
+</ul>
+</div>
+{% comment %}
+<div class="container">
+  <h2>Product Description</h2>
+  {{ product.metafields.custom.product_description | metafield_tag }}
+  <h2>Specification:</h2>
+  
+{% if product.type == 'Upholstery' %}
+    {% render 'product-detail-upholstery' %}
+  {% elsif product.type == 'Case Goods' %}
+    {% render 'product-detail-casegoods' %}
+  {% else %}  
+{% endif %}        
+</div>
+{% endcomment %}
+
+{% schema %}
+  {
+    "name": "Product Details",
+  "tag": "section",
+  "class": "product_detail_bottom_section",
+  "settings": [
+    ],
+  "presets": [
+    {
+      "name": "Product Details"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
