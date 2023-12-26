@@ -1,0 +1,127 @@
+{% comment %}
+  Renders a standard dropdown style menu for the header.
+
+  Usage:
+  {% render 'header-mega-menu-topright' %}
+{% endcomment %}
+
+<style>
+#toprightmenu{position:relative;width:100%;padding:0 15px;top:0;display:flex;grid-area:navigation;left:0;z-index:1000;}
+#toprightmenu ul{margin:0px auto;padding:0px;}
+#toprightmenu ul li{position:relative;display:inline-block;}
+#toprightmenu > ul > li{float:left;}
+#toprightmenu a{display:inline-block;padding:12px 10px; display:flex; align-items:center; text-decoration:none; transition:.2s ease-out; font-family:'NunitoSans-SemiBold'; font-size:16px;}
+#toprightmenu a .arrow-down{box-sizing:border-box;height:7px;width:7px; display:block; border-style:solid;border-color:#333; margin-left:10px; border-width:0px 1px 1px 0px;transform:rotate(45deg);transition:border-width 150ms ease-in-out;}
+#toprightmenu li.active a .arrow-down, #toprightmenu li a:hover .arrow-down{border-color:#fff;}
+  
+#toprightmenu a .arrow-right{box-sizing:border-box;height:7px;width:7px; display:block; border-style:solid;border-color:#333; margin-left:10px; border-width:0px 1px 1px 0px;transform:rotate(-45deg);transition:border-width 150ms ease-in-out;}
+#toprightmenu li.active a .arrow-right{border-color:#000;}
+#toprightmenu a span{font-family:'NunitoSans-SemiBold';font-size:16px;}
+#toprightmenu li.active a{ color:#fff; font-family:'NunitoSans-SemiBold';font-size:16px;}
+  
+#toprightmenu a:hover,li.active{background:#5f807f; color:#fff;}
+#toprightmenu ul.subMenu{box-sizing:border-box;position:absolute;top:100%;left:0;width:180px;padding:0px;}
+#toprightmenu ul.subMenu li{width:100%;background:#f6f6f6;}
+#toprightmenu ul.subMenu li a{width:100%; justify-content:space-between; color:#333; padding:8px 15px;font-size:16px; border-bottom:1px solid rgba(0,0,0,.05);border-top:1px solid rgba(255,255,255,.1);line-height:inherit;}
+#toprightmenu ul.subMenu li a:hover,#toprightmenu ul.subMenu li.active > a{background:#fcfcfc; color:#000;}
+#toprightmenu ul.subMenu ul.subMenu{position:absolute;top:0;left:100%;width:100%;}
+
+  
+</style>
+
+<nav id="toprightmenu">
+  <ul>
+    {%- for link in section.settings.menu.links -%}
+      <li>
+        {%- if link.links != blank -%}
+                <a href="{{ link.url }}"
+                  {%- if link.child_active %}
+                    class="header__active-menu-item"
+                  {% endif %}
+                >
+                  {{- link.title | escape -}}
+                <i class="arrow-down"></i>
+                </a>
+                
+              <ul id="HeaderMenu-MenuList-{{ forloop.index }}" class="subMenu" tabindex="-1">
+                {%- for childlink in link.links -%}
+                  <li>
+                    {%- if childlink.links == blank -%}
+                      <a
+                        id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
+                        href="{{ childlink.url }}"
+                        class="header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"
+                        {% if childlink.current %}
+                          aria-current="page"
+                        {% endif %}
+                      >
+                        {{ childlink.title | escape }}
+                      </a>
+                    {%- else -%}
+                        <a href="{{ childlink.url }}">{{ childlink.title | escape }} <i class="arrow-right"></i></a>    
+                        <ul
+                          id="HeaderMenu-SubMenuList-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                          class="subMenu"
+                        >
+                          {%- for grandchildlink in childlink.links -%}
+                            <li>
+                              <a
+                                id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
+                                href="{{ grandchildlink.url }}"
+                                class="{% if grandchildlink.current %} list-menu__item--active{% endif %}"
+                                {% if grandchildlink.current %}
+                                  aria-current="page"
+                                {% endif %}
+                              >
+                                {{ grandchildlink.title | escape }}
+                              </a>
+                            </li>
+                          {%- endfor -%}
+                        </ul>
+                    {%- endif -%}
+                  </li>
+                {%- endfor -%}
+              </ul>
+        {%- else -%}
+          <a
+            id="HeaderMenu-{{ link.handle }}"
+            href="{{ link.url }}"
+            {% if link.current %}
+              aria-current="page"
+            {% endif %}
+          >
+            <span
+              {%- if link.current %}
+                class="header__active-menu-item"
+              {% endif %}
+            >
+              {{- link.title | escape -}}
+            </span>
+          </a>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+</nav>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  // Hide SubMenus.
+$(".subMenu").hide();
+
+// Shows SubMenu when it's parent is hovered.
+$(".subMenu").parent("li").hover(function () {
+  $(this).find(">.subMenu").not(':animated').slideDown(300);
+  $(this).toggleClass("active ");
+});
+
+// Hides SubMenu when mouse leaves the zone.
+$(".subMenu").parent("li").mouseleave(function () {
+  $(this).find(">.subMenu").slideUp(150);
+});
+
+// Prevents scroll to top when clicking on <a href="#"> 
+$("a[href=\"#\"]").click(function () {
+  return false;
+});
+</script>
+ -->
