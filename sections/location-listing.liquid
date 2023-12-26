@@ -1,0 +1,98 @@
+<div class="page-width loc_section_wrapper">
+  {% for getdetail in shop.metaobjects.store_location.values %}
+
+      {% if getdetail.store_name == "Outlet" or getdetail.store_name == "Corporate Office" or getdetail.store_name == "Warehouse" %}
+      {% else %}
+        <div class="location_box">
+        <div class="store-image"><a href="{{ getdetail.system.url }}">{{ getdetail.store_image | img_url: '750x750'| img_tag }}</a></div>
+        <h2 class="store-title">{{ getdetail.store_name }} Showroom</h2>
+          <div class="content_outerbox">
+          <div class="content_left">
+            <h4>Address:</h4>
+            <p class="store-info">{{ getdetail.store_address }}</p>
+        <h3 class="store-phone"><a href="tel:+1 {{ getdetail.phone }}">{{ getdetail.phone }}</a></h3>          
+        <div class="store_direction"><a href="{{ getdetail.system.url }}" class="linkwith_arrow">Additional Store Details</a></div>
+          </div>
+          <div class="content_right">
+        {% assign var_storehours = getdetail.hours.value %} 
+        <div class="store-hours">
+          <h4>Hours:</h4>
+        {% for var_shours in var_storehours -%}
+        <p>{{ var_shours }} </p> 
+        {% endfor %}
+        </div>
+          </div>
+          </div>
+       
+        </div>       
+      {% endif %}  
+      {% endfor %}        
+</div>
+
+
+<div class="page-width loc_section_wrapper">
+  {% for getdetail in shop.metaobjects.store_location.values %}
+    
+    {% if getdetail.store_name == "Outlet" or getdetail.store_name == "Corporate Office" or getdetail.store_name == "Warehouse" %}
+    <div class="location_box">
+      <div class="store-image">{{ getdetail.store_image | img_url: '400x225'| img_tag }}</div>
+      <h2 class="store-title">{{ getdetail.store_name }}</h2>
+       <div class="content_outerbox">
+          <div class="content_left">
+             <h4>Address:</h4>
+            <p class="store-info">{{ getdetail.store_address }}</p>
+            <h3 class="store-phone"><a href="tel:{{ getdetail.phone }}">{{ getdetail.phone }}</a></h3>
+             <div class="store_direction"><a href="{{ getdetail.system.url }}" class="linkwith_arrow">Additional Store Details</a></div>
+          </div>
+         <div class="content_right">
+            {% assign var_storehours = getdetail.hours.value %} 
+      <div class="store-hours">
+{%- if getdetail.hours.value != blank -%} <h4>Hours:</h4> {% endif %}
+      {% for var_shours in var_storehours -%}
+      <p>{{ var_shours }} </p> 
+      {% endfor %}
+      </div>
+          </div>
+       </div>
+      </div>   
+{% endif %}
+    
+
+      {% endfor %}        
+</div>
+
+
+
+<style>
+.loc_section_wrapper{margin-top:50px;margin-bottom:50px;display:flex;justify-content:flex-start;column-gap:25px;padding:0px;max-width:1440px;flex-wrap:wrap;row-gap:25px;}
+.location_box{text-align:center;border:1px solid #ececec;padding:0px;overflow:hidden;max-width:31%;width:100%;}
+  .content_outerbox{ display:flex; gap:10px; justify-content:space-between; text-align:left; padding:0px 15px;}
+  .content_outerbox h4{ padding:0px; margin:0px; margin-bottom:5px;}
+  .content_outerbox .content_left{}
+  .location_box:hover {box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.05);}
+  .location_box h2.store-title{ font-size:24px; line-height:30px;text-align:left; margin-bottom:15px; margin-top:10px; font-family:'NunitoSans-SemiBold';}
+  .location_box h3{ margin:0px 0px 15px;font-family:'NunitoSans-SemiBold';}
+  .location_box h2{ padding-left:15px; padding-right:15px;font-family:'NunitoSans-SemiBold';}
+  .store-image img{ object-fit:cover; width:100%; height:250px;}
+  .store-phone a{ text-decoration:none; font-weight:600; color:#5f807f; font-size:16px;}
+  .store-phone a:hover{text-decoration:underline;}
+  .store-hours p{padding:0px; margin:0px; font-size:16px;}
+   p.store-info{ font-size:16px; margin:0px;}
+  .store-hours{ margin-bottom:30px;}
+  .store_direction{ margin-bottom:20px;}
+  .store_direction a{ text-decoration:none; color:#5f807f; font-size:16px;}
+  .store_direction a:hover{ text-decoration:underline;}
+  
+</style>
+
+{% schema %}
+  {
+    "name": "Locations",
+    "settings": [],
+  "presets": [
+    {
+      "name": "Locations"
+    }
+  ]
+  }
+{% endschema %}

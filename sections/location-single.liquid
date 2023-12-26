@@ -1,0 +1,296 @@
+<div class="location_banner" style="background-image:url({{ section.settings.store_image | img_url: '1920x500' }}">
+<div class="location_detail container">
+    <div class="store_info">
+       <h2 class="store-title">{{ section.settings.store_name }} Showroom</h2>
+      <div class="store_info_box">
+      <div class="leftcol">
+         <div class="store-info">{{ section.settings.address | strip_html | replace: "&lt;br&gt;", "<br>"  }}</div>
+          <div class="get_direction"><a href="{{ section.settings.directions }}" target="_blank">Get Directions</a></div>
+        <div class="store-phone"><a href="tel:+1 {{ section.settings.phone }}">{{ section.settings.phone }}</a></div>
+      </div>
+      <div class="rightcol">
+         <div class="store-hours"><span>Hours</span> <br>{{ metaobject.hours  | metafield_tag }}</div>
+      </div>
+      </div>
+  </div> 
+</div>
+</div>
+
+
+<div class="content_wrapper container">
+{%- if section.settings.post_image != blank -%}
+<div class="store_description">
+{{ section.settings.description }}
+<a href="{{ section.settings.description_cta_url }}" class="btn green">{{ section.settings.description_cta_label }}</a>
+</div>
+ <div class="images_grid">
+  {{ section.settings.post_image | img_url: '650x460'| img_tag }}
+</div>
+  {% else %}
+ <div class="store_description fullwidth">
+{{ section.settings.description }}
+<a href="{{ section.settings.description_cta_url }}" class="btn green">{{ section.settings.description_cta_label }}</a>
+</div> 
+  
+{% endif %}
+  
+   <!--
+    {% assign array_of_badges = metaobject.images.value %}
+{% if array_of_badges %}
+ {% for images in array_of_badges %}
+  <img src="{{ images | img_url: '650x460' }}" /> 
+ {% endfor %}
+{% endif %}  -->
+   
+
+</div>
+
+
+<div class="media_wrapper container">
+{%- if section.settings.matterport_3_d_model != blank -%}
+  <div class="matterport">
+<iframe width="680" height="383" src="https://my.matterport.com/show/?m={{ section.settings.matterport_3_d_model }}" frameborder="0" allowfullscreen allow="xr-spatial-tracking"></iframe>
+  </div>
+{% endif %}
+
+  {%- if section.settings.youtube_video != blank -%}
+    <div class="youtube">
+<iframe width="680" height="383" src="https://www.youtube.com/embed/{{ section.settings.youtube_video }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    {% endif %}
+</div>
+
+
+   {% liquid
+  if section.settings.image_layout contains 'right'
+    assign odd_class = ' image-with-text__grid--reverse'
+  else
+    assign even_class = ' image-with-text__grid--reverse'
+  endif
+  %}
+  
+<div class="meetour_designer container">
+  {%- if metaobject.meet_our_designers.value != blank -%}
+  <h1>Meet Our Designers</h1>
+    {% else %}
+    {% endif %}
+  {% assign var_designer = metaobject.meet_our_designers.value %} 
+        <div class="designer_data_outer">
+        {% for var_getdata in var_designer -%}
+          <div class="designer_data {% if section.settings.image_layout contains 'alternate' %}{% cycle odd_class, even_class %}{% else %}{{ odd_class }}{% endif %}">
+        <div class="imgbox"><img src="{{ var_getdata.image.value | img_url: '400x400' }}"/>
+          {%- if var_getdata.you_tube_video != blank -%}
+<div class="play-btn popup-button" data-video-id="{{ var_getdata.you_tube_video }}"></div>
+<!-- Overlay and Popup -->
+  <div id="overlay">
+    <div id="popup">
+      <div id="close-btn">✖</div>
+      <iframe width="854" height="480" src="" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>          
+  {% endif %}  
+        </div>
+        <div class="content_box">
+          <span class="title">{{ var_getdata.title.value }} </span>
+          <h2 class="name">{{ var_getdata.name.value }} </h2>
+          <div class="desc">{{ var_getdata.bio | metafield_tag }}</div>
+          <div class="review">{{ var_getdata.review | metafield_tag }}</div>
+        </div>
+          </div>
+        {% endfor %}
+</div>
+
+
+ 
+
+{% schema %}
+{
+  "name": "Location Detail",
+  "tag": "section",
+  "class": "location_detail_section",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Store Name",
+      "id": "store_name"
+    },
+    {
+      "type": "richtext",
+      "label": "Address",
+      "id": "address"
+    },
+    {
+      "type": "text",
+      "label": "Phone",
+      "id": "phone"
+    },
+    {
+      "type": "text",
+      "label": "Hours",
+      "id": "hours"
+    },
+    {
+      "type": "image_picker",
+      "label": "Store Image",
+      "id": "store_image"
+    },
+    {
+      "type": "url",
+      "label": "Get Direction",
+      "id": "directions"
+    },
+    {
+      "type": "richtext",
+      "label": "Description",
+      "id": "description"
+    },
+    {
+      "type": "text",
+      "label": "Description CTA Label",
+      "id": "description_cta_label"
+    },
+    {
+      "type": "url",
+      "label": "Description CTA URL",
+      "id": "description_cta_url"
+    },
+    {
+      "type": "image_picker",
+      "label": "Description Image",
+      "id": "post_image"
+    },
+    {
+      "type": "text",
+      "label": "Matterport Model ID",
+      "id": "matterport_3_d_model"
+    },
+    {
+      "type": "text",
+      "label": "YouTube Video ID",
+      "id": "youtube_video"
+    },
+    {
+      "type": "select",
+      "id": "image_layout",
+      "options": [
+        {
+          "value": "alternate-left",
+          "label": "t:sections.multirow.settings.image_layout.options__1.label"
+        },
+        {
+          "value": "alternate-right",
+          "label": "t:sections.multirow.settings.image_layout.options__2.label"
+        },
+        {
+          "value": "align-left",
+          "label": "t:sections.multirow.settings.image_layout.options__3.label"
+        },
+        {
+          "value": "align-right",
+          "label": "t:sections.multirow.settings.image_layout.options__4.label"
+        }
+      ],
+      "default": "alternate-left",
+      "label": "Meet Our Designers Image Position",
+      "info": "t:sections.multirow.settings.image_layout.info"
+    }    
+    
+  ],
+  "presets": [
+    {
+      "name": "Location Detail"
+    }
+  ]
+}
+{% endschema %}
+
+{% style %}
+
+section.location_detail_section .container{ max-width:1440px; margin:0 auto; padding:0px 20px;}
+  section.location_detail_section .location_banner{ margin-bottom:60px; width:100%; height:500px; padding:150px 0px 0px; background-repeat:no-repeat; background-position:center center; background-size:cover;}
+  .location_detail{ display:flex; gap:30px;}
+  .store_info{ background: rgba(255, 255, 255, 0.2); box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); padding:30px 50px;}
+  .store_info_box{ display:flex; gap:20px; justify-content:space-between;}
+  .store_info h2{ margin:0px 0px 15px;}
+  .store_info_box .leftcol{ display:flex; flex-direction:column; gap:20px;}
+  .store_info_box .leftcol a{ color:#131b1b; text-decoration:none; font-weight:bold;}
+  .store_info_box .leftcol a:hover{ color:#fff; text-decoration:underline;}
+  .store_info_box .rightcol span{ font-weight:bold; color:#131b1b;}
+  .content_wrapper{ margin-bottom:60px !important;}
+  .btn{ padding:15px 30px; font-size:18px; text-decoration:none; display:inline-block;}
+  .store_description .metafield-rich_text_field{ margin-bottom:30px;}
+  .green{ background:#5f807f; color:#fff;}
+  .store-hours ul{ margin:0px; padding:0px;}
+  .store-hours ul li{ list-style-type:none;}
+  .content_wrapper{display:flex; gap:50px;}
+  .content_wrapper .store_description{ width:60%;}
+  .content_wrapper .store_description.fullwidth{width:100%;}
+.content_wrapper .images_grid{ width:40%; text-align:center;}
+  .media_wrapper{ display:flex; gap:50px; flex-wrap:wrap; justify-content:space-between;}
+  .media_wrapper .matterport, .media_wrapper .youtube{ width:48%;}
+  .media_wrapper iframe{ width:100%;}
+  
+  .designer_data_outer{ display:flex; gap:30px; flex-direction:column;}
+  .designer_data{ max-width:100%; display:flex; gap:50px; align-items:center;}
+  .designer_data.image-with-text__grid--reverse{ flex-direction:row-reverse;}
+  .meetour_designer .designer_data .imgbox{ text-align:center; width:30%; position:relative;}
+  .meetour_designer .designer_data .imgbox .play-btn.popup-button{ position:absolute; bottom:20px; right:20px; background-size:70px;width:70px; height:70px;}
+  .meetour_designer .designer_data .imgbox .play-btn.popup-button:hover{filter:drop-shadow(#333 0px 0px 15px);}
+  .meetour_designer .designer_data .content_box{ width:70%; padding:30px 0px;}
+  .meetour_designer .designer_data .content_box p{ line-height:32px;}
+  .meetour_designer .designer_data .imgbox img{ width:100%;}
+  .meetour_designer .designer_data h2{ margin-bottom:5px; font-size:36px; margin-top:5px;}
+  .meetour_designer .designer_data span{ font-size:15px; font-weight:200; margin:0px; text-transform:uppercase; color:#999;letter-spacing:2px;}
+  .meetour_designer .designer_data .review p{ font-style:italic; line-height:32px; color:#999;}
+ 
+
+
+#overlay {position: fixed; z-index: 99999; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); display: none; align-items: center; justify-content: center;}
+#popup{ padding:0px; width:100%; position:relative; max-width:854px; line-height:0px;}
+#overlay #close-btn{ color:#fff; position:absolute; right:-40px; top:-20px; width:30px; height:30px; line-height:15px; cursor:pointer;}
+#overlay.active{ display:flex; justify-cotent:center; align-items:center;}
+  #overlay iframe {width: 100%;max-height: 70vh;}
+  
+  {% endstyle %}
+<script>
+$(document).ready(function () {
+
+      // Function to open the video popup
+      function openPopup(videoId) {
+        var videoUrl = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1';
+        $('#popup iframe').attr('src', videoUrl);
+        $('#overlay').addClass('active');
+      }
+
+      // Function to close the video popup
+      function closePopup() {
+        $('#popup iframe').attr('src', '');
+        $('#overlay').removeClass('active');
+      }
+
+      // Event listener for play button click
+      $('.play-btn').click(function () {
+        var videoId = $(this).data('video-id');
+        openPopup(videoId);
+      });
+
+      // Event listener for close button click
+      $('#close-btn').click(function () {
+        closePopup();
+      });
+
+      // Event listener for overlay click to close the popup
+      $('#overlay').click(function (e) {
+        if (e.target === this) {
+          closePopup();
+        }
+      });
+
+    });
+  
+</script>
+
+
+{% javascript %}
+{% endjavascript %}
