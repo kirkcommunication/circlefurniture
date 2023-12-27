@@ -9,7 +9,7 @@ font-weight: normal; font-style: normal; font-display: swap;}
 
 
 body, a, a.link, a.link--text, span, ul li{ font-family:'MyriadPro-Regular'; font-size:20px; line-height:26px; font-weight:400;}
-ul li{ line-height:30px;} 
+ul li{ line-height:30px;}
 
 ul.bullet_listing li{ line-height:40px; display:flex; align-items:center;}
 ul.bullet_listing li:before{ content:""; display:inline-block; width:5px; height:5px; border-radius:50%;}
