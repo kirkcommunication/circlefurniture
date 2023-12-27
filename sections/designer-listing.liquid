@@ -26,7 +26,7 @@
 </div>
 
 <style>
-.loc_section_wrapper{margin-top:50px;margin-bottom:50px;display:grid; grid-template-column:1fr 1fr 1fr 1fr; column-gap:25px;padding:0px;max-width:1440px;flex-wrap:wrap;row-gap:25px;}
+.loc_section_wrapper{margin-top:50px;margin-bottom:50px;display:grid; grid-template-columns:1fr 1fr 1fr 1fr; column-gap:25px;padding:0px;max-width:1440px;flex-wrap:wrap;row-gap:25px;}
 .location_box{text-align:center;border:1px solid #ececec;padding:0px;overflow:hidden;width:100%;}
   .content_outerbox{ display:flex; gap:10px; justify-content:space-between; text-align:left; padding:0px 15px 20px;}
   .content_outerbox h4{ padding:0px; margin:0px; margin-bottom:5px;}
@@ -42,6 +42,16 @@
 #overlay #close-btn{ color:#fff; position:absolute; right:-40px; top:-20px; width:30px; height:30px; line-height:15px; cursor:pointer;}
 #overlay.active{ display:flex; justify-cotent:center; align-items:center;}
   #overlay iframe {width: 100%;max-height: 70vh;}
+
+  @media only screen and (max-width:1200px){
+  .loc_section_wrapper{grid-template-columns:1fr 1fr 1fr;}
+  }
+  @media only screen and (max-width:767px){
+  .loc_section_wrapper{grid-template-columns:1fr 1fr;}
+  }
+  @media only screen and (max-width:600px){
+  .loc_section_wrapper{grid-template-columns:1fr;}
+  }
   
 </style>
 <script>
