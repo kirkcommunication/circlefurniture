@@ -103,6 +103,9 @@
         </div>
       {%- endform -%}
     </product-form>
+      {%- endif -%}
+    <!---hide conditional add to cart button end ----------------->
+    
   {%- else -%}
     <div class="product-form">
       <div class="product-form__buttons form">
@@ -117,9 +120,6 @@
       </div>
     </div>
   {%- endif -%}
-
-    {%- endif -%}
-    <!---hide conditional add to cart button end ----------------->
 
   {%- if show_pickup_availability -%}
     {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
