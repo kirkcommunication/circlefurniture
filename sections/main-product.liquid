@@ -14,8 +14,6 @@
   {%- endif -%}
 
   {%- style -%}
-      .price_starting{ display:flex; gap:10px;}
-    .collapsible-content .collapsible-content-wrapper-narrow{ max-width:1440px; padding-right:20px; padding-left:20px;}
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
@@ -61,9 +59,9 @@
       onload="this.media='all'"
     >
   {%- endif -%}
+
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class="page-width">
-  {% render 'breadcrumb-navigation'  %}
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
       {% render 'product-media-gallery', variant_images: variant_images %}
@@ -82,14 +80,12 @@
             {%- when '@app' -%}
               {% render block %}
             {%- when 'text' -%}
-         {% comment %}
-          <p
+              <p
                 class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
                 {{ block.shopify_attributes }}
               >
                 {{- block.settings.text -}}
               </p>
-                 {% endcomment %}
             {%- when 'title' -%}
               <div class="product__title" {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}</h1>
@@ -99,37 +95,20 @@
                   </h2>
                 </a>
               </div>
-                          <div class="vendor_info">See more by {{ product.vendor  | link_to_vendor }}</div>
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-              <!---hide conditional price----------------->
-              {% if product.metafields.custom.available_only_in_stores == true %} 
-             <div class="price_starting">Starting at {%- render 'price',
-                  product: product,
-                  use_variant: true,
-                  show_badges: true,
-                  mw-option__price,
-                  price_class: 'price--large'
-                -%} 
-             </div>
-                {% else %}
-
                 {%- render 'price',
                   product: product,
                   use_variant: true,
                   show_badges: true,
                   price_class: 'price--large'
                 -%}
-                 {% endif %}  
-
- <!---hide conditional price end----------------->
               </div>
               {%- if product.quantity_price_breaks_configured? -%}
                 <div class="volume-pricing-note" id="Volume-Note-{{ section.id }}">
                   <span>{{ 'products.product.volume_pricing.note' | t }}</span>
                 </div>
               {%- endif -%}
-              {% comment %}
                 <div class="product__tax caption rte">
                   {%- if cart.taxes_included -%}
                     {{ 'products.product.include_taxes' | t }}
@@ -138,7 +117,6 @@
                     {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
                   {%- endif -%}
                 </div>
-                   {% endcomment %}
               <div {{ block.shopify_attributes }}>
                 {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                 {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
@@ -147,10 +125,6 @@
                 {%- endform -%}
               </div>
             {%- when 'inventory' -%}
-            <!---hide conditional inventory----------------->
-              {% if product.metafields.custom.available_only_in_stores == true %} 
-
-              {% else %}
               <p
                 class="product__inventory no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
                 {{ block.shopify_attributes }}
@@ -197,13 +171,10 @@
                   {%- endif -%}
                 {%- endif -%}
               </p>
-               {%- endif -%}
-<!---hide conditional inventory end----------------->
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                   {{ product.description }}
-                   <a href="#detail_description" class="learn_more_detail">Learn more</a>
                 </div>
               {%- endif -%}
             {%- when 'sku' -%}
@@ -213,7 +184,7 @@
                 role="status"
                 {{ block.shopify_attributes }}
               >
-                <span>{{ 'products.product.sku' | t }}: </span> {{- product.selected_or_first_available_variant.sku -}}
+                <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span> {{- product.selected_or_first_available_variant.sku -}}
               </p>
             {%- when 'custom_liquid' -%}
               {{ block.settings.custom_liquid }}
@@ -245,10 +216,6 @@
                 {% # theme-check-disable %}
                 {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id -%}
                 {% # theme-check-enable %}
-                <!---hide conditional quantity---->
-                
-              {% if product.metafields.custom.available_only_in_stores == true %} 
-                {% else %}
                 <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
                   {{ 'products.product.quantity.label' | t }}
                   <span class="quantity__rules-cart no-js-hidden{% if cart_qty == 0 %} hidden{% endif %}">
@@ -354,9 +321,6 @@
                     </price-per-item>
                   {%- endif -%}
                 </div>
-                 {% endif %}
-            
-<!---hide conditional quantity end here---->
                 <div class="quantity__rules caption no-js-hidden" id="Quantity-Rules-{{ section.id }}">
                   {%- if product.selected_or_first_available_variant.quantity_rule.increment > 1 -%}
                     <span class="divider">
@@ -446,47 +410,7 @@
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
-             {% #========Show button condition =======# %}
-            
-              <p>Customize In Store</p>
-
-    {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
-
-    {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities
-      | where: 'pick_up_enabled', true
-    -%}
-              
-    <pickup-availability
-      class="product__pickup-availabilities no-js-hidden quick-add-hidden"
-      {% if product.selected_or_first_available_variant.available and pick_up_availabilities.size > 0 %}
-        available
-      {% endif %}
-      data-root-url="{{ routes.root_url }}"
-      data-variant-id="{{ product.selected_or_first_available_variant.id }}"
-      data-has-only-default-variant="{{ product.has_only_default_variant }}"
-    >
-      <template>
-        <pickup-availability-preview class="pickup-availability-preview">
-          {% render 'icon-unavailable' %}
-          <div class="pickup-availability-info">
-            <p class="caption-large">{{ 'products.product.pickup_availability.unavailable' | t }}</p>
-            <button class="pickup-availability-button link link--text underlined-link">
-              {{ 'products.product.pickup_availability.refresh' | t }}
-            </button>
-          </div>
-        </pickup-availability-preview>
-      </template>
-    </pickup-availability>
-
-    <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
-              
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
-
-
-            
-  {% #========Show button condition end=======# %}
-
-  
             {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid
