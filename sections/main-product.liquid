@@ -231,10 +231,7 @@
                 </details>
               </div>
             {%- when 'quantity_selector' -%}
-            <!---hide conditional quantity ----------------->
-              {% if product.metafields.custom.available_only_in_stores == true %} 
 
-              {% else %}
               <div
                 id="Quantity-Form-{{ section.id }}"
                 class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}"
@@ -410,9 +407,7 @@
                   </volume-pricing>
                 {%- endif -%}
               </div>
-               {% endif %}
-    
-<!---hide conditional quantity end here---->
+           
 
             {%- when 'popup' -%}
               <modal-opener
