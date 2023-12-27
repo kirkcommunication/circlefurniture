@@ -1,1 +1,96 @@
-{"sections":{"893415fe-23e2-4c2c-bd41-8ccac945a848":{"type":"image-banner","blocks":{"template--21226507960593__893415fe-23e2-4c2c-bd41-8ccac945a848-heading-1":{"type":"heading","settings":{"heading":"Our Locations","heading_size":"h1"}},"template--21226507960593__893415fe-23e2-4c2c-bd41-8ccac945a848-text-1":{"type":"text","settings":{"text":"7 unique locations across New England","text_style":"subtitle"}}},"block_order":["template--21226507960593__893415fe-23e2-4c2c-bd41-8ccac945a848-heading-1","template--21226507960593__893415fe-23e2-4c2c-bd41-8ccac945a848-text-1"],"settings":{"image":"shopify:\/\/shop_images\/our_locations.jpg","image_overlay_opacity":10,"image_height":"small","desktop_content_position":"middle-left","show_text_box":true,"desktop_content_alignment":"left","color_scheme":"background-1","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"3ec3b0c6-3581-4acd-a15d-1487c7749ac8":{"type":"image-with-text","blocks":{"template--21226507960593__3ec3b0c6-3581-4acd-a15d-1487c7749ac8-heading-1":{"type":"heading","settings":{"heading":"Transform Your Home with Our Expert Designers!","heading_size":"h2"}},"template--21226507960593__3ec3b0c6-3581-4acd-a15d-1487c7749ac8-text-1":{"type":"text","settings":{"text":"<p>Now is the perfect time to <a href=\"https:\/\/share.hsforms.com\/1F1jwypKVQVm1RK0-1ir5pw1uokg?__hstc=184665206.72955f35d5432bf511e940a7dbab1b79.1693485185677.1696288326290.1696340088534.29&__hssc=184665206.2.1696340088534&__hsfp=2855453980\">book an appointment<\/a><br\/> with one of our incredible designers who are waiting to bring your dream space to life. Whether you're looking to refresh a tired room or find the perfect new sofa, bedroom set, or dining room set, we've got you covered. With a vast selection of sofa styles, colors, patterns, luxurious leathers, and exquisite wood finishes for beds, dressers, dining tables, and chairs, your options are endless.<\/p><p>Our designers are not just skilled; they're passionate about making your vision a reality. They'll work with you to create a space that reflects your unique style, making every corner of your home a joy to live in.<\/p><p>Schedule an appointment with our designers today and embark on a journey to create the room of your dreams. Let's make your home the envy of all your friends and family!<\/p>","text_style":"body"}},"template--21226507960593__3ec3b0c6-3581-4acd-a15d-1487c7749ac8-button-1":{"type":"button","settings":{"button_label":"Book an Appointment","button_link":"https:\/\/share.hsforms.com\/1F1jwypKVQVm1RK0-1ir5pw1uokg?__hstc=184665206.72955f35d5432bf511e940a7dbab1b79.1693485185677.1696288326290.1696340088534.29&__hssc=184665206.2.1696340088534&__hsfp=2855453980","button_style_secondary":false}}},"block_order":["template--21226507960593__3ec3b0c6-3581-4acd-a15d-1487c7749ac8-heading-1","template--21226507960593__3ec3b0c6-3581-4acd-a15d-1487c7749ac8-text-1","template--21226507960593__3ec3b0c6-3581-4acd-a15d-1487c7749ac8-button-1"],"settings":{"image":"shopify:\/\/shop_images\/3100series-make-an-appointment.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"overlap","color_scheme":"inverse","image_behavior":"zoom-in","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"main":{"type":"main-page","settings":{"padding_top":36,"padding_bottom":28}}},"order":["main","893415fe-23e2-4c2c-bd41-8ccac945a848","3ec3b0c6-3581-4acd-a15d-1487c7749ac8"]}
+{
+  "sections": {
+    "893415fe-23e2-4c2c-bd41-8ccac945a848": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21226507960593__893415fe-23e2-4c2c-bd41-8ccac945a848-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Locations",
+            "heading_size": "h1"
+          }
+        },
+        "template--21226507960593__893415fe-23e2-4c2c-bd41-8ccac945a848-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "7 unique locations across New England",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "template--21226507960593__893415fe-23e2-4c2c-bd41-8ccac945a848-heading-1",
+        "template--21226507960593__893415fe-23e2-4c2c-bd41-8ccac945a848-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/our_locations.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "small",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "location-listing",
+      "settings": {
+      }
+    },
+    "3ec3b0c6-3581-4acd-a15d-1487c7749ac8": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21226507960593__3ec3b0c6-3581-4acd-a15d-1487c7749ac8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Transform Your Home with Our Expert Designers!",
+            "heading_size": "h2"
+          }
+        },
+        "template--21226507960593__3ec3b0c6-3581-4acd-a15d-1487c7749ac8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Now is the perfect time to <a href=\"https:\/\/share.hsforms.com\/1F1jwypKVQVm1RK0-1ir5pw1uokg?__hstc=184665206.72955f35d5432bf511e940a7dbab1b79.1693485185677.1696288326290.1696340088534.29&__hssc=184665206.2.1696340088534&__hsfp=2855453980\">book an appointment<\/a><br\/> with one of our incredible designers who are waiting to bring your dream space to life. Whether you're looking to refresh a tired room or find the perfect new sofa, bedroom set, or dining room set, we've got you covered. With a vast selection of sofa styles, colors, patterns, luxurious leathers, and exquisite wood finishes for beds, dressers, dining tables, and chairs, your options are endless.<\/p><p>Our designers are not just skilled; they're passionate about making your vision a reality. They'll work with you to create a space that reflects your unique style, making every corner of your home a joy to live in.<\/p><p>Schedule an appointment with our designers today and embark on a journey to create the room of your dreams. Let's make your home the envy of all your friends and family!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--21226507960593__3ec3b0c6-3581-4acd-a15d-1487c7749ac8-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book an Appointment",
+            "button_link": "https:\/\/share.hsforms.com\/1F1jwypKVQVm1RK0-1ir5pw1uokg?__hstc=184665206.72955f35d5432bf511e940a7dbab1b79.1693485185677.1696288326290.1696340088534.29&__hssc=184665206.2.1696340088534&__hsfp=2855453980",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21226507960593__3ec3b0c6-3581-4acd-a15d-1487c7749ac8-heading-1",
+        "template--21226507960593__3ec3b0c6-3581-4acd-a15d-1487c7749ac8-text-1",
+        "template--21226507960593__3ec3b0c6-3581-4acd-a15d-1487c7749ac8-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3100series-make-an-appointment.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "inverse",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "893415fe-23e2-4c2c-bd41-8ccac945a848",
+    "main",
+    "3ec3b0c6-3581-4acd-a15d-1487c7749ac8"
+  ]
+}
