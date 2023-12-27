@@ -24,6 +24,10 @@
       endif
     -%}
 
+<!---hide conditional add to cart button ----------------->
+  {% if product.metafields.custom.available_only_in_stores == true %} 
+  {% else %}
+
     <product-form
       class="product-form"
       data-hide-errors="{{ gift_card_recipient_feature_active }}"
@@ -113,6 +117,9 @@
       </div>
     </div>
   {%- endif -%}
+
+    {%- endif -%}
+    <!---hide conditional add to cart button end ----------------->
 
   {%- if show_pickup_availability -%}
     {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
