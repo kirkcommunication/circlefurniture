@@ -24,11 +24,8 @@
       endif
     -%}
 
-  
-
-
     <product-form
-      class="product-form {% if product.metafields.custom.available_only_in_stores == true %}{% else %} manoj {%- endif -%}"
+      class="product-form"
       data-hide-errors="{{ gift_card_recipient_feature_active }}"
       data-section-id="{{ section.id }}"
     >
@@ -68,6 +65,10 @@
           {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
         {%- endif -%}
 
+<!---hide conditional add to cart button ----------------->
+
+  {% if product.metafields.custom.available_only_in_stores == true %} 
+  {% else %}
         <div class="product-form__buttons">
           {%- liquid
             assign check_against_inventory = true
@@ -100,6 +101,10 @@
             {{ form | payment_button }}
           {%- endif -%}
         </div>
+
+{%- endif -%}
+<!---hide conditional add to cart button ----------------->
+
       {%- endform -%}
     </product-form>
 
