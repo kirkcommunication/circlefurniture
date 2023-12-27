@@ -68,7 +68,7 @@
 <!---hide conditional add to cart button ----------------->
 
   {% if product.metafields.custom.available_only_in_stores == true %} 
-  {% else %}
+  
         <div class="product-form__buttons">
           {%- liquid
             assign check_against_inventory = true
