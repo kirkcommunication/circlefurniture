@@ -198,6 +198,7 @@
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                   {{ product.description }}
+                  <a href="#detail_description" class="learn_more_detail">Learn more</a>
                 </div>
               {%- endif -%}
             {%- when 'sku' -%}
@@ -207,7 +208,7 @@
                 role="status"
                 {{ block.shopify_attributes }}
               >
-                <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span> {{- product.selected_or_first_available_variant.sku -}}
+                <span>{{ 'products.product.sku' | t }}: </span> {{- product.selected_or_first_available_variant.sku -}}
               </p>
             {%- when 'custom_liquid' -%}
               {{ block.settings.custom_liquid }}
