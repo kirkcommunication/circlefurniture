@@ -448,7 +448,6 @@
             {%- when 'buy_buttons' -%}
              {% #========Show button condition =======# %}
             
-            {% if product.metafields.custom.available_only_in_stores == true %} 
               <p>Customize In Store</p>
 
     {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
@@ -480,12 +479,10 @@
     </pickup-availability>
 
     <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
-
-              {%- render block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: false -%}
-
-              {% else %}
+              
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
-                  {% endif %}
+
+
             
   {% #========Show button condition end=======# %}
 
