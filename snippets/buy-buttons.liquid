@@ -76,6 +76,12 @@
             endif
           -%}
 
+          <!---hide conditional add to cart button ----------------->
+
+  {% if product.metafields.custom.available_only_in_stores == true %} 
+    <button class="product-form__submit button button--full-width">  </button>
+  {% else %}
+
           <button
             id="ProductSubmitButton-{{ section_id }}"
             type="submit"
@@ -85,9 +91,6 @@
               disabled
             {% endif %}
           >
-<!---hide conditional add to cart button ----------------->
-  {% if product.metafields.custom.available_only_in_stores == true %} 
-  {% else %}
             <span>
               {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
                 {{ 'products.product.sold_out' | t }}
@@ -95,12 +98,10 @@
                 {{ 'products.product.add_to_cart' | t }}
               {%- endif -%}
             </span>
-                {%- endif -%}
-<!---hide conditional add to cart button ----------------->
-
             {%- render 'loading-spinner' -%}
           </button>
-
+{%- endif -%}
+<!---hide conditional add to cart button ----------------->
 
           {%- if show_dynamic_checkout -%}
             {{ form | payment_button }}
