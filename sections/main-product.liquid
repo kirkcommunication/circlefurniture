@@ -102,19 +102,35 @@
               </div>
                <div class="vendor_info">See more by {{ product.vendor  | link_to_vendor }}</div>
             {%- when 'price' -%}
-              <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+              <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}><!---hide conditional price----------------->
+              {% if product.metafields.custom.available_only_in_stores == true %} 
+             <div class="price_starting">Starting at {%- render 'price',
+                  product: product,
+                  use_variant: true,
+                  show_badges: true,
+                  mw-option__price,
+                  price_class: 'price--large'
+                -%} 
+             </div>
+                {% else %}
+       
                 {%- render 'price',
                   product: product,
                   use_variant: true,
                   show_badges: true,
                   price_class: 'price--large'
                 -%}
+                
+             {% endif %}  
+
+ <!---hide conditional price end----------------->
               </div>
               {%- if product.quantity_price_breaks_configured? -%}
                 <div class="volume-pricing-note" id="Volume-Note-{{ section.id }}">
                   <span>{{ 'products.product.volume_pricing.note' | t }}</span>
                 </div>
               {%- endif -%}
+               {% comment %}
                 <div class="product__tax caption rte">
                   {%- if cart.taxes_included -%}
                     {{ 'products.product.include_taxes' | t }}
@@ -123,6 +139,7 @@
                     {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
                   {%- endif -%}
                 </div>
+                 {% endcomment %}
               <div {{ block.shopify_attributes }}>
                 {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                 {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
