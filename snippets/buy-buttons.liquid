@@ -24,6 +24,9 @@
       endif
     -%}
 
+<!---hide conditional add to cart button ----------------->
+  {% if product.metafields.custom.available_only_in_stores == true %} 
+  {% else %}
 
     <product-form
       class="product-form"
@@ -115,7 +118,7 @@
     </div>
   {%- endif -%}
 
-
+    {%- endif -%}
     <!---hide conditional add to cart button end ----------------->
 
   {%- if show_pickup_availability -%}
