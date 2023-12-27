@@ -18,7 +18,6 @@ header.header.container{ max-width:1440px; margin:0 auto; padding:10px 20px 0px 
 .page-width-desktop, .collection__title.title-wrapper{ padding:0px 15px !important;}
 .page-width{ padding-left:15px !important; padding-right:15px !important; max-width:1400px;}
 
-.play-btn.popup-button{ }
 .popup-button{background:url('https://cdn.shopify.com/s/files/1/0775/9046/2737/files/play-icon.svg?v=1702316576') center center no-repeat; background-size:80px; cursor:pointer; display:flex !important; justify-content:center; align-items:center;}
 .linkwith_arrow:after{ content:""; display:inline-block; width:7px; height:7px; margin-left:2px; border: solid black; border-width: 0 1px 1px 0;
   display: inline-block; padding: 2px; transform: rotate(-45deg); -webkit-transform: rotate(-45deg); border-color:#5f807f;}

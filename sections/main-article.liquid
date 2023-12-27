@@ -1,6 +1,7 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
+  <!--
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when '@app' -%}
@@ -41,7 +42,18 @@
             </div>
           </div>
         {%- endif -%}
+-->
 
+  <div id="breadcrumb_wrapper">
+<ul class="page-width">
+    <li><a href="/pages/blogs" title="Home">Blog Home</a> / </li>
+    <li>{{ blog.title | link_to: blog.url }} / </li>
+    <li>{{ article.title }}</li>
+  
+</ul>
+  </div>
+  
+      
       {%- when 'title' -%}
         <header
           class="page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
@@ -53,27 +65,66 @@
           >
             {{ article.title | escape }}
           </h1>
-          {%- if block.settings.blog_show_date -%}
-            <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">
-              {{- article.published_at | time_tag: format: 'date' -}}
-            </span>
-          {%- endif -%}
-          {%- if block.settings.blog_show_author -%}
-            <span class="caption-with-letter-spacing" itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <div class="author_name" itemprop="author" itemscope itemtype="http://schema.org/Person">
               <span itemprop="name">{{ article.author }}</span>
+            </div>
+          
+          {%- if block.settings.blog_show_date -%}
+            <span class="circle-divider" itemprop="dateCreated pubdate datePublished">
+              {{- article.published_at | time_tag: format: 'date' -}}
             </span>
           {%- endif -%}
         </header>
 
       {%- when 'content' -%}
-        <div
-          class="article-template__content page-width page-width--narrow rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+        <div class="article-template__content page-width page-width--narrow rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           itemprop="articleBody"
           {{ block.shopify_attributes }}
         >
-          {{ article.content }}
-        </div>
+        <div class="article_content">{{ article.content }} </div>
 
+<!-----------------sidebar code start----------------------------->
+<div class="article_sidebar">  
+{% assign blog_handles = blog.handle | split:',' %}
+
+{% for handle in blog_handles %}
+  {% for article in blogs[handle].articles %}
+    {% assign article_handles = article_handles | concat:blogs[handle].articles %}
+  {% endfor %}
+{% endfor %}
+<h2>Related Post</h2>
+{% for article in article_handles limit: 3 %}
+  <a class="sidebar_tiles" href="{{ article.url }}">
+              <img
+                srcset="
+                  {% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
+                  {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %}
+                  {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %}
+                  {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %}
+                  {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %}
+                  {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
+                  {{ article.image | image_url }} {{ article.image.width }}w
+                "
+                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
+                src="{{ article.image | image_url: width: 1100 }}"
+                loading="eager"
+                fetchpriority="high"
+                width="{{ article.image.width }}"
+                height="{{ article.image.height }}"
+                alt="{{ article.image.alt | escape }}"
+              >
+  <div class="content_wrap"> 
+     {{  }}<span class="date">{{- article.published_at | time_tag: format: 'date' -}}</span>
+    <h3>{{ article.title }}</h3>
+  <span class="readmore">Read More</span>
+  </div>
+  </a>
+{% endfor %}
+</div>
+<!-----------------sidebar end--------------------------- -->
+          
+        </div>
+  
       {%- when 'share' -%}
         <div
           class="article-template__social-sharing page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -83,7 +134,8 @@
           {% render 'share-button', block: block, share_link: share_url %}
         </div>
     {%- endcase -%}
-  {%- endfor -%}
+    
+    {%- endfor -%}
 
   <div class="article-template__back element-margin-top center{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <a href="{{ blog.url }}" class="article-template__link link animate-arrow">
@@ -276,6 +328,7 @@
     </div>
   {%- endif -%}
 </article>
+
 
 <script type="application/ld+json">
   {
