@@ -1,6 +1,6 @@
 <section
   id="MainProduct-{{ section.id }}"
-  class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}"
+  class="page-width section-{{ section.id }}-padding"
   data-section="{{ section.id }}"
 >
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
@@ -8,13 +8,15 @@
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
   {{ 'component-slider.css' | asset_url | stylesheet_tag }}
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
+  {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
   {%- if product.quantity_price_breaks_configured? -%}
     {{ 'component-volume-pricing.css' | asset_url | stylesheet_tag }}
   {%- endif -%}
 
   {%- style -%}
-      .price_starting{ display:flex; gap:10px;}
+    
+    .price_starting{ display:flex; gap:10px;}
     .collapsible-content .collapsible-content-wrapper-narrow{ max-width:1440px; padding-right:20px; padding-left:20px;}
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -61,10 +63,27 @@
       onload="this.media='all'"
     >
   {%- endif -%}
+
+  
+  
+  
+  {% comment %} <div class="testing">{{ product.type }}</div>
+{% if product.type == 'Upholstery' %}
+  <h3>This is upholstery template</h3>
+{% elsif product.type == 'Case Goods' %}
+    <h3>This is Case Goods template</h3> 
+{% else %}
+   <h3>default template</h3>
+{% endif %} {% endcomment %}
+
+
+
+{% render 'breadcrumb-navigation'  %}
+
+
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
-  <div class="page-width">
-  {% render 'breadcrumb-navigation'  %}
-    <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
+
+  <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
       {% render 'product-media-gallery', variant_images: variant_images %}
     </div>
@@ -75,6 +94,7 @@
         data-url="{{ product.url }}"
         class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
       >
+          
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
         {%- for block in section.blocks -%}
@@ -82,14 +102,16 @@
             {%- when '@app' -%}
               {% render block %}
             {%- when 'text' -%}
-         {% comment %}
-          <p
+        
+            {% comment %}
+            <p
                 class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
                 {{ block.shopify_attributes }}
               >
                 {{- block.settings.text -}}
               </p>
-                 {% endcomment %}
+        {% endcomment %}
+            
             {%- when 'title' -%}
               <div class="product__title" {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}</h1>
@@ -99,10 +121,11 @@
                   </h2>
                 </a>
               </div>
-                          <div class="vendor_info">See more by {{ product.vendor  | link_to_vendor }}</div>
-            {%- when 'price' -%}
-              <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-              <!---hide conditional price----------------->
+            <div class="vendor_info">See more by {{ product.vendor  | link_to_vendor }}</div>
+            {%- when 'price' -%}     
+            <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+
+ <!---hide conditional price----------------->
               {% if product.metafields.custom.available_only_in_stores == true %} 
              <div class="price_starting">Starting at {%- render 'price',
                   product: product,
@@ -113,23 +136,27 @@
                 -%} 
              </div>
                 {% else %}
-
+       
                 {%- render 'price',
                   product: product,
                   use_variant: true,
                   show_badges: true,
                   price_class: 'price--large'
                 -%}
-                 {% endif %}  
+                
+             {% endif %}  
 
  <!---hide conditional price end----------------->
               </div>
+
+
+            
               {%- if product.quantity_price_breaks_configured? -%}
-                <div class="volume-pricing-note" id="Volume-Note-{{ section.id }}">
+                <div class="volume-pricing-note">
                   <span>{{ 'products.product.volume_pricing.note' | t }}</span>
                 </div>
               {%- endif -%}
-              {% comment %}
+            {% comment %}
                 <div class="product__tax caption rte">
                   {%- if cart.taxes_included -%}
                     {{ 'products.product.include_taxes' | t }}
@@ -138,7 +165,7 @@
                     {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
                   {%- endif -%}
                 </div>
-                   {% endcomment %}
+            {% endcomment %}
               <div {{ block.shopify_attributes }}>
                 {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                 {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
@@ -147,7 +174,8 @@
                 {%- endform -%}
               </div>
             {%- when 'inventory' -%}
-            <!---hide conditional inventory----------------->
+
+<!---hide conditional inventory----------------->
               {% if product.metafields.custom.available_only_in_stores == true %} 
 
               {% else %}
@@ -197,15 +225,20 @@
                   {%- endif -%}
                 {%- endif -%}
               </p>
-               {%- endif -%}
+            {%- endif -%}
 <!---hide conditional inventory end----------------->
+               
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                   {{ product.description }}
-                   <a href="#detail_description" class="learn_more_detail">Learn more</a>
+                <a href="#detail_description" class="learn_more_detail">Learn more</a>
                 </div>
               {%- endif -%}
+
+<!-- swatches container start-->
+                          <!-- <div id="prdcustom_swatch"></div> -->
+<!-- swatches container end-->                         
             {%- when 'sku' -%}
               <p
                 class="product__sku no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
@@ -215,6 +248,8 @@
               >
                 <span>{{ 'products.product.sku' | t }}: </span> {{- product.selected_or_first_available_variant.sku -}}
               </p>
+
+                          
             {%- when 'custom_liquid' -%}
               {{ block.settings.custom_liquid }}
             {%- when 'collapsible_tab' -%}
@@ -245,17 +280,31 @@
                 {% # theme-check-disable %}
                 {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id -%}
                 {% # theme-check-enable %}
-                <!---hide conditional quantity---->
+
+ <!---hide conditional quantity---->
                 
               {% if product.metafields.custom.available_only_in_stores == true %} 
                 {% else %}
                 <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
                   {{ 'products.product.quantity.label' | t }}
                   <span class="quantity__rules-cart no-js-hidden{% if cart_qty == 0 %} hidden{% endif %}">
-                    {%- render 'loading-spinner' -%}
+                    <span class="loading-overlay hidden">
+                      <span class="loading-overlay__spinner">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          class="spinner"
+                          viewBox="0 0 66 66"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                        </svg>
+                      </span>
+                    </span>
                     <span>({{- 'products.product.quantity.in_cart_html' | t: quantity: cart_qty -}})</span>
                   </span>
                 </label>
+                          
                 <div class="price-per-item__container">
                   <quantity-input class="quantity" data-url="{{ product.url }}" data-section="{{ section.id }}">
                     <button class="quantity__button no-js-hidden" name="minus" type="button">
@@ -286,7 +335,8 @@
                       </span>
                       {% render 'icon-plus' %}
                     </button>
-                  </quantity-input>
+                  </quantity-input>                  
+            
                   {%- liquid
                     assign volume_pricing_array = product.selected_or_first_available_variant.quantity_price_breaks | sort: 'quantity' | reverse
                     assign current_qty_for_volume_pricing = cart_qty | plus: product.selected_or_first_available_variant.quantity_rule.min
@@ -353,11 +403,15 @@
                       {%- endif -%}
                     </price-per-item>
                   {%- endif -%}
+            
                 </div>
-                 {% endif %}
+               
+                
+                {% endif %}
             
 <!---hide conditional quantity end here---->
-                <div class="quantity__rules caption no-js-hidden" id="Quantity-Rules-{{ section.id }}">
+            
+                <div class="quantity__rules caption no-js-hidden">
                   {%- if product.selected_or_first_available_variant.quantity_rule.increment > 1 -%}
                     <span class="divider">
                       {{-
@@ -402,6 +456,7 @@
                         {%- endfor -%}
                       </ul>
                       {%- if product.selected_or_first_available_variant.quantity_price_breaks.size >= 3 -%}
+                        
                         <show-more-button>
                           <button
                             class="button-show-more link underlined-link"
@@ -445,8 +500,11 @@
 
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
+            
             {%- when 'buy_buttons' -%}
-             {% #========Show button condition =======# %}
+
+            
+   {% #========Show button condition =======# %}
             
             {% if product.metafields.custom.available_only_in_stores == true %} 
               <p>Customize In Store</p>
@@ -483,10 +541,13 @@
               
               {% else %}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
-                  {% endif %}
+              {% endif %}
             
   {% #========Show button condition end=======# %}
-            {%- when 'rating' -%}
+
+  
+              
+              {%- when 'rating' -%}
               {%- if product.metafields.reviews.rating.value != blank -%}
                 {% liquid
                   assign rating_decimal = 0
@@ -742,7 +803,6 @@
       ]
     }
   </script>
-  </div>
 </section>
 
 {% schema %}
@@ -2082,12 +2142,6 @@
       "id": "enable_sticky_info",
       "default": true,
       "label": "t:sections.main-product.settings.enable_sticky_info.label"
-    },
-    {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "default": "background-1"
     },
     {
       "type": "header",
