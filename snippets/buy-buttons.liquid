@@ -24,12 +24,11 @@
       endif
     -%}
 
-<!---hide conditional add to cart button ----------------->
-  {% if product.metafields.custom.available_only_in_stores == true %} 
-  {% else %}
+  
+
 
     <product-form
-      class="product-form"
+      class="product-form {% if product.metafields.custom.available_only_in_stores == true %}{% else %} manoj {%- endif -%}"
       data-hide-errors="{{ gift_card_recipient_feature_active }}"
       data-section-id="{{ section.id }}"
     >
@@ -103,9 +102,7 @@
         </div>
       {%- endform -%}
     </product-form>
-      {%- endif -%}
-    <!---hide conditional add to cart button end ----------------->
-    
+
   {%- else -%}
     <div class="product-form">
       <div class="product-form__buttons form">
