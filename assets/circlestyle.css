@@ -26,6 +26,7 @@ header.header.container{ max-width:1440px; margin:0 auto; padding:10px 20px 0px 
 header.header.container nav.header__inline-menu ul li a{ padding:15px 20px;}
 header.header.container nav.header__inline-menu ul li a:hover span{ text-decoration:none;}
 header.header.container nav.header__inline-menu ul li a span{ font-family:'NunitoSans-SemiBold'; color:#000; text-decoration:none; font-size:22px;}
+.header--top-center .header__heading a.link{ line-height: 0px;}
 .page_content_wrapper h1, .h1{ font-size:46px; line-height:52px; font-weight:600; font-family:'NunitoSans-SemiBold';}
 .page_content_wrapper h2, .h2{ font-size:40px; line-height:46px; font-weight:500; font-family:'NunitoSans-SemiBold';}
 
