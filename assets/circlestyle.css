@@ -86,7 +86,7 @@ footer form.newsletter-form .newsletter-form__field-wrapper .newsletter-form__bu
 ul.product_detail_data{ padding:20px 0px;}
 ul.product_detail_data > li{ display:flex; gap:40px; padding:5px 0px; border-bottom: 1px solid #f7f3f3;}
 ul.product_detail_data > li:last-child{border: none;}
-ul.product_detail_data > li .leftcol{ width:20%;}
+ul.product_detail_data > li .leftcol{ width:30%;}
 ul.product_detail_data > li .rightcol{ width:80%;}
 ul.product_detail_data > li .rightcol ul{ display:flex; gap:20px; padding:0px;}
 ul.product_detail_data > li .rightcol ul li{ list-style-type:none;}
