@@ -88,12 +88,7 @@ ul.product_detail_data > li .leftcol{ width:20%;}
 ul.product_detail_data > li .rightcol{ width:80%;}
 ul.product_detail_data > li .rightcol ul{ display:flex; gap:40px; padding:0px;}
 ul.product_detail_data > li .rightcol ul li{ list-style-type:none;}
-ul.product_detail_data > li .rightcol ul li:before{ display: inline-block;
-  transform: rotate(45deg);
-  height: 8px;
-  width: 10px;
-  border-bottom: 2px solid #5f807f;
-  border-right: 2px solid #5f807f;}
+ul.product_detail_data > li .rightcol ul li:before{display:inline-block;transform:rotate(45deg);height:8px;width:10px;border-bottom:2px solid #5f807f;border-right:2px solid #5f807f;}
 .product__info-container .product__title{ margin-bottom:5px;}
 .product__info-container .vendor_info{ font-size:20px; margin:0px; padding:0px;}
 .product__info-container .vendor_info a{ text-decoration:none; color:#333;}
