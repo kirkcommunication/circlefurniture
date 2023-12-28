@@ -83,7 +83,7 @@ footer form.newsletter-form .newsletter-form__field-wrapper .newsletter-form__bu
 
 .facets.facets-vertical-sort .facets-vertical-form .facet-filters__sort{ padding:0px 10px;}
 ul.product_detail_data{ padding:20px 0px;}
-ul.product_detail_data > li{ display:flex; gap:40px; padding:5px 0px; border-bottom: 1px solid #ccc;}
+ul.product_detail_data > li{ display:flex; gap:40px; padding:5px 0px; border-bottom: 1px solid #f7f3f3;}
 ul.product_detail_data > li:last-child{border: none;}
 ul.product_detail_data > li .leftcol{ width:20%;}
 ul.product_detail_data > li .rightcol{ width:80%;}
