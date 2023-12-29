@@ -21,30 +21,35 @@
     }
   </style>
   <h3>recommend product</h3>
+
   {% assign current_vendor = product.vendor %}
-{% assign displayed_products = 0 %}
-
-{% for product in collections.all.products %}
-  {% if product.vendor == current_vendor and displayed_products < 3 %}
-    {% capture temp %}{{ displayed_products }}*{% endcapture %}
-    {% assign displayed_products = temp %}
+  {% assign related_products = all_products | where: 'vendor', current_vendor %}
+  
+  {% if related_products.size >= 3 %}
+    {% for related_product in related_products limit: 3 %}
+      <div class="related-product">
+        <h3>{{ related_product.title }}</h3>
+        <!-- Add other product details as needed -->
+      </div>
+    {% endfor %}
+  {% else %}
+    {% comment %}
+      Display products based on custom metafield condition when
+      the number of products from the same vendor is less than 3.
+    {% endcomment %}
+    {% assign custom_metafield_condition = product.metafields.custom.sub_category_1 %}
+    {% assign custom_metafield_products = all_products | where: custom_metafield_condition %}
+    
+    {% for custom_metafield_product in custom_metafield_products limit: 3 %}
+      <div class="related-product">
+        <h3>{{ custom_metafield_product.title }}</h3>
+        <!-- Add other product details as needed -->
+      </div>
+    {% endfor %}
   {% endif %}
-{% endfor %}
 
-{% if displayed_products < 3 %}
-  {% for product in collections.all.products %}
-    {% if product.metafields.custom.sub_category_1 and displayed_products < 3 %}
-      {% capture temp %}{{ displayed_products }}*{% endcapture %}
-      {% assign displayed_products = temp %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
 
-  {% comment %} {%- assign counter = 0 -%}
-  {%- assign break_at = section.settings.number_of_products | plus: 0 -%}
-  {%- assign current_product = product -%} {% endcomment %}
-
-{% assign vendor = product.metafields.custom.collection_name %}
+{% comment %} {% assign vendor = product.metafields.custom.collection_name %}
 {% assign product_handle = product.handle %}
 handel is {{ product.metafields.custom.collection_name }}
 {% assign counter = '' %}
@@ -84,7 +89,7 @@ handel is {{ product.vendor }}
  </div>
 {% endif %}
 {% endfor %}
-</div>
+</div> {% endcomment %}
 
 
 
