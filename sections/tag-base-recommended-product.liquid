@@ -35,9 +35,9 @@
    <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
    </a>
    <h3>{{ product.title }}</h3>
-   product vender :{{ product.vendor }}<br>
-   product sub category : {{ product.metafields.custom.sub_category_1}}
-   <h3>{{ product.price }}</h3>
+   <div>product vender :{{ product.vendor }}</div>
+   <div>product sub category : {{ product.metafields.custom.sub_category_1}}</div>
+   <h3>{{ product.price | money }}</h3>
    </div>
   {% endif %}
   {% endfor %}
