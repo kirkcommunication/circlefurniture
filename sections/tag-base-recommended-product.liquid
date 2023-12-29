@@ -25,7 +25,7 @@
 {% assign current_collection = product.metafields.custom.collection_name %}
 {% assign custom_metafield_condition = product.metafields.custom.sub_category_1 %}
 
-{% assign related_products = all_products | where: 'vendor', current_vendor %}
+{% assign related_products = all_products | where: 'vendor', product.vendor %}
 
 {% for related_product in related_products limit: 4 %}
  
