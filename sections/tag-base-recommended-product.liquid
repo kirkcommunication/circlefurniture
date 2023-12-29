@@ -27,7 +27,7 @@
   {% assign counter = '' %}
   <div class"grid grid--uniform grid--view-items">
   {% for product in collections['all'].all_products %}
-   {% if  vendor == product.vendor and  product.metafields.custom.collection_name %}
+   {% if  vendor == product.vendor or  product.metafields.custom.collection_name %}
    {% capture temp %}{{ counter }}*{% endcapture %}
    {% assign counter = temp %}
    <div style="float:left;width:30%;padding:1%;">
