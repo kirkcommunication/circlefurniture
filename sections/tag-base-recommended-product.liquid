@@ -33,7 +33,7 @@
 
 {% for product in collections.all.products %}
   {% if product.vendor == vendor and displayed_products < 3 %}
-    {% capture temp %}{{ displayed_products }}*{% endcapture %}
+    {% capture temp %}{{ displayed_products.title }}*{% endcapture %}
     {% assign displayed_products = temp %}
   {% endif %}
 {% endfor %}
