@@ -25,13 +25,12 @@
   {% assign product_handle = product.handle %}
   handel is {{ product.vendor }}
   {% assign counter = '' %}
-                                                              
-  <div class="grid grid--uniform grid--view-items">
-{% for product in collections.all.products %}
-   {% if product.metafields.custom.collection_name and counter.size < 5 and product_handle != product.handle %}
+  <div class"grid grid--uniform grid--view-items">
+  {% for product in collections['all'].all_products %}
+   {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and counter.size < 6 and product_handle != product.handle %}
    {% capture temp %}{{ counter }}*{% endcapture %}
    {% assign counter = temp %}
-   <div style="float:left;width:30%;padding:1%;" class="sec1">
+   <div style="float:left;width:30%;padding:1%;">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
    <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
    </a>
@@ -42,27 +41,6 @@
    </div>
   {% endif %}
   {% endfor %}
-
-{% if counter.size < 5 %}
-{% for product in collections.all.products %}
-     {% if product.vendor and product.metafields.custom.sub_category_1 and counter.size < 5 and product_handle != product.handle %}
-   {% capture temp %}{{ counter }}*{% endcapture %}
-   {% assign counter = temp %}
-   <div style="float:left;width:30%;padding:1%;" class="sec2">
-   <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
-   <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
-   </a>
-   <h3>{{ product.title }}</h3>
-   <div>product vender :{{ product.vendor }}</div>
-   <div>product sub category : {{ product.metafields.custom.sub_category_1}}</div>
-   <h3>{{ product.price | money }}</h3>
-   </div>
-  {% endif %}
-  {% endfor %}
-{% endif %}
-
-    
-    
   </div>
   
   {% schema %}
