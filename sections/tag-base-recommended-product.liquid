@@ -21,7 +21,6 @@
     }
   </style>
   <h3>recommend product</h3>
-
   {% assign current_vendor = product.vendor %}
   {% assign related_products = all_products | where: 'vendor', current_vendor %}
   
