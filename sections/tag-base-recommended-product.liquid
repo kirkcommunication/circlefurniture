@@ -30,7 +30,7 @@
 {% assign desired_metafield_value = product.metafields.custom.collection_name %}
 {% assign max_products_to_show = 4 %}
 
-{% assign matching_products = products | desired_vendor | where: desired_metafield_value %}
+{% assign matching_products = products | product.vendor, desired_vendor | where: desired_metafield_value %}
 {% for product in matching_products limit: max_products_to_show %}
 <div class="product">
 <h2>{{ product.title }}</h2>
