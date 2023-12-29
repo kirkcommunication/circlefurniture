@@ -30,6 +30,7 @@
   {% comment %} {% assign desired_metafield_key = "custom_field_name" %} {% endcomment %}
   {% assign desired_metafield_value = product.metafields.custom.sub_category_1 %}
   {% assign max_products_to_show = 4 %}  
+  print : {{ desired_vendor }}
   {% assign matching_products = | where: desired_vendor | where: desired_metafield_value %}
   {% for product in matching_products limit: max_products_to_show %}
 <div class="product">
