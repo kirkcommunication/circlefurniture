@@ -85,6 +85,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "color_scheme": "",
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -162,12 +163,21 @@
         "padding_top": 0,
         "padding_bottom": 60
       }
+    },
+    "7326545f-00ac-4a1c-8244-d709a74c7cc6": {
+      "type": "tag-base-recommended-product",
+      "settings": {
+        "heading": "Recommended products",
+        "related_tag": "{{ product.vendor }}",
+        "number_of_products": "4"
+      }
     }
   },
   "order": [
     "main",
     "510bc327-f218-42ce-b45d-f4abfd109932",
     "ec742037-ab8d-4640-b0a4-37f9e8a774cc",
-    "related-products"
+    "related-products",
+    "7326545f-00ac-4a1c-8244-d709a74c7cc6"
   ]
 }
