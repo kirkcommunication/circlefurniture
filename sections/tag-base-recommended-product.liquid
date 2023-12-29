@@ -1,18 +1,43 @@
 {% schema %}
 {
-  "name": "Related Products",
+  "name": "Recommended products",
   "settings": [
     {
       "type": "text",
-      "label": "Custom Metafield Condition",
-      "id": "custom_metafield_condition",
-      "default": "your_condition_here"
+      "id": "heading",
+      "label": "Heading",
+      "default": "Recommended products"
+    },
+    {
+      "type": "text",
+      "id": "related_tag",
+      "label": "Tag",
+      "info" : "The tag determines which products show as related products."
+    },
+    {
+      "type": "select",
+      "id": "number_of_products",
+      "label": "Number of products to show",
+      "default": "4",
+      "options": [
+        {
+          "value": "4",
+          "label": "4"
+        },
+        {
+          "value": "8",
+          "label": "8"
+        },
+        {
+          "value": "12",
+          "label": "12"
+        }
+      ]
     }
   ],
   "presets": [
     {
-      "name": "Related Products",
-      "category": "Products"
+      "name": "Recommended products"
     }
   ]
 }
