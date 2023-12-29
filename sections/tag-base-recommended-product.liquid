@@ -26,11 +26,6 @@
   {%- assign current_product = product -%} {% endcomment %}
 
   
-  
-
-
-
-
 {% assign vendor = product.metafields.custom.collection_name %}
 {% assign product_handle = product.handle %}
 handel is {{ product.metafields.custom.collection_name }}
@@ -43,11 +38,34 @@ handel is {{ product.metafields.custom.collection_name }}
  <div style="float:left;width:30%;padding:1%;">
  <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
  <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
- </a> 
+ </a>
+ <h3>{{ product.title }}</h3>
  </div>
  {% endif %} 
 {% endfor %}
 </div>
+
+
+{% assign vendor = product.vendor %}
+{% assign product_handle = product.handle %}
+handel is {{ product.vendor }}
+{% assign counter = '' %}
+<div class"grid grid--uniform grid--view-items">
+{% for product in collections['all'].all_products %}
+ {% if vendor == product.vendor and counter.size < 30 and product_handle != product.handle %}
+ {% capture temp %}{{ counter }}*{% endcapture %}
+ {% assign counter = temp %}
+ <div style="float:left;width:30%;padding:1%;">
+ <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
+ <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
+ </a>
+ <h3>{{ product.title }}</h3>
+ </div>
+ {% endif %} 
+{% endfor %}
+</div>
+
+
 
 
 
