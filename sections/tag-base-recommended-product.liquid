@@ -43,10 +43,6 @@
 }
 {% endschema %}
 
-{% comment %}
-    This code section displays 4 related products based on the vendor, collection,
-    and a custom metafield condition.
-{% endcomment %}
 <h3>Related Product</h3>
 {% assign current_vendor = product.vendor %}
 {% assign current_collection = product.collections.first %}
@@ -81,4 +77,4 @@ handel is {{ product.vendor }}
  </div>
 {% endif %}
 {% endfor %}
-</div> {% endcomment %}
+</div>
