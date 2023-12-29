@@ -20,6 +20,7 @@
       white-space: nowrap;
     }
   </style>
+  
   <h3>recommend product</h3>
   {% assign current_vendor = product.vendor %}
   {% assign related_products = all_products | where: 'vendor', current_vendor %}
@@ -47,66 +48,6 @@
     {% endfor %}
   {% endif %}
 
-
-{% comment %} {% assign vendor = product.metafields.custom.collection_name %}
-{% assign product_handle = product.handle %}
-handel is {{ product.metafields.custom.collection_name }}
-{% assign counter = '' %}
-<div class"grid grid--uniform grid--view-items">
-{% for product in collections['all'].all_products %}
- {% if vendor == product.metafields.custom.collection_name and counter.size < 30 and product_handle != product.handle %}
- {% capture temp %}{{ counter }}*{% endcapture %}
- {% assign counter = temp %}
- <div style="float:left;width:30%;padding:1%;">
- <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
- <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
- </a>
- <h3>{{ product.title }}</h3>
- </div>
- {% endif %} 
-{% endfor %}
-</div>
-
-
-{% assign vendor = product.vendor %}
-{% assign product_handle = product.handle %}
-handel is {{ product.vendor }}
-{% assign counter = '' %}
-<div class"grid grid--uniform grid--view-items">
-{% for product in collections['all'].all_products %}
- {% if  vendor == product.vendor | product.metafields.custom.sub_category_1 | counter.size < 4 and product_handle != product.handle %}
- {% capture temp %}{{ counter }}*{% endcapture %}
- {% assign counter = temp %}
- <div style="float:left;width:30%;padding:1%;">
- <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
- <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
- </a>
- <h3>{{ product.title }}</h3>
- product vender :{{ product.vendor }}
- product sub category : {{ product.metafields.custom.sub_category_1}}
- <h3>{{ product.price }}</h3>
- </div>
-{% endif %}
-{% endfor %}
-</div> {% endcomment %}
-
-
-
-
-
-
-
-{% comment %}   
-  {%- assign related_items = related_items | trim -%}
-  {%- unless related_items == blank -%}
-    <aside>
-      {%- if section.settings.heading -%}
-        <h2>{{ section.settings.heading }}</h2>
-      {%- endif -%}
-  
-      {{ related_items }}
-    </aside>
-  {%- endunless -%} {% endcomment %}
   
   {% schema %}
   {
