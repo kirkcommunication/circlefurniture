@@ -35,6 +35,8 @@
   {% if product.vendor == vendor and displayed_products < 3 %}
     {% capture temp %}{{ displayed_products }}*{% endcapture %}
     {% assign displayed_products = temp %}
+      <h3>{{ product.title }}</h3>
+   <div>product vender :{{ product.vendor }}</div>
   {% endif %}
 {% endfor %}
 
@@ -43,6 +45,8 @@
     {% if product.metafields.custom.sub_category_1 and displayed_products < 3 %}
       {% capture temp %}{{ displayed_products }}*{% endcapture %}
       {% assign displayed_products = temp %}
+        <h3>{{ product.title }}</h3>
+   <div>product vender :{{ product.vendor }}</div>
     {% endif %}
   {% endfor %}
 {% endif %}
