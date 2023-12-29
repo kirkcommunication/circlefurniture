@@ -27,10 +27,11 @@
 
 {% assign related_products = all_products | where: 'vendor', product.vendor %} 
 
-{% for related_product in related_products limit: 4 %}
+{% for product in related_products limit: 4 %}
  
   <div class="related-product">
-    <h3>{{ related_product.title }}</h3>
+    <h3>{{ product.title }}</h3>
+    <h3>{{ product.title }}</h3>
     <!-- Add other product details as needed -->
   </div>
 {% endfor %}
