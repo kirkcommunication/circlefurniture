@@ -44,18 +44,7 @@
 {% endschema %}
 
 <h3>Related Product</h3>
-{% assign current_vendor = product.vendor %}
-{% assign current_collection = product.collections.first %}
-{% assign custom_metafield_condition = product.metafields.custom.sub_category_1 %}
 
-{% assign related_products =custom_metafield_condition %}
-
-{% for related_product in related_products limit: 4 %}
-  <div class="related-product">
-    <h3>{{ related_product.title }}</h3>
-    <!-- Add other product details as needed -->
-  </div>
-{% endfor %}
 
 {% assign vendor = product.vendor %}
 {% assign product_handle = product.handle %}
@@ -78,3 +67,17 @@ handel is {{ product.vendor }}
 {% endif %}
 {% endfor %}
 </div>
+
+
+{% assign current_vendor = product.vendor %}
+{% assign current_collection = product.collections.first %}
+{% assign custom_metafield_condition = product.metafields.custom.sub_category_1 %}
+
+{% assign related_products =custom_metafield_condition %}
+
+{% for related_product in related_products limit: 4 %}
+  <div class="related-product">
+    <h3>{{ related_product.title }}</h3>
+    <!-- Add other product details as needed -->
+  </div>
+{% endfor %}
