@@ -20,34 +20,19 @@
       white-space: nowrap;
     }
   </style>
-  
-  <h3>recommend product</h3>
-  {% assign current_vendor = product.vendor %}
-  {% assign related_products = all_products | where: 'vendor', current_vendor %}
-  
-  {% if related_products.size >= 1 %}
-    {% for related_product in related_products limit: 3 %}
-      <div class="related-product">
-        <h3>{{ related_product.title }}</h3>
-        <!-- Add other product details as needed -->
-      </div>
-    {% endfor %}
-  {% else %}
-    {% comment %}
-      Display products based on custom metafield condition when
-      the number of products from the same vendor is less than 3.
-    {% endcomment %}
-    {% assign custom_metafield_condition = product.metafields.custom.sub_category_1 %}
-    {% assign custom_metafield_products = all_products | where: custom_metafield_condition %}
-    
-    {% for custom_metafield_product in custom_metafield_products limit: 3 %}
-      <div class="related-product">
-        <h3>{{ custom_metafield_product.title }}</h3>
-        <!-- Add other product details as needed -->
-      </div>
-    {% endfor %}
-  {% endif %}
+ 
+{% assign current_vendor = product.vendor %}
+{% assign current_collection = product.collections.first %}
+{% assign custom_metafield_condition = product.metafields.custom.sub_category_1 %}
 
+{% assign related_products = all_products | where: 'vendor', current_vendor | where: 'collections', current_collection | where: custom_metafield_condition %}
+
+{% for related_product in related_products limit: 4 %}
+  <div class="related-product">
+    <h3>{{ related_product.title }}</h3>
+    <!-- Add other product details as needed -->
+  </div>
+{% endfor %}
   
   {% schema %}
   {
