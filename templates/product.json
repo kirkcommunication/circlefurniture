@@ -167,9 +167,7 @@
     "7326545f-00ac-4a1c-8244-d709a74c7cc6": {
       "type": "tag-base-recommended-product",
       "settings": {
-        "heading": "Recommended products",
-        "related_tag": "Bedroom",
-        "number_of_products": "4"
+        "custom_metafield_condition": "{{ product.metafields.custom.sub_category_1.value }}"
       }
     }
   },
