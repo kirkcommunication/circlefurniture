@@ -27,7 +27,7 @@
   {% assign counter = '' %}
                                                               
   <div class="grid grid--uniform grid--view-items">
-  {% for product in collections['all'].all_products %}
+  {% for product in collections['all'].all_products limit:5%}
    {% if product.metafields.custom.collection_name and counter.size < 5 and product_handle != product.handle %}
    {% capture temp %}{{ counter }}*{% endcapture %}
    {% assign counter = temp %}
