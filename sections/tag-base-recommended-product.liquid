@@ -25,8 +25,24 @@
   {%- assign break_at = section.settings.number_of_products | plus: 0 -%}
   {%- assign current_product = product -%} {% endcomment %}
 
+
+  {% assign desired_vendor = product.vendor %}
+{% assign desired_metafield_value = product.metafields.custom.collection_name %}
+{% assign max_products_to_show = 4 %}
+
+{% assign matching_products = products | where: 'vendor', desired_vendor | where: desired_metafield_value %}
+{% for product in matching_products limit: max_products_to_show %}
+<div class="product">
+<h2>{{ product.title }}</h2>
+    <p>{{ product.description }}</p>
+    <p>Price: {{ product.price | money }}</p>
+    <!-- Add other product details as needed -->
+  </div>
+{% endfor %}
+
+
   
-{% assign vendor = product.metafields.custom.collection_name %}
+{% comment %} {% assign vendor = product.metafields.custom.collection_name %}
 {% assign product_handle = product.handle %}
 handel is {{ product.metafields.custom.collection_name }}
 {% assign counter = '' %}
@@ -43,9 +59,10 @@ handel is {{ product.metafields.custom.collection_name }}
  </div>
  {% endif %} 
 {% endfor %}
-</div>
+</div> {% endcomment %}
 
 
+{% comment %} 
 {% assign vendor = product.vendor %}
 {% assign product_handle = product.handle %}
 handel is {{ product.vendor }}
@@ -66,7 +83,7 @@ handel is {{ product.vendor }}
  </div>
 {% endif %}
 {% endfor %}
-</div>
+</div> {% endcomment %}
 
 
 
