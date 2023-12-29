@@ -28,10 +28,8 @@
   <div class"grid grid--uniform grid--view-items">
   {% for product in collections['all'].all_products limit:5 %}
    {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and product_handle != product.handle %}
-   {% else if counter.size < 6 %}
      
      {% capture temp %}{{ counter }}*{% endcapture %}
-     <h4>value less than 5</h4>
    {% assign counter = temp %}
    <div style="float:left;width:30%;padding:1%;">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
