@@ -25,6 +25,33 @@
   {% assign product_handle = product.handle %}
   handel is {{ product.vendor }}
   {% assign counter = '' %}
+  {% assign displayed_products = 0 %}
+
+
+
+{% assign displayed_products = 0 %}
+
+{% for product in collections.all.products %}
+  {% if product.vendor == vendor and displayed_products < 3 %}
+    {% capture temp %}{{ displayed_products }}*{% endcapture %}
+    {% assign displayed_products = temp %}
+  {% endif %}
+{% endfor %}
+
+{% if displayed_products < 3 %}
+  {% for product in collections.all.products %}
+    {% if product.metafields.custom.sub_category_1 and displayed_products < 3 %}
+      {% capture temp %}{{ displayed_products }}*{% endcapture %}
+      {% assign displayed_products = temp %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+
+
+
+
+  
   <div class"grid grid--uniform grid--view-items">
   {% for product in collections['all'].all_products %}
    {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and counter.size < 5 and product_handle != product.handle %}
