@@ -33,11 +33,11 @@
 
 {% assign vendor = product.metafields.custom.collection_name %}
 {% assign product_handle = product.handle %}
-handel is {{ product.vendor }}
+handel is {{ product.metafields.custom.collection_name }}
 {% assign counter = '' %}
 <div class"grid grid--uniform grid--view-items">
 {% for product in collections['all'].all_products %}
- {% if vendor == product.vendor and counter.size < 30 and product_handle != product.handle %}
+ {% if vendor == product.metafields.custom.collection_name and counter.size < 30 and product_handle != product.handle %}
  {% capture temp %}{{ counter }}*{% endcapture %}
  {% assign counter = temp %}
  <div style="float:left;width:30%;padding:1%;">
