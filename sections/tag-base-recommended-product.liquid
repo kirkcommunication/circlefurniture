@@ -31,7 +31,7 @@
    {% if product.metafields.custom.collection_name and counter.size < 5 and product_handle != product.handle %}
    {% capture temp %}{{ counter }}*{% endcapture %}
    {% assign counter = temp %}
-   <div style="float:left;width:30%;padding:1%;">
+   <div style="float:left;width:30%;padding:1%;" class="sec1">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
    <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
    </a>
@@ -48,7 +48,7 @@
      {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and counter.size < 5 and product_handle != product.handle %}
    {% capture temp %}{{ counter }}*{% endcapture %}
    {% assign counter = temp %}
-   <div style="float:left;width:30%;padding:1%;">
+   <div style="float:left;width:30%;padding:1%;" class="sec2">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
    <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
    </a>
