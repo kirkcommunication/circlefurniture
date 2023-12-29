@@ -26,7 +26,7 @@
   handel is {{ product.vendor }}
   {% assign counter = '' %}
   <div class"grid grid--uniform grid--view-items">
-  {% for product in collections['all'].all_products %}
+  {% for product in collections['all'].all_products limit : 5 %}
    {% if  product.metafields.custom.collection_name or vendor == product.vendor and product.metafields.custom.sub_category_1 and counter.size < 4 and product_handle != product.handle %}
    {% capture temp %}{{ counter }}*{% endcapture %}
    {% assign counter = temp %}
