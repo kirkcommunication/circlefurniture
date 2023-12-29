@@ -20,7 +20,26 @@
       white-space: nowrap;
     }
   </style>
-  
+  <h3>recommend product</h3>
+  {% assign current_vendor = product.vendor %}
+{% assign displayed_products = 0 %}
+
+{% for product in collections.all.products %}
+  {% if product.vendor == current_vendor and displayed_products < 3 %}
+    {% capture temp %}{{ displayed_products }}*{% endcapture %}
+    {% assign displayed_products = temp %}
+  {% endif %}
+{% endfor %}
+
+{% if displayed_products < 3 %}
+  {% for product in collections.all.products %}
+    {% if product.metafields.custom.sub_category_1 and displayed_products < 3 %}
+      {% capture temp %}{{ displayed_products }}*{% endcapture %}
+      {% assign displayed_products = temp %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
   {% comment %} {%- assign counter = 0 -%}
   {%- assign break_at = section.settings.number_of_products | plus: 0 -%}
   {%- assign current_product = product -%} {% endcomment %}
