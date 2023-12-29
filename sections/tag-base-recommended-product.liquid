@@ -24,8 +24,14 @@
   {% comment %} {%- assign counter = 0 -%}
   {%- assign break_at = section.settings.number_of_products | plus: 0 -%}
   {%- assign current_product = product -%} {% endcomment %}
+
   
-{% assign vendor = product.vendor %}
+  
+
+
+
+
+{% assign vendor = product.metafields.custom.collection_name %}
 {% assign product_handle = product.handle %}
 handel is {{ product.vendor }}
 {% assign counter = '' %}
@@ -42,6 +48,8 @@ handel is {{ product.vendor }}
  {% endif %} 
 {% endfor %}
 </div>
+
+
 
 {% comment %}   
   {%- assign related_items = related_items | trim -%}
