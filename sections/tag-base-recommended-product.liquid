@@ -28,6 +28,7 @@
 {% assign related_products = all_products | where: 'vendor', current_vendor | where: 'collections', current_collection | where: custom_metafield_condition %}
 
 {% for related_product in related_products limit: 4 %}
+  <h2>Related Product</h2>
   <div class="related-product">
     <h3>{{ related_product.title }}</h3>
     <!-- Add other product details as needed -->
