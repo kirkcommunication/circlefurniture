@@ -60,6 +60,7 @@ handel is {{ product.vendor }}
  <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
  </a>
  <h3>{{ product.title }}</h3>
+ <h3>{{ product.price }}</h3>
  </div>
 {% endif %}
 {% endfor %}
