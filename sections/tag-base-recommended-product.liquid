@@ -21,46 +21,29 @@
     }
   </style>
   
-  {%- assign counter = 0 -%}
+  {% comment %} {%- assign counter = 0 -%}
   {%- assign break_at = section.settings.number_of_products | plus: 0 -%}
-  {%- assign current_product = product -%}
+  {%- assign current_product = product -%} {% endcomment %}
   
-  {%- capture related_items -%}
-    {%- for product in collections.all.products -%}
-      {%- unless product.handle == current_product.handle -%}
-  
-        {%- if product.tags contains section.settings.related_tag -%}
-          <a href="{{ product.url | within: collection }}" class="product-card">
-            <img src="{{ product.featured_image.src | img_url: '1024x' }}" alt="">
-            {{ product.title }}
-            <p>
-              <span aria-hidden="true">—</span>
-              {%- if product.price_varies -%}
-                <span class="visuallyhidden">Starting at</span>
-                {{ product.price_min | money_without_trailing_zeros }}
-                <span aria-hidden="true">+</span>
-              {%- else -%}
-                {{ product.price | money_without_trailing_zeros }}
-              {%- endif -%}
-            </p>
-            <p>
-              <span class="visuallyhidden">by</span>
-              {{ product.vendor }}
-            </p>
-          </a>
-  
-          {%- assign counter = counter | plus: 1 -%}
-  
-          {%- if counter == break_at -%}
-            {%- break -%}
-          {%- endif -%}
-  
-        {%- endif -%}
-  
-      {%- endunless -%}
-    {%- endfor -%}
-  {%- endcapture -%}
-  
+{% assign vendor = product.vendor %}
+{% assign product_handle = product.handle %}
+handel is {{ product.vendor }}
+{% assign counter = '' %}
+<div class"grid grid--uniform grid--view-items">
+{% for product in collections['all'].all_products %}
+ {% if vendor == product.vendor and counter.size < 30 and product_handle != product.handle %}
+ {% capture temp %}{{ counter }}*{% endcapture %}
+ {% assign counter = temp %}
+ <div style="float:left;width:30%;padding:1%;">
+ <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
+ <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
+ </a> 
+ </div>
+ {% endif %} 
+{% endfor %}
+</div>
+
+{% comment %}   
   {%- assign related_items = related_items | trim -%}
   {%- unless related_items == blank -%}
     <aside>
@@ -70,7 +53,7 @@
   
       {{ related_items }}
     </aside>
-  {%- endunless -%}
+  {%- endunless -%} {% endcomment %}
   
   {% schema %}
   {
