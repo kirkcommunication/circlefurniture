@@ -50,7 +50,7 @@
       {% assign items_array = productInfo | split: '<br>' %} 
   {% endif %}
   {% endfor %}
-    {% for item in items_array %}
+    {% for item in items_array limit:4 %}
   {{ item }}
 {% endfor %}
 
