@@ -30,7 +30,7 @@
   {% assign vendor = product.vendor %}
   {% assign product_handle = product.handle %}
   handel is {{ product.vendor }}
-  {% assign counter = '' %}
+  {% assign counter = "" | split: '' %}
   <div class"grid grid--uniform grid--view-items">
     <ul>
   {% for product in collections['all'].all_products %}
@@ -52,7 +52,7 @@
   </div>
 
 
-  {% for item in myArray %}
+  {% for item in counter %}
   <div class="loopitem">fillterproduct {{ item }}</div>
 {% endfor %}
   
