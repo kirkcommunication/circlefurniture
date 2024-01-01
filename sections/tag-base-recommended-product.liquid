@@ -26,19 +26,17 @@
 
 
   <h3>recommend product</h3>
-    {% assign myArray = "" | split: "," %}
+    {% assign myArray = "" | split: "li" %}
   {% assign vendor = product.vendor %}
   {% assign product_handle = product.handle %}
   handel is {{ product.vendor }}
   {% assign counter = '' %}
   <div class"grid grid--uniform grid--view-items">
-    
+    <ul>
   {% for product in collections['all'].all_products %}
    {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and counter.size < 4 and product_handle != product.handle %}
    {% capture temp %}{{ counter }}*{% endcapture %}
-   {% assign counter = temp %}
-    {% assign myArray = myArray | push: temp %}
-    <div style="float:left;width:30%;padding:1%;">
+    <li style="float:left;width:30%;padding:1%;">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
    <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
    </a>
@@ -46,12 +44,11 @@
    <div>product vender :{{ product.vendor }}</div>
    <div>product sub category : {{ product.metafields.custom.sub_category_1}}</div>
    <h3>{{ product.price | money }}</h3>
-   </div>
-     
-     
+   </li>
+        {% assign counter =  myArray | push: temp %}
   {% endif %}
   {% endfor %}
-  
+  </ul>
   </div>
 
 
