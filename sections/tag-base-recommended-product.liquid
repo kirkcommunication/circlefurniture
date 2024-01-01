@@ -26,37 +26,22 @@
 
 
   <h3>recommend product</h3>
-    {% assign myArray = "" | split: "," %}
+
   {% assign vendor = product.vendor %}
   {% assign product_handle = product.handle %}
   handel is {{ product.vendor }}
-  <div class"grid grid--uniform grid--view-items">
-    <ul>
+    {% assign myArray = "" | split: "," %}
   {% for product in collections['all'].all_products %}
    {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and product_handle != product.handle %}
-  {% capture productInfo %}
-      <li style="float:left;width:30%;padding:1%;">
-   <a href="{{ product.url | within: collection }}" title="{{ product.title }}">,
-   <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
-   </a>
-   <h3>{{ product.title }}</h3>,
-   <div>product vender :{{ product.vendor }}</div>,
-   <div>product sub category : {{ product.metafields.custom.sub_category_1}}</div>,
-   <h3>{{ product.price | money }}</h3>,
-   </li>
-     
-     {% endcapture %}
-        {% assign myArray =  myArray | push: productInfo %}
+        {% capture productInfo %}{{ product.title }},{{ product.price }},{{ product.vendor }}{% endcapture %}
+   {% assign myArray = myArray | push: productInfo %}
   {% endif %}
   {% endfor %}
-  </ul>
 
-      {% for item in myArray %}
-  <div class="loopitem">fillterproduct {{ item }}</div>
+    {% for item in myArray %}
+  {{ item }}
 {% endfor %}
-
     
-  </div>
 
 
 
