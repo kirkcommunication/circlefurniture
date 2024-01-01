@@ -48,7 +48,7 @@
   {% endif %}
   {% endfor %}
          {% endcapture %}
-      {% assign items_array = productInfo | split: '<br>' | compact %} 
+      {% assign items_array = productInfo | split: '<br>' | sort_natural %} 
     {% for item in items_array %}
   {{ item }}
 {% endfor %}
@@ -81,7 +81,7 @@
   {% endif %}
   {% endfor %}
      {% endcapture %}
-      {% assign items_array_two = productInfotwo | split: '<br>' | compact %} 
+      {% assign items_array_two = productInfotwo | split: '<br>' | sort_natural %} 
       
     {% for item in items_array_two %}
   {{ item }}
@@ -96,7 +96,7 @@
 
 {%- assign combined_array = items_array | concat: items_array_two -%}
 
-    {% for items in combined_array limit:4  %}
+    {% for items in combined_array limit:4 %}
   {{ items }}
 {% endfor %}
 
