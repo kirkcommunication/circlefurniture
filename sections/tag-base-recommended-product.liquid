@@ -31,7 +31,7 @@
   {% assign product_handle = product.handle %}
   handel is {{ product.vendor }}
 
-    <div class"grid grid--uniform grid--view-items">
+    <div class="grid grid--uniform grid--view-items">
   {% for product in collections['all'].all_products %}
    {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and counter.size < 4 and product_handle != product.handle %}
   {% capture productInfo %}
@@ -43,9 +43,10 @@
    <div>product vender :{{ product.vendor }}</div>
    <div>product sub category : {{ product.metafields.custom.sub_category_1}}</div>
    <h3>{{ product.price | money }} <br> </h3>
-     {% endcapture %}
-   {% assign items_array = productInfo | split: '<br>' %}
+     
    </div>
+     {% endcapture %}
+      {% assign items_array = productInfo | split: '<br>' %} 
   {% endif %}
   {% endfor %}
     {% for item in items_array %}
