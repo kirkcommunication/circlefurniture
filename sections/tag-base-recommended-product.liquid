@@ -75,14 +75,11 @@
    <div>product sub category : {{ product.metafields.custom.sub_category_1}}</div>
         <div>product collection Name : {{ product.metafields.custom.collection_name}}</div>
    <h3>{{ product.price | money }} </h3> <br>
-     
    </div>
-    
   {% endif %}
   {% endfor %}
      {% endcapture %}
       {% assign items_array_two = productInfotwo | split: '<br>' %} 
-      
     {% for item in items_array_two %}
   {{ item }}
 {% endfor %}
@@ -95,6 +92,12 @@
   <h3>Recommend product Final Data</h3>
 
 {%- assign combined_array = items_array | concat: items_array_two -%}
+
+{% if combined_array.size <= 4 %}
+  There are 10 or more products in this collection.
+{% else %}
+  There are less than 10 products in this collection.
+{% endif %}
 
     {% for items in combined_array limit:4 %}
   <div class="fillteritems">{{ items }}</div>
