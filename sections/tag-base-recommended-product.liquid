@@ -49,7 +49,7 @@
   {% endfor %}
          {% endcapture %}
       {% assign items_array = productInfo | split: '<br>' %} 
-    {% for item in items_array limit:4 %}
+    {% for item in items_array %}
   {{ item }}
 {% endfor %}
 
@@ -83,7 +83,7 @@
      {% endcapture %}
       {% assign items_array_two = productInfotwo | split: '<br>' %} 
       
-    {% for item in items_array_two limit:4 %}
+    {% for item in items_array_two %}
   {{ item }}
 {% endfor %}
 
