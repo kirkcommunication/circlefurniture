@@ -60,7 +60,7 @@
 
 
   <h3>Recommend product Based on Collection</h3>
-      {% assign items_array_two = " " | split: '<br>' | size %} 
+      {% assign items_array_two = " " | split: '<br>' %} 
     <div class="grid grid--uniform grid--view-items">
   {% capture productInfotwo %}    
   {% for product in collections['all'].all_products %}
@@ -96,7 +96,7 @@
 
 {%- assign combined_array = items_array | concat: items_array_two -%}
 
-    {% for items in combined_array limit:4  %}
+    {% for items in (0..combined_array)  %}
   {{ items }}
 {% endfor %}
 
