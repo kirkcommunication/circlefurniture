@@ -35,8 +35,8 @@
     <ul>
   {% for product in collections['all'].all_products %}
    {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and counter.size < 4 and product_handle != product.handle %}
-   {% capture temp %}{{ counter }}*{% endcapture %}
-    <li style="float:left;width:30%;padding:1%;">
+  {% capture productInfo %}
+      <li style="float:left;width:30%;padding:1%;">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
    <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
    </a>
@@ -45,7 +45,9 @@
    <div>product sub category : {{ product.metafields.custom.sub_category_1}}</div>
    <h3>{{ product.price | money }}</h3>
    </li>
-        {% assign counter =  myArray | push: temp %}
+     
+     {% endcapture %}
+        {% assign counter =  counter | push: productInfo %}
   {% endif %}
   {% endfor %}
   </ul>
