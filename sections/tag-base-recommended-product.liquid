@@ -30,17 +30,33 @@
   {% assign vendor = product.vendor %}
   {% assign product_handle = product.handle %}
   handel is {{ product.vendor }}
-    {% assign myArray = "" | split: "," %}
+
+    <div class"grid grid--uniform grid--view-items">
   {% for product in collections['all'].all_products %}
-   {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and product_handle != product.handle %}
-        {% capture productInfo %}{{ product.title }},{{ product.price }},{{ product.vendor }} <br> {% endcapture %}
-    {% assign items_array = productInfo | split: '<br>' %}
+   {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and counter.size < 4 and product_handle != product.handle %}
+  {% capture productInfo %}
+   <div style="float:left;width:30%;padding:1%;">
+   <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
+   <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
+   </a>
+   <h3>{{ product.title }}</h3>
+   <div>product vender :{{ product.vendor }}</div>
+   <div>product sub category : {{ product.metafields.custom.sub_category_1}}</div>
+   <h3>{{ product.price | money }} <br> </h3>
+     {% endcapture %}
+   {% assign items_array = productInfo | split: '<br>' %}
+   </div>
   {% endif %}
   {% endfor %}
-
     {% for item in items_array %}
   {{ item }}
 {% endfor %}
+
+    </div>
+  
+  
+
+
     
 
 
