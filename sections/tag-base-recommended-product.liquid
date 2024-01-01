@@ -34,7 +34,7 @@
   {% for product in collections['all'].all_products %}
    {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and  product_handle != product.handle %}
   
-   <div style="float:left;width:30%;padding:1%;">
+   <div style="float:left;width:23%;padding:1%;">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
    <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
    </a>
@@ -66,7 +66,7 @@
   {% for product in collections['all'].all_products %}
    {% if product.vendor and product.metafields.custom.collection_name and product_handle != product.handle %}
   
-   <div style="float:left;width:30%;padding:1%;">
+   <div style="float:left;width:23%;padding:1%;">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
    <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
    </a>
