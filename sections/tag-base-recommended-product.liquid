@@ -96,7 +96,7 @@
 
 {%- assign combined_array = items_array | concat: items_array_two -%}
 
-    {% for items in (0..combined_array)  %}
+    {% for items in combined_array limit:4  %}
   {{ items }}
 {% endfor %}
 
