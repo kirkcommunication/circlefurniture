@@ -31,6 +31,23 @@
   {% assign product_handle = product.handle %}
   handel is {{ product.vendor }}
 
+
+{% assign myArray = "" | split: "," %}
+
+{% for product in collection.products %}
+  {% if product.available %}
+    {% capture productInfo %}{{ product.title }},{{ product.price }},{{ product.vendor }}{% endcapture %}
+    {% assign myArray = myArray | concat: productInfo | split: "," %}
+  {% endif %}
+{% endfor %}
+
+{% for item in myArray %}
+  {{ item }}
+{% endfor %}
+
+
+
+
    {% assign myArray = "" | split: "<br>" %}
     <div class="grid grid--uniform grid--view-items">
   {% for product in collections['all'].all_products %}
