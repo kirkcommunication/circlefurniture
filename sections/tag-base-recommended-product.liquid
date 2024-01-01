@@ -30,11 +30,10 @@
   {% assign vendor = product.vendor %}
   {% assign product_handle = product.handle %}
   handel is {{ product.vendor }}
-  {% assign counter = "" | split: '' %}
   <div class"grid grid--uniform grid--view-items">
     <ul>
   {% for product in collections['all'].all_products %}
-   {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and counter.size < 4 and product_handle != product.handle %}
+   {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and product_handle != product.handle %}
   {% capture productInfo %}
       <li style="float:left;width:30%;padding:1%;">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
@@ -47,17 +46,20 @@
    </li>
      
      {% endcapture %}
-        {% assign counter =  counter | push: productInfo %}
+        {% assign myArray =  myArray | push: productInfo %}
   {% endif %}
   {% endfor %}
   </ul>
+
+      {% for item in myArray %}
+  <div class="loopitem">fillterproduct {{ item }}</div>
+{% endfor %}
+
+    
   </div>
 
 
-  {% for item in counter %}
-  <div class="loopitem">fillterproduct {{ item }}</div>
-{% endfor %}
-  
+
   {% schema %}
   {
     "name": "Recommended products",
