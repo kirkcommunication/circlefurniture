@@ -26,7 +26,7 @@
 
 
   <h3>recommend product</h3>
-    {% assign myArray = "" | split: "li" %}
+    {% assign myArray = "" | split: "," %}
   {% assign vendor = product.vendor %}
   {% assign product_handle = product.handle %}
   handel is {{ product.vendor }}
@@ -36,13 +36,13 @@
    {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and product_handle != product.handle %}
   {% capture productInfo %}
       <li style="float:left;width:30%;padding:1%;">
-   <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
+   <a href="{{ product.url | within: collection }}" title="{{ product.title }}">,
    <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
    </a>
-   <h3>{{ product.title }}</h3>
-   <div>product vender :{{ product.vendor }}</div>
-   <div>product sub category : {{ product.metafields.custom.sub_category_1}}</div>
-   <h3>{{ product.price | money }}</h3>
+   <h3>{{ product.title }}</h3>,
+   <div>product vender :{{ product.vendor }}</div>,
+   <div>product sub category : {{ product.metafields.custom.sub_category_1}}</div>,
+   <h3>{{ product.price | money }}</h3>,
    </li>
      
      {% endcapture %}
