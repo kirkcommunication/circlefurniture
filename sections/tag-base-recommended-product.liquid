@@ -93,7 +93,7 @@
 
 {%- assign combined_array = items_array | concat: items_array_two -%}
 
-{% if items_array_two.size < 4 %}
+{% if items_array.size < 4 %}
   There are 10 or more products in this collection.
 {% else %}
   There are less than 10 products in this collection.
