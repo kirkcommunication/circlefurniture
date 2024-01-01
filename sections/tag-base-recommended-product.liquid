@@ -30,7 +30,8 @@
   {% assign vendor = product.vendor %}
   {% assign product_handle = product.handle %}
   handel is {{ product.vendor }}
-   {% assign items_array = productInfo | split: '<br>' %} 
+
+   {% assign myArray = "" | split: "<br>" %}
     <div class="grid grid--uniform grid--view-items">
   {% for product in collections['all'].all_products %}
    {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and product_handle != product.handle %}
@@ -46,9 +47,10 @@
      
    </div>
      {% endcapture %}
+    {% assign myArray = myArray | concat: productInfo | split: "<br>" %}
   {% endif %}
   {% endfor %}
-    {% for item in items_array %}
+    {% for item in myArray %}
   {{ item }}
 {% endfor %}
 
