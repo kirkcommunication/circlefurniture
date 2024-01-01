@@ -63,7 +63,7 @@
 
       {% assign items_array_two = " " | split: '<br>' %} 
     <div class="grid grid--uniform grid--view-items">
-  {% for product in collections['all'].all_products %}
+  {% for product in collection.products %}
    {% if product.metafields.custom.collection_name and product_handle != product.handle %}
   {% capture productInfotwo %}
    <div style="float:left;width:30%;padding:1%;">
