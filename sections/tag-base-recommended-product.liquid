@@ -97,7 +97,7 @@
 {%- assign combined_array = items_array | concat: items_array_two -%}
 
     {% for items in combined_array limit:4 %}
-  {{ items }}
+  <div class="fillteritems">{{ items }}</div>
 {% endfor %}
 
 
