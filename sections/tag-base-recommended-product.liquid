@@ -63,9 +63,10 @@
 
       {% assign items_array_two = " " | split: '<br>' %} 
     <div class="grid grid--uniform grid--view-items">
+  {% capture productInfotwo %}    
   {% for product in collections['all'].all_products %}
    {% if vendor == product.vendor and product.metafields.custom.collection_name and product_handle != product.handle %}
-  {% capture productInfotwo %}
+  
    <div style="float:left;width:30%;padding:1%;">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
    <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
@@ -77,10 +78,12 @@
    <h3>{{ product.price | money }} </h3> <br>
      
    </div>
-     {% endcapture %}
-      {% assign items_array_two = productInfotwo | split: '<br>' %} 
+    
   {% endif %}
   {% endfor %}
+     {% endcapture %}
+      {% assign items_array_two = productInfotwo | split: '<br>' %} 
+      
     {% for item in items_array_two limit:4 %}
   {{ item }}
 {% endfor %}
