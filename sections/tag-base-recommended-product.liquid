@@ -94,14 +94,16 @@
 {%- assign combined_array = items_array | concat: items_array_two -%}
 
 {% if items_array_two.size > 4 %}
-  There are 10 or more products in this collection.
+    {% for items in combined_array limit:5 %}
+  <div class="fillteritems">{{ items }}</div>
+{% endfor %}
 {% else %}
-  There are less than 10 products in this collection.
-{% endif %}
-
     {% for items in combined_array limit:4 %}
   <div class="fillteritems">{{ items }}</div>
 {% endfor %}
+{% endif %}
+
+
 
 
 
