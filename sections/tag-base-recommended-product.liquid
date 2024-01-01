@@ -20,17 +20,25 @@
       white-space: nowrap;
     }
   </style>
+
+
+
+
+
   <h3>recommend product</h3>
+    {% assign myArray = "" | split: "," %}
   {% assign vendor = product.vendor %}
   {% assign product_handle = product.handle %}
   handel is {{ product.vendor }}
   {% assign counter = '' %}
   <div class"grid grid--uniform grid--view-items">
+    
   {% for product in collections['all'].all_products %}
    {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and counter.size < 4 and product_handle != product.handle %}
    {% capture temp %}{{ counter }}*{% endcapture %}
    {% assign counter = temp %}
-   <div style="float:left;width:30%;padding:1%;">
+    {% capture productInfo %}
+    <div style="float:left;width:30%;padding:1%;">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
    <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
    </a>
@@ -39,9 +47,18 @@
    <div>product sub category : {{ product.metafields.custom.sub_category_1}}</div>
    <h3>{{ product.price | money }}</h3>
    </div>
+    {% endcapture %}
+      {% assign myArray = myArray | push: productInfo %}
+     
   {% endif %}
   {% endfor %}
+  
   </div>
+
+
+  {% for item in myArray %}
+  <div class="loopitem">{{ item }}</div>
+{% endfor %}
   
   {% schema %}
   {
