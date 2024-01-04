@@ -36,7 +36,8 @@
   {% capture productInfotwo %}    
   {% for product in collections['all'].all_products %}
    {% if product_collection == product.metafields.custom.collection_name and product_handle != product.handle %}
-   {{ product.handle }},
+   {{ product.handle }}
+     {{ product.title }},
   {% endif %}
   {% endfor %}
   {% endcapture %}
