@@ -81,7 +81,7 @@
 
 
 
-  {% assign target_product_handle = "westport-chair" %}
+  {% assign target_product_handle = unique_array %}
 
 {% for product in collections['all'].all_products %}
   {% if product.handle == target_product_handle %}
