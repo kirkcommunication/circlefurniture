@@ -74,12 +74,13 @@
 
   <h3>Recommend product Final Data</h3>
 
-{%- assign combined_array = items_array | concat: items_array_two | split: '<br>' -%}
-{%- assign unique_array = combined_array |uniq -%}
+{%- assign combined_array = items_array | concat: items_array_two -%}
+{%- assign unique_array = combined_array -%}
+{{ unique_array | join: '<br>' }}
 
 <div class="fillterdata">
     {% for items in unique_array limit:5 %}
-  {{ items }}
+  {{ items  | uniq }}
 {% endfor %}
 </div>
 
