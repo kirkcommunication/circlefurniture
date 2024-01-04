@@ -36,8 +36,7 @@
   {% capture productInfotwo %}    
   {% for product in collections['all'].all_products %}
    {% if product_collection == product.metafields.custom.collection_name and product_handle != product.handle %}
-   {{ product.handle }}
-     {{ product.title }},
+   {{ product.handle }},
   {% endif %}
   {% endfor %}
   {% endcapture %}
@@ -80,7 +79,14 @@
 
 <div class="fillterdata">
     {% for items in unique_array limit:5 %}
-  {{ items }}
+  
+
+  {% for product in items %}
+
+   {{ product.title }},
+  {% endfor %}
+
+  
 {% endfor %}
 </div>
 
