@@ -65,6 +65,20 @@
       
     {% for item in items_array_two %}
          <h3>{{ item.title }}</h3>
+
+       <div style="float:left;width:23%;padding:1%;">
+   <a href="{{ item.url | within: collection }}" title="{{ item.title }}">
+   <img src="{{ item.images.first | product_img_url: 'medium' }}" alt="{{ item.title }}" />
+   </a>
+   <h3>{{ item.title }}</h3>
+   <div>product vender :{{ item.vendor }}</div>
+   <div>product sub category : {{ item.metafields.custom.sub_category_1}}</div>
+   <div>product collection Name : {{ item.metafields.custom.collection_name}}</div>
+   <h3>{{ item.price | money }} </h3> <br>
+     
+   </div>
+
+      
 {% endfor %}
 
     </div>
