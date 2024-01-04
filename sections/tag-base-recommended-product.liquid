@@ -23,6 +23,9 @@
 
 
 <h3>Recommend product Based on Collection</h3>
+  {% assign vendor = product.vendor %}
+  {% assign product_handle = product.handle %}
+  {% assign product_collection = product.metafields.custom.collection_name %}
       {% assign items_array = " " | split: '<br>' %} 
     <div class="grid grid--uniform grid--view-items">
   {% capture productInfotwo %}    
