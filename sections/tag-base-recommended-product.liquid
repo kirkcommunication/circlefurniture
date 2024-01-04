@@ -78,9 +78,9 @@
 {%- assign unique_array = combined_array | uniq -%}
 
 <div class="fillterdata">
-   
-  {% for handle in unique_array %}
-  {{ [handle].title }}
+     {% for items in unique_array limit:5 %}
+       
+    {{ [items].product.title }}
       
   <h2>{{ product.title }}</h2>
   <p>{{ product.description }}</p>
