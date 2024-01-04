@@ -64,7 +64,7 @@
     <div class="grid grid--uniform grid--view-items">
   {% capture productInfotwo %}    
   {% for product in collections['all'].all_products %}
-   {% if product.vendor and product.metafields.custom.collection_name and product_handle != product.handle %}
+   {% if product.metafields.custom.collection_name and product_handle != product.handle %}
   
    <div style="float:left;width:23%;padding:1%;">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
