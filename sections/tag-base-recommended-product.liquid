@@ -31,7 +31,7 @@
   {% capture productInfotwo %}    
   {% for product in collections['all'].all_products %}
    {% if product_collection == product.metafields.custom.collection_name and product_handle != product.handle %}
-   <div style="float:left;width:23%;padding:1%;">
+   <div class="product_listing">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
    <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
    </a>
@@ -59,7 +59,7 @@
   {% for product in collections['all'].all_products %}
    {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and  product_handle != product.handle %}
   
-   <div style="float:left;width:23%;padding:1%;">
+   <div class="product_listing">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
    <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
    </a>
@@ -68,7 +68,6 @@
    <div>product sub category : {{ product.metafields.custom.sub_category_1}}</div>
    <div>product collection Name : {{ product.metafields.custom.collection_name}}</div>
    <h3>{{ product.price | money }} </h3> <br>
-     
    </div>
   {% endif %}
   {% endfor %}
