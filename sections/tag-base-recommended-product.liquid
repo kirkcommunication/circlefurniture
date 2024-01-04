@@ -31,16 +31,16 @@
   {% assign vendor = product.vendor %}
   {% assign product_handle = product.handle %}
   {% assign product_collection = product.metafields.custom.collection_name %}
-  {% assign items_array = " " | split: ' ' %} 
+  {% assign items_array = " " | split: ',' %} 
   <div class="grid grid--uniform grid--view-items">
   {% capture productInfotwo %}    
   {% for product in collections['all'].all_products %}
    {% if product_collection == product.metafields.custom.collection_name and product_handle != product.handle %}
-   {{ product.handle }}
+   {{ product.handle }},
   {% endif %}
   {% endfor %}
   {% endcapture %}
-      {% assign items_array = productInfotwo | split: ' ' %} 
+      {% assign items_array = productInfotwo | split: '' %} 
     {% for item in items_array %}
   {{ item }}
 {% endfor %}
@@ -61,7 +61,7 @@
   {% endif %}
   {% endfor %}
          {% endcapture %}
-      {% assign items_array_two = productInfo | split: ' ' %} 
+      {% assign items_array_two = productInfo | split: '' %} 
       
     {% for item in items_array_two %}
   {{ item  }}
@@ -75,12 +75,11 @@
   <h3>Recommend product Final Data</h3>
 
 {%- assign combined_array = items_array | concat: items_array_two -%}
-{%- assign unique_array = combined_array -%}
-{{ unique_array | join: '<br>' }}
+{%- assign unique_array = combined_array | uniq -%}
 
 <div class="fillterdata">
     {% for items in unique_array limit:5 %}
-  {{ items  | uniq }}
+  {{ items }}
 {% endfor %}
 </div>
 
