@@ -47,7 +47,7 @@
      {% endcapture %}
       {% assign items_array = productInfotwo | split: '<br>' %} 
     {% for item in items_array %}
-  {{ item | uniq }}
+  {{ item }}
 {% endfor %}
 
     </div>
@@ -79,7 +79,7 @@
          {% endcapture %}
       {% assign items_array_two = productInfo | split: '<br>' %} 
     {% for item in items_array_two %}
-  {{ item | uniq }}
+  {{ item  }}
 {% endfor %}
 
     </div>
@@ -89,10 +89,13 @@
 
   <h3>Recommend product Final Data</h3>
 
-{%- assign combined_array = items_array | concat: items_array_two -%}
+{%- assign combined_array = items_array | concat: items_array_two | split: ', ' -%}
+
 
     {% for items in combined_array limit:5 %}
-  <div class="fillteritems">{{ items | uniq }}</div>
+  <div class="fillteritems">{{ items| uniq | join: ', ' }}</div>
+  
+
 {% endfor %}
 
 {% comment %}
