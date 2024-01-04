@@ -91,10 +91,7 @@
 
 {%- assign combined_array = items_array | concat: items_array_two -%}
 
-{{ combined_array | join: "<div>" }}  
-
 {% assign unique_array = combined_array | uniq %}
-
 <div class="fillterdata">
     {% for items in unique_array limit:5 %}
   {{ items }}
