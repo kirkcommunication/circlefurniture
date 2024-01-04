@@ -93,7 +93,7 @@
 {%- assign combined_arraydata = combined_array | split: '' -%}
 
     {% for items in combined_arraydata limit:5 %}
-  <div class="fillteritems">{{ items | uniq | join: '' }}</div>
+  <div class="fillteritems">{{ items | uniq }}</div>
   
 
 {% endfor %}
