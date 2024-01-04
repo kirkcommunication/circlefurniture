@@ -31,7 +31,7 @@
   {% assign vendor = product.vendor %}
   {% assign product_handle = product.handle %}
   {% assign product_collection = product.metafields.custom.collection_name %}
-  {% assign items_array = " " | split: '<br>' %} 
+  {% assign items_array = " " | split: ',' %} 
   <div class="grid grid--uniform grid--view-items">
   {% capture productInfotwo %}    
   {% for product in collections['all'].all_products %}
@@ -49,7 +49,7 @@
 
 
   <h3>Recommend product Based on Vendor and Sub Category</h3>
-      {% assign items_array_two = " " | split: '<br>' %} 
+      {% assign items_array_two = " " | split: ',' %} 
     <div class="grid grid--uniform grid--view-items">
   {% capture productInfo %}
   {% for product in collections['all'].all_products %}
