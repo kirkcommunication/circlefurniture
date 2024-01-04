@@ -78,10 +78,16 @@
 {%- assign unique_array = combined_array | uniq -%}
 
 <div class="fillterdata">
-    {% for items in unique_array limit:5 %}
-  {{ items.title }}
-  
-{% endfor %}
+
+
+
+  {%- assign product_handles = unique_array | split: ',' -%}
+
+{%- for handle in product_handles -%}
+  {%- assign product = all_products['handle'] -%}
+  {{ product.title }} - {{ product.price }}
+{%- endfor -%}
+
 </div>
 
 {% comment %}
