@@ -27,6 +27,7 @@
   {% assign product_handle = product.handle %}
   {% assign product_collection = product.metafields.custom.collection_name %}
   {% assign items_array = " " | split: '<br>' %} 
+  <div class="grid grid--uniform grid--view-items">
   {% capture productInfotwo %}    
   {% for product in collections['all'].all_products %}
    {% if product_collection == product.metafields.custom.collection_name and product_handle != product.handle %}
@@ -48,9 +49,12 @@
   {{ item }}
 {% endfor %}
 
+    </div>
+
 
   <h3>Recommend product Based on Vendor and Sub Category</h3>
       {% assign items_array_two = " " | split: '<br>' %} 
+    <div class="grid grid--uniform grid--view-items">
   {% capture productInfo %}
   {% for product in collections['all'].all_products %}
    {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and  product_handle != product.handle %}
@@ -74,6 +78,7 @@
   {{ item  }}
 {% endfor %}
 
+    </div>
 
   
 
