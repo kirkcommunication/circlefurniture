@@ -83,7 +83,7 @@
 
   {% assign target_product_handle = "westport-chair" %}
 
-{% for product in all_products %}
+{% for product in collections['all'].all_products %}
   {% if product.handle == target_product_handle %}
     <h1>{{ product.title }}</h1>
     <p>{{ product.description }}</p>
