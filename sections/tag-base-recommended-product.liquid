@@ -87,7 +87,7 @@
 {%- assign combined_array = items_array | concat: items_array_two -%}
 {%- assign unique_array = combined_array | uniq -%}
     {% for items in unique_array limit:5 %}
-  <div class="fillteritems">{{ items }}</div>
+  {{ items }}
   
 
 {% endfor %}
