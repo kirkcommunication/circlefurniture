@@ -78,10 +78,21 @@
 {%- assign unique_array = combined_array | uniq -%}
 
 <div class="fillterdata">
-     {% for items in unique_array limit:5 %}
-    {{ all_products.items.title }}       
+
+
+
+  {% assign target_product_handle = unique_array %}
+
+{% for product in all_products %}
+  {% if product.handle == target_product_handle %}
+    <h1>{{ product.title }}</h1>
+    <p>{{ product.description }}</p>
+    <p>Price: {{ product.price | money }}</p>
+    <!-- Add more details as needed -->
+  {% endif %}
 {% endfor %}
 
+  
 
 </div>
 
