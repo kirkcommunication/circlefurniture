@@ -31,7 +31,7 @@
   {% assign vendor = product.vendor %}
   {% assign product_handle = product.handle %}
   {% assign product_collection = product.metafields.custom.collection_name %}
-  {% assign items_array = " " | split: '<br>' %} 
+  {% assign items_array = " " %} 
   <div class="grid grid--uniform grid--view-items">
   {% capture productInfotwo %}    
   {% for product in collections['all'].all_products %}
@@ -40,7 +40,7 @@
   {% endif %}
   {% endfor %}
   {% endcapture %}
-      {% assign items_array = productInfotwo | split: '<br>' %} 
+      {% assign items_array = productInfotwo  %} 
     {% for item in items_array %}
   {{ item }}
 {% endfor %}
@@ -49,7 +49,7 @@
 
 
   <h3>Recommend product Based on Vendor and Sub Category</h3>
-      {% assign items_array_two = " " | split: '<br>' %} 
+      {% assign items_array_two = " " %} 
     <div class="grid grid--uniform grid--view-items">
   {% capture productInfo %}
   {% for product in collections['all'].all_products %}
@@ -61,7 +61,7 @@
   {% endif %}
   {% endfor %}
          {% endcapture %}
-      {% assign items_array_two = productInfo | split: '<br>' %} 
+      {% assign items_array_two = productInfo %} 
       
     {% for item in items_array_two %}
   {{ item  }}
@@ -78,11 +78,7 @@
 {%- assign unique_array = combined_array -%}
 {{ unique_array | join: '<br>' }}
 
-<div class="fillterdata">
-    {% for items in unique_array limit:5 %}
-  //{{ items }}
-{% endfor %}
-</div>
+
 
 {% comment %}
 {% if items_array_two.size > 4 and items_array.size <= 4 %}
