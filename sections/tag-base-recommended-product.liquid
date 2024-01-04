@@ -49,7 +49,7 @@
 
 
   <h3>Recommend product Based on Vendor and Sub Category</h3>
-      {% assign items_array_two = " " | split: '' %} 
+      {% assign items_array_two = " " | split: ',' %} 
     <div class="grid grid--uniform grid--view-items">
   {% capture productInfo %}
   {% for product in collections['all'].all_products %}
@@ -81,7 +81,13 @@
 
 {% for items in unique_array %}
 
-  {% assign target_product_handle = items %}
+  {% assign product_handle_with_commas = items %}
+
+{% assign cleaned_product_handle = product_handle_with_commas | replace: ",", "" %}
+
+
+  
+  {% assign target_product_handle = cleaned_product_handle %}
 
   {{ target_product_handle }}
 
