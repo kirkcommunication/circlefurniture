@@ -64,7 +64,7 @@
   {% for product in collections['all'].all_products %}
    {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and  product_handle != product.handle %}
 
-   {{ product.handle }}
+   {{ product.handle }} <br>
      
      
   {% endif %}
