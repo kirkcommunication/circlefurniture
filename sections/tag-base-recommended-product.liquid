@@ -81,7 +81,7 @@
   
 
   
-{% assign productHandles = unique_array | split: ',' %}
+{% assign productHandles = unique_array %}
    
   {% for handle in productHandles %}
   {{ all_products['handle'].title }}
