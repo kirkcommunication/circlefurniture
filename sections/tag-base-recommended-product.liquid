@@ -26,6 +26,7 @@
   {% assign vendor = product.vendor %}
   {% assign product_handle = product.handle %}
   {% assign product_collection = product.metafields.custom.collection_name %}
+  
       {% assign items_array = " " | split: '<br>' %} 
     <div class="grid grid--uniform grid--view-items">
   {% capture productInfotwo %}    
@@ -54,9 +55,6 @@
 
 
   <h3>Recommend product Based on Vendor and Sub Category</h3>
-  {% assign vendor = product.vendor %}
-  {% assign product_handle = product.handle %}
-  {% assign product_collection = product.metafields.custom.collection_name %}
       {% assign items_array_two = " " | split: '<br>' %} 
     <div class="grid grid--uniform grid--view-items">
   {% capture productInfo %}
@@ -91,7 +89,6 @@
 
 {%- assign combined_array = items_array | concat: items_array_two -%}
 {%- assign unique_array = combined_array | uniq -%}
-
     {% for items in unique_array limit:5 %}
   <div class="fillteritems">{{ items }}</div>
   
