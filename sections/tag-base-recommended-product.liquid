@@ -92,7 +92,7 @@
 
   <h3>Recommend product Final Data</h3>
 
-{%- assign combined_array = items_array | concat: items_array_two -%}
+{%- assign combined_array = items_array_two | concat: items_array  -%}
 
 {% if items_array_two.size > 4 and items_array.size <= 4 %}
     {% for items in combined_array limit:5 %}
