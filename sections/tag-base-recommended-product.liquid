@@ -81,7 +81,7 @@
 
 
 
-  {%- assign product_handles = unique_array | split: ',' -%}
+  {%- assign product_handles = unique_array -%}
 
 {%- for handle in product_handles -%}
   {%- assign product = all_products['handle'] -%}
