@@ -84,13 +84,10 @@
 {% assign productHandles = unique_array | split: ',' %}
    
   {% for handle in productHandles %}
-  {% assign product = product[handle] %}
-
   {{ all_products['handle'].title }}
-    
+      
   <h2>{{ product.title }}</h2>
   <p>{{ product.description }}</p>
-  <img src="{{ product.featured_image.src | img_url: 'large' }}" alt="{{ product.title }}">
   {{ product.price | money }}
 {% endfor %}
 
