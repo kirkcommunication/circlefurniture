@@ -47,7 +47,7 @@
      {% endcapture %}
       {% assign items_array = productInfotwo | split: '<br>' %} 
     {% for item in items_array %}
-  {{ item }}
+  {{ item | uniq }}
 {% endfor %}
 
     </div>
@@ -92,7 +92,7 @@
 {%- assign combined_array = items_array | concat: items_array_two -%}
 
     {% for items in combined_array limit:4 %}
-  <div class="fillteritems">{{ items }}</div>
+  <div class="fillteritems">{{ items | uniq }}</div>
 {% endfor %}
 
 {% comment %}
