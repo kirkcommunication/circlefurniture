@@ -79,13 +79,16 @@
 
 <div class="fillterdata">
 
+{% assign productHandles = unique_array | split: ',' %}
 
+  {% for handle in productHandles %}
+  {% assign product = products[handle] %}
+  <h2>{{ product.title }}</h2>
+  <p>{{ product.description }}</p>
+  <img src="{{ product.featured_image.src | img_url: 'large' }}" alt="{{ product.title }}">
+  {{ product.price | money }}
+{% endfor %}
 
-
-{%- for handle in unique_array -%}
-  {%- assign product = all_products['handle'] -%}
-  {{ product.title }}
-{%- endfor -%}
 
 </div>
 
