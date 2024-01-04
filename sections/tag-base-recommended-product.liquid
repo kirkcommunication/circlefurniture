@@ -40,7 +40,7 @@
   {% endif %}
   {% endfor %}
   {% endcapture %}
-      {% assign items_array = productInfotwo  %} 
+      {% assign items_array = productInfotwo | split: '<br>' %} 
     {% for item in items_array %}
   {{ item }}
 {% endfor %}
@@ -61,7 +61,7 @@
   {% endif %}
   {% endfor %}
          {% endcapture %}
-      {% assign items_array_two = productInfo %} 
+      {% assign items_array_two = productInfo | split: '<br>' %} 
       
     {% for item in items_array_two %}
   {{ item  }}
@@ -76,7 +76,7 @@
 
 {%- assign combined_array = items_array | concat: items_array_two -%}
 {%- assign unique_array = combined_array -%}
-{{ unique_array }}
+{{ unique_array | join: '<br>' }}
 
 
 
