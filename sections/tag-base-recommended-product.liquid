@@ -28,6 +28,7 @@
   <h3>Recommend product Based on Vendor and Sub Category</h3>
   {% assign vendor = product.vendor %}
   {% assign product_handle = product.handle %}
+  {% assign product_collection = product.metafields.custom.collection_name %}
       {% assign items_array = " " | split: '<br>' %} 
     <div class="grid grid--uniform grid--view-items">
   {% capture productInfo %}
@@ -64,7 +65,7 @@
     <div class="grid grid--uniform grid--view-items">
   {% capture productInfotwo %}    
   {% for product in collections['all'].all_products %}
-   {% if product.metafields.custom.collection_name and product_handle != product.handle %}
+   {% if product_collection == product.metafields.custom.collection_name and product_handle != product.handle %}
   
    <div style="float:left;width:23%;padding:1%;">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
