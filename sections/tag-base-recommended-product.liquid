@@ -79,9 +79,9 @@
 
 <div class="fillterdata">
 
+{% for items in unique_array %}
 
-
-  {% assign target_product_handle = unique_array %}
+  {% assign target_product_handle = items %}
 
 {% for product in collections['all'].all_products %}
   {% if product.handle == target_product_handle %}
@@ -91,6 +91,8 @@
     <!-- Add more details as needed -->
   {% endif %}
 {% endfor %}
+
+  {% endfor %}
 
   
 
