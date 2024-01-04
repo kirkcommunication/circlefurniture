@@ -83,6 +83,8 @@
 
   {% assign target_product_handle = items %}
 
+  {{ target_product_handle }}
+
 {% for product in collections['all'].all_products %}
   {% if product.handle == target_product_handle %}
     <h1>{{ product.title }}</h1>
