@@ -19,7 +19,7 @@
       width: 1px;
       white-space: nowrap;
     }
-  .fillterdata{
+  .product_listing{
     float:left;
     width:23%;
     padding:1%;
@@ -66,6 +66,7 @@
 {% assign target_product_handle = cleaned_product_handle %}
 {% for product in collections['all'].all_products %}
   {% if product.handle == target_product_handle %}
+   <div style="float:left;width:23%;padding:1%;">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
    <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
    </a>
@@ -78,8 +79,8 @@
   {% endif %}
 {% endfor %}
   {% endfor %}
+</div>
 
-  
   {% schema %}
   {
     "name": "Recommended products",
