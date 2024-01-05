@@ -19,7 +19,7 @@
       width: 1px;
       white-space: nowrap;
     }
-  .product_listing{
+  .fillterdata{
     float:left;
     width:23%;
     padding:1%;
@@ -27,12 +27,10 @@
   </style>
 
 
-<h3>Recommend product Based on Collection</h3>
   {% assign vendor = product.vendor %}
   {% assign product_handle = product.handle %}
   {% assign product_collection = product.metafields.custom.collection_name %}
   {% assign items_array = " " | split: ',' %} 
-  <div class="grid grid--uniform grid--view-items">
   {% capture productInfotwo %}    
   {% for product in collections['all'].all_products %}
    {% if product_collection == product.metafields.custom.collection_name and product_handle != product.handle %}
@@ -45,49 +43,29 @@
   {{ item }}
 {% endfor %}
 
-    </div>
-
-
-  <h3>Recommend product Based on Vendor and Sub Category</h3>
-      {% assign items_array_two = " " | split: ',' %} 
-    <div class="grid grid--uniform grid--view-items">
+  {% assign items_array_two = " " | split: ',' %} 
   {% capture productInfo %}
   {% for product in collections['all'].all_products %}
    {% if vendor == product.vendor and product.metafields.custom.sub_category_1 and  product_handle != product.handle %}
-
-   {{ product.handle }},
-     
-     
+  {{ product.handle }},
   {% endif %}
   {% endfor %}
-         {% endcapture %}
-      {% assign items_array_two = productInfo | split: ' ' %} 
-      
-    {% for item in items_array_two %}
+  {% endcapture %}
+  {% assign items_array_two = productInfo | split: ' ' %} 
+  {% for item in items_array_two %}
   {{ item }}
 {% endfor %}
 
-    </div>
-
-  
-
-
-  <h3>Recommend product Final Data</h3>
 
 {%- assign combined_array = items_array | concat: items_array_two -%}
 {%- assign unique_array = combined_array | uniq -%}
-
 <div class="fillterdata">
-
 {% for items in unique_array limit: 4 %}
-
   {% assign product_handle_with_commas = items %}
-
 {% assign cleaned_product_handle = product_handle_with_commas | replace: ",", "" %}
 {% assign target_product_handle = cleaned_product_handle %}
 {% for product in collections['all'].all_products %}
   {% if product.handle == target_product_handle %}
-   <div style="float:left;width:23%;padding:1%;">
    <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
    <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
    </a>
@@ -95,14 +73,13 @@
    <div>product vender :{{ product.vendor }}</div>
    <div>product sub category : {{ product.metafields.custom.sub_category_1}}</div>
    <div>product collection Name : {{ product.metafields.custom.collection_name}}</div>
-   <h3>{{ product.price | money }} </h3> <br>
-     
+   <h3>{{ product.price | money }} </h3>  
    </div>
   {% endif %}
 {% endfor %}
   {% endfor %}
-</div>
 
+  
   {% schema %}
   {
     "name": "Recommended products",
