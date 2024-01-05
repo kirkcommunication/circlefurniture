@@ -84,7 +84,7 @@
   {% assign product_handle_with_commas = items %}
 {{ product_handle_with_commas }}
 {% for product in collections['all'].all_products %}
-  {% if product.handle == target_product_handle %}
+  {% if product.handle == product_handle_with_commas %}
     <h1>{{ product.title }}</h1>
     <p>{{ product.description }}</p>
     <p>Price: {{ product.price | money }}</p>
