@@ -82,9 +82,7 @@
 {% for items in unique_array %}
 
   {% assign product_handle_with_commas = items %}
-{{ product_handle }}
-{% assign cleaned_product_handle = product_handle_with_commas %}
-{% assign target_product_handle = cleaned_product_handle %}
+{{ product_handle_with_commas }}
 {% for product in collections['all'].all_products %}
   {% if product.handle == target_product_handle %}
     <h1>{{ product.title }}</h1>
