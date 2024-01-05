@@ -75,42 +75,25 @@
   <h3>Recommend product Final Data</h3>
 
 {%- assign combined_array = items_array | concat: items_array_two -%}
-{%- assign unique_array = combined_array | uniq | replace: ",", "" -%}
+{%- assign unique_array = combined_array | uniq -%}
 
 <div class="fillterdata">
 
 {% for items in unique_array %}
 
   {% assign product_handle_with_commas = items %}
-{{ product_handle_with_commas }}
+
+{% assign cleaned_product_handle = product_handle_with_commas | replace: ",", "" %}
+{% assign target_product_handle = cleaned_product_handle %}
 {% for product in collections['all'].all_products %}
-  {% if product.handle == product_handle_with_commas %}
+  {% if product.handle == target_product_handle %}
     <h1>{{ product.title }}</h1>
     <p>{{ product.description }}</p>
     <p>Price: {{ product.price | money }}</p>
   {% endif %}
 {% endfor %}
-
   {% endfor %}
-
-  
-
 </div>
-
-{% comment %}
-{% if items_array_two.size > 4 and items_array.size <= 4 %}
-    {% for items in combined_array limit:5 %}
-  <div class="fillteritems">{{ items }}</div>
-{% endfor %}
-{% else %}
-    {% for items in combined_array limit:4 %}
-  <div class="fillteritems">{{ items }}</div>
-{% endfor %}
-{% endif %}
-{% endcomment %}
-
-
-
 
   {% schema %}
   {
