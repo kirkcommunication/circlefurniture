@@ -87,9 +87,17 @@
 {% assign target_product_handle = cleaned_product_handle %}
 {% for product in collections['all'].all_products %}
   {% if product.handle == target_product_handle %}
-    <h1>{{ product.title }}</h1>
-    <p>{{ product.description }}</p>
-    <p>Price: {{ product.price | money }}</p>
+   <div style="float:left;width:23%;padding:1%;">
+   <a href="{{ product.url | within: collection }}" title="{{ product.title }}">
+   <img src="{{ product.images.first | product_img_url: 'medium' }}" alt="{{ product.title }}" />
+   </a>
+   <h3>{{ product.title }}</h3>
+   <div>product vender :{{ product.vendor }}</div>
+   <div>product sub category : {{ product.metafields.custom.sub_category_1}}</div>
+   <div>product collection Name : {{ product.metafields.custom.collection_name}}</div>
+   <h3>{{ product.price | money }} </h3> <br>
+     
+   </div>
   {% endif %}
 {% endfor %}
   {% endfor %}
