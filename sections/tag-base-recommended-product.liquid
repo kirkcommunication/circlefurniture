@@ -75,15 +75,15 @@
   <h3>Recommend product Final Data</h3>
 
 {%- assign combined_array = items_array | concat: items_array_two -%}
-{%- assign unique_array = combined_array | uniq -%}
+{%- assign unique_array = combined_array | uniq | replace: ",", "" -%}
 
 <div class="fillterdata">
 
 {% for items in unique_array %}
 
   {% assign product_handle_with_commas = items %}
-
-{% assign cleaned_product_handle = product_handle_with_commas | replace: ",", "" %}
+{{ product_handle }}
+{% assign cleaned_product_handle = product_handle_with_commas %}
 {% assign target_product_handle = cleaned_product_handle %}
 {% for product in collections['all'].all_products %}
   {% if product.handle == target_product_handle %}
