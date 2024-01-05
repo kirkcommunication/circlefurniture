@@ -40,8 +40,7 @@
   {% endcapture %}
       {% assign items_array = productInfotwo | split: ' ' %} 
     {% for item in items_array %}
-  {{ item }}
-{% endfor %}
+  {% endfor %}
 
   {% assign items_array_two = " " | split: ',' %} 
   {% capture productInfo %}
@@ -59,6 +58,7 @@
 
 {%- assign combined_array = items_array | concat: items_array_two -%}
 {%- assign unique_array = combined_array | uniq -%}
+
 <div class="fillterdata">
 {% for items in unique_array limit: 4 %}
   {% assign product_handle_with_commas = items %}
