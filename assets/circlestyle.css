@@ -102,6 +102,7 @@ ul.product_detail_data > li .rightcol ul li:before{display:inline-block;transfor
 .product__info-container .product__description .learn_more_detail{ display:block;}
 
 ul#product-grid .card--card.card--media>.card__content{ align-items:end;}
+ul.collection-list.contains-card .card__inner.ratio{ min-height:280px;}
 
 
 /*=========Policy pages code================*/
