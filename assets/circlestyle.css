@@ -101,6 +101,9 @@ ul.product_detail_data > li .rightcol ul li:before{display:inline-block;transfor
 .product__info-container .price.price--large{ border-bottom:1px solid #ccc;}
 .product__info-container .product__description .learn_more_detail{ display:block;}
 
+ul#product-grid .card--card.card--media>.card__content{ align-items:end;}
+
+
 /*=========Policy pages code================*/
 main#MainContent .shopify-policy__container{ padding-left: 15px!important; padding-right: 15px!important;max-width: 1400px;padding-bottom: 100px;}
 main#MainContent .shopify-policy__container h1{ text-align:left;font-size: 46px; line-height: 52px; font-weight: 600; font-family: NunitoSans-SemiBold;}
