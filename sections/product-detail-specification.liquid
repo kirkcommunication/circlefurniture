@@ -50,7 +50,7 @@
  {%- if product.metafields.custom.specifications != blank -%}
 <li class="accordion-item">
 <h3 class="accordion-thumb" id="detail_description">Product Specification</h3>
-<div class="accordion-panel specification_data">{{ product.metafields.custom.specifications.value }}</div>
+<div class="accordion-panel specification_data">{{ product.metafields.custom.specifications.value | split: '<br>' }}</div>
 </li>
 {% endif %} 
 </ul>
