@@ -30,7 +30,12 @@
 <li class="accordion-item">
 <h3 class="accordion-thumb">Product Details</h3>
 <div class="accordion-panel">
-{% if product.type == 'Upholstery' %}
+
+  {% render 'product-detail-data' %}
+  
+  {% comment %}
+  
+  {% if product.type == 'Upholstery' %}
     {% render 'product-detail-upholstery' %}
   {% elsif product.type == 'Case Goods' %}
     {% render 'product-detail-casegoods' %}
@@ -41,10 +46,11 @@
   {% elsif product.type == 'Rugs' %}
    {% render 'product-detail-rugs' %}
   {% else %}  
-
-  
-  
 {% endif %} 
+  
+  {% endcomment %}
+  
+  
 </div>
 </li>
  {%- if product.metafields.custom.specifications != blank -%}
