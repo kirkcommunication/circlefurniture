@@ -20,14 +20,19 @@
 </script>
 
 <div class="container">
+  <div>{{ product.metafields.custom.product_description | metafield_tag }}</div>
+  
 <ul class="accordion">
- {%- if product.metafields.custom.product_description != blank -%}
-<li class="accordion-item is-active">
+{% comment %}
+  {%- if product.metafields.custom.product_description != blank -%}
+<li class="accordion-item">
 <h3 class="accordion-thumb" id="detail_description"> {{ product.title | escape }} Description</h3>
 <div class="accordion-panel">{{ product.metafields.custom.product_description | metafield_tag }}</div>
 </li>
   {% endif %}
-<li class="accordion-item">
+{% endcomment %}
+
+<li class="accordion-item is-active">
 <h3 class="accordion-thumb">Product Details</h3>
 <div class="accordion-panel">
 
