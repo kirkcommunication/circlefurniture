@@ -21,7 +21,7 @@
 
 <div class="container">
 <ul class="accordion">
- {%- if product.description != blank -%}
+ {%- if product.metafields.custom.product_description != blank -%}
 <li class="accordion-item is-active">
 <h3 class="accordion-thumb" id="detail_description"> {{ product.title | escape }} Description</h3>
 <div class="accordion-panel">{{ product.metafields.custom.product_description | metafield_tag }}</div>
