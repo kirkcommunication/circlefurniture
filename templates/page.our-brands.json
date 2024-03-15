@@ -88,6 +88,12 @@
           "settings": {
             "collection": "magniflex-mattresses"
           }
+        },
+        "featured_collection_yJMgKx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "leftbank-art"
+          }
         }
       },
       "block_order": [
@@ -95,7 +101,8 @@
         "template--21334171058449__c3678e02-203d-4ccd-b1a0-d5afac744736-featured_collection-2",
         "02a11011-4889-4b4c-bf01-717f8492d305",
         "template--21334171058449__c3678e02-203d-4ccd-b1a0-d5afac744736-featured_collection-3",
-        "6d006f28-4a58-42f5-b193-501f8e1f3f96"
+        "6d006f28-4a58-42f5-b193-501f8e1f3f96",
+        "featured_collection_yJMgKx"
       ],
       "settings": {
         "title": "",
