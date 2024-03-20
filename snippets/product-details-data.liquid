@@ -1,6 +1,9 @@
 <ul class="product_detail_data">
-<li><div class="leftcol">Sub Category #1:</div><div class="rightcol">{{ product.metafields.custom.sub_category_1 | metafield_tag }}</div></li>
+{%- if product.metafields.custom.sub_category_1 != blank -%}
+<li><div class="leftcol">Sub Category #1:</div><div class="rightcol">{{ product.metafields.custom.sub_category_1 | metafield_tag }}</div></li>  {% endif %}
+{%- if product.metafields.custom.sub_category_l2 != blank -%}
 <li><div class="leftcol">Sub Category #2:</div><div class="rightcol">{{ product.metafields.custom.sub_category_l2 | metafield_tag }}</div></li>
+{% endif %}
 <li><div class="leftcol">Room:</div><div class="rightcol">{{ product.metafields.custom.room | metafield_tag }}</div></li>
 <li><div class="leftcol">Indoor Outdoor:</div><div class="rightcol">{{ product.metafields.custom.indoor_outdoor | metafield_tag }}</div></li>
 <li><div class="leftcol">Collection Name:</div><div class="rightcol">{{ product.metafields.custom.collection_name | metafield_tag }}</div></li>
