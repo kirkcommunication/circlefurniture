@@ -130,7 +130,6 @@
         "template--20734197694737__ec742037-ab8d-4640-b0a4-37f9e8a774cc-collapsible_row-1",
         "template--20734197694737__ec742037-ab8d-4640-b0a4-37f9e8a774cc-collapsible_row-2"
       ],
-      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "",
@@ -167,7 +166,9 @@
     "7326545f-00ac-4a1c-8244-d709a74c7cc6": {
       "type": "tag-base-recommended-product",
       "settings": {
-        "custom_metafield_condition": "{{ product.metafields.custom.sub_category_1.value }}"
+        "heading": "Recommended products",
+        "related_tag": "",
+        "number_of_products": "4"
       }
     }
   },
