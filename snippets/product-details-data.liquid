@@ -34,14 +34,14 @@
 {%- if product.metafields.custom.weight != blank -%}
 <li><div class="leftcol">Weight:</div><div class="rightcol">{{ product.metafields.custom.weight | metafield_tag }}</div></li>
 {% endif %}
-{%- if product.metafields.custom.width != blank -%}
-<li><div class="leftcol">Width:</div><div class="rightcol">{{ product.metafields.custom.width | metafield_tag }}</div></li>
+{%- if product.metafields.custom.prod_width != blank -%}
+<li><div class="leftcol">Width:</div><div class="rightcol">{{ product.metafields.custom.prod_width | metafield_tag }}</div></li>
 {% endif %}
-{%- if product.metafields.custom.depth != blank -%}
-<li><div class="leftcol">Depth:</div><div class="rightcol">{{ product.metafields.custom.depth | metafield_tag }}</div></li>
+{%- if product.metafields.custom.prod_depth != blank -%}
+<li><div class="leftcol">Depth:</div><div class="rightcol">{{ product.metafields.custom.prod_depth | metafield_tag }}</div></li>
 {% endif %}
-{%- if product.metafields.custom.height != blank -%}
-<li><div class="leftcol">Height:</div><div class="rightcol">{{ product.metafields.custom.height | metafield_tag }}</div></li>
+{%- if product.metafields.custom.prod_height != blank -%}
+<li><div class="leftcol">Height:</div><div class="rightcol">{{ product.metafields.custom.prod_height | metafield_tag }}</div></li>
 {% endif %}
 {%- if product.metafields.custom.length != blank -%}
 <li><div class="leftcol">Length:</div><div class="rightcol">{{ product.metafields.custom.length | metafield_tag }}</div></li>
