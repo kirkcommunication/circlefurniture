@@ -32,9 +32,9 @@
 
 
 
-       {% if recommendations.intent == 'related' %}
+       {% if recommendations.intent == 'complementary' %}
       <h2>You may also like custom</h2>
-    {% elsif recommendations.intent == 'complementary' %}
+    {% elsif recommendations.intent == 'related' %}
       <h2>Pair it with</h2>
     {% endif %}
 
