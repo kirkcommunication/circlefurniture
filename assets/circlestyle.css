@@ -8,6 +8,9 @@ url('https://cdn.shopify.com/s/files/1/0775/9046/2737/files/NunitoSans-SemiBold.
 font-weight: normal; font-style: normal; font-display: swap;}
 
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 body, a, a.link, a.link--text, span, ul li{ font-family:'MyriadPro-Regular'; font-size:20px; line-height:26px; font-weight:400;}
 ul li{ line-height:30px;}
 
