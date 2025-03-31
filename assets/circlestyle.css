@@ -18,7 +18,7 @@ ul.bullet_listing li{ line-height:40px; display:flex; align-items:center;}
 ul.bullet_listing li:before{ content:""; display:inline-block; width:5px; height:5px; border-radius:50%;}
 
 .announcement-bar-section .utility-bar{ background-color:#263E46;}
-.announcement-bar-section .utility-bar .announcement-bar__message{ background-color:#263E46; font-size:14px; font-weight:500; text-transform:uppercase; color:#D1BBA1; font-family: "Poppins", sans-serif;}
+.announcement-bar-section .utility-bar a .announcement-bar__message{ background-color:#263E46; font-size:14px; font-weight:500; text-transform:uppercase; color:#D1BBA1; font-family: "Poppins", sans-serif;}
 
 header.header.container{ max-width:1440px; margin:0 auto; padding:10px 20px 0px !important;}
 .container{ max-width:1440px; margin:0 auto; padding:0px 20px;}
