@@ -13,6 +13,9 @@ ul li{ line-height:30px;}
 
 ul.bullet_listing li{ line-height:40px; display:flex; align-items:center;}
 ul.bullet_listing li:before{ content:""; display:inline-block; width:5px; height:5px; border-radius:50%;}
+
+.announcement-bar-section .utility-bar{ background-color:#263E46;}
+
 header.header.container{ max-width:1440px; margin:0 auto; padding:10px 20px 0px !important;}
 .container{ max-width:1440px; margin:0 auto; padding:0px 20px;}
 .page-width-desktop, .collection__title.title-wrapper{ padding:0px 15px !important;}
