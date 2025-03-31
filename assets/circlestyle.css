@@ -35,11 +35,11 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .page_content_wrapper h1, .h1{ font-size:46px; line-height:52px; font-weight:600; font-family: "Poppins", sans-serif;}
 .page_content_wrapper h2, .h2{ font-size:40px; line-height:46px; font-weight:500; font-family: "Poppins", sans-serif;}
 
-footer .footer-block__details-content .list-menu__item--link{ color:#000; font-size:20px;}
+footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:20px;}
 h2.footer-block__heading{ font-size:24px; color:#000;}
 footer .footer-block__details-content ul{ margin:0px; padding:0px;}
 footer .footer-block__details-content ul li{ list-style-type:none;}
-footer .footer-block__details-content a{ text-decoration:none; color:#000;}
+footer .footer-block__details-content a{ text-decoration:none; color:#fff;}
 footer .footer-block__details-content .list-menu__item--link:hover{ text-decoration:none;}
 footer ul li.list-social__item .icon{ background:#5f807f; border-radius:50%; width:36px; height:36px; padding:5px;}
 footer ul li.list-social__item .icon path{ fill:#fff;}
