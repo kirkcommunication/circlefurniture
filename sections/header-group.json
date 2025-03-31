@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -9,7 +18,7 @@
           "type": "announcement",
           "settings": {
             "text": "Get a Complimentary Design Consultation",
-            "link": "https:\/\/share.hsforms.com\/1F1jwypKVQVm1RK0-1ir5pw1uokg?__hstc=184665206.72955f35d5432bf511e940a7dbab1b79.1693485185677.1701289536705.1701293048186.73&__hssc=184665206.1.1701293048186&__hsfp=784682472"
+            "link": "https://share.hsforms.com/1F1jwypKVQVm1RK0-1ir5pw1uokg?__hstc=184665206.72955f35d5432bf511e940a7dbab1b79.1693485185677.1701289536705.1701293048186.73&__hssc=184665206.1.1701293048186&__hsfp=784682472"
           }
         }
       },
@@ -38,7 +47,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "logo_position": "top-center",
+        "logo_position": "top-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
