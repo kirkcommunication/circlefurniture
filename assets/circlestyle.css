@@ -10,7 +10,6 @@ font-weight: normal; font-style: normal; font-display: swap;}
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 body, a, a.link, a.link--text, span, ul li{ font-family: "Poppins", sans-serif; font-size:20px; line-height:26px; font-weight:400;}
 ul li{ line-height:30px;}
 
@@ -31,10 +30,10 @@ header.header.container{ max-width:1440px; margin:0 auto; padding:10px 20px 0px 
 
 header.header.container nav.header__inline-menu ul li a{ padding:15px 20px;}
 header.header.container nav.header__inline-menu ul li a:hover span{ text-decoration:none;}
-header.header.container nav.header__inline-menu ul li a span{ font-family:'NunitoSans-SemiBold'; color:#000; text-decoration:none; font-size:22px;}
+header.header.container nav.header__inline-menu ul li a span{ font-family: "Poppins", sans-serif; color:#000; text-decoration:none; font-size:22px;}
 .header--top-center .header__heading a.link{ line-height: 0px;}
-.page_content_wrapper h1, .h1{ font-size:46px; line-height:52px; font-weight:600; font-family:'NunitoSans-SemiBold';}
-.page_content_wrapper h2, .h2{ font-size:40px; line-height:46px; font-weight:500; font-family:'NunitoSans-SemiBold';}
+.page_content_wrapper h1, .h1{ font-size:46px; line-height:52px; font-weight:600; font-family: "Poppins", sans-serif;}
+.page_content_wrapper h2, .h2{ font-size:40px; line-height:46px; font-weight:500; font-family: "Poppins", sans-serif;}
 
 footer .footer-block__details-content .list-menu__item--link{ color:#000; font-size:20px;}
 h2.footer-block__heading{ font-size:24px; color:#000;}
@@ -50,8 +49,8 @@ footer.footer .footer__content-bottom{ padding: 0px 0px 30px; border:none;}
 footer form.newsletter-form .newsletter-form__field-wrapper input{ border:2px solid #5f807f;}
 footer form.newsletter-form .newsletter-form__field-wrapper input.field__input:focus-visible{ box-shadow:none; outline:none;}
 footer form.newsletter-form .newsletter-form__field-wrapper .newsletter-form__button{ background:#5f807f; color:#fff;}
-.page_content_wrapper h3{font-size:24px; color:#000; font-weight:600; line-height:36px; margin:0px 0px 10px; font-family:'NunitoSans-SemiBold';}
-.page_content_wrapper h4{font-size:21px; color:#000; font-weight:600; line-height:32px; margin:0px 0px 10px; font-family:'NunitoSans-SemiBold';}
+.page_content_wrapper h3{font-size:24px; color:#000; font-weight:600; line-height:36px; margin:0px 0px 10px; font-family: "Poppins", sans-serif;}
+.page_content_wrapper h4{font-size:21px; color:#000; font-weight:600; line-height:32px; margin:0px 0px 10px; font-family: "Poppins", sans-serif;}
 .page_content_wrapper p{ color:#000;}
 .page_content_wrapper a{ color:#5f807f;}
 .page_content_wrapper ul li{ color:#000; line-height:36px;}
@@ -68,16 +67,16 @@ footer form.newsletter-form .newsletter-form__field-wrapper .newsletter-form__bu
 .article-template header time{ font-size:16px; color:#5f807f;}
 
 
-.article-template h1{ font-size:52px; line-height:60px; font-weight:600; font-family:'NunitoSans-SemiBold';}
-.article-template h2{ font-size:40px; line-height:46px; font-weight:500; font-family:'NunitoSans-SemiBold'; margin-top:0px; margin-bottom:10px;}
-.article-template h3{font-size:24px; color:#000; font-weight:600; line-height:36px; margin:0px 0px 10px; font-family:'NunitoSans-SemiBold';}
-.article-template h4{font-size:21px; color:#000; font-weight:600; line-height:32px; margin:0px 0px 10px; font-family:'NunitoSans-SemiBold';}
+.article-template h1{ font-size:52px; line-height:60px; font-weight:600; font-family: "Poppins", sans-serif;}
+.article-template h2{ font-size:40px; line-height:46px; font-weight:500; font-family: "Poppins", sans-serif; margin-top:0px; margin-bottom:10px;}
+.article-template h3{font-size:24px; color:#000; font-weight:600; line-height:36px; margin:0px 0px 10px; font-family: "Poppins", sans-serif;}
+.article-template h4{font-size:21px; color:#000; font-weight:600; line-height:32px; margin:0px 0px 10px; font-family: "Poppins", sans-serif;}
 .article-template p{ color:#000;}
 .article-template .article-template__content:after{ display:none;}
 .article-template .article-template__content{display:flex; gap:60px; justify-content:space-between;}
 .article-template .article-template__content .article_content{width:70%;}
 .article-template .article-template__content .article_sidebar{width:30%;}
-.article-template .article_sidebar h3{font-size:24px; color:#000; font-weight:600; line-height:36px; margin:0px 0px 10px; font-family:'NunitoSans-SemiBold';} 
+.article-template .article_sidebar h3{font-size:24px; color:#000; font-weight:600; line-height:36px; margin:0px 0px 10px; font-family: "Poppins", sans-serif;} 
 .article-template .article_sidebar .sidebar_tiles{ margin-bottom:20px; display:block; text-decoration:none;}
 .article-template .article_sidebar .sidebar_tiles .content_wrap{padding:5px 15px 18px;}
 .article-template .article_sidebar .sidebar_tiles .date{ color:#666;}
