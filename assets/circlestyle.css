@@ -35,7 +35,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .page_content_wrapper h1, .h1{ font-size:46px; line-height:52px; font-weight:600; font-family: "Poppins", sans-serif;}
 .page_content_wrapper h2, .h2{ font-size:40px; line-height:46px; font-weight:500; font-family: "Poppins", sans-serif;}
 
-footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:20px;}
+footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:14px; font-weight:500;}
 h2.footer-block__heading{ font-size:24px; color:#fff;}
 footer .footer-block__details-content ul{ margin:0px; padding:0px;}
 footer .footer-block__details-content ul li{ list-style-type:none;}
