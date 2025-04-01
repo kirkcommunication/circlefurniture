@@ -82,6 +82,9 @@
               data-cascade
             {% endif %}
           >
+            <div class="footer-block grid__item animate--slide-in">
+            col1 goes here
+            </div>
             {%- for block in section.blocks -%}
               <div
                 class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -176,7 +179,7 @@
 
 
  {% comment %} News letter code start > {% endcomment %}
-  <div class="footer-block grid__item animate--slide-in">
+  {% comment %} <div class="footer-block grid__item animate--slide-in">
    {%- if section.settings.newsletter_enable -%}
             <div class="footer-block__newsletter">
               {%- if section.settings.newsletter_heading != blank -%}
@@ -241,7 +244,7 @@
               {%- endform -%}
             </div>
           {%- endif -%}
-
+ {% endcomment %}
  {% comment %} News letter code end here {% endcomment %}
 
 
