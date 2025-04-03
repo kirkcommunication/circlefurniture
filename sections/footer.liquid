@@ -279,12 +279,14 @@
       data-cascade
     {% endif %}
   >
+     {% comment %}   
           <div class="page-width footer_btm_address">
             <h2 class="footer-block__heading">Contact Us</h2>
             <h4><a href="/pages/our-locations" class="linkwith_arrow">Hours and Directions</a></h4>
         {{ section.settings.contact_us_btm_text }}
       </div>
     
+
     <div class="footer__content-bottom-wrapper page-width">
       <div class="footer__column footer__localization isolate">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
@@ -381,6 +383,9 @@
         {%- endif -%}
       </div>
     </div>
+
+    {% endcomment %}
+    
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
       <div class="footer__copyright caption">
         <small class="copyright__content"
