@@ -263,11 +263,18 @@
          
           
   </div>
-          </div>
+       
+          
         {%- endif -%}
           
-        
-      </div>
+
+
+       {%- if section.settings.show_social and has_social_icons -%}
+              <h2 class="footer-block__heading inline-richtext footer_social_heading">{{ section.settings.socialmedia_heading }}</h2>
+            {%- render 'social-icons', class: 'footer__list-social' -%}
+          {%- endif -%}
+      
+      
     {%- endunless -%}
   {%- endif -%}
 
