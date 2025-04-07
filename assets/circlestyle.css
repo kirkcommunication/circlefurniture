@@ -38,7 +38,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 
 .home_slider_outer .slideshow__text-wrapper{ margin:0px auto; justify-content:left !important;}
 .home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box{ max-width:600px; background-color:transparent;}
-.home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box h2{ display:flex; flex-direction:column; text-align:left; gap:30px;}
+.home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box h2{ display:flex; flex-direction:column; text-align:left; gap:30px; color:#fff; font-size:64px; line-height:110%; text-transform:uppercase; font-weight:300;}
 .home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box h2 span{ color:#fff; font-size:20px; text-transform:uppercase;}
 
 footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:14px; font-weight:500;}
