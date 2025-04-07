@@ -24,8 +24,8 @@
         "slide-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/home_banner.jpg",
-            "heading": "<span>TRENDING 2024 </span>Sustainable Spring Style",
+            "image": "shopify://shop_images/header-image.jpg",
+            "heading": "TRENDING 2024 Sustainable Spring Style",
             "heading_size": "h2",
             "subheading": "Lorem ipsum dolor sit amet, adipiscing elit. In facilisis purus consectetur est commodo, eu tempus ",
             "button_label": "Learn More",
