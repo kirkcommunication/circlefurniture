@@ -41,8 +41,9 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box h2{ display:flex; flex-direction:column; text-align:left; gap:30px; color:#fff; font-size:64px; line-height:110%; text-transform:uppercase; font-weight:300;}
 .home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box h2 span{ color:#fff; font-size:20px; text-transform:uppercase;}
 .home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box .banner__text p{ color:#fff; font-size:16px; line-height:120%; text-align:left;}
-.home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box .banner__text
 
+.home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box .banner__buttons a:before, .home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box .banner__buttons a:after{ display:none;}
+.home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box .banner__buttons a{ background-color:#a38e76; color:#fff;}
 footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:14px; font-weight:500;}
 h2.footer-block__heading{ font-size:16px; color:#fff; font-weight:600;}
 footer .footer-block__details-content ul{ margin:0px; padding:0px;}
