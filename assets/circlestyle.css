@@ -44,7 +44,7 @@ footer .footer-block__details-content .list-menu__item--link:hover{ text-decorat
 footer ul li.list-social__item .icon{ background:#5f807f; border-radius:50%; width:36px; height:36px; padding:5px;}
 footer ul li.list-social__item .icon path{ fill:#fff;}
 section .page_content_wrapper{ padding-bottom:100px;}
-footer form.newsletter-form .newsletter-form__field-wrapper .field:before, footer form.newsletter-form .newsletter-form__field-wrapper .field:after{ display:none;}
+footer form.newsletter-form .newsletter-form__field-wrapper .field:before, footer form.newsletter-form .newsletter-form__field-wrapper .field:after{ }
 footer.footer .footer__content-bottom{ padding: 0px 0px 30px; border:none;}
 footer form.newsletter-form .newsletter-form__field-wrapper input{ border:2px solid #5f807f;}
 footer form.newsletter-form .newsletter-form__field-wrapper input.field__input:focus-visible{ box-shadow:none; outline:none;}
