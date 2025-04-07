@@ -61,7 +61,7 @@
   }
 {%- endstyle -%}
 
-
+{% if template == 'index' %}
 <div class="footer_newsletter_blk">
    {% comment %} News letter code start > {% endcomment %}
   <div class="newsletter_box page-width">
@@ -138,7 +138,8 @@
   </div>
  {% comment %} News letter code end here {% endcomment %}
 </div>
-
+{% endif %}
+  
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- liquid
     assign has_social_icons = true
