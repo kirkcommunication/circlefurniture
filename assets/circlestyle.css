@@ -44,11 +44,7 @@ footer .footer-block__details-content .list-menu__item--link:hover{ text-decorat
 footer ul li.list-social__item .icon{ background:#5f807f; border-radius:50%; width:36px; height:36px; padding:5px;}
 footer ul li.list-social__item .icon path{ fill:#fff;}
 section .page_content_wrapper{ padding-bottom:100px;}
-footer form.newsletter-form .newsletter-form__field-wrapper .field:before, footer form.newsletter-form .newsletter-form__field-wrapper .field:after{ }
 footer.footer .footer__content-bottom{ padding: 0px 0px 30px; border:none;}
-footer form.newsletter-form .newsletter-form__field-wrapper input{ border:2px solid #5f807f;}
-footer form.newsletter-form .newsletter-form__field-wrapper input.field__input:focus-visible{ box-shadow:none; outline:none;}
-footer form.newsletter-form .newsletter-form__field-wrapper .newsletter-form__button{ background:#5f807f; color:#fff;}
 .page_content_wrapper h3{font-size:24px; color:#000; font-weight:600; line-height:36px; margin:0px 0px 10px; font-family: "Poppins", sans-serif;}
 .page_content_wrapper h4{font-size:21px; color:#000; font-weight:600; line-height:32px; margin:0px 0px 10px; font-family: "Poppins", sans-serif;}
 .page_content_wrapper p{ color:#000;}
