@@ -1,10 +1,19 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "17bde701-4096-4c82-96cc-1742d1b96665": {
       "type": "cta-section",
       "disabled": true,
       "settings": {
-        "cta_text": "<p>See our new collection of Copeland Funiture<\/p>",
+        "cta_text": "<p>See our new collection of Copeland Funiture</p>",
         "cta_button_url": "#",
         "button_text": "Shop Now"
       }
@@ -15,12 +24,12 @@
         "slide-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home_banner.jpg",
-            "heading": "Ready to work with us?",
+            "image": "shopify://shop_images/home_banner.jpg",
+            "heading": "<span>TRENDING 2024 </span>Sustainable Spring Style",
             "heading_size": "h2",
-            "subheading": "",
+            "subheading": "Lorem ipsum dolor sit amet, adipiscing elit. In facilisis purus consectetur est commodo, eu tempus ",
             "button_label": "Book your appointment with our designers",
-            "link": "https:\/\/share.hsforms.com\/1F1jwypKVQVm1RK0-1ir5pw1uokg?__hstc=184665206.72955f35d5432bf511e940a7dbab1b79.1693485185677.1697543615880.1697618142943.52&__hssc=184665206.1.1697618142943&__hsfp=2855453980",
+            "link": "https://share.hsforms.com/1F1jwypKVQVm1RK0-1ir5pw1uokg?__hstc=184665206.72955f35d5432bf511e940a7dbab1b79.1693485185677.1697543615880.1697618142943.52&__hssc=184665206.1.1697618142943&__hsfp=2855453980",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -33,12 +42,12 @@
         "2002355b-39d2-458a-bbce-a3f44f77ec42": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home_banner.jpg",
+            "image": "shopify://shop_images/home_banner.jpg",
             "heading": "Ready to work with us?",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "Book your appointment with our designers",
-            "link": "https:\/\/share.hsforms.com\/1F1jwypKVQVm1RK0-1ir5pw1uokg?__hstc=184665206.72955f35d5432bf511e940a7dbab1b79.1693485185677.1697543615880.1697618142943.52&__hssc=184665206.1.1697618142943&__hsfp=2855453980",
+            "link": "https://share.hsforms.com/1F1jwypKVQVm1RK0-1ir5pw1uokg?__hstc=184665206.72955f35d5432bf511e940a7dbab1b79.1693485185677.1697543615880.1697618142943.52&__hssc=184665206.1.1697618142943&__hsfp=2855453980",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -110,12 +119,12 @@
         "19a3d836-c173-43d8-b026-5406a7ac6346": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/whats-new-stock.jpg",
+            "image": "shopify://shop_images/whats-new-stock.jpg",
             "heading": "Need it now?",
             "heading_size": "h2",
             "subheading": "See what's in stock.",
             "button_label": "See All",
-            "link": "shopify:\/\/collections\/in-stock",
+            "link": "shopify://collections/in-stock",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -153,7 +162,7 @@
         "template--20734197137681__828b2881-42e4-49c3-8367-e68af30c6ba0-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We only select the highest quality manufacturers as partners.<\/p>"
+            "text": "<p>We only select the highest quality manufacturers as partners.</p>"
           }
         },
         "template--20734197137681__828b2881-42e4-49c3-8367-e68af30c6ba0-button-1": {
@@ -189,21 +198,21 @@
           "type": "button_grid",
           "settings": {
             "button_text": "Copeland Furniture",
-            "button_url": "shopify:\/\/collections\/copeland-furniture"
+            "button_url": "shopify://collections/copeland-furniture"
           }
         },
         "85eeee68-bd65-4dbf-9d85-a48acfd1da09": {
           "type": "button_grid",
           "settings": {
             "button_text": "American Leather",
-            "button_url": "shopify:\/\/collections\/american-leather"
+            "button_url": "shopify://collections/american-leather"
           }
         },
         "f75e57ef-22b7-48a5-8119-d7e56ad1de35": {
           "type": "button_grid",
           "settings": {
             "button_text": "Lee Industries",
-            "button_url": "shopify:\/\/collections\/lee-industries"
+            "button_url": "shopify://collections/lee-industries"
           }
         }
       },
@@ -227,12 +236,12 @@
         "427c5823-777b-4028-a804-d0773229cb8e": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/phillip-goldsberry.jpg",
+            "image": "shopify://shop_images/phillip-goldsberry.jpg",
             "heading": "Your vision is our vision.",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "Shop All",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -260,7 +269,7 @@
     "2dad34d9-83f1-4f5f-a2dc-b3ea950537c0": {
       "type": "quote-single",
       "settings": {
-        "quote_text": "<p>This store has a fabulously curated selection of extremely high quality, hard to find and artisan made furniture. This is far from your average furniture store and you will be impressed.<\/p>",
+        "quote_text": "<p>This store has a fabulously curated selection of extremely high quality, hard to find and artisan made furniture. This is far from your average furniture store and you will be impressed.</p>",
         "button_text": "See more reviews",
         "button_url": "#",
         "background_color": "#30514e"
