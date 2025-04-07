@@ -44,7 +44,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 
 .home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box .banner__buttons a:before, .home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box .banner__buttons a:after{ display:none;}
 .home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box .banner__buttons a{ background-color:#a38e76; color:#fff; border-radius:80px;}
-.home_slider_outer .slideshow__controls{ bottom: 50px; max-width: 1200px; width: 100%; display: flex;justify-content: left;}
+.home_slider_outer .slideshow__controls{ bottom: 100px; max-width: 1400px; width: 100%; display: flex;justify-content: left;}
 
 footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:14px; font-weight:500;}
 h2.footer-block__heading{ font-size:16px; color:#fff; font-weight:600;}
