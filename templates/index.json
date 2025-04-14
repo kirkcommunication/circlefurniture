@@ -98,15 +98,16 @@
             "image": "shopify://shop_images/living_room_img.png",
             "title": "",
             "text": "",
-            "link_label": "20% Off Living Room",
+            "link_label": "",
             "link": "#"
           }
         },
         "column_9pWGEk": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/dining_room_img.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
