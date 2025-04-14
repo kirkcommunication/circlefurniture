@@ -300,7 +300,7 @@
         "background_style": "primary",
         "button_label": "Button label",
         "button_link": "",
-        "section_class": "four_col_grid",
+        "section_class": "four_col_grid dark_gray",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
