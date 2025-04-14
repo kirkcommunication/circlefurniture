@@ -85,7 +85,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
     padding: 0;}
 .section_trending_now ul.collection-list li{  max-width:100%; width:100%;}
 .section_trending_now ul.collection-list li .card__inner .card__media{ margin:0px; width:100%;}
-.section_trending_now ul.collection-list li:first-child .card__inner{ height:100%; max-height:initial; min-height:initial;}
+.section_trending_now ul.collection-list li:first-child .card__inner{ height:100%; max-height:100%; min-height:initial;}
 .section_trending_now ul.collection-list li:first-child{grid-row: span 2;}
 .section_trending_now ul.collection-list .card-wrapper .card--card{ border:none;}
 .section_trending_now ul.collection-list .card-wrapper .card--card .card__inner{ max-height:280px;}
