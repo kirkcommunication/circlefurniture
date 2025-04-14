@@ -3,7 +3,9 @@
       {% if section.settings.button_text == '' %}
       <div class="text_center">{{ section.settings.cta_text }}</div>        
       {% else %}
-      <div class="left_content">{{ section.settings.cta_text }}</div>
+      <div class="left_content">{{ section.settings.cta_text }}
+      <p>{{ section.settings.cta_subheading }}</p>
+      </div>
       <div class="right_content"><a href="{{ section.settings.cta_button_url}}">{{ section.settings.button_text }}</a></div>
       {% endif %}    
   </div>
@@ -29,6 +31,11 @@ color:#000; font-size:20px; text-decoration:none;}
       "type": "richtext",
       "label": "CTA Text",
       "id": "cta_text"
+    },
+        {
+      "type": "richtext",
+      "label": "CTA Sub Heading",
+      "id": "cta_subheading"
     },
     {
       "type": "url",
