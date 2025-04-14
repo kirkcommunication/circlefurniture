@@ -84,7 +84,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
     list-style: none;
     padding: 0;}
 .section_trending_now ul.collection-list li{  max-width:100%; width:100%;}
-.section_trending_now .title-wrapper-with-link{ flex-direction:column;}
+.section_trending_now .title-wrapper-with-link{ flex-direction:column; margin:0px; padding:0px;}
 .section_trending_now .collection-list-wrapper{ padding-top:70px; padding-bottom:100px;}
 .section_trending_now .title-wrapper-with-link p{ margin:0px 0px 50px;}
 .section_trending_now ul.collection-list li .card__inner .card__media{ margin:0px; width:100%;}
