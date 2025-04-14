@@ -71,7 +71,12 @@
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand",
-        "slider_section_class": "home_slider_outer"
+        "slider_section_class": "home_slider_outer",
+        "slider_global_text": "Schedule a Free Design Consultation",
+        "button_text_1": "In-Home Appointment",
+        "button_url_1": "shopify://pages/contact",
+        "button_text_2": "In-Store Appointment",
+        "button_url_2": "shopify://pages/designer-program"
       }
     },
     "5779efd9-4530-4b76-8011-93886cc48abf": {
@@ -148,7 +153,12 @@
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand",
-        "slider_section_class": ""
+        "slider_section_class": "",
+        "slider_global_text": "",
+        "button_text_1": "",
+        "button_url_1": "",
+        "button_text_2": "",
+        "button_url_2": ""
       }
     },
     "828b2881-42e4-49c3-8367-e68af30c6ba0": {
@@ -266,7 +276,12 @@
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand",
-        "slider_section_class": ""
+        "slider_section_class": "",
+        "slider_global_text": "",
+        "button_text_1": "",
+        "button_url_1": "",
+        "button_text_2": "",
+        "button_url_2": ""
       }
     },
     "2dad34d9-83f1-4f5f-a2dc-b3ea950537c0": {
