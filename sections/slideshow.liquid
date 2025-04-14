@@ -272,9 +272,9 @@
 
   <div class="slider_global_button_btm_right">
     <div class="grid_outer">
-      <p>Schedule a Free Design Consultation</p>
-      <a href="#">In-Home Appointment</a>
-      <a href="#">In-Store Appointment</a>
+      <p>{{ section.settings.slider_global_text }}</p>
+      <a href="{{ section.settings.button_url_1 }}">{{ section.settings.button_text_1 }}</a>
+      <a href="{{ section.settings.button_url_2 }}">{{ section.settings.button_text_2 }}</a>
     </div>
   </div>
 </slideshow-component>
@@ -428,7 +428,7 @@
     {
       "type": "url",
       "id": "button_url_1",
-      "label": "Button URL 1"
+      "label": "Button Text 1 URL"
     },
     {
       "type": "text",
@@ -438,7 +438,7 @@
     {
       "type": "url",
       "id": "button_url_2",
-      "label": "Button URL 2"
+      "label": "Button Text 2 URL"
     }
   ],
   "blocks": [
