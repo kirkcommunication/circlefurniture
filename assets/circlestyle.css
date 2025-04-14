@@ -57,9 +57,11 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .home_slider_outer .slider_global_button_btm_right .grid_outer a:after{border: solid #5c4d3b;content:"";height:9px; width:9px;border-width: 0 2px 2px 0;display: inline-block;padding: 3px; transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);}
 
+
 .four_col_grid .title-wrapper-with-link{ max-width:800px; margin:0 auto; justify-content:center;}
 .four_col_grid .title-wrapper-with-link h2{ font-size:36px; line-height:46px; font-weight:400;}
 .four_col_grid .title-wrapper-with-link p{ font-size:16px; line-height:26px; margin:0px; margin-bottom:20px; text-align:center;}
+.four_col_grid.dark_gray{ background-color:#3d5c66;}
 .four_col_grid.dark_gray h2, .four_col_grid.dark_gray p{ color:#fff;}
 
 .home_slider_outer .slider_global_button_btm_right .grid_outer p{ color:#3b2f21; font-size:14px; margin:0px;}
