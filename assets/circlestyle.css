@@ -44,7 +44,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 
 .home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box .banner__buttons a:before, .home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box .banner__buttons a:after{ display:none;}
 .home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box .banner__buttons a{ background-color:#a38e76; color:#fff; border-radius:80px;}
-.home_slider_outer .slideshow__controls{ bottom: 100px; max-width: 1400px; width: 100%; display: flex;justify-content: left; z-index:999; margin:0 auto;}
+.home_slider_outer .slideshow__controls{ bottom: 100px; max-width: 1400px; width: 100%; display: flex;justify-content: left; z-index:999; margin:0 auto; border:none;}
 .home_slider_outer .slideshow__controls button.slider-button{ display:none;}
 .home_slider_outer .slideshow__controls .slider-counter button.slider-counter__link span{ width:30px; height:6px; border-radius:30px; background-color:#fff; border:none;}
 .home_slider_outer .slideshow__controls .slider-counter button.slider-counter__link.slider-counter__link--active span{ width:30px; height:6px; border-radius:30px; background-color:#ffb930;}
