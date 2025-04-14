@@ -270,7 +270,7 @@
     </noscript>
   {%- endif -%}
 
-   {%- if section.settings.button_text_1 -%}
+  {%- if section.settings.button_text_1 != blank -%}
   <div class="slider_global_button_btm_right">
     <div class="grid_outer">
       <p>{{ section.settings.slider_global_text }}</p>
