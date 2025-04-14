@@ -125,8 +125,8 @@
         "column_84dTEn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/image_13.png",
-            "title": "SUSTAINABILITY",
+            "image": "shopify://shop_images/acton_img.png",
+            "title": "Acton",
             "text": "",
             "link_label": "",
             "link": ""
@@ -135,8 +135,8 @@
         "column_gg8KyL": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/design_img.png",
-            "title": "DESIGN",
+            "image": "shopify://shop_images/boston_seaport_img.png",
+            "title": "Boston-Seaport",
             "text": "",
             "link_label": "",
             "link": ""
@@ -145,8 +145,8 @@
         "column_GLBRJ4": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/CRAFTSMANSHIP_img.png",
-            "title": "CRAFTSMANSHIP",
+            "image": "shopify://shop_images/cambridge_img.png",
+            "title": "Cambridge",
             "text": "",
             "link_label": "",
             "link": ""
@@ -155,8 +155,48 @@
         "column_pNBNDg": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/COMMUNITY_img.png",
-            "title": "COMMUNITY",
+            "image": "shopify://shop_images/framingham_img.png",
+            "title": "Framingham",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yKTVij": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/middleton_img.png",
+            "title": "Middleton",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Br9Jrw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pembroke_img.png",
+            "title": "Pembroke",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JXF8Li": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/portsmouth_img.png",
+            "title": "Portsmouth",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_e4eP8i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hyannis_img.png",
+            "title": "HYANNIS (NEW)",
             "text": "",
             "link_label": "",
             "link": ""
@@ -167,7 +207,11 @@
         "column_84dTEn",
         "column_gg8KyL",
         "column_GLBRJ4",
-        "column_pNBNDg"
+        "column_pNBNDg",
+        "column_yKTVij",
+        "column_Br9Jrw",
+        "column_JXF8Li",
+        "column_e4eP8i"
       ],
       "settings": {
         "title": "WHAT MATTERES TO YOU MATTERS TO US",
