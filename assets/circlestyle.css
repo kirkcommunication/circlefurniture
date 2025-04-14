@@ -79,7 +79,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 
 .section_trending_now ul.collection-list{    display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    grid-auto-rows: 100px; /* Each row 100px high */
+    grid-auto-rows: auto; /* Each row 100px high */
     gap: 10px; /* Optional spacing */
     list-style: none;
     padding: 0;}
