@@ -4,7 +4,7 @@
       <div class="text_center">{{ section.settings.cta_text }}</div>        
       {% else %}
       <div class="left_content">{{ section.settings.cta_text }}
-      <p>{{ section.settings.cta_subheading }}</p>
+      <p class="subheading">{{ section.settings.cta_subheading }}</p>
       </div>
       <div class="right_content"><a href="{{ section.settings.cta_button_url}}">{{ section.settings.button_text }}</a></div>
       {% endif %}    
@@ -12,7 +12,7 @@
   </div>
 
 {% stylesheet %}
-  .ctasection{ background-color:#5f807f; padding:25px 10px;}
+  .ctasection{ background-color:#ece5dd; padding:60px 15px;}
   .ctasection .content_wrapper{ display:flex; justify-content:space-between; align-items:center;}
   .ctasection .content_wrapper .text_center{ width:100%; text-align:center; font-size:50px; color:#fff;}
   .ctasection .content_wrapper .left_content{width:75%; font-size:50px; color:#fff;}
