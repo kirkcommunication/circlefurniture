@@ -180,6 +180,75 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
+        "section_class": "four_col_grid light_gray",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_fG8fpW": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_LyVegV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/image_13.png",
+            "title": "SUSTAINABILITY",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NqeQ4b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/design_img.png",
+            "title": "DESIGN",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RgXmk4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CRAFTSMANSHIP_img.png",
+            "title": "CRAFTSMANSHIP",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3PPyGp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/COMMUNITY_img.png",
+            "title": "COMMUNITY",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LyVegV",
+        "column_NqeQ4b",
+        "column_RgXmk4",
+        "column_3PPyGp"
+      ],
+      "settings": {
+        "title": "WHAT MATTERES TO YOU MATTERS TO US",
+        "sub_heading": "We are inspired by the realities of life today, in which traditional divides between personal and professional space are more fluid.",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
         "section_class": "four_col_grid dark_gray",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -435,6 +504,7 @@
     "slideshow",
     "5779efd9-4530-4b76-8011-93886cc48abf",
     "multicolumn_VBmbyd",
+    "multicolumn_fG8fpW",
     "bcbe2110-dba9-4975-9816-40e9a14f85c6",
     "828b2881-42e4-49c3-8367-e68af30c6ba0",
     "87ce58ff-f645-48c1-881a-7ca685532071",
