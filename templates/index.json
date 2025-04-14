@@ -80,6 +80,61 @@
         "button_url_2": "shopify://pages/designer-program"
       }
     },
+    "multicolumn_DxmJnx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4QzTyd": {
+          "type": "column",
+          "settings": {
+            "title": "SPRING SAVINGS UP TO 20%",
+            "text": "<p>Lorem ipsum dolor sit amet</p>",
+            "link_label": "View All Sales",
+            "link": "shopify://collections"
+          }
+        },
+        "column_XTenLE": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9pWGEk": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4QzTyd",
+        "column_XTenLE",
+        "column_9pWGEk"
+      ],
+      "settings": {
+        "title": "",
+        "sub_heading": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "section_class": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "5779efd9-4530-4b76-8011-93886cc48abf": {
       "type": "collection-list",
       "blocks": {
@@ -661,6 +716,7 @@
   "order": [
     "17bde701-4096-4c82-96cc-1742d1b96665",
     "slideshow",
+    "multicolumn_DxmJnx",
     "5779efd9-4530-4b76-8011-93886cc48abf",
     "multicolumn_VBmbyd",
     "multicolumn_fG8fpW",
