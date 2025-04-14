@@ -74,6 +74,45 @@
         "slider_section_class": "home_slider_outer"
       }
     },
+    "button_grid_gk7GBN": {
+      "type": "button-grid",
+      "blocks": {
+        "button_grid_WfqcTp": {
+          "type": "button_grid",
+          "settings": {
+            "button_text": "Schedule a Free Design Consultation",
+            "button_url": ""
+          }
+        },
+        "button_grid_MRTH8U": {
+          "type": "button_grid",
+          "settings": {
+            "button_text": "In-Home Appointment",
+            "button_url": ""
+          }
+        },
+        "button_grid_hktwxG": {
+          "type": "button_grid",
+          "settings": {
+            "button_text": "In-Store Appointment",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_grid_WfqcTp",
+        "button_grid_MRTH8U",
+        "button_grid_hktwxG"
+      ],
+      "settings": {
+        "background_color": "#30514e",
+        "btn_color": "#30514e",
+        "btn_hover_color": "#5F817F",
+        "btn_text_color": "#000",
+        "margin_top": 36,
+        "margin_bottom": 36
+      }
+    },
     "5779efd9-4530-4b76-8011-93886cc48abf": {
       "type": "collection-list",
       "blocks": {
@@ -349,6 +388,7 @@
   "order": [
     "17bde701-4096-4c82-96cc-1742d1b96665",
     "slideshow",
+    "button_grid_gk7GBN",
     "5779efd9-4530-4b76-8011-93886cc48abf",
     "bcbe2110-dba9-4975-9816-40e9a14f85c6",
     "828b2881-42e4-49c3-8367-e68af30c6ba0",
