@@ -119,6 +119,72 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_VBmbyd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_84dTEn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/gibson-chairside-table-2.jpg",
+            "title": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gg8KyL": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GLBRJ4": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pNBNDg": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_84dTEn",
+        "column_gg8KyL",
+        "column_GLBRJ4",
+        "column_pNBNDg"
+      ],
+      "settings": {
+        "title": "WHAT MATTERES TO YOU MATTERS TO US",
+        "sub_heading": "We are inspired by the realities of life today, in which traditional divides between personal and professional space are more fluid.",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "section_class": "four_col_grid dark_gray",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "bcbe2110-dba9-4975-9816-40e9a14f85c6": {
       "type": "slideshow",
       "blocks": {
@@ -240,72 +306,6 @@
         "btn_text_color": "#ffffff",
         "margin_top": 0,
         "margin_bottom": 0
-      }
-    },
-    "multicolumn_VBmbyd": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_84dTEn": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/gibson-chairside-table-2.jpg",
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_gg8KyL": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_GLBRJ4": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_pNBNDg": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_84dTEn",
-        "column_gg8KyL",
-        "column_GLBRJ4",
-        "column_pNBNDg"
-      ],
-      "settings": {
-        "title": "WHAT MATTERES TO YOU MATTERS TO US",
-        "sub_heading": "We are inspired by the realities of life today, in which traditional divides between personal and professional space are more fluid.",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "section_class": "four_col_grid dark_gray",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "09a78c8e-597e-46b7-b6d7-6055b9e58a82": {
@@ -431,10 +431,10 @@
     "17bde701-4096-4c82-96cc-1742d1b96665",
     "slideshow",
     "5779efd9-4530-4b76-8011-93886cc48abf",
+    "multicolumn_VBmbyd",
     "bcbe2110-dba9-4975-9816-40e9a14f85c6",
     "828b2881-42e4-49c3-8367-e68af30c6ba0",
     "87ce58ff-f645-48c1-881a-7ca685532071",
-    "multicolumn_VBmbyd",
     "09a78c8e-597e-46b7-b6d7-6055b9e58a82",
     "2dad34d9-83f1-4f5f-a2dc-b3ea950537c0",
     "5143774d-9e87-4490-809e-70e314c21b7d",
