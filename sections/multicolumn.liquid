@@ -76,6 +76,8 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
+              <a class="link" href="{{ block.settings.link }}">
+                
             <div class="multicolumn-card content-container">
               {%- if block.settings.image != blank -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
@@ -126,6 +128,7 @@
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
+                {% comment %}
                 {%- if block.settings.link_label != blank -%}
                   <a
                     class="link animate-arrow"
@@ -139,8 +142,10 @@
                     <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a
                   >
                 {%- endif -%}
+          {% endcomment %}
               </div>
             </div>
+              </a>
           </li>
         {%- endfor -%}
       </ul>
