@@ -83,9 +83,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
     gap: 10px; /* Optional spacing */
     list-style: none;
     padding: 0;}
-.section_trending_now ul.collection-list li{     display: flex;
-    align-items: center;
-    justify-content: center;}
+.section_trending_now ul.collection-list li{  max-width:100%; width:100%;}
 .section_trending_now ul.collection-list li:first-child{grid-row: span 2;}
 
 footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:14px; font-weight:500;}
