@@ -270,6 +270,7 @@
     </noscript>
   {%- endif -%}
 
+   {%- if section.settings.button_text_1 -%}
   <div class="slider_global_button_btm_right">
     <div class="grid_outer">
       <p>{{ section.settings.slider_global_text }}</p>
@@ -277,6 +278,8 @@
       <a href="{{ section.settings.button_url_2 }}">{{ section.settings.button_text_2 }}</a>
     </div>
   </div>
+ {%- endif -%}
+  
 </slideshow-component>
 
 {%- if request.design_mode -%}
