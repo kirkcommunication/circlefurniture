@@ -50,7 +50,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .home_slider_outer .slideshow__controls .slider-counter button.slider-counter__link.slider-counter__link--active span{ width:30px; height:6px; border-radius:30px; background-color:#ffb930;}
 .home_slider_outer .slideshow__controls .slider-counter button.slider-counter__link:hover span{ border:none;}
 
-.home_slider_outer .slider_global_button_btm_right{ position:absolute; right:0px; bottom:26px; background:#E8DED3; padding:8px 18px;}
+.home_slider_outer .slider_global_button_btm_right{ position:absolute; right:0px; bottom:26px; background:#E8DED3; padding:8px 18px; z-index:9;}
 .home_slider_outer .slider_global_button_btm_right .grid_outer{ display:flex; gap:0px 15px; align-items:center;}
 .home_slider_outer .slider_global_button_btm_right .grid_outer { margin:0px;}
 .home_slider_outer .slider_global_button_btm_right .grid_outer a{ border:2px solid #5c4d3b; border-radius:2px; color:#5c4d3b; padding:10px; font-size:14px; text-decoration:none;}
