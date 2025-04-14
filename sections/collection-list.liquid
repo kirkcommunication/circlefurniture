@@ -24,7 +24,7 @@
   endif
 -%}
 
-<div class="color-{{ section.settings.color_scheme }} gradient">
+<div class="{{section.settings.collection_section_class}} color-{{ section.settings.color_scheme }} gradient">
   <div class="collection-list-wrapper page-width isolate{% if show_mobile_slider %} page-width-desktop{% endif %}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.show_view_all == false or section.blocks.size > collections.size %} no-mobile-link{% endif %} section-{{ section.id }}-padding">
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin">
@@ -195,6 +195,11 @@
       "default": 3,
       "label": "t:sections.collection-list.settings.columns_desktop.label"
     },
+     {
+      "type": "text",
+      "id": "collection_section_class",
+      "label": "Section Class"
+    },
     {
       "type": "color_scheme",
       "id": "color_scheme",
@@ -258,7 +263,9 @@
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
     }
+    
   ],
+  
   "blocks": [
     {
       "type": "featured_collection",
