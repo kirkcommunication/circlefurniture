@@ -334,12 +334,6 @@
           "settings": {
             "collection": "case-goods"
           }
-        },
-        "featured_collection_9W4QjN": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "mattress-foundation"
-          }
         }
       },
       "block_order": [
@@ -347,8 +341,7 @@
         "featured_collection_WqQpz9",
         "featured_collection_D8X8iB",
         "featured_collection_364Dd3",
-        "featured_collection_dHyYLj",
-        "featured_collection_9W4QjN"
+        "featured_collection_dHyYLj"
       ],
       "settings": {
         "title": "TRENDING NOW",
