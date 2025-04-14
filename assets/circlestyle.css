@@ -61,7 +61,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .four_col_grid .page-width{ padding:70px 15px 100px;}
 .four_col_grid .title-wrapper-with-link{ max-width:800px; margin:0 auto; justify-content:center;}
 .four_col_grid .title-wrapper-with-link h2{ font-size:36px; line-height:46px; font-weight:400;}
-.four_col_grid .title-wrapper-with-link p{ font-size:16px; line-height:26px; margin:0px; margin-bottom:20px; text-align:center;}
+.four_col_grid .title-wrapper-with-link p{ font-size:16px; line-height:26px; margin:0px; margin-bottom:50px; text-align:center;}
 .four_col_grid.dark_gray{ background-color:#3d5c66;}
 .four_col_grid.dark_gray h2, .four_col_grid.dark_gray p{ color:#fff; font-family: "Poppins", sans-serif;}
 .four_col_grid .multicolumn-card__image-wrapper{ margin:0px; padding:0px;}
