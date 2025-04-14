@@ -369,48 +369,6 @@
         "button_text": "Learn More"
       }
     },
-    "bcbe2110-dba9-4975-9816-40e9a14f85c6": {
-      "type": "slideshow",
-      "blocks": {
-        "19a3d836-c173-43d8-b026-5406a7ac6346": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/whats-new-stock.jpg",
-            "heading": "Need it now?",
-            "heading_size": "h2",
-            "subheading": "See what's in stock.",
-            "button_label": "See All",
-            "link": "shopify://collections/in-stock",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 10,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "left"
-          }
-        }
-      },
-      "block_order": [
-        "19a3d836-c173-43d8-b026-5406a7ac6346"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "large",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand",
-        "slider_section_class": "",
-        "slider_global_text": "",
-        "button_text_1": "",
-        "button_url_1": "",
-        "button_text_2": "",
-        "button_url_2": ""
-      }
-    },
     "image_with_text_RdJTmN": {
       "type": "image-with-text",
       "blocks": {
@@ -454,8 +412,50 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "bcbe2110-dba9-4975-9816-40e9a14f85c6": {
+      "type": "slideshow",
+      "blocks": {
+        "19a3d836-c173-43d8-b026-5406a7ac6346": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/whats-new-stock.jpg",
+            "heading": "Need it now?",
+            "heading_size": "h2",
+            "subheading": "See what's in stock.",
+            "button_label": "See All",
+            "link": "shopify://collections/in-stock",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "left"
+          }
+        }
+      },
+      "block_order": [
+        "19a3d836-c173-43d8-b026-5406a7ac6346"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand",
+        "slider_section_class": "",
+        "slider_global_text": "",
+        "button_text_1": "",
+        "button_url_1": "",
+        "button_text_2": "",
+        "button_url_2": ""
       }
     },
     "828b2881-42e4-49c3-8367-e68af30c6ba0": {
