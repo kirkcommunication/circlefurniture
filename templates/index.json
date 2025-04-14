@@ -109,6 +109,7 @@
       ],
       "settings": {
         "title": "Shop by Category",
+        "sub_heading_text": "",
         "heading_size": "h2",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -346,6 +347,7 @@
       ],
       "settings": {
         "title": "TRENDING NOW",
+        "sub_heading_text": "Explore Our Collections",
         "heading_size": "h2",
         "image_ratio": "adapt",
         "columns_desktop": 3,
