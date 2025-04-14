@@ -126,7 +126,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/gibson-chairside-table-2.jpg",
-            "title": "Column",
+            "title": "SUSTAINABILITY",
             "text": "",
             "link_label": "",
             "link": ""
@@ -135,8 +135,9 @@
         "column_gg8KyL": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/gibson-med-console-2.jpg",
+            "title": "DESIGN",
+            "text": "",
             "link_label": "",
             "link": ""
           }
