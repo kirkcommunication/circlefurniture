@@ -89,6 +89,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .section_trending_now ul.collection-list li:first-child{grid-row: span 2;}
 .section_trending_now ul.collection-list .card-wrapper .card--card{ border:none;}
 .section_trending_now ul.collection-list .card-wrapper .card--card .card__inner{ max-height:280px;}
+.section_trending_now ul.collection-list li:first-child .card-wrapper .card--card .card__inner{ max-height:initial;}
 .section_trending_now ul.collection-list .card-wrapper:hover .card--card{ transform:none;}
 
 footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:14px; font-weight:500;}
