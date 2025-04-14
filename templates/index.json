@@ -302,11 +302,72 @@
         "padding_bottom": 36
       }
     },
+    "collection_list_WwJDqe": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_atQBWg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "living"
+          }
+        },
+        "featured_collection_WqQpz9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bedroom"
+          }
+        },
+        "featured_collection_D8X8iB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dining-kitchen"
+          }
+        },
+        "featured_collection_364Dd3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "upholstery"
+          }
+        },
+        "featured_collection_dHyYLj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "case-goods"
+          }
+        },
+        "featured_collection_9W4QjN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mattress-foundation"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_atQBWg",
+        "featured_collection_WqQpz9",
+        "featured_collection_D8X8iB",
+        "featured_collection_364Dd3",
+        "featured_collection_dHyYLj",
+        "featured_collection_9W4QjN"
+      ],
+      "settings": {
+        "title": "TRENDING NOW",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "cta_section_nqzMfp": {
       "type": "cta-section",
       "settings": {
-        "cta_text": "<p>Interested in joining our Trade Partner Program?</p>",
-        "cta_subheading": "<p>Gain access to our generous discounts and incentives to support your business</p>",
+        "cta_text": "Interested in joining our Trade Partner Program?",
+        "cta_subheading": "Gain access to our generous discounts and incentives to support your business",
         "cta_button_url": "",
         "button_text": "Learn More"
       }
@@ -559,6 +620,7 @@
     "5779efd9-4530-4b76-8011-93886cc48abf",
     "multicolumn_VBmbyd",
     "multicolumn_fG8fpW",
+    "collection_list_WwJDqe",
     "cta_section_nqzMfp",
     "bcbe2110-dba9-4975-9816-40e9a14f85c6",
     "828b2881-42e4-49c3-8367-e68af30c6ba0",
