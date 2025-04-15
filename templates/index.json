@@ -308,6 +308,63 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_RdJTmN": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8nFEwT": {
+          "type": "heading",
+          "settings": {
+            "heading": "PARTNERS",
+            "heading_size": "h1"
+          }
+        },
+        "caption_QzcRWj": {
+          "type": "caption",
+          "settings": {
+            "caption": "From All Over The Region",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "text_qxxgCb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We seek partners who believe deeply in sustainability, offer the highest quality furniture, and believe in our spirit of modern organic design.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_r9NGjg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8nFEwT",
+        "caption_QzcRWj",
+        "text_qxxgCb",
+        "button_r9NGjg"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/partner_img.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_col_img_with_text",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "multicolumn_fG8fpW": {
       "type": "multicolumn",
       "blocks": {
@@ -487,63 +544,6 @@
         "cta_subheading": "Gain access to our generous discounts and incentives to support your business",
         "cta_button_url": "",
         "button_text": "Learn More"
-      }
-    },
-    "image_with_text_RdJTmN": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_8nFEwT": {
-          "type": "heading",
-          "settings": {
-            "heading": "PARTNERS",
-            "heading_size": "h1"
-          }
-        },
-        "caption_QzcRWj": {
-          "type": "caption",
-          "settings": {
-            "caption": "From All Over The Region",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        },
-        "text_qxxgCb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We seek partners who believe deeply in sustainability, offer the highest quality furniture, and believe in our spirit of modern organic design.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_r9NGjg": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "#",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_8nFEwT",
-        "caption_QzcRWj",
-        "text_qxxgCb",
-        "button_r9NGjg"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/partner_img.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "section_class": "two_col_img_with_text",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "5779efd9-4530-4b76-8011-93886cc48abf": {
@@ -839,8 +839,8 @@
     "multicolumn_fG8fpW",
     "collection_list_WwJDqe",
     "testimonial_slider_kQVkwH",
-    "cta_section_nqzMfp",
     "image_with_text_RdJTmN",
+    "cta_section_nqzMfp",
     "5779efd9-4530-4b76-8011-93886cc48abf",
     "bcbe2110-dba9-4975-9816-40e9a14f85c6",
     "828b2881-42e4-49c3-8367-e68af30c6ba0",
