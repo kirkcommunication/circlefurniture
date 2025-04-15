@@ -163,7 +163,6 @@
         "column_T3FF6y": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/partner_img.png",
             "title": "SPRING SAVINGS UP TO 20%",
             "text": "<p>Lorem ipsum dolor sit amet</p>",
             "link_label": "View All Sales",
