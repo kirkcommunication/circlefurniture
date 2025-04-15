@@ -548,6 +548,24 @@
         "button_text": "Learn More"
       }
     },
+    "featured_blog_UNgzaN": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "5779efd9-4530-4b76-8011-93886cc48abf": {
       "type": "collection-list",
       "blocks": {
@@ -843,6 +861,7 @@
     "testimonial_slider_kQVkwH",
     "image_with_text_RdJTmN",
     "cta_section_nqzMfp",
+    "featured_blog_UNgzaN",
     "5779efd9-4530-4b76-8011-93886cc48abf",
     "bcbe2110-dba9-4975-9816-40e9a14f85c6",
     "828b2881-42e4-49c3-8367-e68af30c6ba0",
