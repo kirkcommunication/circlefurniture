@@ -101,7 +101,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 
 .three_col_with_first_half .multicolumn-list{ justify-content:space-evenly;}
 .three_col_with_first_half .multicolumn-list li:first-child{ width:46%; max-width:46%;}
-.three_col_with_first_half .multicolumn-list li{ width:25%; max-width:25%;}
+.three_col_with_first_half .multicolumn-list li{ width:24%; max-width:24%;}
 
 footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:14px; font-weight:500;}
 h2.footer-block__heading{ font-size:16px; color:#fff; font-weight:600;}
