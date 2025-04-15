@@ -451,10 +451,27 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_kVRYGG": {
+          "type": "slide",
+          "settings": {
+            "heading": "Hawley Appleton",
+            "author_position": "Design Consultant, Cambridge",
+            "subheading": "I had a delightful experience. Our sales consultant, Hawley, was very informative and helpful in making our decision and purchase. We we welcomed with smiles from all sales personal. Even Catherine, VP of Stores, greeted us and thanked is for shopping at Circle Furniture. This isn't my first purchase at Circle and certainly will not be my last.- Paul J.",
+            "author_pics": "shopify://shop_images/Hawley_Appleton_pics.png",
+            "star_rating": "5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "slide_mFf9Le"
+        "slide_mFf9Le",
+        "slide_kVRYGG"
       ],
       "settings": {
         "layout": "grid",
