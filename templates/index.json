@@ -433,6 +433,53 @@
         "padding_bottom": 36
       }
     },
+    "testimonial_slider_kQVkwH": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "slide_mFf9Le": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "author_position": "Image slide",
+            "subheading": "Testimonial Quote",
+            "star_rating": "4.5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_rzA8V4": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "author_position": "Image slide",
+            "subheading": "Testimonial Quote",
+            "star_rating": "4.5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_mFf9Le",
+        "slide_rzA8V4"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "cta_section_nqzMfp": {
       "type": "cta-section",
       "settings": {
@@ -791,6 +838,7 @@
     "multicolumn_VBmbyd",
     "multicolumn_fG8fpW",
     "collection_list_WwJDqe",
+    "testimonial_slider_kQVkwH",
     "cta_section_nqzMfp",
     "image_with_text_RdJTmN",
     "5779efd9-4530-4b76-8011-93886cc48abf",
