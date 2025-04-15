@@ -99,6 +99,9 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .two_col_img_with_text a.button:before, .two_col_img_with_text a.button:after{ display:none;}
 .two_col_img_with_text a.button{ border:2px solid #806b52; border-radius:80px; padding:15px 35px; color:#806b52; font-size:15px; line-height:18px; background:#fff; letter-spacing:inherit;}
 
+.three_col_with_first_half .multicolumn-list li:first-child{ width:47%; max-width:47%;}
+.three_col_with_first_half .multicolumn-list li{ width:25%; max-width:25%;}
+
 footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:14px; font-weight:500;}
 h2.footer-block__heading{ font-size:16px; color:#fff; font-weight:600;}
 footer .footer-block__details-content ul{ margin:0px; padding:0px;}
