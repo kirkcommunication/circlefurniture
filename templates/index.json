@@ -129,7 +129,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "section_class": "",
+        "section_class": "three_col_with_first_half",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
