@@ -127,6 +127,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .three_col_with_last_half .multicolumn-list li{ width:24%; max-width:24%;}
 .three_col_with_last_half .multicolumn-list li .multicolumn-card{ background:none;}
 .three_col_with_last_half .multicolumn-list li .multicolumn-card__image-wrapper{ margin:0px; padding:0px;}
+.three_col_with_last_half .multicolumn-list li .multicolumn-card__image-wrapper .media{ min-height:382px;}
 .three_col_with_last_half .multicolumn-list li .multicolumn-card__info{ padding-left:0px;}
 .three_col_with_last_half .multicolumn-list li .multicolumn-card__info h3{ font-size:15px; line-height:110%; color:#333; font-weight:400;font-family: "Poppins", sans-serif; }
 
