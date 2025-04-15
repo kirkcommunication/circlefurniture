@@ -190,8 +190,8 @@ display: block !important;
         aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}"
         aria-controls="Slider-{{ section.id }}"
       >
-  {% render 'icon-library', id: 'icon-arrow-left', icon_class: 'arrow_left' %}
-       
+{% comment %}  {% render 'icon-library', id: 'icon-arrow-left', icon_class: 'arrow_left' %} {% endcomment %}
+        <img src="https://cdn.shopify.com/s/files/1/0616/7789/5878/files/icon-arrow-left.svg"/>
       </button>
       <div class="slider-counter slider-counter--{{ section.settings.slider_visual }}{% if section.settings.slider_visual == 'counter' or section.settings.slider_visual == 'numbers' %} caption{% endif %}">
         {%- if section.settings.slider_visual == 'counter' -%}
@@ -240,8 +240,8 @@ display: block !important;
         aria-label="{{ 'sections.slideshow.next_slideshow' | t }}"
         aria-controls="Slider-{{ section.id }}"
       >
- {% render 'icon-library', id: 'icon-arrow-right', icon_class: 'arrow_right' %}
-      
+       {% comment %} {% render 'icon-library', id: 'icon-arrow-right', icon_class: 'arrow_right' %}{% endcomment %}
+        <img src="https://cdn.shopify.com/s/files/1/0616/7789/5878/files/icon-arrow-right.svg"/>
         
       </button>
 
