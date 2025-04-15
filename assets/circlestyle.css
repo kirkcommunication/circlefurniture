@@ -99,8 +99,14 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .two_col_img_with_text a.button:before, .two_col_img_with_text a.button:after{ display:none;}
 .two_col_img_with_text a.button{ border:2px solid #806b52; border-radius:80px; padding:15px 35px; color:#806b52; font-size:15px; line-height:18px; background:#fff; letter-spacing:inherit;}
 
-.three_col_with_first_half .multicolumn-list{ justify-content:space-evenly;}
+/*.three_col_with_first_half .multicolumn-list{ justify-content:space-evenly;}
 .three_col_with_first_half .multicolumn-list li:first-child{ width:46%; max-width:46%;}
+.three_col_with_first_half .multicolumn-list li{ width:24%; max-width:24%;}
+*/
+
+.three_col_with_first_half .multicolumn-list{display: grid;grid-template-columns: 25% 25% 50%;gap: 10px; }
+.three_col_with_first_half .multicolumn-list li{ width:100%; max-width:100%;}
+
 .three_col_with_first_half .multicolumn-list li:first-child .multicolumn-card{ background:#f6f1ec; max-height:382px; display:flex; align-items:center; justify-content:center;}
 .three_col_with_first_half .multicolumn-list li:first-child .multicolumn-card .multicolumn-card__info{ padding:0px; max-width:310px; text-align:center;}
 .three_col_with_first_half .multicolumn-list li:first-child .multicolumn-card .multicolumn-card__info h3{font-size:36px; line-height:46px; color:#5c4d3b; font-family: "Poppins", sans-serif; font-weight:400; text-transform:uppercase; text-align:center;}
@@ -108,30 +114,11 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .three_col_with_first_half .multicolumn-list li:first-child .multicolumn-card a{ background:#a38e76; padding:15px 35px; line-height:initial; border-radius:30px; color:#fff; font-size:15px; text-decoration:none;}
 .three_col_with_first_half .multicolumn-list li:first-child .multicolumn-card a span{ display:none;}
 
-.three_col_with_first_half .multicolumn-list li{ width:24%; max-width:24%;}
+
 .three_col_with_first_half .multicolumn-list li .multicolumn-card{ background:none;}
 .three_col_with_first_half .multicolumn-list li .multicolumn-card__image-wrapper{ margin:0px; padding:0px;}
 .three_col_with_first_half .multicolumn-list li .multicolumn-card__info{ padding-left:0px;}
 .three_col_with_first_half .multicolumn-list li .multicolumn-card__info h3{ font-size:15px; line-height:110%; color:#333; font-weight:400;font-family: "Poppins", sans-serif; }
-
-/*
-.three_col_with_last_half .multicolumn-list{ justify-content:space-evenly;}
-.three_col_with_last_half .multicolumn-list li:last-child{ width:46%; max-width:46%; overflow:hidden;}
-.three_col_with_last_half .multicolumn-list li{ width:24%; max-width:24%;}
-*/
-.three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card{ background:#f6f1ec; max-height:382px; display:flex; align-items:center; justify-content:center;}
-.three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card .multicolumn-card__info{ padding:0px; max-width:310px; text-align:center; position:absolute;}
-.three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card .multicolumn-card__info h3{font-size:36px; line-height:46px; color:#5c4d3b; font-family: "Poppins", sans-serif; font-weight:400; text-transform:uppercase; text-align:center;}
-.three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card .rte p{font-size:16px; line-height:26px; font-weight:400; color:#333;}
-.three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card .multicolumn-card__image-wrapper, .three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card a{ width:100%; height:100%;}
-
-.three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card a span{ display:none;}
-
-
-
-
-
-
 
 
 .three_col_with_last_half .multicolumn-list{display: grid;grid-template-columns: 25% 25% 50%;gap: 10px; }
@@ -143,6 +130,13 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .three_col_with_last_half .multicolumn-list li .multicolumn-card__image-wrapper .media img{ height:100%; width:100%; max-height:382px;}
 .three_col_with_last_half .multicolumn-list li .multicolumn-card__info{ padding-left:0px;}
 .three_col_with_last_half .multicolumn-list li .multicolumn-card__info h3{ font-size:15px; line-height:110%; color:#333; font-weight:400;font-family: "Poppins", sans-serif; }
+
+.three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card{ background:#f6f1ec; max-height:382px; display:flex; align-items:center; justify-content:center;}
+.three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card .multicolumn-card__info{ padding:0px; max-width:310px; text-align:center; position:absolute;}
+.three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card .multicolumn-card__info h3{font-size:36px; line-height:46px; color:#5c4d3b; font-family: "Poppins", sans-serif; font-weight:400; text-transform:uppercase; text-align:center;}
+.three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card .rte p{font-size:16px; line-height:26px; font-weight:400; color:#333;}
+.three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card .multicolumn-card__image-wrapper, .three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card a{ width:100%; height:100%;}
+.three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card a span{ display:none;}
 
 
 
