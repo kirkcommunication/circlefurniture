@@ -96,20 +96,20 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/living_room_img.png",
-            "title": "",
+            "title": "20% Off Living Room",
             "text": "",
             "link_label": "",
-            "link": "#"
+            "link": ""
           }
         },
         "column_9pWGEk": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/dining_room_img.png",
-            "title": "",
+            "title": "15% Off Dining",
             "text": "",
-            "link_label": "adfasd",
-            "link": "#"
+            "link_label": "",
+            "link": ""
           }
         }
       },
@@ -198,7 +198,7 @@
             "image": "shopify://shop_images/boston_seaport_img.png",
             "title": "Boston-Seaport",
             "text": "",
-            "link_label": "Boston-Seaport",
+            "link_label": "",
             "link": "shopify://metaobjects/store_location/boston-seaport"
           }
         },
