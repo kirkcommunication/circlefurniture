@@ -132,12 +132,11 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .three_col_with_last_half .multicolumn-list li .multicolumn-card__info h3{ font-size:15px; line-height:110%; color:#333; font-weight:400;font-family: "Poppins", sans-serif; }
 
 .three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card{ background:#f6f1ec; max-height:382px; display:flex; align-items:center; justify-content:center;}
-.three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card .multicolumn-card__info{ padding:0px; max-width:310px; text-align:center; position:absolute;}
-.three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card .multicolumn-card__info h3{font-size:36px; line-height:46px; color:#fff; font-family: "Poppins", sans-serif; font-weight:400; text-transform:uppercase; text-align:center;}
+.three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card .multicolumn-card__info{ padding:0px; max-width:500px; text-align:left; position:absolute;}
+.three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card .multicolumn-card__info h3{font-size:36px; line-height:46px; color:#fff; font-family: "Poppins", sans-serif; font-weight:400; text-transform:uppercase; text-align:left;}
 .three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card .rte p{font-size:16px; line-height:26px; font-weight:400; color:#fff;}
 .three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card .multicolumn-card__image-wrapper, .three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card a{ width:100%; height:100%;}
 .three_col_with_last_half .multicolumn-list li:last-child .multicolumn-card a span{ display:none;}
-
 
 
 footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:14px; font-weight:500;}
