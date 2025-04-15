@@ -135,7 +135,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 */
 
 .three_col_with_last_half .multicolumn-list{display: grid;
-      grid-template-columns: 50% 25% 25%;
+      grid-template-columns: 25% 25% 50%;
       gap: 10px; /* Optional: adds space between columns */
       height: 100vh; /* Optional: full height */
                                            }
