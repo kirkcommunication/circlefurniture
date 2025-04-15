@@ -436,6 +436,14 @@
             "heading_size": "h1"
           }
         },
+        "caption_QzcRWj": {
+          "type": "caption",
+          "settings": {
+            "caption": "From All Over The Region",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
         "text_qxxgCb": {
           "type": "text",
           "settings": {
@@ -454,6 +462,7 @@
       },
       "block_order": [
         "heading_8nFEwT",
+        "caption_QzcRWj",
         "text_qxxgCb",
         "button_r9NGjg"
       ],
