@@ -154,8 +154,7 @@ display: block !important;
               
               
               <div class="banner__text rte" {{ block.shopify_attributes }}>
-                <p>{{ block.settings.subheading }}</p>
-                 {% if block.settings.star_rating != '0' %}
+             {% if block.settings.star_rating != '0' %}
               <div class="testimonial__star-ratings">
                 {% for i in (1..5) %}
                   {% if i == 5 %}
@@ -174,6 +173,9 @@ display: block !important;
                 {% endfor %}
               </div>
             {% endif %}
+                
+                <p>{{ block.settings.subheading }}</p>
+
                 
               </div>
             {%- endif -%}            
