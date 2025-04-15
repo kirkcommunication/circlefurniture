@@ -97,7 +97,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .two_col_img_with_text  div.image-with-text__text p{font-size:20px; line-height:32px; color:#333; margin-top:0px; font-family: "Poppins", sans-serif; font-weight:400;} 
 
 .two_col_img_with_text a.button:before, .two_col_img_with_text a.button:after{ display:none;}
-.two_col_img_with_text a.button{ border:2px solid #806b52; border-radius:80px; padding:15px 35px; color:#806b52; font-size:15px; line-height:18px;}
+.two_col_img_with_text a.button{ border:2px solid #806b52; border-radius:80px; padding:15px 35px; color:#806b52; font-size:15px; line-height:18px; background:#fff;}
 
 footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:14px; font-weight:500;}
 h2.footer-block__heading{ font-size:16px; color:#fff; font-weight:600;}
