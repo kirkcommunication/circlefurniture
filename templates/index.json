@@ -308,63 +308,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_RdJTmN": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_8nFEwT": {
-          "type": "heading",
-          "settings": {
-            "heading": "PARTNERS",
-            "heading_size": "h1"
-          }
-        },
-        "caption_QzcRWj": {
-          "type": "caption",
-          "settings": {
-            "caption": "From All Over The Region",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        },
-        "text_qxxgCb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We seek partners who believe deeply in sustainability, offer the highest quality furniture, and believe in our spirit of modern organic design.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_r9NGjg": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "#",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_8nFEwT",
-        "caption_QzcRWj",
-        "text_qxxgCb",
-        "button_r9NGjg"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/partner_img.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "section_class": "two_col_img_with_text",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "multicolumn_fG8fpW": {
       "type": "multicolumn",
       "blocks": {
@@ -496,25 +439,11 @@
         "slide_mFf9Le": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
-            "author_position": "Image slide",
-            "subheading": "Testimonial Quote",
-            "star_rating": "4.5",
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_rzA8V4": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "author_position": "Image slide",
-            "subheading": "Testimonial Quote",
-            "star_rating": "4.5",
+            "heading": "Hawley Appleton",
+            "author_position": "Design Consultant, Cambridge",
+            "subheading": "I had a delightful experience. Our sales consultant, Hawley, was very informative and helpful in making our decision and purchase. We we welcomed with smiles from all sales personal. Even Catherine, VP of Stores, greeted us and thanked is for shopping at Circle Furniture. This isn't my first purchase at Circle and certainly will not be my last.- Paul J.",
+            "author_pics": "shopify://shop_images/Hawley_Appleton_pics.png",
+            "star_rating": "5",
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -525,8 +454,7 @@
         }
       },
       "block_order": [
-        "slide_mFf9Le",
-        "slide_rzA8V4"
+        "slide_mFf9Le"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -535,6 +463,63 @@
         "change_slides_speed": 5,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image_with_text_RdJTmN": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8nFEwT": {
+          "type": "heading",
+          "settings": {
+            "heading": "PARTNERS",
+            "heading_size": "h1"
+          }
+        },
+        "caption_QzcRWj": {
+          "type": "caption",
+          "settings": {
+            "caption": "From All Over The Region",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "text_qxxgCb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We seek partners who believe deeply in sustainability, offer the highest quality furniture, and believe in our spirit of modern organic design.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_r9NGjg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8nFEwT",
+        "caption_QzcRWj",
+        "text_qxxgCb",
+        "button_r9NGjg"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/partner_img.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_col_img_with_text",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "cta_section_nqzMfp": {
