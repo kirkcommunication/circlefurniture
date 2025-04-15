@@ -457,7 +457,7 @@
         "slide_mFf9Le"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "medium",
         "auto_rotate": false,
         "change_slides_speed": 5,
