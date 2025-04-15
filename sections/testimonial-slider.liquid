@@ -144,15 +144,16 @@ display: block !important;
           <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
            
             {%- if block.settings.subheading != blank -%}
-              <div class="author_image"><img src="{{ block.settings.author_pics | img_url: '400x400' }}"></div>
-              <div class="banner__text rte" {{ block.shopify_attributes }}>
-                <p>{{ block.settings.subheading }}</p>
-                 {%- if block.settings.heading != blank -%}
+              <div class="author_image"><img src="{{ block.settings.author_pics | img_url: '400x400' }}">
+              </div>
+               {%- if block.settings.heading != blank -%}
               <h2 class="banner__heading inline-richtext">
                 <span>{{ block.settings.heading }}</span> |  {{ block.settings.author_position }}
               </h2>
             {%- endif -%}
-
+              
+              <div class="banner__text rte" {{ block.shopify_attributes }}>
+                <p>{{ block.settings.subheading }}</p>
                  {% if block.settings.star_rating != '0' %}
               <div class="testimonial__star-ratings">
                 {% for i in (1..5) %}
