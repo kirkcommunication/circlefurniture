@@ -1,6 +1,7 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 <style>
-.image-with-text__media{ display:grid;}
+.image-with-text__media img{ width:50%;}
+  .image-with-text__media{ display:grid; grid-template-columns: repeat(2, 1fr);}
   
 </style>
 {%- style -%}
