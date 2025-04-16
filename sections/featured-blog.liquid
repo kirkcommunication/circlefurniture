@@ -37,6 +37,7 @@
         >
           {{ section.settings.heading }}
         </h2>
+        <p>{{ section.settings.sub_heading }} </p>
 
         {%- if section.settings.blog != blank
           and section.settings.show_view_all
@@ -219,6 +220,11 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "text",
+      "id": "sub_heading",
+      "label": "Sub Heading"
     },
     {
       "type": "blog",
