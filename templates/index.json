@@ -620,7 +620,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "sub_heading": "",
         "heading_size": "h1",
         "image_width": "full",
