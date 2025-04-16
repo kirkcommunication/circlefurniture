@@ -154,6 +154,10 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .home_logo_grid_section ul li{ width:13% !important;}
 .home_logo_grid_section ul li img{filter: grayscale(100%);}
 
+/*==============Inner page Banner Code ============*/
+.section_innerpage_banner .banner__content{ padding:0px;}
+.section_innerpage_banner .banner__content:after{ width:50%; background-color:#3d5c66;}
+
 footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:14px; font-weight:500;}
 h2.footer-block__heading{ font-size:16px; color:#fff; font-weight:600;}
 footer .footer-block__details-content ul{ margin:0px; padding:0px;}
