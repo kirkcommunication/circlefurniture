@@ -630,7 +630,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "section_class": "",
+        "section_class": "section_cta_with_icon_text",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
