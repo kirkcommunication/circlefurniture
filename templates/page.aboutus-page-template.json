@@ -487,6 +487,9 @@
       "name": "Two Col Image Grid With Text",
       "settings": {
         "image": "shopify://shop_images/our_operation_img.png",
+        "image2": "shopify://shop_images/sofa_pics.png",
+        "image3": "shopify://shop_images/dining_room_img.png",
+        "image4": "shopify://shop_images/havana-cocktail-table-room.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
