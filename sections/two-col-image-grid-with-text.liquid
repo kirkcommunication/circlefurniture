@@ -50,9 +50,11 @@
               <div class="img imgbox2">{{section.settings.image2 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}
               <p>{{section.settings.image_two_text}}</p>
               </div>
+                {%- if section.settings.image3 != blank -%}
               <div class="img imgbox3">{{section.settings.image3 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}
               <p>{{section.settings.image_three_text}}</p>
               </div>
+                {%- endif -%}
                 {%- if section.settings.image4 != blank -%}
               <div class="img imgbox4">{{section.settings.image4 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}
               <p>{{section.settings.image_four_text}}</p>
