@@ -539,6 +539,109 @@
         "padding_bottom": 0
       }
     },
+    "multicolumn_NGgMqw": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_LVwQ8N": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CopelandFurniture_Logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fenAkV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/saloom-logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9MCwyw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Amisco.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CzYjCf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BDi.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cDVzQP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/gat_creek_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8xCiNf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/american_leather_black.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6ia689": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CRLaine_Logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LVwQ8N",
+        "column_fenAkV",
+        "column_9MCwyw",
+        "column_CzYjCf",
+        "column_cDVzQP",
+        "column_8xCiNf",
+        "column_6ia689"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "sub_heading": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "section_class": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "cta_section_nqzMfp": {
       "type": "cta-section",
       "settings": {
@@ -932,6 +1035,7 @@
     "collection_list_WwJDqe",
     "testimonial_slider_kQVkwH",
     "image_with_text_RdJTmN",
+    "multicolumn_NGgMqw",
     "cta_section_nqzMfp",
     "featured_blog_UNgzaN",
     "multicolumn_NXFtAG",
