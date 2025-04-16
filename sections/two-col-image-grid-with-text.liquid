@@ -38,11 +38,19 @@
             class="image-with-text__media image-with-text__media--{{ section.settings.height }} global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}{% if section.settings.image != blank %} {% else %} image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
             {% if section.settings.height == 'adapt' and section.settings.image != blank %} {% endif %}
           >
-            {%- if section.settings.image != blank -%}
-              <div class="img imgbox1">{{section.settings.image| image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}</div>
-              <div class="img imgbox2">{{section.settings.image2 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}</div>
-              <div class="img imgbox3">{{section.settings.image3 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}</div>
-              <div class="img imgbox4">{{section.settings.image4 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}</div>
+           {%- if section.settings.image != blank -%}
+              <div class="img imgbox1">{{section.settings.image| image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}
+              <p>{{section.settings.image_one_text}}</p>
+              </div>
+              <div class="img imgbox2">{{section.settings.image2 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}
+              <p>{{section.settings.image_two_text}}</p>
+              </div>
+              <div class="img imgbox3">{{section.settings.image3 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}
+              <p>{{section.settings.image_three_text}}</p>
+              </div>
+              <div class="img imgbox4">{{section.settings.image4 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}
+              <p>{{section.settings.image_four_text}}</p>
+              </div>
             {%- endif -%}
           </div>
         </div>
