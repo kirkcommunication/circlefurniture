@@ -634,7 +634,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "section_class": "",
+        "section_class": "home_logo_grid_section",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
