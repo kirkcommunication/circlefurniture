@@ -138,6 +138,64 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_YMjbwk": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_43dTxp": {
+          "type": "heading",
+          "settings": {
+            "heading": "PARTNERS",
+            "heading_size": "h1"
+          }
+        },
+        "caption_XYcRXQ": {
+          "type": "caption",
+          "settings": {
+            "caption": "From All Over The Region",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "text_yXmmfQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We seek partners who believe deeply in sustainability, offer the highest quality furniture, and believe in our spirit of modern organic design.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_iUYFQX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_43dTxp",
+        "caption_XYcRXQ",
+        "text_yXmmfQ",
+        "button_iUYFQX"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/partner_img.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_col_img_with_text",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "4a002122-a2b6-4054-bb7d-ef35cde1dcf1": {
       "type": "multicolumn",
       "blocks": {
@@ -410,6 +468,7 @@
     "f818e213-0ec7-48f5-b560-9dc50bb12dff",
     "rich_text_nAj3Vj",
     "image_with_text_CfxKTn",
+    "image_with_text_YMjbwk",
     "4a002122-a2b6-4054-bb7d-ef35cde1dcf1",
     "21d4be1f-32cf-41ce-80f4-7a0fcc7a7b45",
     "b7aa9a24-051d-459c-acea-b9538c361907",
