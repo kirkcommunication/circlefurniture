@@ -24,21 +24,33 @@
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "About Us",
+            "heading": "OUR STORY",
             "heading_size": "h2"
           }
         },
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-text-1": {
           "type": "text",
           "settings": {
-            "text": "Friendly, Colorful, Creative.",
+            "text": "We have always tried to focus on the people who are going to use our products, and we have always strived to design products for the lives they lead. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat.",
             "text_style": "body"
+          }
+        },
+        "buttons_KxxbVn": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Explore Opportunities with Us",
+            "button_link_1": "#",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-heading-1",
-        "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-text-1"
+        "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-text-1",
+        "buttons_KxxbVn"
       ],
       "settings": {
         "image": "shopify://shop_images/about-us-page-red.jpg",
