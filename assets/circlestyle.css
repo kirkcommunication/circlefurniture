@@ -161,7 +161,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .section_innerpage_banner .banner__box.content-container h2.banner__heading{font-size:48px; line-height:56px; color:#fff; font-family: "Poppins", sans-serif; font-weight:400;}
 .section_innerpage_banner .banner__box.content-container .banner__text p{font-size:16px; line-height:26px; font-weight:400; color:#fff; margin:0px 0px 10px;}
 .section_innerpage_banner .banner__box.content-container a.button{ background:#a38e76; padding:15px 35px; line-height:initial; border-radius:30px; color:#fff; font-size:15px; text-decoration:none;}
-
+.section_innerpage_banner .banner__box.content-container a.button:before, .section_innerpage_banner .banner__box.content-container a.button:after{ display:none;}
 
 
 
