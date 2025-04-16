@@ -104,21 +104,30 @@
         "heading_Abzd3P": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "OUR CORE VALUES",
             "heading_size": "h1"
           }
         },
         "text_aM9Hw8": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review. </p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend. Phasellus quis tincidunt elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
             "text_style": "body"
+          }
+        },
+        "button_hbCafD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply Today",
+            "button_link": "#",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_Abzd3P",
-        "text_aM9Hw8"
+        "text_aM9Hw8",
+        "button_hbCafD"
       ],
       "name": "Two Col Image Grid With Text",
       "settings": {
@@ -193,14 +202,14 @@
         "heading_wPEPwB": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Our Mission",
             "heading_size": "h1"
           }
         },
         "text_g6T777": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review. </p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend. Phasellus quis tincidunt elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend. Phasellus quis tincidunt elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
             "text_style": "body"
           }
         }
@@ -240,21 +249,30 @@
         "heading_q9WpMy": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Careers at Circle Furniture - Embark on a Journey with us",
             "heading_size": "h1"
           }
         },
         "text_ca36gK": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review. </p>",
+            "text": "<p>Your creativity can transform lives. At Circle Furniture lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna aliqua. Join us in creating new experiences in the world of interior design.</p>",
             "text_style": "body"
+          }
+        },
+        "button_PXeTV3": {
+          "type": "button",
+          "settings": {
+            "button_label": "View Available Positions",
+            "button_link": "#",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_q9WpMy",
-        "text_ca36gK"
+        "text_ca36gK",
+        "button_PXeTV3"
       ],
       "name": "Two Col Image Grid With Text",
       "settings": {
