@@ -37,10 +37,10 @@
             {% if section.settings.height == 'adapt' and section.settings.image != blank %} {% endif %}
           >
             {%- if section.settings.image != blank -%}
-              <div class="imgbox1">{{section.settings.image| image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}</div>
-              <div class="imgbox2">{{section.settings.image2 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}</div>
-              <div class="imgbox3">{{section.settings.image3 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}</div>
-              <div class="imgbox4">{{section.settings.image4 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}</div>
+              <div class="img imgbox1">{{section.settings.image| image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}</div>
+              <div class="img imgbox2">{{section.settings.image2 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}</div>
+              <div class="img imgbox3">{{section.settings.image3 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}</div>
+              <div class="img imgbox4">{{section.settings.image4 | image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}</div>
             {%- endif -%}
           </div>
         </div>
