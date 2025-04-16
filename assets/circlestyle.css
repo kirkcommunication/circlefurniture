@@ -157,7 +157,9 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 /*==============Inner page Banner Code ============*/
 .section_innerpage_banner .banner__content{ padding:0px;}
 .shopify-section.section .section_innerpage_banner::after{ width:50%; background-color:#3d5c66; opacity:1 !important;}
-.section_innerpage_banner .banner__box.content-container{ width:100%; height:100%;}
+.section_innerpage_banner .banner__box.content-container{ width:50%; height:100%; display: flex; flex-direction: column;justify-content: center;align-items: flex-start;}
+.section_innerpage_banner .banner__box.content-container{}
+
 
 
 footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:14px; font-weight:500;}
