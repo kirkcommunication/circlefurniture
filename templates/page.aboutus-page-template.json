@@ -272,8 +272,9 @@
         "column_yUzNEb": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/acton_img.png",
+            "title": "Acton",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -281,8 +282,9 @@
         "column_jkmDgU": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/boston_seaport_img.png",
+            "title": "Boston-Seaport",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -290,8 +292,59 @@
         "column_DN86dq": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/cambridge_img.png",
+            "title": "Cambridge",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_abX6aG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/framingham_img.png",
+            "title": "Framingham",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cUHn8F": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/middleton_img.png",
+            "title": "Middleton",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7hnMGY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pembroke_img.png",
+            "title": "Pembroke",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Ng6Tej": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/portsmouth_img.png",
+            "title": "Portsmouth",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yAj9dm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hyannis_img.png",
+            "title": "HYANNIS (NEW)",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -300,21 +353,26 @@
       "block_order": [
         "column_yUzNEb",
         "column_jkmDgU",
-        "column_DN86dq"
+        "column_DN86dq",
+        "column_abX6aG",
+        "column_cUHn8F",
+        "column_7hnMGY",
+        "column_Ng6Tej",
+        "column_yAj9dm"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Multicolumn",
-        "sub_heading": "",
+        "title": "EXPERIENCE OUR DESIGN LOCATIONS",
+        "sub_heading": "Come in and let our designers inspire you!",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
-        "section_class": "",
+        "section_class": "four_col_grid light_gray",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
