@@ -501,6 +501,54 @@
         "padding_bottom": 36
       }
     },
+    "two_col_image_grid_with_text_FiNqwN": {
+      "type": "two-col-image-grid-with-text",
+      "blocks": {
+        "heading_wPEPwB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_g6T777": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wPEPwB",
+        "text_g6T777"
+      ],
+      "name": "Two Col Image Grid With Text",
+      "settings": {
+        "image": "shopify://shop_images/our_operation_img.png",
+        "image_one_text": "SUSTAINABILITY",
+        "image2": "shopify://shop_images/sofa_pics.png",
+        "image_two_text": "DESIGN",
+        "image3": "shopify://shop_images/dining_room_img.png",
+        "image_three_text": "CRAFTSMANSHIP",
+        "image4": "shopify://shop_images/havana-cocktail-table-room.jpg",
+        "image_four_text": "COMMUNITY",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_coll_with_img_grid",
+        "background_color": "#ece5dd",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "21d4be1f-32cf-41ce-80f4-7a0fcc7a7b45": {
       "type": "rich-text",
       "blocks": {
@@ -705,6 +753,7 @@
     "multicolumn_wKw9aQ",
     "4a002122-a2b6-4054-bb7d-ef35cde1dcf1",
     "two_col_image_grid_with_text_kHdgcC",
+    "two_col_image_grid_with_text_FiNqwN",
     "21d4be1f-32cf-41ce-80f4-7a0fcc7a7b45",
     "b7aa9a24-051d-459c-acea-b9538c361907",
     "ac7da112-145f-4af6-bbbf-ede03009cf72",
