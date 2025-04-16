@@ -561,7 +561,7 @@
         "section_class": "home_blog_section",
         "color_scheme": "",
         "show_image": true,
-        "show_date": true,
+        "show_date": false,
         "show_author": false,
         "show_view_all": true,
         "padding_top": 36,
