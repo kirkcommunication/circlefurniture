@@ -149,6 +149,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .section_cta_with_icon_text .multicolumn-card__info h3{font-size:18px; line-height:24px; color:#5c4d3b; font-family: "Poppins", sans-serif; font-weight:400;}
 .section_cta_with_icon_text .multicolumn-card__info p{font-size:14px; line-height:22px; color:#333; font-family: "Poppins", sans-serif; font-weight:400;}
 
+.home_logo_grid_section .page-width{ padding:50px 15px;}
 .home_logo_grid_section ul{ display:flex; flex-wrap:nowrap; gap:10px;}
 .home_logo_grid_section ul li{ width:13% !important;}
 .home_logo_grid_section ul li img{filter: grayscale(100%);}
