@@ -41,7 +41,8 @@
         <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
           <div
             class="image-with-text__media image-with-text__media--{{ section.settings.height }} global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}{% if section.settings.image != blank %} {% else %} image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
-            {% if section.settings.height == 'adapt' and section.settings.image != blank %} {% endif %}
+            {% if section.settings.height == 'adapt' and section.settings.image != blank %} {% endif %} {%- if section.settings.image != blank -%} imgbox1 {%- endif -%} {%- if section.settings.image2 != blank -%} imgbox2 {%- endif -%}
+            {%- if section.settings.image3 != blank -%} imgbox3 {%- endif -%} {%- if section.settings.image4 != blank -%} imgbox4 {%- endif -%}
           >
            {%- if section.settings.image != blank -%}
               <div class="img imgbox1">{{section.settings.image| image_url: width: 1500 | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority }}
