@@ -98,6 +98,46 @@
         "padding_bottom": 52
       }
     },
+    "image_with_text_CfxKTn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_qJ3R7i": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Operations",
+            "heading_size": "h1"
+          }
+        },
+        "text_MCn4P3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend. Phasellus quis tincidunt elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend. Phasellus quis tincidunt elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br/><br/></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qJ3R7i",
+        "text_MCn4P3"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/our_operation_img.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "4a002122-a2b6-4054-bb7d-ef35cde1dcf1": {
       "type": "multicolumn",
       "blocks": {
@@ -369,6 +409,7 @@
     "main",
     "f818e213-0ec7-48f5-b560-9dc50bb12dff",
     "rich_text_nAj3Vj",
+    "image_with_text_CfxKTn",
     "4a002122-a2b6-4054-bb7d-ef35cde1dcf1",
     "21d4be1f-32cf-41ce-80f4-7a0fcc7a7b45",
     "b7aa9a24-051d-459c-acea-b9538c361907",
