@@ -142,9 +142,9 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .home_blog_section ul li .article-card-wrapper h3.card__heading{ font-size:18px; line-height:26px; color:#333;}
 .home_blog_section ul li .article-card-wrapper:hover h3.card__heading{ text-decoration:none;}
 .home_blog_section ul li .article-card-wrapper .card__information{ padding-left:0px;}
-
 .home_blog_section ul li .article-card-wrapper p.article-card__excerpt{ display:none;}
 
+.section_cta_with_icon_text .multicolumn-card__image-wrapper{ width:48px; height:48px; margin:auto;}
 
 
 footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:14px; font-weight:500;}
