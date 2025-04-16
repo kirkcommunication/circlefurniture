@@ -37,7 +37,7 @@
           >
             {%- if section.settings.image != blank -%}
              
-                <img src="{{ section.settings.image | url }}" />
+                <img src="{{ section.settings.image | asset_url }}" />
 
                 
             {%- endif -%}
