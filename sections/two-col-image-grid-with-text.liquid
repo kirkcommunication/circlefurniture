@@ -1,8 +1,8 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 <style>
 .image-with-text__media .img{ width:100%; height:250px; overflow:hidden;}
-  .image-with-text__media .img img{ width:100%;}
-  .image-with-text__media{ display:grid; grid-template-columns: repeat(2, 1fr); gap:10px;}
+.image-with-text__media .img img{ width:100%;}
+.image-with-text__media{ display:grid; grid-template-columns: repeat(2, 1fr); gap:10px;}
   
 </style>
 {%- style -%}
@@ -107,20 +107,40 @@
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
     },
+    {
+      "type": "text",
+      "id": "image_one_text",
+      "label": "Image One Text"
+    },
      {
       "type": "image_picker",
       "id": "image2",
       "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "text",
+      "id": "image_two_text",
+      "label": "Image Two Text"
     },
      {
       "type": "image_picker",
       "id": "image3",
       "label": "t:sections.image-with-text.settings.image.label"
     },
+    {
+      "type": "text",
+      "id": "image_three_text",
+      "label": "Image Three Text"
+    },
      {
       "type": "image_picker",
       "id": "image4",
       "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "text",
+      "id": "image_four_text",
+      "label": "Image Four Text"
     },
     {
       "type": "select",
