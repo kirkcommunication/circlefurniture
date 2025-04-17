@@ -1,8 +1,17 @@
+
+
+<div class="ourvalue_menu_wrapper">
+  <div class="page-width">
+  <ul>
 {% for link in linklists.our-values-menu.links %}
   <li>
     <a href="{{ link.url }}">{{ link.title }}</a>
   </li>
 {% endfor %}
+  </ul>
+  </div>
+</div>
+
 
 {% schema %}
   {
