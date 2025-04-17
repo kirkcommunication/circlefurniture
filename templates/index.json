@@ -223,7 +223,7 @@
           "settings": {
             "image": "shopify://shop_images/cambridge_img.png",
             "title": "Cambridge",
-            "text": "",
+            "text": "<p><a href=\"tel:617-876-3988\">617-876-3988</a><br/>199 Alewife Brook Parkway Cambridge, MA 02138</p>",
             "link_label": "",
             "link": "shopify://metaobjects/store_location/cambridge"
           }
