@@ -118,6 +118,47 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_HVHcgj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_gwQiki": {
+          "type": "heading",
+          "settings": {
+            "heading": "Charitable Contributions",
+            "heading_size": "h1"
+          }
+        },
+        "text_yn9Taz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are proud to support a range of charitable organizations and causes that align with our values. Through financial donations, in-kind contributions, and fundraising efforts, we strive to make a meaningful difference in the lives of those in need.adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gwQiki",
+        "text_yn9Taz"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/our_operation_img.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_col_img_with_text",
+        "background_color": "#faf9f7",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "two_col_image_grid_with_text_kHdgcC": {
       "type": "two-col-image-grid-with-text",
       "blocks": {
@@ -966,6 +1007,7 @@
     "main",
     "f818e213-0ec7-48f5-b560-9dc50bb12dff",
     "image_with_text_CfxKTn",
+    "image_with_text_HVHcgj",
     "two_col_image_grid_with_text_kHdgcC",
     "two_col_image_grid_with_text_FiNqwN",
     "two_col_image_grid_with_text_abbeHC",
