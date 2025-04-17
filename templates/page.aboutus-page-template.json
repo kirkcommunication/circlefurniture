@@ -509,12 +509,12 @@
         "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
-        "section_class": "section_designer_grid",
+        "section_class": "section_designer_grid fcwhite",
         "background_color": "#3d5c66",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "multicolumn_CqALKN": {
