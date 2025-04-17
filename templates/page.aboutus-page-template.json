@@ -359,6 +359,109 @@
         "padding_bottom": 0
       }
     },
+    "multicolumn_E7Nt7W": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_QNiYxp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/copeland_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6CXXhR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/saloom_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_36LCxD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/amisco_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6NNJdU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/bdi_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bdRkp4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/gatcreek_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_azbRUJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/american_leather_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GxQbdr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cr_laine_logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_QNiYxp",
+        "column_6CXXhR",
+        "column_36LCxD",
+        "column_6NNJdU",
+        "column_bdRkp4",
+        "column_azbRUJ",
+        "column_GxQbdr"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "sub_heading": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "section_class": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_CqALKN": {
       "type": "multicolumn",
       "blocks": {
@@ -825,6 +928,7 @@
     "two_col_image_grid_with_text_FiNqwN",
     "two_col_image_grid_with_text_abbeHC",
     "image_with_text_YMjbwk",
+    "multicolumn_E7Nt7W",
     "multicolumn_CqALKN",
     "multicolumn_wKw9aQ",
     "4a002122-a2b6-4054-bb7d-ef35cde1dcf1",
