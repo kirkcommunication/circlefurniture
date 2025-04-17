@@ -34,7 +34,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .header--top-center .header__heading a.link{ line-height: 0px;}
 .page_content_wrapper h1, .h1{ font-size:46px; line-height:52px; font-weight:600; font-family: "Poppins", sans-serif;}
 .page_content_wrapper h2, .h2{ font-size:40px; line-height:46px; font-weight:500; font-family: "Poppins", sans-serif;}
-.shopify-section.section h2.rich-text__heading{font-size:36px; line-height:46px;  color:#5c4d3b; font-family: "Poppins", sans-serif; font-weight:400;}
+.shopify-section.section h2.rich-text__heading{font-size:36px; line-height:46px;  color:#5c4d3b; font-family: "Poppins", sans-serif; font-weight:400; text-transform: uppercase;}
 
 .home_slider_outer .slideshow__text-wrapper{ margin:0px auto; justify-content:left !important;}
 .home_slider_outer .slideshow__text-wrapper .slideshow__text.banner__box{ max-width:600px; background-color:transparent; align-items: flex-start; padding-left:0px;}
