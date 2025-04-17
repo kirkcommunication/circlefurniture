@@ -216,6 +216,47 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_N3djrX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_CAeEMf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Employee Volunteer Programs",
+            "heading_size": "h1"
+          }
+        },
+        "text_7fp9Jh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We encourage our employees to give back by offering paid volunteer time and organizing company-wide volunteer events. By supporting our employees passion for helping others, we create a positive impact that extends beyond our business operations. orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CAeEMf",
+        "text_7fp9Jh"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/our_operation_img.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_col_img_with_text",
+        "background_color": "#faf9f7",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "two_col_image_grid_with_text_FiNqwN": {
       "type": "two-col-image-grid-with-text",
       "blocks": {
@@ -1009,6 +1050,7 @@
     "image_with_text_CfxKTn",
     "image_with_text_HVHcgj",
     "two_col_image_grid_with_text_kHdgcC",
+    "image_with_text_N3djrX",
     "two_col_image_grid_with_text_FiNqwN",
     "two_col_image_grid_with_text_abbeHC",
     "image_with_text_YMjbwk",
