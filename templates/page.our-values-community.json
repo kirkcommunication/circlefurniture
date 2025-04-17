@@ -192,9 +192,9 @@
       ],
       "name": "Two Col Image Grid With Text",
       "settings": {
-        "image": "shopify://shop_images/image_13.png",
+        "image": "shopify://shop_images/Environmental_img1.png",
         "image_one_text": "",
-        "image2": "shopify://shop_images/design_img.png",
+        "image2": "shopify://shop_images/Environmental_img2.png",
         "image_two_text": "",
         "image_three_text": "",
         "image_four_text": "",
