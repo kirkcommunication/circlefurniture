@@ -468,28 +468,37 @@
         "heading_mK6hmb": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "DESIGNERS",
             "heading_size": "h1"
+          }
+        },
+        "caption_M7pQ9x": {
+          "type": "caption",
+          "settings": {
+            "caption": "From All Over The Region",
+            "text_style": "subtitle",
+            "text_size": "medium"
           }
         },
         "text_GJDYNt": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>We seek partners who believe deeply in sustainability, offer the highest quality furniture, and believe in our spirit of modern organic design.</p>",
             "text_style": "body"
           }
         },
         "button_BXg7dj": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Visit Our Design Centers",
+            "button_link": "#",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "heading_mK6hmb",
+        "caption_M7pQ9x",
         "text_GJDYNt",
         "button_BXg7dj"
       ],
