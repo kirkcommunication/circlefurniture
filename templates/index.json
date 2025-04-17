@@ -253,7 +253,7 @@
           "settings": {
             "image": "shopify://shop_images/pembroke_img.png",
             "title": "Pembroke",
-            "text": "",
+            "text": "<p><a href=\"tel:781-826-2728\">781-826-2728</a><br/>85 Washington Street Pembroke, MA 02359</p>",
             "link_label": "",
             "link": "shopify://metaobjects/store_location/pembroke"
           }
