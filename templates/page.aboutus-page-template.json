@@ -437,7 +437,7 @@
           "settings": {
             "image": "shopify://shop_images/acton_img.png",
             "title": "Acton",
-            "text": "",
+            "text": "<p><a href=\"tel:978-263-7268\">978-263-7268</a><br/>425 Great Road (Route 2A) Acton, MA 01720</p>",
             "link_label": "",
             "link": ""
           }
@@ -447,7 +447,7 @@
           "settings": {
             "image": "shopify://shop_images/boston_seaport_img.png",
             "title": "Boston-Seaport",
-            "text": "",
+            "text": "<p><a href=\"tel:617-865-6400\">617-865-6400</a><br/>100 Northern Avenue Boston, MA 02210</p>",
             "link_label": "",
             "link": ""
           }
@@ -457,7 +457,7 @@
           "settings": {
             "image": "shopify://shop_images/cambridge_img.png",
             "title": "Cambridge",
-            "text": "",
+            "text": "<p><a href=\"tel:617-876-3988\">617-876-3988</a><br/>199 Alewife Brook Parkway Cambridge, MA 02138</p>",
             "link_label": "",
             "link": ""
           }
@@ -467,7 +467,7 @@
           "settings": {
             "image": "shopify://shop_images/framingham_img.png",
             "title": "Framingham",
-            "text": "",
+            "text": "<p><a href=\"tel:508-875-0707\">508-875-0707</a><br/>235 Worcester Road (Route 9) Framingham, MA 01701</p>",
             "link_label": "",
             "link": ""
           }
@@ -477,7 +477,7 @@
           "settings": {
             "image": "shopify://shop_images/middleton_img.png",
             "title": "Middleton",
-            "text": "",
+            "text": "<p><a href=\"tel:978-777-2690\">978-777-2690</a><br/>237 S. Main Street Middleton, MA 01949</p>",
             "link_label": "",
             "link": ""
           }
@@ -487,7 +487,7 @@
           "settings": {
             "image": "shopify://shop_images/pembroke_img.png",
             "title": "Pembroke",
-            "text": "",
+            "text": "<p><a href=\"tel:781-826-2728\">781-826-2728</a><br/>85 Washington Street Pembroke, MA 02359</p>",
             "link_label": "",
             "link": ""
           }
@@ -497,7 +497,7 @@
           "settings": {
             "image": "shopify://shop_images/portsmouth_img.png",
             "title": "Portsmouth",
-            "text": "",
+            "text": "<p><a href=\"tel:603-441-2011\">603-441-2011</a><br/>40 Bridge Street Portsmouth, NH 03801</p>",
             "link_label": "",
             "link": ""
           }
@@ -507,7 +507,7 @@
           "settings": {
             "image": "shopify://shop_images/hyannis_img.png",
             "title": "HYANNIS (NEW)",
-            "text": "",
+            "text": "<p><a href=\"tel:999-888-7777\">999-888-7777</a><br/>123 Street Name Hyannis, MA 00000</p>",
             "link_label": "",
             "link": ""
           }
