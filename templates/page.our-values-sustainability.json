@@ -32,21 +32,21 @@
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "DESIGN",
+            "heading": "SUSTAINABILITY",
             "heading_size": "h2"
           }
         },
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-text-1": {
           "type": "text",
           "settings": {
-            "text": "At Circle Furniture, we believe that customization has the power to transform spaces, enhance our quality of life, and create lasting impressions.",
+            "text": "Our sustainable impact doesn't stop at creating amazing furnishings. We believe in leading by example, so we embed a deep commitment to social and environmental standards in everything we do.",
             "text_style": "body"
           }
         },
         "buttons_KxxbVn": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Learn about Our Design Services",
+            "button_label_1": "Explore Offerings with Us",
             "button_link_1": "#",
             "button_style_secondary_1": false,
             "button_label_2": "",
