@@ -26,7 +26,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/header-image.jpg",
-            "heading": "<span>TRENDING 2024</span> Sustainable Spring Style",
+            "heading": "TRENDING 2024 Sustainable Spring Style",
             "heading_size": "h2",
             "subheading": "Lorem ipsum dolor sit amet, adipiscing elit. In facilisis purus consectetur est commodo, eu tempus ",
             "button_label": "Learn More",
@@ -769,6 +769,7 @@
         "template--20734197137681__5779efd9-4530-4b76-8011-93886cc48abf-featured_collection-2",
         "template--20734197137681__5779efd9-4530-4b76-8011-93886cc48abf-featured_collection-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Shop by Category",
         "sub_heading_text": "",
@@ -809,6 +810,7 @@
       "block_order": [
         "19a3d836-c173-43d8-b026-5406a7ac6346"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "large",
@@ -859,6 +861,7 @@
         "template--20734197137681__828b2881-42e4-49c3-8367-e68af30c6ba0-text-1",
         "template--20734197137681__828b2881-42e4-49c3-8367-e68af30c6ba0-button-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -898,6 +901,7 @@
         "85eeee68-bd65-4dbf-9d85-a48acfd1da09",
         "f75e57ef-22b7-48a5-8119-d7e56ad1de35"
       ],
+      "disabled": true,
       "settings": {
         "background_color": "#ffffff",
         "btn_color": "#5f817f",
@@ -932,6 +936,7 @@
       "block_order": [
         "427c5823-777b-4028-a804-d0773229cb8e"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "large",
@@ -951,6 +956,7 @@
     },
     "2dad34d9-83f1-4f5f-a2dc-b3ea950537c0": {
       "type": "quote-single",
+      "disabled": true,
       "settings": {
         "quote_text": "<p>This store has a fabulously curated selection of extremely high quality, hard to find and artisan made furniture. This is far from your average furniture store and you will be impressed.</p>",
         "button_text": "See more reviews",
@@ -988,6 +994,7 @@
         "39230291-f2c7-475d-b728-02a99a6b747f",
         "ab945a45-becc-4386-9b73-b4fb4ec98333"
       ],
+      "disabled": true,
       "settings": {
         "background_color": "#cbb289",
         "button_hover_color": "#e2b05e",
