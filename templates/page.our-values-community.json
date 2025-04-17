@@ -165,14 +165,14 @@
         "heading_Abzd3P": {
           "type": "heading",
           "settings": {
-            "heading": "OUR CORE VALUES",
+            "heading": "Environmental Stewardship",
             "heading_size": "h1"
           }
         },
         "text_aM9Hw8": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend. Phasellus quis tincidunt elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
+            "text": "<p>As part of our commitment to sustainability, we actively support environmental conservation efforts. From reducing our carbon footprint to participating in community clean-up projects, we are dedicated to protecting our planet and promoting eco-friendly practices amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
             "text_style": "body"
           }
         },
@@ -193,13 +193,11 @@
       "name": "Two Col Image Grid With Text",
       "settings": {
         "image": "shopify://shop_images/image_13.png",
-        "image_one_text": "SUSTAINABILITY",
+        "image_one_text": "",
         "image2": "shopify://shop_images/design_img.png",
-        "image_two_text": "DESIGN",
-        "image3": "shopify://shop_images/CRAFTSMANSHIP_img.png",
-        "image_three_text": "CRAFTSMANSHIP",
-        "image4": "shopify://shop_images/COMMUNITY_img.png",
-        "image_four_text": "COMMUNITY",
+        "image_two_text": "",
+        "image_three_text": "",
+        "image_four_text": "",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -209,7 +207,7 @@
         "section_color_scheme": "",
         "color_scheme": "",
         "section_class": "two_coll_with_img_grid first btn_primary",
-        "background_color": "#ece5dd",
+        "background_color": "#faf9f7",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
