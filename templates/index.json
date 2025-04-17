@@ -203,7 +203,7 @@
           "settings": {
             "image": "shopify://shop_images/acton_img.png",
             "title": "Acton",
-            "text": "<p><a href=\"tel:978-263-7268\" title=\"tel:978-263-7268\">978-263-7268</a><br/>425 Great Road (Route 2A) Acton, MA 01720</p>",
+            "text": "<p><a href=\"tel:978-263-7268\">978-263-7268</a><br/>425 Great Road (Route 2A) Acton, MA 01720</p>",
             "link_label": "",
             "link": "shopify://metaobjects/store_location/acton"
           }
@@ -213,7 +213,7 @@
           "settings": {
             "image": "shopify://shop_images/boston_seaport_img.png",
             "title": "Boston-Seaport",
-            "text": "",
+            "text": "<p><a href=\"tel:617-865-6400\">617-865-6400</a><br/>100 Northern Avenue Boston, MA 02210</p>",
             "link_label": "",
             "link": "shopify://metaobjects/store_location/boston-seaport"
           }
