@@ -94,8 +94,8 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "two_col_image_grid_with_text_kHdgcC": {
