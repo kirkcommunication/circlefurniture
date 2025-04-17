@@ -203,7 +203,7 @@
           "settings": {
             "image": "shopify://shop_images/acton_img.png",
             "title": "Acton",
-            "text": "",
+            "text": "<p>978-263-7268<br/>425 Great Road (Route 2A) Acton, MA 01720</p>",
             "link_label": "",
             "link": "shopify://metaobjects/store_location/acton"
           }
@@ -533,6 +533,7 @@
         "section_color_scheme": "",
         "color_scheme": "",
         "section_class": "two_col_img_with_text",
+        "background_color": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
