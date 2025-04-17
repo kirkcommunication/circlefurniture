@@ -1,0 +1,740 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "f818e213-0ec7-48f5-b560-9dc50bb12dff": {
+      "type": "image-banner",
+      "blocks": {
+        "caption_MhTd9h": {
+          "type": "caption",
+          "settings": {
+            "caption": "OUR VALUES",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "COMMUNITY",
+            "heading_size": "h2"
+          }
+        },
+        "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "We take every opportunity to partner with local businesses, host events, and fundraisers, and get involved with charitable organizations in Boston and beyond. We also support the community by working with local vendors and manufacturers.",
+            "text_style": "body"
+          }
+        },
+        "buttons_KxxbVn": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Join Us to Make a Differece",
+            "button_link_1": "#",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_MhTd9h",
+        "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-heading-1",
+        "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-text-1",
+        "buttons_KxxbVn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/communiity_banner.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "top-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "section_class": "section_innerpage_banner",
+        "background_color": "#344b60",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "our_value_menu_7NC6aL": {
+      "type": "our_value_menu",
+      "settings": {}
+    },
+    "image_with_text_CfxKTn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_qJ3R7i": {
+          "type": "heading",
+          "settings": {
+            "heading": "Community Engagement",
+            "heading_size": "h1"
+          }
+        },
+        "text_MCn4P3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We actively engage with our local communities through various initiatives, including volunteering, sponsoring events, and supporting local organizations. Our employees are encouraged to participate in community service, fostering a culture of giving and civic responsibility. </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qJ3R7i",
+        "text_MCn4P3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/community_img.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_col_img_with_text",
+        "background_color": "#faf9f7",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_HVHcgj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_gwQiki": {
+          "type": "heading",
+          "settings": {
+            "heading": "Charitable Contributions",
+            "heading_size": "h1"
+          }
+        },
+        "text_yn9Taz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are proud to support a range of charitable organizations and causes that align with our values. Through financial donations, in-kind contributions, and fundraising efforts, we strive to make a meaningful difference in the lives of those in need.adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gwQiki",
+        "text_yn9Taz"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/contribution_img.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_col_img_with_text",
+        "background_color": "#faf9f7",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "two_col_image_grid_with_text_kHdgcC": {
+      "type": "two-col-image-grid-with-text",
+      "blocks": {
+        "heading_Abzd3P": {
+          "type": "heading",
+          "settings": {
+            "heading": "Environmental Stewardship",
+            "heading_size": "h1"
+          }
+        },
+        "text_aM9Hw8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As part of our commitment to sustainability, we actively support environmental conservation efforts. From reducing our carbon footprint to participating in community clean-up projects, we are dedicated to protecting our planet and promoting eco-friendly practices amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_hbCafD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply Today",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Abzd3P",
+        "text_aM9Hw8",
+        "button_hbCafD"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Environmental_img1.png",
+        "image_one_text": "",
+        "image2": "shopify://shop_images/Environmental_img2.png",
+        "image_two_text": "",
+        "image_three_text": "",
+        "image_four_text": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_coll_with_img_grid first btn_primary two_row_image",
+        "background_color": "#faf9f7",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_N3djrX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_CAeEMf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Employee Volunteer Programs",
+            "heading_size": "h1"
+          }
+        },
+        "text_7fp9Jh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We encourage our employees to give back by offering paid volunteer time and organizing company-wide volunteer events. By supporting our employees passion for helping others, we create a positive impact that extends beyond our business operations. orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CAeEMf",
+        "text_7fp9Jh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Volunteer_img.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_col_img_with_text",
+        "background_color": "#faf9f7",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 80
+      }
+    },
+    "cta_section_JqHpDV": {
+      "type": "cta-section",
+      "settings": {
+        "cta_text": "Join Us in Making a Difference!",
+        "cta_subheading": "Are you ready to make a positive impact in our local community? Partner with Circle to support meaningful initiatives and create lasting change. Together, we can build a brighter future Do you have an event or fundraiser? Let us know!",
+        "cta_button_url": "#",
+        "button_text": "Reach out to Us Today"
+      }
+    },
+    "multicolumn_CqALKN": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_764bH9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/glove_icon_923bd0f8-ee0a-4318-904a-7c90d9c0405e.png",
+            "title": "WHITE GLOVE DELIVERY",
+            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fyaF6z": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/headphone_icon_56a17862-ed58-46b0-acf6-f9570b9d7b27.png",
+            "title": "CONCIERGE & SUPPORT",
+            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RdCVim": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/noun-horizontal-tag-check_icon_60a786a0-d355-4d25-9439-6c89a6e24c91.png",
+            "title": "PRICE MATCHING",
+            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FpTFU8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/return_icon_2c6ebe1c-cd1b-4ced-aed5-19e3a1f3853b.png",
+            "title": "RETURN POLICY",
+            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_764bH9",
+        "column_fyaF6z",
+        "column_RdCVim",
+        "column_FpTFU8"
+      ],
+      "settings": {
+        "title": "",
+        "sub_heading": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "section_class": "section_cta_with_icon_text",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "multicolumn_wKw9aQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_yUzNEb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/acton_img.png",
+            "title": "Acton",
+            "text": "<p><a href=\"tel:978-263-7268\">978-263-7268</a><br/>425 Great Road (Route 2A) Acton, MA 01720</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jkmDgU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/boston_seaport_img.png",
+            "title": "Boston-Seaport",
+            "text": "<p><a href=\"tel:617-865-6400\">617-865-6400</a><br/>100 Northern Avenue Boston, MA 02210</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DN86dq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cambridge_img.png",
+            "title": "Cambridge",
+            "text": "<p><a href=\"tel:617-876-3988\">617-876-3988</a><br/>199 Alewife Brook Parkway Cambridge, MA 02138</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_abX6aG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/framingham_img.png",
+            "title": "Framingham",
+            "text": "<p><a href=\"tel:508-875-0707\">508-875-0707</a><br/>235 Worcester Road (Route 9) Framingham, MA 01701</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cUHn8F": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/middleton_img.png",
+            "title": "Middleton",
+            "text": "<p><a href=\"tel:978-777-2690\">978-777-2690</a><br/>237 S. Main Street Middleton, MA 01949</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7hnMGY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pembroke_img.png",
+            "title": "Pembroke",
+            "text": "<p><a href=\"tel:781-826-2728\">781-826-2728</a><br/>85 Washington Street Pembroke, MA 02359</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Ng6Tej": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/portsmouth_img.png",
+            "title": "Portsmouth",
+            "text": "<p><a href=\"tel:603-441-2011\">603-441-2011</a><br/>40 Bridge Street Portsmouth, NH 03801</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yAj9dm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hyannis_img.png",
+            "title": "HYANNIS (NEW)",
+            "text": "<p><a href=\"tel:999-888-7777\">999-888-7777</a><br/>123 Street Name Hyannis, MA 00000</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_yUzNEb",
+        "column_jkmDgU",
+        "column_DN86dq",
+        "column_abX6aG",
+        "column_cUHn8F",
+        "column_7hnMGY",
+        "column_Ng6Tej",
+        "column_yAj9dm"
+      ],
+      "settings": {
+        "title": "EXPERIENCE OUR DESIGN LOCATIONS",
+        "sub_heading": "Come in and let our designers inspire you!",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "section_class": "four_col_grid design_location",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4a002122-a2b6-4054-bb7d-ef35cde1dcf1": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21640859255057__4a002122-a2b6-4054-bb7d-ef35cde1dcf1-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/v1.png",
+            "title": "Community",
+            "text": "<p>We believe in supporting our local communities. Why? Because we live and work in the same neighborhoods that you do.</p>",
+            "link_label": "Learn More",
+            "link": "https://www.circlefurniture.com/about-circle-furniture/community.cfm"
+          }
+        },
+        "template--21640859255057__4a002122-a2b6-4054-bb7d-ef35cde1dcf1-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/v2.png",
+            "title": "Craftsmanship",
+            "text": "<p>We work with craftsmen who take pride in their work and much of our furniture is not only made in the United States, but locally in New England.</p>",
+            "link_label": "Learn More",
+            "link": "https://www.circlefurniture.com/about-circle-furniture/quality-and-craftsmanship.cfm"
+          }
+        },
+        "template--21640859255057__4a002122-a2b6-4054-bb7d-ef35cde1dcf1-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/v3.png",
+            "title": "Sustainability",
+            "text": "<p>We’re committed to offering eco-friendly options that are sustainably made and safe for our homes and the environment.</p>",
+            "link_label": "Learn More",
+            "link": "https://www.circlefurniture.com/about-circle-furniture/sustainability.cfm"
+          }
+        },
+        "3c325d69-9be9-4760-93d6-b4a2058ab351": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/v4.png",
+            "title": "Design",
+            "text": "<p>We offer expertly-designed furniture for all homes. Our collection is high-quality, timeless, and made for real life.</p>",
+            "link_label": "Learn More",
+            "link": "https://www.circlefurniture.com/about-circle-furniture/design-services.cfm"
+          }
+        }
+      },
+      "block_order": [
+        "template--21640859255057__4a002122-a2b6-4054-bb7d-ef35cde1dcf1-column-1",
+        "template--21640859255057__4a002122-a2b6-4054-bb7d-ef35cde1dcf1-column-2",
+        "template--21640859255057__4a002122-a2b6-4054-bb7d-ef35cde1dcf1-column-3",
+        "3c325d69-9be9-4760-93d6-b4a2058ab351"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "ul.multicolumn-list li div.multicolumn-card__image-wrapper .media {padding: 0px !important; position: relative;}",
+        "ul.multicolumn-list li div.multicolumn-card__image-wrapper .media img {position: relative;}"
+      ],
+      "settings": {
+        "title": "Our Values",
+        "sub_heading": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "section_class": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "21d4be1f-32cf-41ce-80f4-7a0fcc7a7b45": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21640859255057__21d4be1f-32cf-41ce-80f4-7a0fcc7a7b45-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Our People",
+            "heading_size": "h1"
+          }
+        },
+        "template--21640859255057__21d4be1f-32cf-41ce-80f4-7a0fcc7a7b45-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re a small, family-owned company with a family atmosphere. We thrive on creative ideas, a friendly environment, and most importantly, our love for high-quality, beautiful furniture.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21640859255057__21d4be1f-32cf-41ce-80f4-7a0fcc7a7b45-heading-1",
+        "template--21640859255057__21d4be1f-32cf-41ce-80f4-7a0fcc7a7b45-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "b7aa9a24-051d-459c-acea-b9538c361907": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21640859255057__b7aa9a24-051d-459c-acea-b9538c361907-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/row-4-corr-luis-w.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21640859255057__b7aa9a24-051d-459c-acea-b9538c361907-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/row-4-corr-cindy-w.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21640859255057__b7aa9a24-051d-459c-acea-b9538c361907-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/row-4-corr-erica-w.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "371f040a-7f15-4977-8afd-e899f3fa3bd9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/row-4-corr-moise-w.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21640859255057__b7aa9a24-051d-459c-acea-b9538c361907-column-1",
+        "template--21640859255057__b7aa9a24-051d-459c-acea-b9538c361907-column-2",
+        "template--21640859255057__b7aa9a24-051d-459c-acea-b9538c361907-column-3",
+        "371f040a-7f15-4977-8afd-e899f3fa3bd9"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".background-none .multicolumn-card .multicolumn-card__image-wrapper {margin: 0px;}"
+      ],
+      "settings": {
+        "title": "",
+        "sub_heading": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "section_class": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ac7da112-145f-4af6-bbbf-ede03009cf72": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21640859255057__ac7da112-145f-4af6-bbbf-ede03009cf72-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/row-5-pembroke-ext.jpg",
+            "title": "Visit one of our showrooms",
+            "text": "",
+            "link_label": "Find Location",
+            "link": "shopify://pages/our-locations"
+          }
+        },
+        "template--21640859255057__ac7da112-145f-4af6-bbbf-ede03009cf72-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/row-5-lucia.jpg",
+            "title": "Join Our Team",
+            "text": "",
+            "link_label": "Explore Career Opportunities",
+            "link": "shopify://pages/careers"
+          }
+        }
+      },
+      "block_order": [
+        "template--21640859255057__ac7da112-145f-4af6-bbbf-ede03009cf72-column-1",
+        "template--21640859255057__ac7da112-145f-4af6-bbbf-ede03009cf72-column-2"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".multicolumn-card-spacing {margin: 0px; padding: 0px;}"
+      ],
+      "settings": {
+        "title": "",
+        "sub_heading": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "section_class": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d6adb568-4242-4c6d-986c-7c77278e0fdb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21640859255057__d6adb568-4242-4c6d-986c-7c77278e0fdb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get in touch with us.",
+            "heading_size": "h2"
+          }
+        },
+        "template--21640859255057__d6adb568-4242-4c6d-986c-7c77278e0fdb-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve helped thousands of people furnish their homes; elevating their style and their lifestyle one piece of furniture at a time. And we want to do the same for you. Have questions about our products or our services? Want to schedule an appointment with a Design Consultant?</p><p>We’re here to help.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21640859255057__d6adb568-4242-4c6d-986c-7c77278e0fdb-heading-1",
+        "template--21640859255057__d6adb568-4242-4c6d-986c-7c77278e0fdb-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "5135cf98-f758-4682-b963-fe23cac20fb5": {
+      "type": "contact-form",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f818e213-0ec7-48f5-b560-9dc50bb12dff",
+    "our_value_menu_7NC6aL",
+    "image_with_text_CfxKTn",
+    "image_with_text_HVHcgj",
+    "two_col_image_grid_with_text_kHdgcC",
+    "image_with_text_N3djrX",
+    "cta_section_JqHpDV",
+    "multicolumn_CqALKN",
+    "multicolumn_wKw9aQ",
+    "4a002122-a2b6-4054-bb7d-ef35cde1dcf1",
+    "21d4be1f-32cf-41ce-80f4-7a0fcc7a7b45",
+    "b7aa9a24-051d-459c-acea-b9538c361907",
+    "ac7da112-145f-4af6-bbbf-ede03009cf72",
+    "d6adb568-4242-4c6d-986c-7c77278e0fdb",
+    "5135cf98-f758-4682-b963-fe23cac20fb5"
+  ]
+}
