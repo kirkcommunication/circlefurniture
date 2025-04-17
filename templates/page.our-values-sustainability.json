@@ -81,55 +81,40 @@
       "type": "our_value_menu",
       "settings": {}
     },
-    "two_col_image_grid_with_text_zL4hYK": {
-      "type": "two-col-image-grid-with-text",
+    "image_with_text_zrtBNj": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_Nmk9kG": {
+        "heading_E9xgMU": {
           "type": "heading",
           "settings": {
-            "heading": "The Importance of Customization",
+            "heading": "Our Green Commitment",
             "heading_size": "h1"
           }
         },
-        "text_Qmky9w": {
+        "text_WAJPyT": {
           "type": "text",
           "settings": {
-            "text": "<p>The value of customization for our customers lies in their ability to acquire a unique, high-quality, and personalized product that perfectly fits their needs and preferences, provides emotional and sentimental satisfaction, and serves as a symbol of their tasteand status.</p>",
+            "text": "<p>Circle Furniture is proud to be a member of the Sustainable Furnishings Council, a non-profit coalition that promotes sustainable practices among manufacturers, retailers, and consumers. As a member, we commit to protecting our environment as well as the health and safety of our customers. </p><p>\"We recognize our responsibility to the environment. Our goal is to have 100% of the manufacturers with whom we partner engage in sustainable processes that minimize their carbon footprint., maintain the health of our forests and their wildlife habitat, and protect the waterways. This is an increasing request from our customers–one that Circle Furniture and our partners are committed to achieving\"<br/><br/></p>",
             "text_style": "body"
-          }
-        },
-        "button_TfbkDe": {
-          "type": "button",
-          "settings": {
-            "button_label": "Schedule a Free Design Consultation",
-            "button_link": "#",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_Nmk9kG",
-        "text_Qmky9w",
-        "button_TfbkDe"
+        "heading_E9xgMU",
+        "text_WAJPyT"
       ],
       "settings": {
-        "image": "shopify://shop_images/customization_img1.jpg",
-        "image_one_text": "",
-        "image2": "shopify://shop_images/customization_img2.jpg",
-        "image_two_text": "",
-        "image3": "shopify://shop_images/customization_img3.jpg",
-        "image_three_text": "",
-        "image_four_text": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
+        "image": "shopify://shop_images/Sustainable_Furnishings_Council.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
-        "section_class": "two_coll_with_img_grid btn_primary",
-        "background_color": "#faf9f7",
+        "section_class": "",
+        "background_color": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -761,7 +746,7 @@
     "main",
     "f818e213-0ec7-48f5-b560-9dc50bb12dff",
     "our_value_menu_7NC6aL",
-    "two_col_image_grid_with_text_zL4hYK",
+    "image_with_text_zrtBNj",
     "image_with_text_CfxKTn",
     "two_col_image_grid_with_text_kHdgcC",
     "image_with_text_HVHcgj",
