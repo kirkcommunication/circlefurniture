@@ -71,6 +71,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 @keyframes slideaway {from { display: none;  transform: translateY(40px); } to { transform: translateY(0px); opacity: 1;} }
 .four_col_grid.design_location .rte{ max-width:220px; margin:0 auto;  display: none; }
 .four_col_grid.design_location .multicolumn-card:hover .rte{animation: slideaway 500ms; display:block;}
+.four_col_grid.design_location .multicolumn-card:hover .rte h2{animation: slideaway 500ms; display:block;}
 .four_col_grid.design_location .rte p, .four_col_grid.design_location .rte a{ color:#fff; font-family: "Poppins", sans-serif; font-size:14px; line-height:20px; text-decoration:none;}
 
 
