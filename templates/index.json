@@ -233,7 +233,7 @@
           "settings": {
             "image": "shopify://shop_images/framingham_img.png",
             "title": "Framingham",
-            "text": "",
+            "text": "<p><a href=\"tel:508-875-0707\">508-875-0707</a><br/>235 Worcester Road (Route 9) Framingham, MA 01701</p>",
             "link_label": "",
             "link": "shopify://metaobjects/store_location/framingham"
           }
