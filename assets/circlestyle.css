@@ -164,8 +164,8 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 /*==============Inner page Banner Code ============*/
 .section_innerpage_banner .banner__content{ padding:0px;}
 .section_innerpage_banner .banner__media img{ max-width: 50% !important; right:0px; left:initial !important;}
-.shopify-section.section .section_innerpage_banner::after{ width:50%; background-color:#3d5c66; opacity:1 !important;}
-.section_innerpage_banner .banner__box.content-container{ width:50%; height:100%; background-color:#3d5c66; min-height:600px; display: flex; flex-direction: column;justify-content: center;align-items: flex-start;}
+.shopify-section.section .section_innerpage_banner::after{ width:50%; opacity:1 !important;}
+.section_innerpage_banner .banner__box.content-container{ width:50%; height:100%; min-height:600px; display: flex; flex-direction: column;justify-content: center;align-items: flex-start;}
 .section_innerpage_banner .banner__box.content-container h2.banner__heading{font-size:48px; line-height:56px; color:#fff; font-family: "Poppins", sans-serif; font-weight:400;}
 .section_innerpage_banner .banner__box.content-container .banner__text p{font-size:16px; line-height:26px; font-weight:400; color:#fff; margin:0px 0px 10px;}
 .section_innerpage_banner .banner__box.content-container a.button{ background:none; padding:15px 35px; line-height:initial; border-radius:30px; border:2px solid #fff; color:#fff; font-size:15px; text-decoration:none;}
