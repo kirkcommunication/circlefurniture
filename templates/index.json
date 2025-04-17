@@ -263,7 +263,7 @@
           "settings": {
             "image": "shopify://shop_images/portsmouth_img.png",
             "title": "Portsmouth",
-            "text": "",
+            "text": "<p><a href=\"tel:603-441-2011\">603-441-2011</a><br/>40 Bridge Street Portsmouth, NH 03801</p>",
             "link_label": "",
             "link": "shopify://metaobjects/store_location/portsmouth"
           }
