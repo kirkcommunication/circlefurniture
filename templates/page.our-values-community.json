@@ -77,6 +77,11 @@
         "show_text_below": true
       }
     },
+    "our_value_menu_7NC6aL": {
+      "type": "our_value_menu",
+      "name": "Our Values Navigaton",
+      "settings": {}
+    },
     "image_with_text_CfxKTn": {
       "type": "image-with-text",
       "blocks": {
@@ -725,6 +730,7 @@
   "order": [
     "main",
     "f818e213-0ec7-48f5-b560-9dc50bb12dff",
+    "our_value_menu_7NC6aL",
     "image_with_text_CfxKTn",
     "image_with_text_HVHcgj",
     "two_col_image_grid_with_text_kHdgcC",
