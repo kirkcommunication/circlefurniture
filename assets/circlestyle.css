@@ -102,7 +102,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .two_col_img_with_text h2.image-with-text__heading{ font-size:36px; line-height:46px; color:#5c4d3b; font-family: "Poppins", sans-serif; font-weight:400; text-transform: uppercase;}
 .two_col_img_with_text p.subtitle{font-size:20px; line-height:32px; color:#5c4d3b; margin-top:5px; font-family: "Poppins", sans-serif; font-weight:400;}
 .two_col_img_with_text  div.image-with-text__text p{font-size:16px; line-height:26px; color:#333; margin-top:0px; font-family: "Poppins", sans-serif; font-weight:400;} 
-
+.two_col_img_with_text .image-with-text__media-item:after{ display: none;}
 .two_col_img_with_text a.button:before, .two_col_img_with_text a.button:after{ display:none;}
 .two_col_img_with_text a.button{ border:2px solid #806b52; border-radius:80px; padding:15px 35px; color:#806b52; font-size:15px; line-height:18px; background:#fff; letter-spacing:inherit;}
 
