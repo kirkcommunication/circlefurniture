@@ -1,10 +1,15 @@
-
+<style>
+.ourvalue_menu_wrapper{ background:#dfd2c4;}
+.ourvalue_menu_wrapper ul{ padding:0px; margin:0px; display:flex; gap:5px;}
+  
+</style>
 
 <div class="ourvalue_menu_wrapper">
   <div class="page-width">
   <ul>
+    <li class="heading">OUR VALUES:</li>
 {% for link in linklists.our-values-menu.links %}
-  <li>
+  <li class="nav">
     <a href="{{ link.url }}">{{ link.title }}</a>
   </li>
 {% endfor %}
