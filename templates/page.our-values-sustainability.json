@@ -105,10 +105,10 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Sustainable_Furnishings_Council.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
