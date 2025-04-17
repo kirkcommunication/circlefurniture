@@ -127,14 +127,14 @@
         "heading_qJ3R7i": {
           "type": "heading",
           "settings": {
-            "heading": "Personalization and Uniqueness",
+            "heading": "Local Partnerships",
             "heading_size": "h1"
           }
         },
         "text_MCn4P3": {
           "type": "text",
           "settings": {
-            "text": "<p>Our customers can express their personal style, taste, and identity through customized furniture pieces that reflect their individual preferences. Customization ensures that the furniture is unique, providing a sense of exclusivity that mass-produced itemscannot offer.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conseguat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/><br/></p>",
+            "text": "<p>Part of our initiative as a green company is to work with craftspeople who share our dedication to the environment. We carefully research every manufacturer before they get the Circle seal of approval. By building these relationships with local vendors, we're able to reduce our carbon footprint and cut down on the use of fuel and packaging materials.</p>",
             "text_style": "body"
           }
         }
@@ -144,7 +144,7 @@
         "text_MCn4P3"
       ],
       "settings": {
-        "image": "shopify://shop_images/personalization_img.jpg",
+        "image": "shopify://shop_images/Local_Partnerships_img.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -154,57 +154,11 @@
         "section_color_scheme": "",
         "color_scheme": "",
         "section_class": "two_col_img_with_text",
-        "background_color": "#faf9f7",
+        "background_color": "#eaf1f1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 80,
         "padding_bottom": 40
-      }
-    },
-    "two_col_image_grid_with_text_kHdgcC": {
-      "type": "two-col-image-grid-with-text",
-      "blocks": {
-        "heading_Abzd3P": {
-          "type": "heading",
-          "settings": {
-            "heading": "Superior Quality and Craftsmanship",
-            "heading_size": "h1"
-          }
-        },
-        "text_aM9Hw8": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our customers have the liberty to select high-quality materials that meet their standards for durability, texture, and appearance, ensuring long-lasting satisfaction.Custom pieces often involve higher craftsmanship, with meticulous attention to detail that enhances the overall quality and appeal of the furniture.</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Abzd3P",
-        "text_aM9Hw8"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Craftsmanship_img1.jpg",
-        "image_one_text": "",
-        "image2": "shopify://shop_images/Craftsmanship_img2.jpg",
-        "image_two_text": "",
-        "image3": "shopify://shop_images/Craftsmanship_img3.jpg",
-        "image_three_text": "",
-        "image_four_text": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "section_class": "two_coll_with_img_grid first btn_primary",
-        "background_color": "#faf9f7",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "image_with_text_HVHcgj": {
@@ -213,14 +167,14 @@
         "heading_gwQiki": {
           "type": "heading",
           "settings": {
-            "heading": "Reflecting Personal Style",
+            "heading": "Forest Responsibility",
             "heading_size": "h1"
           }
         },
         "text_yn9Taz": {
           "type": "text",
           "settings": {
-            "text": "<p>Interior design is a form of self-expression. It allows individuals to create spaces that reflect their personality, tastes, and lifestyle. Whether it's a cozy home that exudes warmth and comfort or a sleek office that inspires creativity and professionalism, great design captures and conveys personal identity dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+            "text": "<p>Circle Furniture values responsible use of forest resources. We work with our suppliers on an ongoing basis to increase the amount of certified, recycled wood used. This means we don't accept the following:</p><ul><li>Timber harvested illegally.</li><li>Timber harvested in violation of traditional or civil rights.﻿﻿</li><li>Timber harvested from areas where high conservation values are threatened by poor forest management.﻿﻿</li><li>Timber harvested from areas being converted from forests to plantations or for non-forest use.﻿﻿</li><li>Timber from forests where genetically modified trees are planted.</li></ul>",
             "text_style": "body"
           }
         }
@@ -230,10 +184,10 @@
         "text_yn9Taz"
       ],
       "settings": {
-        "image": "shopify://shop_images/Reflecting_img.jpg",
+        "image": "shopify://shop_images/Forest_Responsibility_img.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -748,7 +702,6 @@
     "our_value_menu_7NC6aL",
     "image_with_text_zrtBNj",
     "image_with_text_CfxKTn",
-    "two_col_image_grid_with_text_kHdgcC",
     "image_with_text_HVHcgj",
     "image_with_text_N3djrX",
     "multicolumn_CqALKN",
