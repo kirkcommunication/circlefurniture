@@ -593,6 +593,7 @@
         "template--21640859255057__4a002122-a2b6-4054-bb7d-ef35cde1dcf1-column-3",
         "3c325d69-9be9-4760-93d6-b4a2058ab351"
       ],
+      "disabled": true,
       "custom_css": [
         "ul.multicolumn-list li div.multicolumn-card__image-wrapper .media {padding: 0px !important; position: relative;}",
         "ul.multicolumn-list li div.multicolumn-card__image-wrapper .media img {position: relative;}"
@@ -637,6 +638,7 @@
         "template--21640859255057__21d4be1f-32cf-41ce-80f4-7a0fcc7a7b45-heading-1",
         "template--21640859255057__21d4be1f-32cf-41ce-80f4-7a0fcc7a7b45-text-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -696,6 +698,7 @@
         "template--21640859255057__b7aa9a24-051d-459c-acea-b9538c361907-column-3",
         "371f040a-7f15-4977-8afd-e899f3fa3bd9"
       ],
+      "disabled": true,
       "custom_css": [
         ".background-none .multicolumn-card .multicolumn-card__image-wrapper {margin: 0px;}"
       ],
@@ -746,6 +749,7 @@
         "template--21640859255057__ac7da112-145f-4af6-bbbf-ede03009cf72-column-1",
         "template--21640859255057__ac7da112-145f-4af6-bbbf-ede03009cf72-column-2"
       ],
+      "disabled": true,
       "custom_css": [
         ".multicolumn-card-spacing {margin: 0px; padding: 0px;}"
       ],
@@ -789,6 +793,7 @@
         "template--21640859255057__d6adb568-4242-4c6d-986c-7c77278e0fdb-heading-1",
         "template--21640859255057__d6adb568-4242-4c6d-986c-7c77278e0fdb-text-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -800,6 +805,7 @@
     },
     "5135cf98-f758-4682-b963-fe23cac20fb5": {
       "type": "contact-form",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "heading": "",
