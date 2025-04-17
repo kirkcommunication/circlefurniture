@@ -243,7 +243,7 @@
           "settings": {
             "image": "shopify://shop_images/middleton_img.png",
             "title": "Middleton",
-            "text": "",
+            "text": "<p><a href=\"tel:978-777-2690\">978-777-2690</a><br/>237 S. Main Street Middleton, MA 01949</p>",
             "link_label": "",
             "link": "shopify://metaobjects/store_location/middleton"
           }
