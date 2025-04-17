@@ -228,14 +228,14 @@
         "heading_gwQiki": {
           "type": "heading",
           "settings": {
-            "heading": "Charitable Contributions",
+            "heading": "Reflecting Personal Style",
             "heading_size": "h1"
           }
         },
         "text_yn9Taz": {
           "type": "text",
           "settings": {
-            "text": "<p>We are proud to support a range of charitable organizations and causes that align with our values. Through financial donations, in-kind contributions, and fundraising efforts, we strive to make a meaningful difference in the lives of those in need.adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>",
+            "text": "<p>Interior design is a form of self-expression. It allows individuals to create spaces that reflect their personality, tastes, and lifestyle. Whether it's a cozy home that exudes warmth and comfort or a sleek office that inspires creativity and professionalism, great design captures and conveys personal identity dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
             "text_style": "body"
           }
         }
@@ -245,7 +245,7 @@
         "text_yn9Taz"
       ],
       "settings": {
-        "image": "shopify://shop_images/contribution_img.jpg",
+        "image": "shopify://shop_images/Reflecting_img.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -259,7 +259,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 40
       }
     },
     "image_with_text_N3djrX": {
@@ -268,14 +268,14 @@
         "heading_CAeEMf": {
           "type": "heading",
           "settings": {
-            "heading": "Employee Volunteer Programs",
+            "heading": "Emotional and Sentimental Value",
             "heading_size": "h1"
           }
         },
         "text_7fp9Jh": {
           "type": "text",
           "settings": {
-            "text": "<p>We encourage our employees to give back by offering paid volunteer time and organizing company-wide volunteer events. By supporting our employees passion for helping others, we create a positive impact that extends beyond our business operations. orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>",
+            "text": "<p>Customized furniture often carries a deeper emotional connection because it is crafted to the consumer's exact specifications, making it more meaningful and valuable. Tnese pieces can be designed with the intention of being passed down. through generations, creating family heirlooms that hold sentimental value.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, guis nostrua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
             "text_style": "body"
           }
         }
@@ -285,10 +285,10 @@
         "text_7fp9Jh"
       ],
       "settings": {
-        "image": "shopify://shop_images/Volunteer_img.jpg",
+        "image": "shopify://shop_images/Emotional_img1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
