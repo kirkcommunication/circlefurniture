@@ -165,9 +165,48 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/wilton_collection_videobg.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_with_text_68EarW": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_ETC3iP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where It's Made: The Wilton Collection",
+            "heading_size": "h1"
+          }
+        },
+        "text_kHf9MM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We actively pursue sustainability across all key areas of our brand: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ETC3iP",
+        "text_kHf9MM"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/wilton_collection_videobg.jpg",
+        "video_urllink": "ICAAJb1q884",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -763,6 +802,7 @@
     "two_col_image_grid_with_text_kHdgcC",
     "rich_text_AjehxC",
     "video_WbixGQ",
+    "video_with_text_68EarW",
     "image_with_text_CfxKTn",
     "image_with_text_HVHcgj",
     "image_with_text_N3djrX",
