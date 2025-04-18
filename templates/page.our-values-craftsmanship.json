@@ -197,6 +197,45 @@
         "padding_bottom": 36
       }
     },
+    "video_with_text_PhzkQU": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_eEgpNb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where It's Made: the Copeland Collection",
+            "heading_size": "h1"
+          }
+        },
+        "text_jzj6YF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We visited one of our vendor partners in Bradford, VT to tour the factory floor and find out how our Copeland products are made! Come along with Erica and the team as we get a sneak peak behind the scenes at Copeland Furniture.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eEgpNb",
+        "text_jzj6YF"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/copeland_collection_img.jpg",
+        "video_urllink": "aFcifWKHD4E",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_class": "two_col_img_with_text",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_CfxKTn": {
       "type": "image-with-text",
       "blocks": {
@@ -788,6 +827,7 @@
     "two_col_image_grid_with_text_kHdgcC",
     "rich_text_AjehxC",
     "video_with_text_68EarW",
+    "video_with_text_PhzkQU",
     "image_with_text_CfxKTn",
     "image_with_text_HVHcgj",
     "image_with_text_N3djrX",
