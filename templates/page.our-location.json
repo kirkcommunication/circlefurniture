@@ -77,301 +77,6 @@
         "show_text_below": true
       }
     },
-    "our_value_menu_7NC6aL": {
-      "type": "our_value_menu",
-      "settings": {}
-    },
-    "two_col_image_grid_with_text_zL4hYK": {
-      "type": "two-col-image-grid-with-text",
-      "blocks": {
-        "heading_Nmk9kG": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Importance of Customization",
-            "heading_size": "h1"
-          }
-        },
-        "text_Qmky9w": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The value of customization for our customers lies in their ability to acquire a unique, high-quality, and personalized product that perfectly fits their needs and preferences, provides emotional and sentimental satisfaction, and serves as a symbol of their tasteand status.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_TfbkDe": {
-          "type": "button",
-          "settings": {
-            "button_label": "Schedule a Free Design Consultation",
-            "button_link": "#",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_Nmk9kG",
-        "text_Qmky9w",
-        "button_TfbkDe"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/customization_img1.jpg",
-        "image_one_text": "",
-        "image2": "shopify://shop_images/customization_img2.jpg",
-        "image_two_text": "",
-        "image3": "shopify://shop_images/customization_img3.jpg",
-        "image_three_text": "",
-        "image_four_text": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "section_class": "two_coll_with_img_grid btn_primary",
-        "background_color": "#faf9f7",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_CfxKTn": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_qJ3R7i": {
-          "type": "heading",
-          "settings": {
-            "heading": "Personalization and Uniqueness",
-            "heading_size": "h1"
-          }
-        },
-        "text_MCn4P3": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our customers can express their personal style, taste, and identity through customized furniture pieces that reflect their individual preferences. Customization ensures that the furniture is unique, providing a sense of exclusivity that mass-produced itemscannot offer.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conseguat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/><br/></p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_qJ3R7i",
-        "text_MCn4P3"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/personalization_img.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "section_class": "two_col_img_with_text",
-        "background_color": "#faf9f7",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 80,
-        "padding_bottom": 40
-      }
-    },
-    "two_col_image_grid_with_text_kHdgcC": {
-      "type": "two-col-image-grid-with-text",
-      "blocks": {
-        "heading_Abzd3P": {
-          "type": "heading",
-          "settings": {
-            "heading": "Superior Quality and Craftsmanship",
-            "heading_size": "h1"
-          }
-        },
-        "text_aM9Hw8": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our customers have the liberty to select high-quality materials that meet their standards for durability, texture, and appearance, ensuring long-lasting satisfaction.Custom pieces often involve higher craftsmanship, with meticulous attention to detail that enhances the overall quality and appeal of the furniture.</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Abzd3P",
-        "text_aM9Hw8"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Craftsmanship_img1.jpg",
-        "image_one_text": "",
-        "image2": "shopify://shop_images/Craftsmanship_img2.jpg",
-        "image_two_text": "",
-        "image3": "shopify://shop_images/Craftsmanship_img3.jpg",
-        "image_three_text": "",
-        "image_four_text": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "section_class": "two_coll_with_img_grid first btn_primary",
-        "background_color": "#faf9f7",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_HVHcgj": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_gwQiki": {
-          "type": "heading",
-          "settings": {
-            "heading": "Reflecting Personal Style",
-            "heading_size": "h1"
-          }
-        },
-        "text_yn9Taz": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Interior design is a form of self-expression. It allows individuals to create spaces that reflect their personality, tastes, and lifestyle. Whether it's a cozy home that exudes warmth and comfort or a sleek office that inspires creativity and professionalism, great design captures and conveys personal identity dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_gwQiki",
-        "text_yn9Taz"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Reflecting_img.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "section_class": "two_col_img_with_text",
-        "background_color": "#faf9f7",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "image_with_text_N3djrX": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_CAeEMf": {
-          "type": "heading",
-          "settings": {
-            "heading": "Emotional and Sentimental Value",
-            "heading_size": "h1"
-          }
-        },
-        "text_7fp9Jh": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Customized furniture often carries a deeper emotional connection because it is crafted to the consumer's exact specifications, making it more meaningful and valuable. Tnese pieces can be designed with the intention of being passed down. through generations, creating family heirlooms that hold sentimental value.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, guis nostrua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_CAeEMf",
-        "text_7fp9Jh"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Emotional_img1.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "section_class": "two_col_img_with_text",
-        "background_color": "#faf9f7",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 80
-      }
-    },
-    "multicolumn_CqALKN": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_764bH9": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/glove_icon_923bd0f8-ee0a-4318-904a-7c90d9c0405e.png",
-            "title": "WHITE GLOVE DELIVERY",
-            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_fyaF6z": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/headphone_icon_56a17862-ed58-46b0-acf6-f9570b9d7b27.png",
-            "title": "CONCIERGE & SUPPORT",
-            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_RdCVim": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/noun-horizontal-tag-check_icon_60a786a0-d355-4d25-9439-6c89a6e24c91.png",
-            "title": "PRICE MATCHING",
-            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_FpTFU8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/return_icon_2c6ebe1c-cd1b-4ced-aed5-19e3a1f3853b.png",
-            "title": "RETURN POLICY",
-            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_764bH9",
-        "column_fyaF6z",
-        "column_RdCVim",
-        "column_FpTFU8"
-      ],
-      "settings": {
-        "title": "",
-        "sub_heading": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "section_class": "section_cta_with_icon_text",
-        "background_color": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
     "multicolumn_wKw9aQ": {
       "type": "multicolumn",
       "blocks": {
@@ -467,7 +172,7 @@
         "column_yAj9dm"
       ],
       "settings": {
-        "title": "EXPERIENCE OUR DESIGN LOCATIONS",
+        "title": "Circle Furniture Design Centers",
         "sub_heading": "Come in and let our designers inspire you!",
         "heading_size": "h1",
         "image_width": "full",
@@ -484,6 +189,76 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "multicolumn_CqALKN": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_764bH9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/glove_icon_923bd0f8-ee0a-4318-904a-7c90d9c0405e.png",
+            "title": "WHITE GLOVE DELIVERY",
+            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fyaF6z": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/headphone_icon_56a17862-ed58-46b0-acf6-f9570b9d7b27.png",
+            "title": "CONCIERGE & SUPPORT",
+            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RdCVim": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/noun-horizontal-tag-check_icon_60a786a0-d355-4d25-9439-6c89a6e24c91.png",
+            "title": "PRICE MATCHING",
+            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FpTFU8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/return_icon_2c6ebe1c-cd1b-4ced-aed5-19e3a1f3853b.png",
+            "title": "RETURN POLICY",
+            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_764bH9",
+        "column_fyaF6z",
+        "column_RdCVim",
+        "column_FpTFU8"
+      ],
+      "settings": {
+        "title": "",
+        "sub_heading": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "section_class": "section_cta_with_icon_text",
+        "background_color": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "4a002122-a2b6-4054-bb7d-ef35cde1dcf1": {
@@ -765,14 +540,8 @@
   "order": [
     "main",
     "f818e213-0ec7-48f5-b560-9dc50bb12dff",
-    "our_value_menu_7NC6aL",
-    "two_col_image_grid_with_text_zL4hYK",
-    "image_with_text_CfxKTn",
-    "two_col_image_grid_with_text_kHdgcC",
-    "image_with_text_HVHcgj",
-    "image_with_text_N3djrX",
-    "multicolumn_CqALKN",
     "multicolumn_wKw9aQ",
+    "multicolumn_CqALKN",
     "4a002122-a2b6-4054-bb7d-ef35cde1dcf1",
     "21d4be1f-32cf-41ce-80f4-7a0fcc7a7b45",
     "b7aa9a24-051d-459c-acea-b9538c361907",
