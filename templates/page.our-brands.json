@@ -67,6 +67,61 @@
         "show_text_below": true
       }
     },
+    "two_col_image_grid_with_text_9awHt8": {
+      "type": "two-col-image-grid-with-text",
+      "blocks": {
+        "heading_CgkqUh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a Partner - Getting Started",
+            "heading_size": "h1"
+          }
+        },
+        "text_tKkjPe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend. Phasellus quis tincidunt elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_VKzF9U": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply Today",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_CgkqUh",
+        "text_tKkjPe",
+        "button_VKzF9U"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/partner_img1.jpg",
+        "image_one_text": "",
+        "image2": "shopify://shop_images/partner_img2.jpg",
+        "image_two_text": "",
+        "image3": "shopify://shop_images/partner_img3.jpg",
+        "image_three_text": "",
+        "image_four_text": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_coll_with_img_grid btn_primary",
+        "background_color": "#faf9f7",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "478fa7ee-288b-4ddc-ad77-5f21058991f1": {
       "type": "image-with-text",
       "blocks": {
@@ -185,6 +240,7 @@
   "order": [
     "main",
     "image_banner_D39f3t",
+    "two_col_image_grid_with_text_9awHt8",
     "478fa7ee-288b-4ddc-ad77-5f21058991f1",
     "c3678e02-203d-4ccd-b1a0-d5afac744736"
   ]
