@@ -100,7 +100,7 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .section_trending_now ul.collection-list .card-wrapper:hover .card--card{ transform:none;}
 
 .two_col_img_with_text.full_width .page-width{ padding:0px !Important; max-width:100%;}
-
+.two_col_img_with_text.full_width .image-with-text__content{ max-width: 685px;}
 .two_col_img_with_text h2.image-with-text__heading{ font-size:36px; line-height:46px; color:#5c4d3b; font-family: "Poppins", sans-serif; font-weight:400; text-transform: uppercase;}
 .two_col_img_with_text p.subtitle{font-size:20px; line-height:32px; color:#5c4d3b; margin-top:5px; font-family: "Poppins", sans-serif; font-weight:400;}
 .two_col_img_with_text  div.image-with-text__text p{font-size:16px; line-height:26px; color:#333; margin-top:0px; font-family: "Poppins", sans-serif; font-weight:400;} 
