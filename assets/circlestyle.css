@@ -177,7 +177,8 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .section_our_partner .title-wrapper-with-link h2{ margin:0 auto; font-size:36px; line-height:46px; color:#5c4d3b; font-family: "Poppins", sans-serif; font-weight:400; text-transform:uppercase;}
 .section_our_partner ul.multicolumn-list li .multicolumn-card{ padding:15px; background: #fff;}
 .section_our_partner ul.multicolumn-list li .multicolumn-card .multicolumn-card__image-wrapper{ margin: 0px;}
-.section_our_partner ul.multicolumn-list li .multicolumn-card .multicolumn-card__info{ padding: 0px;}
+.section_our_partner ul.multicolumn-list li .multicolumn-card .multicolumn-card__info{ padding: 0px; padding-top: 15px;}
+.section_our_partner ul.multicolumn-list li .multicolumn-card .multicolumn-card__info h3{ color:#5c4d3b; font-size: 14px; line-height: 20px;font-family: "Poppins", sans-serif; font-weight:400;}
 
 footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:14px; font-weight:500;}
 h2.footer-block__heading{ font-size:16px; color:#fff; font-weight:600;}
