@@ -21,44 +21,44 @@
     "f818e213-0ec7-48f5-b560-9dc50bb12dff": {
       "type": "image-banner",
       "blocks": {
-        "caption_MhTd9h": {
-          "type": "caption",
-          "settings": {
-            "caption": "OUR VALUES",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        },
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "DESIGN",
+            "heading": "DESIGN CENTER LOCATIONS",
             "heading_size": "h2"
           }
         },
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-text-1": {
           "type": "text",
           "settings": {
-            "text": "At Circle Furniture, we believe that customization has the power to transform spaces, enhance our quality of life, and create lasting impressions.",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed venenatis est. Donec venenatis viverra volutpat. Suspendisse finibus id est nec accumsan. Nunc eu nisl eu metus consequat molestie.",
             "text_style": "body"
+          }
+        },
+        "caption_MhTd9h": {
+          "type": "caption",
+          "settings": {
+            "caption": "Schedule a Free Design Consultation",
+            "text_style": "subtitle",
+            "text_size": "medium"
           }
         },
         "buttons_KxxbVn": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Learn about Our Design Services",
+            "button_label_1": "In-Home Appointment",
             "button_link_1": "#",
             "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "In-Store Appointment",
+            "button_link_2": "#",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "caption_MhTd9h",
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-heading-1",
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-text-1",
+        "caption_MhTd9h",
         "buttons_KxxbVn"
       ],
       "settings": {
