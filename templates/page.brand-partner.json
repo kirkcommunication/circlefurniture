@@ -154,12 +154,100 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_mVAJqw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/boss_brand.jpg",
+            "title": "Boss",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mKV9zV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/copeland_brand.jpg",
+            "title": "Copeland Furniture",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xkAdBm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/crlaine_brand.jpg",
+            "title": "CR Laine",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KcXVd3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/gatcreek_brand.jpg",
+            "title": "Gat Creek",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YP8WVi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/lee_brand.jpg",
+            "title": "Lee Industries",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rhD3F8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/saloom_brand.jpg",
+            "title": "Saloom",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bNLD8w": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/streesless_brand.jpg",
+            "title": "Stressless",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_i9mfTd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/thyer_brand.jpg",
+            "title": "Thayer Coggin",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_FwHFe4",
         "column_WnQ73c",
-        "column_tPCzfj"
+        "column_tPCzfj",
+        "column_mVAJqw",
+        "column_mKV9zV",
+        "column_xkAdBm",
+        "column_KcXVd3",
+        "column_YP8WVi",
+        "column_rhD3F8",
+        "column_bNLD8w",
+        "column_i9mfTd"
       ],
       "settings": {
         "title": "OUR Partners",
