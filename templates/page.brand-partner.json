@@ -276,7 +276,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Do you charge a fee for your current design services?</p>",
             "page": ""
           }
@@ -284,8 +284,8 @@
         "collapsible_row_V7UzEm": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
+            "heading": "Fusce efficitur felis sit amet ligula rutrum imperdiet?",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -293,8 +293,8 @@
         "collapsible_row_49aUkH": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
+            "heading": "Vestibulum mattis eros eu dignissim porttitor?",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -302,8 +302,17 @@
         "collapsible_row_jP6KWH": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
+            "heading": "Mauris fermentum, ex eget condimentum faucibus nibh tellus?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_PVrhFQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fusce efficitur felis sit amet ligula rutrum imperdiet?",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -313,7 +322,8 @@
         "collapsible_row_FKxQFU",
         "collapsible_row_V7UzEm",
         "collapsible_row_49aUkH",
-        "collapsible_row_jP6KWH"
+        "collapsible_row_jP6KWH",
+        "collapsible_row_PVrhFQ"
       ],
       "settings": {
         "caption": "",
