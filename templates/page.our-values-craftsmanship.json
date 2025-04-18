@@ -32,21 +32,21 @@
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "COMMUNITY",
+            "heading": "CRAFTSMANSHIP",
             "heading_size": "h2"
           }
         },
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-text-1": {
           "type": "text",
           "settings": {
-            "text": "We take every opportunity to partner with local businesses, host events, and fundraisers, and get involved with charitable organizations in Boston and beyond. We also support the community by working with local vendors and manufacturers.",
+            "text": "We support local craftsmanship and innovation. New England produces the nation's finest wood pieces, which is why the majority of our furniture is made locally in Massachusetts, New Hampshire, Vermont, and Maine.",
             "text_style": "body"
           }
         },
         "buttons_KxxbVn": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Join Us to Make a Differece",
+            "button_label_1": "Learn about Our Partners",
             "button_link_1": "#",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -62,7 +62,7 @@
         "buttons_KxxbVn"
       ],
       "settings": {
-        "image": "shopify://shop_images/communiity_banner.jpg",
+        "image": "shopify://shop_images/carftsmanship_banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "top-left",
