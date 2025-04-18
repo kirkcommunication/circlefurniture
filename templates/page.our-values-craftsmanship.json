@@ -307,7 +307,7 @@
         "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
-        "section_class": "two_col_img_with_text",
+        "section_class": "two_col_img_with_text full_width",
         "background_color": "#ece5dd",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
