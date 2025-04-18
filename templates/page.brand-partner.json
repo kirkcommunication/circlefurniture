@@ -125,11 +125,22 @@
     "multicolumn_HPRyQd": {
       "type": "multicolumn",
       "blocks": {
+        "column_FwHFe4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/american_leather_brand.jpg",
+            "title": "American Leather",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_WnQ73c": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/anusco_brand.jpg",
+            "title": "Amisco",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -137,39 +148,32 @@
         "column_tPCzfj": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_FwHFe4": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/bdi_brand.jpg",
+            "title": "BDi",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
+        "column_FwHFe4",
         "column_WnQ73c",
-        "column_tPCzfj",
-        "column_FwHFe4"
+        "column_tPCzfj"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "OUR Partners",
         "sub_heading": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
         "section_class": "",
+        "background_color": "#ece5dd",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
