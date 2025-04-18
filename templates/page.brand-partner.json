@@ -268,12 +268,74 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "collapsible_content_cmFBkD": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_FKxQFU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_V7UzEm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_49aUkH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_jP6KWH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_FKxQFU",
+        "collapsible_row_V7UzEm",
+        "collapsible_row_49aUkH",
+        "collapsible_row_jP6KWH"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Partners PROGRAM FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "image_banner_D39f3t",
     "two_col_image_grid_with_text_9awHt8",
-    "multicolumn_HPRyQd"
+    "multicolumn_HPRyQd",
+    "collapsible_content_cmFBkD"
   ]
 }
