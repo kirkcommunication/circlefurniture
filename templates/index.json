@@ -130,6 +130,7 @@
         "button_label": "",
         "button_link": "",
         "section_class": "three_col_with_first_half",
+        "background_color": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -188,6 +189,7 @@
         "button_label": "",
         "button_link": "",
         "section_class": "three_col_with_last_half",
+        "background_color": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -201,7 +203,7 @@
         "column_84dTEn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/acton_img.png",
+            "image": "shopify://shop_images/action_location.jpg",
             "title": "Acton",
             "text": "<p><a href=\"tel:978-263-7268\">978-263-7268</a><br/>425 Great Road (Route 2A) Acton, MA 01720</p>",
             "link_label": "",
@@ -211,7 +213,7 @@
         "column_gg8KyL": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/boston_seaport_img.png",
+            "image": "shopify://shop_images/Boston-Seaport.jpg",
             "title": "Boston-Seaport",
             "text": "<p><a href=\"tel:617-865-6400\">617-865-6400</a><br/>100 Northern Avenue Boston, MA 02210</p>",
             "link_label": "",
@@ -221,7 +223,7 @@
         "column_GLBRJ4": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/cambridge_img.png",
+            "image": "shopify://shop_images/Cambridge_4bf08797-0e5c-4878-82c9-de900d2b342c.jpg",
             "title": "Cambridge",
             "text": "<p><a href=\"tel:617-876-3988\">617-876-3988</a><br/>199 Alewife Brook Parkway Cambridge, MA 02138</p>",
             "link_label": "",
@@ -231,7 +233,7 @@
         "column_pNBNDg": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/framingham_img.png",
+            "image": "shopify://shop_images/Framingham.jpg",
             "title": "Framingham",
             "text": "<p><a href=\"tel:508-875-0707\">508-875-0707</a><br/>235 Worcester Road (Route 9) Framingham, MA 01701</p>",
             "link_label": "",
@@ -241,7 +243,7 @@
         "column_yKTVij": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/middleton_img.png",
+            "image": "shopify://shop_images/Middleton.jpg",
             "title": "Middleton",
             "text": "<p><a href=\"tel:978-777-2690\">978-777-2690</a><br/>237 S. Main Street Middleton, MA 01949</p>",
             "link_label": "",
@@ -251,7 +253,7 @@
         "column_Br9Jrw": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/pembroke_img.png",
+            "image": "shopify://shop_images/Pembroke.jpg",
             "title": "Pembroke",
             "text": "<p><a href=\"tel:781-826-2728\">781-826-2728</a><br/>85 Washington Street Pembroke, MA 02359</p>",
             "link_label": "",
@@ -261,7 +263,7 @@
         "column_JXF8Li": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/portsmouth_img.png",
+            "image": "shopify://shop_images/Portsmouth.jpg",
             "title": "Portsmouth",
             "text": "<p><a href=\"tel:603-441-2011\">603-441-2011</a><br/>40 Bridge Street Portsmouth, NH 03801</p>",
             "link_label": "",
@@ -271,7 +273,7 @@
         "column_e4eP8i": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/hyannis_img.png",
+            "image": "shopify://shop_images/HYANNIs_new.jpg",
             "title": "HYANNIS (NEW)",
             "text": "<p><a href=\"tel:999-888-7777\">999-888-7777</a><br/>123 Street Name Hyannis, MA 00000</p>",
             "link_label": "",
@@ -301,6 +303,7 @@
         "button_label": "",
         "button_link": "",
         "section_class": "four_col_grid design_location",
+        "background_color": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -370,6 +373,7 @@
         "button_label": "",
         "button_link": "",
         "section_class": "four_col_grid dark_gray",
+        "background_color": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -635,6 +639,7 @@
         "button_label": "",
         "button_link": "",
         "section_class": "home_logo_grid_section",
+        "background_color": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -732,6 +737,7 @@
         "button_label": "",
         "button_link": "",
         "section_class": "section_cta_with_icon_text",
+        "background_color": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
