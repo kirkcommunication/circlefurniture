@@ -318,7 +318,7 @@
             "title": "SUSTAINABILITY",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify://pages/our-values-sustainability"
           }
         },
         "column_NqeQ4b": {
@@ -328,7 +328,7 @@
             "title": "DESIGN",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify://pages/our-values-design"
           }
         },
         "column_RgXmk4": {
@@ -338,7 +338,7 @@
             "title": "CRAFTSMANSHIP",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify://pages/our-values-craftsmanship"
           }
         },
         "column_3PPyGp": {
@@ -348,7 +348,7 @@
             "title": "COMMUNITY",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify://pages/our-value-community"
           }
         }
       },
@@ -623,7 +623,6 @@
         "column_8xCiNf",
         "column_6ia689"
       ],
-      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
         "sub_heading": "",
@@ -654,7 +653,6 @@
     },
     "featured_blog_UNgzaN": {
       "type": "featured-blog",
-      "name": "t:sections.featured-blog.presets.name",
       "settings": {
         "heading": "OUR LATEST STORIES",
         "heading_size": "h1",
@@ -722,7 +720,6 @@
         "column_PtB6nV",
         "column_iVRbyU"
       ],
-      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
         "sub_heading": "",
