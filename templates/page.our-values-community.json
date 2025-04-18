@@ -79,7 +79,6 @@
     },
     "our_value_menu_7NC6aL": {
       "type": "our_value_menu",
-      "name": "Our Values Navigaton",
       "settings": {}
     },
     "image_with_text_CfxKTn": {
@@ -104,7 +103,6 @@
         "heading_qJ3R7i",
         "text_MCn4P3"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/community_img.jpg",
         "height": "adapt",
@@ -145,7 +143,6 @@
         "heading_gwQiki",
         "text_yn9Taz"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/contribution_img.jpg",
         "height": "adapt",
@@ -195,7 +192,6 @@
         "text_aM9Hw8",
         "button_hbCafD"
       ],
-      "name": "Two Col Image Grid With Text",
       "settings": {
         "image": "shopify://shop_images/Environmental_img1.png",
         "image_one_text": "",
@@ -241,7 +237,6 @@
         "heading_CAeEMf",
         "text_7fp9Jh"
       ],
-      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Volunteer_img.jpg",
         "height": "adapt",
@@ -262,7 +257,6 @@
     },
     "cta_section_JqHpDV": {
       "type": "cta-section",
-      "name": "Call To Action",
       "settings": {
         "cta_text": "Join Us in Making a Difference!",
         "cta_subheading": "Are you ready to make a positive impact in our local community? Partner with Circle to support meaningful initiatives and create lasting change. Together, we can build a brighter future Do you have an event or fundraiser? Let us know!",
@@ -320,7 +314,6 @@
         "column_RdCVim",
         "column_FpTFU8"
       ],
-      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
         "sub_heading": "",
@@ -333,6 +326,7 @@
         "button_label": "",
         "button_link": "",
         "section_class": "section_cta_with_icon_text",
+        "background_color": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -346,7 +340,7 @@
         "column_yUzNEb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/acton_img.png",
+            "image": "shopify://shop_images/action_location.jpg",
             "title": "Acton",
             "text": "<p><a href=\"tel:978-263-7268\">978-263-7268</a><br/>425 Great Road (Route 2A) Acton, MA 01720</p>",
             "link_label": "",
@@ -356,7 +350,7 @@
         "column_jkmDgU": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/boston_seaport_img.png",
+            "image": "shopify://shop_images/Boston-Seaport.jpg",
             "title": "Boston-Seaport",
             "text": "<p><a href=\"tel:617-865-6400\">617-865-6400</a><br/>100 Northern Avenue Boston, MA 02210</p>",
             "link_label": "",
@@ -366,7 +360,7 @@
         "column_DN86dq": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/cambridge_img.png",
+            "image": "shopify://shop_images/Cambridge_4bf08797-0e5c-4878-82c9-de900d2b342c.jpg",
             "title": "Cambridge",
             "text": "<p><a href=\"tel:617-876-3988\">617-876-3988</a><br/>199 Alewife Brook Parkway Cambridge, MA 02138</p>",
             "link_label": "",
@@ -376,7 +370,7 @@
         "column_abX6aG": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/framingham_img.png",
+            "image": "shopify://shop_images/Framingham.jpg",
             "title": "Framingham",
             "text": "<p><a href=\"tel:508-875-0707\">508-875-0707</a><br/>235 Worcester Road (Route 9) Framingham, MA 01701</p>",
             "link_label": "",
@@ -386,7 +380,7 @@
         "column_cUHn8F": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/middleton_img.png",
+            "image": "shopify://shop_images/Middleton.jpg",
             "title": "Middleton",
             "text": "<p><a href=\"tel:978-777-2690\">978-777-2690</a><br/>237 S. Main Street Middleton, MA 01949</p>",
             "link_label": "",
@@ -396,7 +390,7 @@
         "column_7hnMGY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/pembroke_img.png",
+            "image": "shopify://shop_images/Pembroke.jpg",
             "title": "Pembroke",
             "text": "<p><a href=\"tel:781-826-2728\">781-826-2728</a><br/>85 Washington Street Pembroke, MA 02359</p>",
             "link_label": "",
@@ -406,7 +400,7 @@
         "column_Ng6Tej": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/portsmouth_img.png",
+            "image": "shopify://shop_images/Portsmouth.jpg",
             "title": "Portsmouth",
             "text": "<p><a href=\"tel:603-441-2011\">603-441-2011</a><br/>40 Bridge Street Portsmouth, NH 03801</p>",
             "link_label": "",
@@ -416,7 +410,7 @@
         "column_yAj9dm": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/hyannis_img.png",
+            "image": "shopify://shop_images/HYANNIs_new.jpg",
             "title": "HYANNIS (NEW)",
             "text": "<p><a href=\"tel:999-888-7777\">999-888-7777</a><br/>123 Street Name Hyannis, MA 00000</p>",
             "link_label": "",
@@ -434,7 +428,6 @@
         "column_Ng6Tej",
         "column_yAj9dm"
       ],
-      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "EXPERIENCE OUR DESIGN LOCATIONS",
         "sub_heading": "Come in and let our designers inspire you!",
@@ -447,6 +440,7 @@
         "button_label": "",
         "button_link": "",
         "section_class": "four_col_grid design_location",
+        "background_color": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -521,6 +515,7 @@
         "button_label": "",
         "button_link": "",
         "section_class": "",
+        "background_color": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -625,6 +620,7 @@
         "button_label": "",
         "button_link": "",
         "section_class": "",
+        "background_color": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -676,6 +672,7 @@
         "button_label": "",
         "button_link": "",
         "section_class": "",
+        "background_color": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
