@@ -34,6 +34,7 @@
               {{ section.settings.heading }}
             </h2>
           {%- else -%}
+            <p>{{section.settings.sub_heading }}</p>
             <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
           {% endif %}
         </div>
@@ -126,6 +127,11 @@
       "id": "heading",
       "label": "t:sections.collapsible_content.settings.heading.label",
       "default": "Collapsible content"
+    },
+    {
+      "type": "text",
+      "id": "sub_heading",
+      "label": "Sub Heading"
     },
     {
       "type": "select",
