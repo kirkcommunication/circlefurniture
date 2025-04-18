@@ -275,9 +275,9 @@
         "collapsible_row_FKxQFU": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Do you charge a fee for your current design services?</p>",
             "page": ""
           }
         },
