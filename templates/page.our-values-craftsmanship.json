@@ -158,21 +158,6 @@
         "padding_bottom": 52
       }
     },
-    "video_WbixGQ": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify://shop_images/wilton_collection_videobg.jpg",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "video_with_text_68EarW": {
       "type": "video-with-text",
       "blocks": {
@@ -801,7 +786,6 @@
     "our_value_menu_7NC6aL",
     "two_col_image_grid_with_text_kHdgcC",
     "rich_text_AjehxC",
-    "video_WbixGQ",
     "video_with_text_68EarW",
     "image_with_text_CfxKTn",
     "image_with_text_HVHcgj",
