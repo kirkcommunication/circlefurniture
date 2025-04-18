@@ -272,7 +272,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 80
       }
     },
     "image_with_text_HVHcgj": {
@@ -313,15 +313,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "cta_section_JqHpDV": {
-      "type": "cta-section",
-      "settings": {
-        "cta_text": "Join Us in Making a Difference!",
-        "cta_subheading": "Are you ready to make a positive impact in our local community? Partner with Circle to support meaningful initiatives and create lasting change. Together, we can build a brighter future Do you have an event or fundraiser? Let us know!",
-        "cta_button_url": "#",
-        "button_text": "Reach out to Us Today"
       }
     },
     "multicolumn_CqALKN": {
@@ -789,7 +780,6 @@
     "video_with_text_PhzkQU",
     "video_with_text_z4c3n8",
     "image_with_text_HVHcgj",
-    "cta_section_JqHpDV",
     "multicolumn_CqALKN",
     "multicolumn_wKw9aQ",
     "4a002122-a2b6-4054-bb7d-ef35cde1dcf1",
