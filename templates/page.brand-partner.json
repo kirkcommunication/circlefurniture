@@ -277,7 +277,7 @@
           "settings": {
             "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
             "icon": "none",
-            "row_content": "<p>Do you charge a fee for your current design services?</p>",
+            "row_content": "<p><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries<br/><br/></p>",
             "page": ""
           }
         },
@@ -286,7 +286,7 @@
           "settings": {
             "heading": "Fusce efficitur felis sit amet ligula rutrum imperdiet?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries<br/><br/></p>",
             "page": ""
           }
         },
@@ -295,7 +295,7 @@
           "settings": {
             "heading": "Vestibulum mattis eros eu dignissim porttitor?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries<br/><br/></p>",
             "page": ""
           }
         },
@@ -304,7 +304,7 @@
           "settings": {
             "heading": "Mauris fermentum, ex eget condimentum faucibus nibh tellus?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries<br/><br/></p>",
             "page": ""
           }
         },
@@ -313,7 +313,7 @@
           "settings": {
             "heading": "Fusce efficitur felis sit amet ligula rutrum imperdiet?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p><strong>Lorem Ipsum</strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries<br/><br/></p>",
             "page": ""
           }
         }
