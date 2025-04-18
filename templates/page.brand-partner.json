@@ -1,0 +1,246 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_D39f3t": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_fqL7PN": {
+          "type": "heading",
+          "settings": {
+            "heading": "BRAND PARTNERS",
+            "heading_size": "h1"
+          }
+        },
+        "text_R6Ebak": {
+          "type": "text",
+          "settings": {
+            "text": "Circle is dedicated to collaborating with preeminentlocal craftsmen, ensuring the production of sustainable products accessible to our customers.",
+            "text_style": "body"
+          }
+        },
+        "buttons_DfgWE4": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Become a Partner",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fqL7PN",
+        "text_R6Ebak",
+        "buttons_DfgWE4"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/partner_img.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "top-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "section_class": "section_innerpage_banner",
+        "background_color": "#5c4d3b",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "two_col_image_grid_with_text_9awHt8": {
+      "type": "two-col-image-grid-with-text",
+      "blocks": {
+        "heading_CgkqUh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a Partner - Getting Started",
+            "heading_size": "h1"
+          }
+        },
+        "text_tKkjPe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend. Phasellus quis tincidunt elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_VKzF9U": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply Today",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_CgkqUh",
+        "text_tKkjPe",
+        "button_VKzF9U"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/partner_img1.jpg",
+        "image_one_text": "",
+        "image2": "shopify://shop_images/partner_img2.jpg",
+        "image_two_text": "",
+        "image3": "shopify://shop_images/partner_img3.jpg",
+        "image_three_text": "",
+        "image_four_text": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_coll_with_img_grid btn_primary",
+        "background_color": "#faf9f7",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "478fa7ee-288b-4ddc-ad77-5f21058991f1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21334171058449__478fa7ee-288b-4ddc-ad77-5f21058991f1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Brands",
+            "heading_size": "h1"
+          }
+        },
+        "template--21334171058449__478fa7ee-288b-4ddc-ad77-5f21058991f1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Modern-organic, sustainable, curated furniture and accessory collections for every room in your home.</p>",
+            "text_style": "body"
+          }
+        },
+        "template--21334171058449__478fa7ee-288b-4ddc-ad77-5f21058991f1-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21334171058449__478fa7ee-288b-4ddc-ad77-5f21058991f1-heading-1",
+        "template--21334171058449__478fa7ee-288b-4ddc-ad77-5f21058991f1-text-1",
+        "template--21334171058449__478fa7ee-288b-4ddc-ad77-5f21058991f1-button-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/our_brands.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "",
+        "background_color": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c3678e02-203d-4ccd-b1a0-d5afac744736": {
+      "type": "collection-list",
+      "blocks": {
+        "template--21334171058449__c3678e02-203d-4ccd-b1a0-d5afac744736-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "american-leather"
+          }
+        },
+        "template--21334171058449__c3678e02-203d-4ccd-b1a0-d5afac744736-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "copeland-furniture"
+          }
+        },
+        "02a11011-4889-4b4c-bf01-717f8492d305": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cr-laine"
+          }
+        },
+        "template--21334171058449__c3678e02-203d-4ccd-b1a0-d5afac744736-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lee-industries"
+          }
+        },
+        "6d006f28-4a58-42f5-b193-501f8e1f3f96": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "magniflex-mattresses"
+          }
+        },
+        "featured_collection_yJMgKx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "leftbank-art"
+          }
+        }
+      },
+      "block_order": [
+        "template--21334171058449__c3678e02-203d-4ccd-b1a0-d5afac744736-featured_collection-1",
+        "template--21334171058449__c3678e02-203d-4ccd-b1a0-d5afac744736-featured_collection-2",
+        "02a11011-4889-4b4c-bf01-717f8492d305",
+        "template--21334171058449__c3678e02-203d-4ccd-b1a0-d5afac744736-featured_collection-3",
+        "6d006f28-4a58-42f5-b193-501f8e1f3f96",
+        "featured_collection_yJMgKx"
+      ],
+      "settings": {
+        "title": "",
+        "sub_heading_text": "",
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "collection_section_class": "",
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_D39f3t",
+    "two_col_image_grid_with_text_9awHt8",
+    "478fa7ee-288b-4ddc-ad77-5f21058991f1",
+    "c3678e02-203d-4ccd-b1a0-d5afac744736"
+  ]
+}
