@@ -383,13 +383,57 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_jtwhUe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Middleton.jpg",
+            "title": "Middleton",
+            "text": "<p><a href=\"tel:978-777-2690\">978-777-2690</a><br/>237 S. Main Street Middleton, MA 01949</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tmetGE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Pembroke.jpg",
+            "title": "Pembroke",
+            "text": "<p><a href=\"tel:781-826-2728\">781-826-2728</a><br/>85 Washington Street Pembroke, MA 02359</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wFAkPP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Portsmouth.jpg",
+            "title": "Portsmouth",
+            "text": "<p><a href=\"tel:603-441-2011\">603-441-2011</a><br/>40 Bridge Street Portsmouth, NH 03801</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WdQkWd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/HYANNIs_new.jpg",
+            "title": "HYANNIS (NEW)",
+            "text": "<p><a href=\"tel:999-888-7777\">999-888-7777</a><br/>123 Street Name Hyannis, MA 00000</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_AVQ8DL",
         "column_DwMix3",
         "column_yiLqnB",
-        "column_zd7HtN"
+        "column_zd7HtN",
+        "column_jtwhUe",
+        "column_tmetGE",
+        "column_wFAkPP",
+        "column_WdQkWd"
       ],
       "settings": {
         "title": "EXPERIENCE OUR DESIGN LOCATIONS",
