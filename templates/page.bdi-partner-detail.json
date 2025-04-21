@@ -21,32 +21,24 @@
     "f818e213-0ec7-48f5-b560-9dc50bb12dff": {
       "type": "image-banner",
       "blocks": {
-        "caption_MhTd9h": {
-          "type": "caption",
-          "settings": {
-            "caption": "OUR VALUES",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        },
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "DESIGN",
+            "heading": "BDi",
             "heading_size": "h2"
           }
         },
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-text-1": {
           "type": "text",
           "settings": {
-            "text": "At Circle Furniture, we believe that customization has the power to transform spaces, enhance our quality of life, and create lasting impressions.",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend. Phasellus quis tincidunt elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
             "text_style": "body"
           }
         },
         "buttons_KxxbVn": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Learn about Our Design Services",
+            "button_label_1": "View BDi Collections",
             "button_link_1": "#",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -56,20 +48,19 @@
         }
       },
       "block_order": [
-        "caption_MhTd9h",
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-heading-1",
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-text-1",
         "buttons_KxxbVn"
       ],
       "settings": {
-        "image": "shopify://shop_images/design_banner.jpg",
+        "image": "shopify://shop_images/bdi_page_banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "top-left",
         "show_text_box": true,
         "desktop_content_alignment": "left",
         "section_class": "section_innerpage_banner",
-        "background_color": "#344b60",
+        "background_color": "#5c4d3b",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
