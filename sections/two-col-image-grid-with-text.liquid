@@ -91,6 +91,11 @@
                   >
                     {{ block.settings.heading }}
                   </h2>
+                   {%- when 'image' -%}
+                  <image src="{{ block.settings.content_image | asset_img_url }}" />
+                  >
+                    {{ block.settings.caption | escape }}
+                  </p>
                 {%- when 'caption' -%}
                   <p
                     class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
