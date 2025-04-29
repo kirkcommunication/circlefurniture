@@ -170,132 +170,6 @@
         "padding_bottom": 40
       }
     },
-    "two_col_image_grid_with_text_kHdgcC": {
-      "type": "two-col-image-grid-with-text",
-      "blocks": {
-        "heading_Abzd3P": {
-          "type": "heading",
-          "settings": {
-            "heading": "Superior Quality and Craftsmanship",
-            "heading_size": "h1"
-          }
-        },
-        "text_aM9Hw8": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our customers have the liberty to select high-quality materials that meet their standards for durability, texture, and appearance, ensuring long-lasting satisfaction.Custom pieces often involve higher craftsmanship, with meticulous attention to detail that enhances the overall quality and appeal of the furniture.</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Abzd3P",
-        "text_aM9Hw8"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Craftsmanship_img1.jpg",
-        "image_one_text": "",
-        "image2": "shopify://shop_images/Craftsmanship_img2.jpg",
-        "image_two_text": "",
-        "image3": "shopify://shop_images/Craftsmanship_img3.jpg",
-        "image_three_text": "",
-        "image_four_text": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "section_class": "two_coll_with_img_grid first btn_primary",
-        "background_color": "#faf9f7",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_HVHcgj": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_gwQiki": {
-          "type": "heading",
-          "settings": {
-            "heading": "Reflecting Personal Style",
-            "heading_size": "h1"
-          }
-        },
-        "text_yn9Taz": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Interior design is a form of self-expression. It allows individuals to create spaces that reflect their personality, tastes, and lifestyle. Whether it's a cozy home that exudes warmth and comfort or a sleek office that inspires creativity and professionalism, great design captures and conveys personal identity dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_gwQiki",
-        "text_yn9Taz"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Reflecting_img.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "section_class": "two_col_img_with_text",
-        "background_color": "#faf9f7",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "image_with_text_N3djrX": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_CAeEMf": {
-          "type": "heading",
-          "settings": {
-            "heading": "Emotional and Sentimental Value",
-            "heading_size": "h1"
-          }
-        },
-        "text_7fp9Jh": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Customized furniture often carries a deeper emotional connection because it is crafted to the consumer's exact specifications, making it more meaningful and valuable. Tnese pieces can be designed with the intention of being passed down. through generations, creating family heirlooms that hold sentimental value.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, guis nostrua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_CAeEMf",
-        "text_7fp9Jh"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Emotional_img1.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "section_class": "two_col_img_with_text",
-        "background_color": "#faf9f7",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 80
-      }
-    },
     "multicolumn_CqALKN": {
       "type": "multicolumn",
       "blocks": {
@@ -761,11 +635,8 @@
     "f818e213-0ec7-48f5-b560-9dc50bb12dff",
     "two_col_image_grid_with_text_zL4hYK",
     "image_with_text_CfxKTn",
-    "two_col_image_grid_with_text_kHdgcC",
-    "image_with_text_HVHcgj",
-    "image_with_text_N3djrX",
-    "multicolumn_CqALKN",
     "multicolumn_wKw9aQ",
+    "multicolumn_CqALKN",
     "4a002122-a2b6-4054-bb7d-ef35cde1dcf1",
     "21d4be1f-32cf-41ce-80f4-7a0fcc7a7b45",
     "b7aa9a24-051d-459c-acea-b9538c361907",
