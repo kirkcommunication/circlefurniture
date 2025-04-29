@@ -92,7 +92,7 @@
                     {{ block.settings.heading }}
                   </h2>
                    {%- when 'image' -%}
-                  <image src="{{ block.settings.content_image | asset_img_url }}" />
+                  <img src="{{ block.settings.content_image | asset_img_url }}" />
                     {{ block.settings.caption | escape }}
                   
                 {%- when 'caption' -%}
