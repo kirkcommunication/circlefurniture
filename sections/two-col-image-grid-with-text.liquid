@@ -93,7 +93,7 @@
                   </h2>
                    {%- when 'image_picker' -%}
                 <div class="test">
-                  <img src="{{ block.settings.content_image | asset_url }}" />
+                  <img src="{{ block.settings.content_image | asset_img_url }}" />
                   >
                     {{ block.settings.caption | escape }}
                   
