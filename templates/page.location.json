@@ -195,6 +195,77 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_ANfmYY": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_NyCexz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/glove_icon_923bd0f8-ee0a-4318-904a-7c90d9c0405e.png",
+            "title": "WHITE GLOVE DELIVERY",
+            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_A46mc4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/headphone_icon_56a17862-ed58-46b0-acf6-f9570b9d7b27.png",
+            "title": "CONCIERGE & SUPPORT",
+            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KUBE3z": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/noun-horizontal-tag-check_icon_60a786a0-d355-4d25-9439-6c89a6e24c91.png",
+            "title": "PRICE MATCHING",
+            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yA6zpz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/return_icon_2c6ebe1c-cd1b-4ced-aed5-19e3a1f3853b.png",
+            "title": "RETURN POLICY",
+            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_NyCexz",
+        "column_A46mc4",
+        "column_KUBE3z",
+        "column_yA6zpz"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "sub_heading": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "section_class": "section_cta_with_icon_text",
+        "background_color": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "893415fe-23e2-4c2c-bd41-8ccac945a848": {
       "type": "image-banner",
       "blocks": {
@@ -290,6 +361,7 @@
   "order": [
     "image_banner_cDaeqc",
     "multicolumn_K8niTp",
+    "multicolumn_ANfmYY",
     "893415fe-23e2-4c2c-bd41-8ccac945a848",
     "main",
     "3ec3b0c6-3581-4acd-a15d-1487c7749ac8"
