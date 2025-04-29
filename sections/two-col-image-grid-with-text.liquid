@@ -87,7 +87,7 @@
                 
                 {%- when 'image_picker' -%}
                 <div class="content_image">
-                  <img src="{{ block.settings.content_image | img_url: '150x80' }}" />{{ block.settings.caption | escape }} 
+                  <img src="{{ block.settings.content_image | img_url: '150x80' | asset_img_url }}" />{{ block.settings.caption | escape }} 
                 </div>
             
                 {%- when 'heading' -%}
