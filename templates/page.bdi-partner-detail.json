@@ -71,10 +71,10 @@
     "two_col_image_grid_with_text_zL4hYK": {
       "type": "two-col-image-grid-with-text",
       "blocks": {
-        "image_picker_bBx4fp": {
+        "image_picker_VyKQME": {
           "type": "image_picker",
           "settings": {
-            "content_image": "shopify://shop_images/saloom_brand.jpg"
+            "content_image": "shopify://shop_images/bdi_logo.jpg"
           }
         },
         "heading_Nmk9kG": {
@@ -101,7 +101,7 @@
         }
       },
       "block_order": [
-        "image_picker_bBx4fp",
+        "image_picker_VyKQME",
         "heading_Nmk9kG",
         "text_Qmky9w",
         "button_TfbkDe"
