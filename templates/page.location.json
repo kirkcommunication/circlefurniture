@@ -288,6 +288,7 @@
         "template--21226507960593__893415fe-23e2-4c2c-bd41-8ccac945a848-heading-1",
         "template--21226507960593__893415fe-23e2-4c2c-bd41-8ccac945a848-text-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/our_locations.jpg",
         "image_overlay_opacity": 10,
@@ -306,6 +307,7 @@
     },
     "main": {
       "type": "location-listing",
+      "disabled": true,
       "settings": {}
     },
     "3ec3b0c6-3581-4acd-a15d-1487c7749ac8": {
@@ -339,6 +341,7 @@
         "template--21226507960593__3ec3b0c6-3581-4acd-a15d-1487c7749ac8-text-1",
         "template--21226507960593__3ec3b0c6-3581-4acd-a15d-1487c7749ac8-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/3100series-make-an-appointment.jpg",
         "height": "adapt",
