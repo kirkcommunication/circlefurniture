@@ -84,6 +84,12 @@
           >
             {%- for block in section.blocks -%}
               {% case block.type %}
+                
+                {%- when 'image_picker' -%}
+                <div class="content_image">
+                  <img src="{{ block.settings.content_image | asset_img_url }}" />{{ block.settings.caption | escape }} 
+                </div>
+            
                 {%- when 'heading' -%}
                   <h2
                     class="testimam image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
@@ -91,13 +97,7 @@
                   >
                     {{ block.settings.heading }}
                   </h2>
-                   {%- when 'image_picker' -%}
-                <div class="test">
-                  <img src="{{ block.settings.content_image | asset_img_url }}" />
-                  >
-                    {{ block.settings.caption | escape }}
-                  
-                </div>
+               
                 {%- when 'caption' -%}
                   <p
                     class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
