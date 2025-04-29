@@ -92,10 +92,12 @@
                     {{ block.settings.heading }}
                   </h2>
                    {%- when 'image' -%}
+                <div class="test">
                   <img src="{{ block.settings.content_image | asset_url }}" />
                   >
                     {{ block.settings.caption | escape }}
-                  </p>
+                  
+                </div>
                 {%- when 'caption' -%}
                   <p
                     class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
