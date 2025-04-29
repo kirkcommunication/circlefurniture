@@ -227,120 +227,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_wKw9aQ": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_yUzNEb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/action_location.jpg",
-            "title": "Acton",
-            "text": "<p><a href=\"tel:978-263-7268\">978-263-7268</a><br/>425 Great Road (Route 2A) Acton, MA 01720</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_jkmDgU": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Boston-Seaport.jpg",
-            "title": "Boston-Seaport",
-            "text": "<p><a href=\"tel:617-865-6400\">617-865-6400</a><br/>100 Northern Avenue Boston, MA 02210</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_DN86dq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Cambridge_4bf08797-0e5c-4878-82c9-de900d2b342c.jpg",
-            "title": "Cambridge",
-            "text": "<p><a href=\"tel:617-876-3988\">617-876-3988</a><br/>199 Alewife Brook Parkway Cambridge, MA 02138</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_abX6aG": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Framingham.jpg",
-            "title": "Framingham",
-            "text": "<p><a href=\"tel:508-875-0707\">508-875-0707</a><br/>235 Worcester Road (Route 9) Framingham, MA 01701</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_cUHn8F": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Middleton.jpg",
-            "title": "Middleton",
-            "text": "<p><a href=\"tel:978-777-2690\">978-777-2690</a><br/>237 S. Main Street Middleton, MA 01949</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_7hnMGY": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Pembroke.jpg",
-            "title": "Pembroke",
-            "text": "<p><a href=\"tel:781-826-2728\">781-826-2728</a><br/>85 Washington Street Pembroke, MA 02359</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Ng6Tej": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Portsmouth.jpg",
-            "title": "Portsmouth",
-            "text": "<p><a href=\"tel:603-441-2011\">603-441-2011</a><br/>40 Bridge Street Portsmouth, NH 03801</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_yAj9dm": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/HYANNIs_new.jpg",
-            "title": "HYANNIS (NEW)",
-            "text": "<p><a href=\"tel:999-888-7777\">999-888-7777</a><br/>123 Street Name Hyannis, MA 00000</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_yUzNEb",
-        "column_jkmDgU",
-        "column_DN86dq",
-        "column_abX6aG",
-        "column_cUHn8F",
-        "column_7hnMGY",
-        "column_Ng6Tej",
-        "column_yAj9dm"
-      ],
-      "settings": {
-        "title": "EXPERIENCE OUR DESIGN LOCATIONS",
-        "sub_heading": "Come in and let our designers inspire you!",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "section_class": "four_col_grid design_location",
-        "background_color": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_CqALKN": {
       "type": "multicolumn",
       "blocks": {
@@ -693,7 +579,6 @@
     "two_col_image_grid_with_text_zL4hYK",
     "image_with_text_CfxKTn",
     "collection_list_t7NYbL",
-    "multicolumn_wKw9aQ",
     "multicolumn_CqALKN",
     "4a002122-a2b6-4054-bb7d-ef35cde1dcf1",
     "21d4be1f-32cf-41ce-80f4-7a0fcc7a7b45",
