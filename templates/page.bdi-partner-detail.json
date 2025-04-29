@@ -170,74 +170,61 @@
         "padding_bottom": 40
       }
     },
-    "multicolumn_CqALKN": {
-      "type": "multicolumn",
+    "collection_list_t7NYbL": {
+      "type": "collection-list",
       "blocks": {
-        "column_764bH9": {
-          "type": "column",
+        "featured_collection_jPppT4": {
+          "type": "featured_collection",
           "settings": {
-            "image": "shopify://shop_images/glove_icon_923bd0f8-ee0a-4318-904a-7c90d9c0405e.png",
-            "title": "WHITE GLOVE DELIVERY",
-            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
-            "link_label": "",
-            "link": ""
+            "collection": "chairs"
           }
         },
-        "column_fyaF6z": {
-          "type": "column",
+        "featured_collection_YiU4T3": {
+          "type": "featured_collection",
           "settings": {
-            "image": "shopify://shop_images/headphone_icon_56a17862-ed58-46b0-acf6-f9570b9d7b27.png",
-            "title": "CONCIERGE & SUPPORT",
-            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
-            "link_label": "",
-            "link": ""
+            "collection": "art"
           }
         },
-        "column_RdCVim": {
-          "type": "column",
+        "featured_collection_Ykr9BH": {
+          "type": "featured_collection",
           "settings": {
-            "image": "shopify://shop_images/noun-horizontal-tag-check_icon_60a786a0-d355-4d25-9439-6c89a6e24c91.png",
-            "title": "PRICE MATCHING",
-            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
-            "link_label": "",
-            "link": ""
+            "collection": "bedroom"
           }
         },
-        "column_FpTFU8": {
-          "type": "column",
+        "featured_collection_WfmNqg": {
+          "type": "featured_collection",
           "settings": {
-            "image": "shopify://shop_images/return_icon_2c6ebe1c-cd1b-4ced-aed5-19e3a1f3853b.png",
-            "title": "RETURN POLICY",
-            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
-            "link_label": "",
-            "link": ""
+            "collection": "case-goods"
+          }
+        },
+        "featured_collection_JUJ3Dd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "copeland-furniture"
           }
         }
       },
       "block_order": [
-        "column_764bH9",
-        "column_fyaF6z",
-        "column_RdCVim",
-        "column_FpTFU8"
+        "featured_collection_jPppT4",
+        "featured_collection_YiU4T3",
+        "featured_collection_Ykr9BH",
+        "featured_collection_WfmNqg",
+        "featured_collection_JUJ3Dd"
       ],
+      "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "title": "",
-        "sub_heading": "",
+        "title": "Explore BDi Collections",
+        "sub_heading_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat..",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "section_class": "section_cta_with_icon_text",
-        "background_color": "",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "collection_section_class": "section_trending_now",
         "color_scheme": "",
+        "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 80,
-        "padding_bottom": 80
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn_wKw9aQ": {
@@ -352,6 +339,76 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "multicolumn_CqALKN": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_764bH9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/glove_icon_923bd0f8-ee0a-4318-904a-7c90d9c0405e.png",
+            "title": "WHITE GLOVE DELIVERY",
+            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fyaF6z": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/headphone_icon_56a17862-ed58-46b0-acf6-f9570b9d7b27.png",
+            "title": "CONCIERGE & SUPPORT",
+            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RdCVim": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/noun-horizontal-tag-check_icon_60a786a0-d355-4d25-9439-6c89a6e24c91.png",
+            "title": "PRICE MATCHING",
+            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FpTFU8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/return_icon_2c6ebe1c-cd1b-4ced-aed5-19e3a1f3853b.png",
+            "title": "RETURN POLICY",
+            "text": "<p>Nullam at neque eu sem tincidunt maximus aptent taciti sociosqu ad litora torquent</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_764bH9",
+        "column_fyaF6z",
+        "column_RdCVim",
+        "column_FpTFU8"
+      ],
+      "settings": {
+        "title": "",
+        "sub_heading": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "section_class": "section_cta_with_icon_text",
+        "background_color": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "4a002122-a2b6-4054-bb7d-ef35cde1dcf1": {
@@ -635,6 +692,7 @@
     "f818e213-0ec7-48f5-b560-9dc50bb12dff",
     "two_col_image_grid_with_text_zL4hYK",
     "image_with_text_CfxKTn",
+    "collection_list_t7NYbL",
     "multicolumn_wKw9aQ",
     "multicolumn_CqALKN",
     "4a002122-a2b6-4054-bb7d-ef35cde1dcf1",
