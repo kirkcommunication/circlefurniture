@@ -69,6 +69,132 @@
         "show_text_below": true
       }
     },
+    "multicolumn_K8niTp": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_KNrtd7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/action_location.jpg",
+            "title": "Acton",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9wQcdD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Boston-Seaport.jpg",
+            "title": "Boston-Seaport",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yFFKx4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Cambridge_4bf08797-0e5c-4878-82c9-de900d2b342c.jpg",
+            "title": "Cambridge",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QmH9YP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Framingham.jpg",
+            "title": "Framingham",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MDrCQR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Middleton.jpg",
+            "title": "Middleton",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aKkGjG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Pembroke.jpg",
+            "title": "Pembroke",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gBhzCN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Portsmouth.jpg",
+            "title": "Portsmouth",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BJVGRz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/HYANNIs_new.jpg",
+            "title": "HYANNIS (NEW)",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Ew4MVz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/HYANNIs_new.jpg",
+            "title": "Outlet/Warehouse",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_KNrtd7",
+        "column_9wQcdD",
+        "column_yFFKx4",
+        "column_QmH9YP",
+        "column_MDrCQR",
+        "column_aKkGjG",
+        "column_gBhzCN",
+        "column_BJVGRz",
+        "column_Ew4MVz"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "CIRCLE FURNITURE DESIGN CENTERS",
+        "sub_heading": "Come in and let our designers inspire you!",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "section_class": "four_col_grid design_location",
+        "background_color": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "893415fe-23e2-4c2c-bd41-8ccac945a848": {
       "type": "image-banner",
       "blocks": {
@@ -163,6 +289,7 @@
   },
   "order": [
     "image_banner_cDaeqc",
+    "multicolumn_K8niTp",
     "893415fe-23e2-4c2c-bd41-8ccac945a848",
     "main",
     "3ec3b0c6-3581-4acd-a15d-1487c7749ac8"
