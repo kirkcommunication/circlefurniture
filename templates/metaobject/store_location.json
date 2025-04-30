@@ -75,7 +75,7 @@
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 4,
-        "collection_section_class": "",
+        "collection_section_class": "section_trending_now",
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",
