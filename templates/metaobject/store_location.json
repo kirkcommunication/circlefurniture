@@ -134,6 +134,63 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "two_col_image_grid_with_text_7hK8Af": {
+      "type": "two-col-image-grid-with-text",
+      "blocks": {
+        "heading_yiQpXd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join our Trade Partner Program in Framingham.",
+            "heading_size": "h1"
+          }
+        },
+        "text_UA8RX3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend. Phasellus quis tincidunt elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_4yaLVY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply Today",
+            "button_link": "#",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yiQpXd",
+        "text_UA8RX3",
+        "button_4yaLVY"
+      ],
+      "name": "Two Col Image Grid With Text",
+      "settings": {
+        "image": "shopify://shop_images/image_13.png",
+        "image_one_text": "SUSTAINABILITY",
+        "image2": "shopify://shop_images/design_img.png",
+        "image_two_text": "DESIGN",
+        "image3": "shopify://shop_images/CRAFTSMANSHIP_img.png",
+        "image_three_text": "CRAFTSMANSHIP",
+        "image4": "shopify://shop_images/COMMUNITY_img.png",
+        "image_four_text": "COMMUNITY",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_coll_with_img_grid first btn_primary",
+        "background_color": "#faf9f7",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "89606365-d3b7-4bc9-9056-4a7ec73c843d": {
       "type": "rich-text",
       "blocks": {
@@ -344,6 +401,7 @@
     "b0e05b31-c58f-4889-96bb-956e4c36c498",
     "collection_list_DihxBz",
     "testimonial_slider_6GgxCy",
+    "two_col_image_grid_with_text_7hK8Af",
     "89606365-d3b7-4bc9-9056-4a7ec73c843d",
     "41bde6bb-998c-4315-8f8c-3a189e06118d",
     "250c58ef-44a1-4ae4-8f88-f65831cf45ef",
