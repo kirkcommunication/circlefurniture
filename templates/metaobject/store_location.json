@@ -1,15 +1,24 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "b0e05b31-c58f-4889-96bb-956e4c36c498": {
       "type": "location-single",
       "settings": {
         "store_name": "{{ metaobject.store_name.value }}",
-        "address": "<p>{{ metaobject.store_address | metafield_tag }}<\/p>",
+        "address": "<p>{{ metaobject.store_address | metafield_tag }}</p>",
         "phone": "{{ metaobject.phone.value }}",
         "hours": "{{ metaobject.hours | metafield_text }}",
         "store_image": "{{ metaobject.store_image.value }}",
         "directions": "{{ metaobject.get_directions.value }}",
-        "description": "<p>{{ metaobject.description | metafield_tag }}<\/p>",
+        "description": "<p>{{ metaobject.description | metafield_tag }}</p>",
         "description_cta_label": "{{ metaobject.description_cta_label.value }}",
         "description_cta_url": "{{ metaobject.description_cta_url.value }}",
         "post_image": "{{ metaobject.description_image.value }}",
@@ -18,31 +27,61 @@
         "image_layout": "alternate-left"
       }
     },
-    "359f2d76-690c-4611-98a3-10f221a1ac93": {
-      "type": "rich-text",
+    "collection_list_DihxBz": {
+      "type": "collection-list",
       "blocks": {
-        "template--21227774411025__359f2d76-690c-4611-98a3-10f221a1ac93-button-1": {
-          "type": "button",
+        "featured_collection_MiFgyE": {
+          "type": "featured_collection",
           "settings": {
-            "button_label": "View All Stores",
-            "button_link": "shopify:\/\/pages\/our-locations",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "collection": "living"
+          }
+        },
+        "featured_collection_GcqXWp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bedroom"
+          }
+        },
+        "featured_collection_pRCJqY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dining-kitchen"
+          }
+        },
+        "featured_collection_ii6LWh": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "living"
+          }
+        },
+        "featured_collection_FgJMbn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rugs"
           }
         }
       },
       "block_order": [
-        "template--21227774411025__359f2d76-690c-4611-98a3-10f221a1ac93-button-1"
+        "featured_collection_MiFgyE",
+        "featured_collection_GcqXWp",
+        "featured_collection_pRCJqY",
+        "featured_collection_ii6LWh",
+        "featured_collection_FgJMbn"
       ],
+      "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "title": "TRENDING NOW",
+        "sub_heading_text": "Explore Our Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "collection_section_class": "",
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "89606365-d3b7-4bc9-9056-4a7ec73c843d": {
@@ -59,7 +98,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
         "template--21227774411025__89606365-d3b7-4bc9-9056-4a7ec73c843d-button-1": {
@@ -147,6 +186,7 @@
       "disabled": true,
       "settings": {
         "title": "Meet Our Designers",
+        "sub_heading": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "circle",
@@ -155,6 +195,8 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
+        "section_class": "",
+        "background_color": "",
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
@@ -175,7 +217,7 @@
         "template--21227774411025__85fcdf52-4a51-46c8-827e-f71bba142480-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Now is the perfect time to <a href=\"https:\/\/share.hsforms.com\/1F1jwypKVQVm1RK0-1ir5pw1uokg?__hstc=184665206.72955f35d5432bf511e940a7dbab1b79.1693485185677.1696288326290.1696340088534.29&__hssc=184665206.2.1696340088534&__hsfp=2855453980\">book an appointment<\/a><br\/> with one of our incredible designers who are waiting to bring your dream space to life. Whether you're looking to refresh a tired room or find the perfect new sofa, bedroom set, or dining room set, we've got you covered. With a vast selection of sofa styles, colors, patterns, luxurious leathers, and exquisite wood finishes for beds, dressers, dining tables, and chairs, your options are endless.<\/p><p>Our designers are not just skilled; they're passionate about making your vision a reality. They'll work with you to create a space that reflects your unique style, making every corner of your home a joy to live in.<\/p><p>Schedule an appointment with our designers today and embark on a journey to create the room of your dreams. Let's make your home the envy of all your friends and family!<\/p>",
+            "text": "<p>Now is the perfect time to <a href=\"https://share.hsforms.com/1F1jwypKVQVm1RK0-1ir5pw1uokg?__hstc=184665206.72955f35d5432bf511e940a7dbab1b79.1693485185677.1696288326290.1696340088534.29&__hssc=184665206.2.1696340088534&__hsfp=2855453980\">book an appointment</a><br/> with one of our incredible designers who are waiting to bring your dream space to life. Whether you're looking to refresh a tired room or find the perfect new sofa, bedroom set, or dining room set, we've got you covered. With a vast selection of sofa styles, colors, patterns, luxurious leathers, and exquisite wood finishes for beds, dressers, dining tables, and chairs, your options are endless.</p><p>Our designers are not just skilled; they're passionate about making your vision a reality. They'll work with you to create a space that reflects your unique style, making every corner of your home a joy to live in.</p><p>Schedule an appointment with our designers today and embark on a journey to create the room of your dreams. Let's make your home the envy of all your friends and family!</p>",
             "text_style": "body"
           }
         },
@@ -183,7 +225,7 @@
           "type": "button",
           "settings": {
             "button_label": "Book an Appointment",
-            "button_link": "https:\/\/share.hsforms.com\/1F1jwypKVQVm1RK0-1ir5pw1uokg?__hstc=184665206.72955f35d5432bf511e940a7dbab1b79.1693485185677.1696288326290.1696340088534.29&__hssc=184665206.2.1696340088534&__hsfp=2855453980",
+            "button_link": "https://share.hsforms.com/1F1jwypKVQVm1RK0-1ir5pw1uokg?__hstc=184665206.72955f35d5432bf511e940a7dbab1b79.1693485185677.1696288326290.1696340088534.29&__hssc=184665206.2.1696340088534&__hsfp=2855453980",
             "button_style_secondary": false
           }
         }
@@ -194,14 +236,17 @@
         "template--21227774411025__85fcdf52-4a51-46c8-827e-f71bba142480-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/3100series-make-an-appointment.jpg",
+        "image": "shopify://shop_images/3100series-make-an-appointment.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
+        "section_color_scheme": "",
         "color_scheme": "inverse",
+        "section_class": "",
+        "background_color": "",
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -247,7 +292,7 @@
   },
   "order": [
     "b0e05b31-c58f-4889-96bb-956e4c36c498",
-    "359f2d76-690c-4611-98a3-10f221a1ac93",
+    "collection_list_DihxBz",
     "89606365-d3b7-4bc9-9056-4a7ec73c843d",
     "41bde6bb-998c-4315-8f8c-3a189e06118d",
     "250c58ef-44a1-4ae4-8f88-f65831cf45ef",
