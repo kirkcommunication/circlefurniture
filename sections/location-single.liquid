@@ -96,22 +96,6 @@
 </div>
 
 
-
-<div class="video_section_outer">
-<div class="media_wrapper container">
-{%- if section.settings.matterport_3_d_model != blank -%}
-  <div class="matterport">
-<iframe width="680" height="383" src="https://my.matterport.com/show/?m={{ section.settings.matterport_3_d_model }}" frameborder="0" allowfullscreen allow="xr-spatial-tracking"></iframe>
-  </div>
-{% endif %}
-
-  {%- if section.settings.youtube_video != blank -%}
-    <div class="youtube">
-<iframe width="680" height="383" src="https://www.youtube.com/embed/{{ section.settings.youtube_video }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-    {% endif %}
-</div>
-</div>
   
 
  
