@@ -7,8 +7,9 @@
       <div class="store_info_box">
       <div class="leftcol">
          <div class="store-info"><span>Design Center Location:</span> {{ section.settings.address | strip_html | replace: "&lt;br&gt;", "<br>"  }}</div>
-          <div class="get_direction"><a href="{{ section.settings.directions }}" target="_blank">Get Directions</a></div>
-        <div class="store-phone"><a href="tel:+1 {{ section.settings.phone }}">{{ section.settings.phone }}</a></div>
+         <div class="store-phone"><a href="tel:+1 {{ section.settings.phone }}">{{ section.settings.phone }}</a></div>
+      
+       <div class="get_direction"><a href="{{ section.settings.directions }}" target="_blank">Get Directions</a></div>
       </div>
       <div class="rightcol">
          <div class="store-hours"><span>Hours</span> <br>{{ metaobject.hours  | metafield_tag }}</div>
