@@ -262,6 +262,121 @@
         "padding_bottom": 80
       }
     },
+    "multicolumn_FexVTT": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_9zVfg9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/action_location.jpg",
+            "title": "Acton",
+            "text": "<p><a href=\"tel:978-263-7268\">978-263-7268</a><br/>425 Great Road (Route 2A) Acton, MA 01720</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hTKWRW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Boston-Seaport.jpg",
+            "title": "Boston-Seaport",
+            "text": "<p><a href=\"tel:617-865-6400\">617-865-6400</a><br/>100 Northern Avenue Boston, MA 02210</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KBpzXK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Cambridge_4bf08797-0e5c-4878-82c9-de900d2b342c.jpg",
+            "title": "Cambridge",
+            "text": "<p><a href=\"tel:617-876-3988\">617-876-3988</a><br/>199 Alewife Brook Parkway Cambridge, MA 02138</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kUhXNk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Framingham.jpg",
+            "title": "Framingham",
+            "text": "<p><a href=\"tel:508-875-0707\">508-875-0707</a><br/>235 Worcester Road (Route 9) Framingham, MA 01701</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EgjEdP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Middleton.jpg",
+            "title": "Middleton",
+            "text": "<p><a href=\"tel:978-777-2690\">978-777-2690</a><br/>237 S. Main Street Middleton, MA 01949</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UrfeXR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Pembroke.jpg",
+            "title": "Pembroke",
+            "text": "<p><a href=\"tel:781-826-2728\">781-826-2728</a><br/>85 Washington Street Pembroke, MA 02359</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QahXUE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Portsmouth.jpg",
+            "title": "Portsmouth",
+            "text": "<p><a href=\"tel:603-441-2011\">603-441-2011</a><br/>40 Bridge Street Portsmouth, NH 03801</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BFTbwH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/HYANNIs_new.jpg",
+            "title": "HYANNIS (NEW)",
+            "text": "<p><a href=\"tel:999-888-7777\">999-888-7777</a><br/>123 Street Name Hyannis, MA 00000</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_9zVfg9",
+        "column_hTKWRW",
+        "column_KBpzXK",
+        "column_kUhXNk",
+        "column_EgjEdP",
+        "column_UrfeXR",
+        "column_QahXUE",
+        "column_BFTbwH"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "EXPERIENCE OUR DESIGN LOCATIONS",
+        "sub_heading": "Come in and let our designers inspire you!",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "section_class": "four_col_grid design_location",
+        "background_color": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "89606365-d3b7-4bc9-9056-4a7ec73c843d": {
       "type": "rich-text",
       "blocks": {
@@ -474,6 +589,7 @@
     "testimonial_slider_6GgxCy",
     "two_col_image_grid_with_text_7hK8Af",
     "multicolumn_WVGcL7",
+    "multicolumn_FexVTT",
     "89606365-d3b7-4bc9-9056-4a7ec73c843d",
     "41bde6bb-998c-4315-8f8c-3a189e06118d",
     "250c58ef-44a1-4ae4-8f88-f65831cf45ef",
