@@ -348,8 +348,9 @@ $(document).ready(function () {
 
       // Event listener for play button click
       $('.play-btn').click(function () {
-        var videoId = $(this).data('video-id');
-        openPopup(videoId);
+        $(this).next("#overlay").addClass('active');
+        //var videoId = $(this).data('video-id');
+        //openPopup(videoId);
       });
 
       // Event listener for close button click
