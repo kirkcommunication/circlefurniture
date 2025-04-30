@@ -6,7 +6,7 @@
        <h2 class="store-title">{{ section.settings.store_name }}</h2>
       <div class="store_info_box">
       <div class="leftcol">
-         <div class="store-info">{{ section.settings.address | strip_html | replace: "&lt;br&gt;", "<br>"  }}</div>
+         <div class="store-info"><span>Design Center Location:</span> {{ section.settings.address | strip_html | replace: "&lt;br&gt;", "<br>"  }}</div>
           <div class="get_direction"><a href="{{ section.settings.directions }}" target="_blank">Get Directions</a></div>
         <div class="store-phone"><a href="tel:+1 {{ section.settings.phone }}">{{ section.settings.phone }}</a></div>
       </div>
