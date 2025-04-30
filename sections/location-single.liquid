@@ -355,13 +355,15 @@ $(document).ready(function () {
 
       // Event listener for close button click
       $('#close-btn').click(function () {
-        closePopup();
+         $("#overlay").removeClass('active');
+        //closePopup();
       });
 
       // Event listener for overlay click to close the popup
       $('#overlay').click(function (e) {
         if (e.target === this) {
-          closePopup();
+          $("#overlay").removeClass('active');
+          //closePopup();
         }
       });
 
