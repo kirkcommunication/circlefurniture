@@ -355,7 +355,7 @@ $(document).ready(function () {
 
       // Event listener for close button click
       $('#close-btn').click(function () {
-         $("#overlay").removeClass('active');
+         $(this).closest('#overlay').removeClass('active');
         //closePopup();
       });
 
