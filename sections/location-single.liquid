@@ -104,12 +104,14 @@
   </div>          
   {% endif %}  
         </div>
+            {% comment %}
         <div class="content_box">
           <span class="title">{{ var_getdata.title.value }} </span>
           <h2 class="name">{{ var_getdata.name.value }} </h2>
           <div class="desc">{{ var_getdata.bio | metafield_tag }}</div>
           <div class="review">{{ var_getdata.review | metafield_tag }}</div>
         </div>
+          {% endcomment %}}
           </div>
         {% endfor %}
 </div>
