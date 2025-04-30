@@ -28,7 +28,7 @@
 </div>
 
 <div class="desc_section">
-<div class="container">
+<div class="content_wrapper container">
 {%- if section.settings.post_image != blank -%}
 <div class="store_description">
 {{ section.settings.description }}
@@ -229,7 +229,7 @@ section.location_detail_section .desc_section{ background:#ece5dd; padding:80px 
   .store_info_box .leftcol{ display:flex; flex-direction:column; gap:8px;}
   .store_info_box .leftcol a{ color:#fff; text-decoration:none; font-family: "Poppins", sans-serif; font-weight:300; color:#fff; font-size:16px;}
   .store_info_box .leftcol a:hover{ color:#fff; text-decoration:underline;}
-  .content_wrapper{ margin-bottom:60px !important;}
+  .content_wrapper{ margin-bottom:60px; display:flex; gap:50px;}
   .btn{ padding:15px 30px; font-size:18px; text-decoration:none; display:inline-block;}
   .store_description .metafield-rich_text_field{ margin-bottom:30px;}
   .green{ background:#5f807f; color:#fff;}
@@ -240,7 +240,7 @@ section.location_detail_section .desc_section{ background:#ece5dd; padding:80px 
   .contact_btnbox h4{ text-transform:uppercase; font-size:20px; margin:0px; line-height:110%; letter-spacing:1px; font-weight:300; font-family: "Poppins", sans-serif; color:#fff;}
   .contact_btnbox a{ background:#806b52; position:relative; padding:10px 20px; border:1px solid #fff; display:inline-block; color:#fff; text-decoration:none; text-transform:uppercase;}
   .contact_btnbox a:after{ content:""; border: solid #fff; border-width: 0 1px 1px 0; margin-left:5px; display: inline-block; padding: 4px; transform: rotate(-45deg); -webkit-transform: rotate(-45deg);}
-  .content_wrapper{display:flex; gap:50px;}
+  section.location_detail_section .desc_section .content_wrapper{ margin-bottom:0px;}
   
   
   .content_wrapper .store_description{ width:50%;}
