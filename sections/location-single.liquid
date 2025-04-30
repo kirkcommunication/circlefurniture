@@ -96,8 +96,9 @@
         {% for var_getdata in var_designer -%}
           <div class="designer_data {% if section.settings.image_layout contains 'alternate' %}{% cycle odd_class, even_class %}{% else %}{{ odd_class }}{% endif %}">
         <div class="imgbox popup-button play-btn"><img src="{{ var_getdata.image.value | img_url: '400x400' }}"/>
+          <h2 class="name">{{ var_getdata.name.value }} </h2>
           <span class="title">{{ var_getdata.title.value }} </span>
-                    <h2 class="name">{{ var_getdata.name.value }} </h2>
+                    
          
           <div id="overlay">
             <div id="popup">
@@ -292,7 +293,7 @@ section.location_detail_section .section_meet_designer{ background:#3d5c66; padd
   .designer_data_outer{ display:flex; gap:60px; justify-content:flex-start; flex-wrap:wrap;}
   .designer_data{ max-width:300px; display:flex; width:32.5%; gap:0px; align-items:center;}
   .designer_data.image-with-text__grid--reverse{ flex-direction:row-reverse;}
-  .meetour_designer .designer_data .imgbox{ text-align:center; width:100%; position:relative; flex-direction:column;}
+  .meetour_designer .designer_data .imgbox{ text-align:center; width:100%; position:relative; flex-direction:column; align-items: flex-start;}
   .meetour_designer .designer_data .imgbox h2.name{font-size:18px; line-height:24px; font-weight:500;font-family: "Poppins", sans-serif; color:#fff;}
   .meetour_designer .designer_data .imgbox span.title{font-size:15px; line-height:23px; font-weight:300;font-family: "Poppins", sans-serif; color:#fff;}
   
