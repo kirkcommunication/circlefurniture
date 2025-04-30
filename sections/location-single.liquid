@@ -95,7 +95,7 @@
         <div class="designer_data_outer">
         {% for var_getdata in var_designer -%}
           <div class="designer_data {% if section.settings.image_layout contains 'alternate' %}{% cycle odd_class, even_class %}{% else %}{{ odd_class }}{% endif %}">
-        <div class="imgbox popup-button"><img src="{{ var_getdata.image.value | img_url: '400x400' }}"/>
+        <div class="imgbox popup-button play-btn"><img src="{{ var_getdata.image.value | img_url: '400x400' }}"/>
          
           <div id="overlay">
             <div id="popup">
