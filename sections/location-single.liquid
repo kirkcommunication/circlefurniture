@@ -98,15 +98,23 @@
         <div class="imgbox"><img src="{{ var_getdata.image.value | img_url: '400x400' }}"/>
           {%- if var_getdata.you_tube_video != blank -%}
 <div class="play-btn popup-button" data-video-id="{{ var_getdata.you_tube_video }}"></div>
+
+       {% comment %}       
 <!-- Overlay and Popup -->
   <div id="overlay">
     <div id="popup">
       <div id="close-btn">✖</div>
       <iframe width="854" height="480" src="" frameborder="0" allowfullscreen></iframe>
     </div>
-  </div>          
+  </div>   
+  {% endcomment %}
+
+          
   {% endif %}  
         </div>
+
+
+            
             {% comment %}
         <div class="content_box">
           <span class="title">{{ var_getdata.title.value }} </span>
