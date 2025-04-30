@@ -84,6 +84,56 @@
         "padding_bottom": 36
       }
     },
+    "testimonial_slider_6GgxCy": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "slide_hMLbyW": {
+          "type": "slide",
+          "settings": {
+            "heading": "Hawley Appleton",
+            "author_position": "Design Consultant, Cambridge",
+            "subheading": "I had a delightful experience. Our sales consultant, Hawley, was very informative and helpful in making our decision and purchase. We we welcomed with smiles from all sales personal. Even Catherine, VP of Stores, greeted us and thanked is for shopping at Circle Furniture. This isn't my first purchase at Circle and certainly will not be my last.- Paul J.",
+            "author_pics": "shopify://shop_images/Hawley_Appleton_pics.png",
+            "star_rating": "5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_H7YgcH": {
+          "type": "slide",
+          "settings": {
+            "heading": "Hawley Appleton",
+            "author_position": "Design Consultant, Cambridge",
+            "subheading": "I had a delightful experience. Our sales consultant, Hawley, was very informative and helpful in making our decision and purchase. We we welcomed with smiles from all sales personal. Even Catherine, VP of Stores, greeted us and thanked is for shopping at Circle Furniture. This isn't my first purchase at Circle and certainly will not be my last.- Paul J.",
+            "author_pics": "shopify://shop_images/Hawley_Appleton_pics.png",
+            "star_rating": "5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_hMLbyW",
+        "slide_H7YgcH"
+      ],
+      "name": "Testimonial",
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "89606365-d3b7-4bc9-9056-4a7ec73c843d": {
       "type": "rich-text",
       "blocks": {
@@ -293,6 +343,7 @@
   "order": [
     "b0e05b31-c58f-4889-96bb-956e4c36c498",
     "collection_list_DihxBz",
+    "testimonial_slider_6GgxCy",
     "89606365-d3b7-4bc9-9056-4a7ec73c843d",
     "41bde6bb-998c-4315-8f8c-3a189e06118d",
     "250c58ef-44a1-4ae4-8f88-f65831cf45ef",
