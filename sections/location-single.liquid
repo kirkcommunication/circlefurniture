@@ -95,22 +95,35 @@
         <div class="designer_data_outer">
         {% for var_getdata in var_designer -%}
           <div class="designer_data {% if section.settings.image_layout contains 'alternate' %}{% cycle odd_class, even_class %}{% else %}{{ odd_class }}{% endif %}">
-        <div class="imgbox"><img src="{{ var_getdata.image.value | img_url: '400x400' }}"/>
+        <div class="imgbox popup-button"><img src="{{ var_getdata.image.value | img_url: '400x400' }}"/>
+         
+          <div id="overlay">
+            <div id="popup">
+              <div id="close-btn">✖</div>
+                 <div class="content_box">
+                    <span class="title">{{ var_getdata.title.value }} </span>
+                    <h2 class="name">{{ var_getdata.name.value }} </h2>
+                    <div class="desc">{{ var_getdata.bio | metafield_tag }}</div>
+                    <div class="review">{{ var_getdata.review | metafield_tag }}</div>
+                  </div>
+              </div>
+            </div> 
+                 {% comment %}   
+          
           {%- if var_getdata.you_tube_video != blank -%}
 <div class="play-btn popup-button" data-video-id="{{ var_getdata.you_tube_video }}"></div>
 
-       {% comment %}       
+    
 <!-- Overlay and Popup -->
   <div id="overlay">
     <div id="popup">
       <div id="close-btn">✖</div>
       <iframe width="854" height="480" src="" frameborder="0" allowfullscreen></iframe>
     </div>
-  </div>   
-  {% endcomment %}
-
-          
+  </div>           
   {% endif %}  
+   {% endcomment %}
+
         </div>
 
 
