@@ -74,14 +74,17 @@
 </div>
 
 
-
+{% comment %}
  {% liquid
-  if section.settings.image_layout contains 'right'
+
+    if section.settings.image_layout contains 'right'
     assign odd_class = ' image-with-text__grid--reverse'
   else
     assign even_class = ' image-with-text__grid--reverse'
   endif
   %}
+{% endcomment %}
+    
 <div class="section_meet_designer">  
 <div class="meetour_designer container">
   {%- if metaobject.meet_our_designers.value != blank -%}
