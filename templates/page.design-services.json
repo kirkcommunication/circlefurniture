@@ -178,6 +178,59 @@
         "padding_bottom": 36
       }
     },
+    "collapsible_content_Bt73D3": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_4GEUbF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Will someone come to my home?",
+            "icon": "none",
+            "row_content": "<p>Will someone come to my home?</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xzHpN3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much does Circle Furniture design services cost?",
+            "icon": "none",
+            "row_content": "<p>How much does Circle Furniture design services cost?</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_np7FPy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long do design consultations take?",
+            "icon": "none",
+            "row_content": "<p>How long do design consultations take?</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_4GEUbF",
+        "collapsible_row_xzHpN3",
+        "collapsible_row_np7FPy"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Design Consultant, Cambridge",
+        "sub_heading": "Quisque facilisis malesuada lorem nec facilisis. Ut ut libero magna.",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "designer_grid_cta_dRVNe9": {
       "type": "designer-grid-cta",
       "blocks": {
@@ -740,6 +793,7 @@
     "rich_text_nAj3Vj",
     "rich_text_6QMXbR",
     "two_col_image_grid_with_text_kHdgcC",
+    "collapsible_content_Bt73D3",
     "designer_grid_cta_dRVNe9",
     "testimonial_slider_7KQbXw",
     "multicolumn_CqALKN",
