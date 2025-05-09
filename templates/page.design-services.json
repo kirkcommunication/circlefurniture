@@ -167,6 +167,184 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/initial_meating.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_col_img_with_text",
+        "background_color": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_LgC7fj": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_K9TFt9": {
+          "type": "caption",
+          "settings": {
+            "caption": "02",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_FxwKAb": {
+          "type": "heading",
+          "settings": {
+            "heading": "IN-HOME CONSULTATION",
+            "heading_size": "h1"
+          }
+        },
+        "text_8kyexT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ex lorem, interdum eget vehicula quis, iaculis at lacus. Morbi interdum, nulla non imperdiet<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_JhFFBy": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_K9TFt9",
+        "heading_FxwKAb",
+        "text_8kyexT",
+        "button_JhFFBy"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/home_consultation.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_col_img_with_text",
+        "background_color": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_rMkDJh": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_7jm3mT": {
+          "type": "caption",
+          "settings": {
+            "caption": "03",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_FdGqaG": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN SELECTIONS & DETAILS",
+            "heading_size": "h1"
+          }
+        },
+        "text_787Dyk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ex lorem, interdum eget vehicula quis, iaculis at lacus. Morbi interdum, nulla non imperdiet<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_Liwp7m": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_7jm3mT",
+        "heading_FdGqaG",
+        "text_787Dyk",
+        "button_Liwp7m"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/select_design.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_col_img_with_text",
+        "background_color": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_7jHbFf": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_tf4BKc": {
+          "type": "caption",
+          "settings": {
+            "caption": "03",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_hMPK6N": {
+          "type": "heading",
+          "settings": {
+            "heading": "DESIGN SELECTIONS & DETAILS",
+            "heading_size": "h1"
+          }
+        },
+        "text_tkJUUN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ex lorem, interdum eget vehicula quis, iaculis at lacus. Morbi interdum, nulla non imperdiet<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_qVwddp": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_tf4BKc",
+        "heading_hMPK6N",
+        "text_tkJUUN",
+        "button_qVwddp"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/select_design.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -854,6 +1032,9 @@
     "rich_text_nAj3Vj",
     "rich_text_6QMXbR",
     "image_with_text_FBjTY8",
+    "image_with_text_LgC7fj",
+    "image_with_text_rMkDJh",
+    "image_with_text_7jHbFf",
     "two_col_image_grid_with_text_kHdgcC",
     "collapsible_content_Bt73D3",
     "designer_grid_cta_dRVNe9",
