@@ -163,7 +163,7 @@
         "button_3ft4WB"
       ],
       "custom_css": [
-        "{max-width: 980px; margin: 0 auto;}"
+        "{max-width: 1110px; margin: 0 auto;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
