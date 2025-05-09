@@ -83,27 +83,42 @@
         "heading_A3ekyY": {
           "type": "heading",
           "settings": {
-            "heading": "Our inspirations from the beginning",
+            "heading": "OUR DESIGN PHILOSOPHY",
             "heading_size": "h1"
-          }
-        },
-        "text_3egzcr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We are thrilled to announce exciting updates at Circle Furniture! As advocates for both elegance and environmental responsibility, we're delighted to introduce sustainability as a cornerstone of our offerings.</p><p> In our commitment to a greener future, we are embracing eco-friendly materials and production methods from our local partners without compromising on the exquisite quality you expect from us. Each piece tells a story of mindful craftsmanship, ensuring a luxurious experience that resonates with your values. </p><p>But that's not all-our dedication to customization remains steadfast. Your home deserves furnishings as unique as you are. Whether it's tailoring the dimensions, selecting bespoke finishes, or collaborating on designs, our team is here to bring your vision to life.<br/><br/></p>"
           }
         }
       },
       "block_order": [
-        "heading_A3ekyY",
-        "text_3egzcr"
+        "heading_A3ekyY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_6QMXbR": {
+      "type": "rich-text",
+      "blocks": {
+        "text_xmN8dp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our skilled team of interior designers are here to help you plan your dream space collaboratively, ensuring that every detail aligns seamlessly with your vision. From choosing the perfect color palette to optimizing furniture placement, our team is committed to transforming your home into a haven that reflects your taste and meets your specific needs.</p><p>We can help you determine how best to design a new space, use your existing space more efficiently, or bring a fresh look and energy to a tired room. Our talented designers possess extensive knowledge about each of our brand partners, and their hundreds of customizable options. They're eager to assist you in discovering pieces that perfectly complement your style, values, and budget. Whether you're seeking to furnish one room or a whole home, our skilled designers stand ready to lend their expertise.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_xmN8dp"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 80,
+        "padding_top": 20,
         "padding_bottom": 80
       }
     },
@@ -113,21 +128,21 @@
         "heading_Abzd3P": {
           "type": "heading",
           "settings": {
-            "heading": "OUR CORE VALUES",
+            "heading": "OUR CORE VALUES Of DESIGN",
             "heading_size": "h1"
           }
         },
         "text_aM9Hw8": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend. Phasellus quis tincidunt elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
+            "text": "<p>We will assist in creating quotes lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend. Phasellus quis tincidunt elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>",
             "text_style": "body"
           }
         },
         "button_hbCafD": {
           "type": "button",
           "settings": {
-            "button_label": "Apply Today",
+            "button_label": "Schedule a Free Design Consulation",
             "button_link": "#",
             "button_style_secondary": false
           }
@@ -993,6 +1008,7 @@
     "main",
     "f818e213-0ec7-48f5-b560-9dc50bb12dff",
     "rich_text_nAj3Vj",
+    "rich_text_6QMXbR",
     "two_col_image_grid_with_text_kHdgcC",
     "image_with_text_CfxKTn",
     "two_col_image_grid_with_text_FiNqwN",
