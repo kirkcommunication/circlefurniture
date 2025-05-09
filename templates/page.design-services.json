@@ -162,6 +162,9 @@
         "text_HP9rDa",
         "button_3ft4WB"
       ],
+      "custom_css": [
+        "{max-width:950px; margin:0 auto;}"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "height": "adapt",
