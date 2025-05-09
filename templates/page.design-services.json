@@ -178,309 +178,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_CfxKTn": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_qJ3R7i": {
-          "type": "heading",
-          "settings": {
-            "heading": "Our Operations",
-            "heading_size": "h1"
-          }
-        },
-        "text_MCn4P3": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend. Phasellus quis tincidunt elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend. Phasellus quis tincidunt elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br/><br/></p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_qJ3R7i",
-        "text_MCn4P3"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/our_operation_img.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "section_class": "two_col_img_with_text",
-        "background_color": "#ece5dd",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "two_col_image_grid_with_text_FiNqwN": {
-      "type": "two-col-image-grid-with-text",
-      "blocks": {
-        "heading_wPEPwB": {
-          "type": "heading",
-          "settings": {
-            "heading": "Our Mission",
-            "heading_size": "h1"
-          }
-        },
-        "text_g6T777": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend. Phasellus quis tincidunt elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies aliquam consequat. Ut suscipit mattis augue interdum eleifend. Phasellus quis tincidunt elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_wPEPwB",
-        "text_g6T777"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Image-Fit.png",
-        "image_one_text": "",
-        "image2": "shopify://shop_images/our_mission_2.png",
-        "image_two_text": "",
-        "image3": "shopify://shop_images/our_mission_3.png",
-        "image_three_text": "",
-        "image_four_text": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "section_class": "two_coll_with_img_grid last",
-        "background_color": "#ece5dd",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "two_col_image_grid_with_text_abbeHC": {
-      "type": "two-col-image-grid-with-text",
-      "blocks": {
-        "heading_q9WpMy": {
-          "type": "heading",
-          "settings": {
-            "heading": "Careers at Circle Furniture - Embark on a Journey with us",
-            "heading_size": "h1"
-          }
-        },
-        "text_ca36gK": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Your creativity can transform lives. At Circle Furniture lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna aliqua. Join us in creating new experiences in the world of interior design.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_PXeTV3": {
-          "type": "button",
-          "settings": {
-            "button_label": "View Available Positions",
-            "button_link": "#",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_q9WpMy",
-        "text_ca36gK",
-        "button_PXeTV3"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/carrer_journey1.png",
-        "image_one_text": "MARKETING",
-        "image2": "shopify://shop_images/carrer_journey2.png",
-        "image_two_text": "SERVICES",
-        "image3": "shopify://shop_images/carrer_journey3.png",
-        "image_three_text": "DELIVERY &DISTRIBUTION",
-        "image4": "shopify://shop_images/carrer_journey4.png",
-        "image_four_text": "PRODUCTS",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "section_class": "two_coll_with_img_grid first fcwhite linebtn_white",
-        "background_color": "#3d5c66",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_YMjbwk": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_43dTxp": {
-          "type": "heading",
-          "settings": {
-            "heading": "PARTNERS",
-            "heading_size": "h1"
-          }
-        },
-        "caption_XYcRXQ": {
-          "type": "caption",
-          "settings": {
-            "caption": "From All Over The Region",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        },
-        "text_yXmmfQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We seek partners who believe deeply in sustainability, offer the highest quality furniture, and believe in our spirit of modern organic design.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_iUYFQX": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "#",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_43dTxp",
-        "caption_XYcRXQ",
-        "text_yXmmfQ",
-        "button_iUYFQX"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/partner_img.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "section_class": "two_col_img_with_text",
-        "background_color": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "multicolumn_E7Nt7W": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_QNiYxp": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/copeland_logo_b91f54f8-6cf7-4e95-a28f-a29cd8ff0143.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_6CXXhR": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/saloom_logo.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_36LCxD": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/amisco_logo.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_6NNJdU": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/bdi_logo.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_bdRkp4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/gatcreek_logo.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_azbRUJ": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/american_leather_logo.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_GxQbdr": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/cr_laine_logo.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_QNiYxp",
-        "column_6CXXhR",
-        "column_36LCxD",
-        "column_6NNJdU",
-        "column_bdRkp4",
-        "column_azbRUJ",
-        "column_GxQbdr"
-      ],
-      "settings": {
-        "title": "",
-        "sub_heading": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 6,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "section_class": "home_logo_grid_section",
-        "background_color": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "designer_grid_cta_dRVNe9": {
       "type": "designer-grid-cta",
       "blocks": {
@@ -542,6 +239,39 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "testimonial_slider_7KQbXw": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "slide_cxKAyF": {
+          "type": "slide",
+          "settings": {
+            "heading": "Hawley Appleton",
+            "author_position": "Design Consultant, Cambridge",
+            "subheading": "There really is a difference between ordering something on line and working with a designer at a store. My experience at circle furniture affirms for me that there really are times when it's best to go to a showroom, see floor models and get help in real time. The design consultant was so helpful and patient as i considered my choices, and her expertise made such a difference. id highly recommend circle to anyone looking for quality furnishings and excellent service.",
+            "author_pics": "shopify://shop_images/Hawley_Appleton_pics.png",
+            "star_rating": "5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_cxKAyF"
+      ],
+      "name": "Testimonial",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "multicolumn_CqALKN": {
@@ -720,7 +450,7 @@
         "button_label": "",
         "button_link": "",
         "section_class": "four_col_grid design_location",
-        "background_color": "",
+        "background_color": "#faf9f7",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -1010,12 +740,8 @@
     "rich_text_nAj3Vj",
     "rich_text_6QMXbR",
     "two_col_image_grid_with_text_kHdgcC",
-    "image_with_text_CfxKTn",
-    "two_col_image_grid_with_text_FiNqwN",
-    "two_col_image_grid_with_text_abbeHC",
-    "image_with_text_YMjbwk",
-    "multicolumn_E7Nt7W",
     "designer_grid_cta_dRVNe9",
+    "testimonial_slider_7KQbXw",
     "multicolumn_CqALKN",
     "multicolumn_wKw9aQ",
     "4a002122-a2b6-4054-bb7d-ef35cde1dcf1",
