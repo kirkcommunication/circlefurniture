@@ -224,6 +224,9 @@
         "text_8kyexT",
         "button_JhFFBy"
       ],
+      "custom_css": [
+        "{max-width: 1010px; margin: 0 auto;}"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/home_consultation.png",
@@ -282,6 +285,9 @@
         "heading_FdGqaG",
         "text_787Dyk",
         "button_Liwp7m"
+      ],
+      "custom_css": [
+        "{max-width: 1010px; margin: 0 auto;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -342,6 +348,9 @@
         "text_tkJUUN",
         "button_qVwddp"
       ],
+      "custom_css": [
+        "{max-width: 1010px; margin: 0 auto;}"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/installation_img.png",
@@ -400,6 +409,9 @@
         "heading_MzxpAr",
         "text_Jd9bw9",
         "button_FG8bpG"
+      ],
+      "custom_css": [
+        "{max-width: 1010px; margin: 0 auto;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
