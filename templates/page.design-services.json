@@ -125,30 +125,39 @@
     "image_with_text_FBjTY8": {
       "type": "image-with-text",
       "blocks": {
+        "caption_RLWTtd": {
+          "type": "caption",
+          "settings": {
+            "caption": "01",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
         "heading_axMBzf": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "INITIAL MEETING",
             "heading_size": "h1"
           }
         },
         "text_HP9rDa": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ex lorem, interdum eget vehicula quis, iaculis at lacus. Morbi interdum, nulla non imperdiet<br/><br/></p>",
             "text_style": "body"
           }
         },
         "button_3ft4WB": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
+        "caption_RLWTtd",
         "heading_axMBzf",
         "text_HP9rDa",
         "button_3ft4WB"
@@ -163,7 +172,7 @@
         "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
-        "section_class": "",
+        "section_class": "two_col_img_with_text",
         "background_color": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
