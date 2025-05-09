@@ -35,6 +35,14 @@
             "text_style": "body"
           }
         },
+        "caption_DmrAkU": {
+          "type": "caption",
+          "settings": {
+            "caption": "Schedule a Free Design Consultation",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
         "buttons_KxxbVn": {
           "type": "buttons",
           "settings": {
@@ -50,6 +58,7 @@
       "block_order": [
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-heading-1",
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-text-1",
+        "caption_DmrAkU",
         "buttons_KxxbVn"
       ],
       "settings": {
