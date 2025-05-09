@@ -308,7 +308,7 @@
         "caption_tf4BKc": {
           "type": "caption",
           "settings": {
-            "caption": "03",
+            "caption": "04",
             "text_style": "caption-with-letter-spacing",
             "text_size": "large"
           }
@@ -316,7 +316,7 @@
         "heading_hMPK6N": {
           "type": "heading",
           "settings": {
-            "heading": "DESIGN SELECTIONS & DETAILS",
+            "heading": "INSTALLATION",
             "heading_size": "h1"
           }
         },
@@ -344,7 +344,66 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/select_design.png",
+        "image": "shopify://shop_images/installation_img.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "two_col_img_with_text",
+        "background_color": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_zGKrME": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_6D3UKC": {
+          "type": "caption",
+          "settings": {
+            "caption": "05",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "heading_MzxpAr": {
+          "type": "heading",
+          "settings": {
+            "heading": "ACCESSORIZING",
+            "heading_size": "h1"
+          }
+        },
+        "text_Jd9bw9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ex lorem, interdum eget vehicula quis, iaculis at lacus. Morbi interdum, nulla non imperdiet<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_FG8bpG": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_6D3UKC",
+        "heading_MzxpAr",
+        "text_Jd9bw9",
+        "button_FG8bpG"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/accessorize_img.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -1035,6 +1094,7 @@
     "image_with_text_LgC7fj",
     "image_with_text_rMkDJh",
     "image_with_text_7jHbFf",
+    "image_with_text_zGKrME",
     "two_col_image_grid_with_text_kHdgcC",
     "collapsible_content_Bt73D3",
     "designer_grid_cta_dRVNe9",
