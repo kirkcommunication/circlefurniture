@@ -24,33 +24,25 @@
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "DESIGN SERVICES",
+            "heading": "TRADE PARTNER PROGRAM",
             "heading_size": "h2"
           }
         },
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-text-1": {
           "type": "text",
           "settings": {
-            "text": "Our incredible interior designers are here to help you design your space from concept to delivery. We meet with you in one of our design centers so you can see the breadth and depth of furniture we carry. We can follow the store visit up with a free visit at your home to create the space of your dreams. Click on the button below or call 978.308.9407 to get started.",
+            "text": "Welcome to the Trade Partner Program at Circle Furniture, New England’s Interior Design Collective. We understand the demands and intricacies of interior design projects, and we’re here to be your dedicated partner every step of the way. With our extensive range of benefits and unparalleled customer service, we aim to simplify your design process and provide exceptional value to your clients.",
             "text_style": "body"
-          }
-        },
-        "caption_DmrAkU": {
-          "type": "caption",
-          "settings": {
-            "caption": "Schedule a Free Design Consultation",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "large"
           }
         },
         "buttons_KxxbVn": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "In-Home Appointment",
+            "button_label_1": "Apply Today",
             "button_link_1": "#",
             "button_style_secondary_1": false,
-            "button_label_2": "In-Store Appointment",
-            "button_link_2": "#",
+            "button_label_2": "",
+            "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
@@ -58,18 +50,17 @@
       "block_order": [
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-heading-1",
         "template--21640859255057__f818e213-0ec7-48f5-b560-9dc50bb12dff-text-1",
-        "caption_DmrAkU",
         "buttons_KxxbVn"
       ],
       "settings": {
-        "image": "shopify://shop_images/Middleton.jpg",
+        "image": "shopify://shop_images/partner-program-img.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "top-left",
         "show_text_box": true,
         "desktop_content_alignment": "left",
         "section_class": "section_innerpage_banner",
-        "background_color": "#a38e76",
+        "background_color": "#344b60",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
