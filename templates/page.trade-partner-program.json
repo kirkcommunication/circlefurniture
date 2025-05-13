@@ -74,13 +74,20 @@
         "heading_A3ekyY": {
           "type": "heading",
           "settings": {
-            "heading": "OUR DESIGN PHILOSOPHY",
+            "heading": "Exclusive Benefits",
             "heading_size": "h1"
+          }
+        },
+        "text_hqiFrX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
       "block_order": [
-        "heading_A3ekyY"
+        "heading_A3ekyY",
+        "text_hqiFrX"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -89,28 +96,6 @@
         "full_width": true,
         "padding_top": 80,
         "padding_bottom": 0
-      }
-    },
-    "rich_text_6QMXbR": {
-      "type": "rich-text",
-      "blocks": {
-        "text_xmN8dp": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our skilled team of interior designers are here to help you plan your dream space collaboratively, ensuring that every detail aligns seamlessly with your vision. From choosing the perfect color palette to optimizing furniture placement, our team is committed to transforming your home into a haven that reflects your taste and meets your specific needs.</p><p>We can help you determine how best to design a new space, use your existing space more efficiently, or bring a fresh look and energy to a tired room. Our talented designers possess extensive knowledge about each of our brand partners, and their hundreds of customizable options. They're eager to assist you in discovering pieces that perfectly complement your style, values, and budget. Whether you're seeking to furnish one room or a whole home, our skilled designers stand ready to lend their expertise.<br/><br/></p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_xmN8dp"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 80
       }
     },
     "image_with_text_FBjTY8": {
@@ -1092,7 +1077,6 @@
     "main",
     "f818e213-0ec7-48f5-b560-9dc50bb12dff",
     "rich_text_nAj3Vj",
-    "rich_text_6QMXbR",
     "image_with_text_FBjTY8",
     "image_with_text_LgC7fj",
     "image_with_text_rMkDJh",
