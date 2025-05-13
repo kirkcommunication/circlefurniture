@@ -77,17 +77,10 @@
             "heading": "Exclusive Benefits",
             "heading_size": "h1"
           }
-        },
-        "text_hqiFrX": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
         }
       },
       "block_order": [
-        "heading_A3ekyY",
-        "text_hqiFrX"
+        "heading_A3ekyY"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -96,7 +89,30 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 80,
-        "padding_bottom": 0
+        "padding_bottom": 60
+      }
+    },
+    "rich_text_fkFiFD": {
+      "type": "rich-text",
+      "blocks": {
+        "text_NyJdfi": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Commission</li></ul><p>Earn a generous 10% commission on each project.</p><ul><li>Dedicated Design Team</li></ul><p>Enjoy the support of our dedicated and highly knowledgeable team to help you find the right furniture customizations, upholstery, lighting, and accessories to complete the design needs of your clients.</p><ul><li>Brand Partners</li></ul><p>Our brand partners include Lee Industries, American Leather, Ekornes, stressless, Younger, Houe, Copeland, etc. (waiting for full list)<br/><br/><br/><br/><br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_NyJdfi"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "section_class": "content_bullet_listing",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 80
       }
     },
     "image_with_text_FBjTY8": {
@@ -1080,6 +1096,7 @@
     "main",
     "f818e213-0ec7-48f5-b560-9dc50bb12dff",
     "rich_text_nAj3Vj",
+    "rich_text_fkFiFD",
     "image_with_text_FBjTY8",
     "image_with_text_LgC7fj",
     "image_with_text_rMkDJh",
