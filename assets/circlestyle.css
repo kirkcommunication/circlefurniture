@@ -259,5 +259,5 @@ main#MainContent .shopify-policy__container h1{ text-align:left;font-size: 46px;
 main#MainContent .shopify-policy__container h2{font-size: 40px;line-height: 46px; font-weight: 500;font-family: NunitoSans-SemiBold;}
 
 .content_bullet_listing ul{ list-style: none; margin:0px; padding:0px;}
-.content_bullet_listing ul li{ padding:5px 0px; font-size:20px; line-height: 32px; color: #5c4d3b;}
-.content_bullet_listing ul li:before{ content: ""; display: inline-block; background: url("https://cdn.shopify.com/s/files/1/0775/9046/2737/files/bullet_icon_bed035e0-e722-478e-81c1-7b90ac4e7b5f.svg")left top no-repeat; width:24px; height:24px;}
+.content_bullet_listing ul li{ padding:5px 0px; font-size:20px; line-height: 32px; color: #5c4d3b; display:flex; align-items: center; margin-left:-35px;}
+.content_bullet_listing ul li:before{ content: ""; display: inline-block; margin-right:10px; background: url("https://cdn.shopify.com/s/files/1/0775/9046/2737/files/bullet_icon_bed035e0-e722-478e-81c1-7b90ac4e7b5f.svg")left top no-repeat; width:24px; height:24px;}
