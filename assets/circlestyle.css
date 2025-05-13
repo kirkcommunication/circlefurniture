@@ -257,3 +257,7 @@ ul.collection-list.grid .card--card.card--media>.card__content{ align-items:end;
 main#MainContent .shopify-policy__container{ padding-left: 15px!important; padding-right: 15px!important;max-width: 1400px;padding-bottom: 100px;}
 main#MainContent .shopify-policy__container h1{ text-align:left;font-size: 46px; line-height: 52px; font-weight: 600; font-family: NunitoSans-SemiBold;}
 main#MainContent .shopify-policy__container h2{font-size: 40px;line-height: 46px; font-weight: 500;font-family: NunitoSans-SemiBold;}
+
+.content_bullet_listing ul{ list-style: none; margin:0px; padding:0px;}
+.content_bullet_listing ul li{ padding:5px 0px; font-size:20px; line-height: 32px; color: #5c4d3b;}
+.content_bullet_listing ul li:before{ content: ""; display: inline-block; background: url("https://cdn.shopify.com/s/files/1/0775/9046/2737/files/bullet_icon_bed035e0-e722-478e-81c1-7b90ac4e7b5f.svg")left top no-repeat; width:24px; height:24px;}
