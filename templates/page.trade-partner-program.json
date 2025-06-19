@@ -118,6 +118,13 @@
     "image_with_text_biLXNB": {
       "type": "image-with-text",
       "blocks": {
+        "heading_rLUEBb": {
+          "type": "heading",
+          "settings": {
+            "heading": "How It works",
+            "heading_size": "h1"
+          }
+        },
         "text_JYmqhE": {
           "type": "text",
           "settings": {
@@ -135,6 +142,7 @@
         }
       },
       "block_order": [
+        "heading_rLUEBb",
         "text_JYmqhE",
         "button_8XkG8g"
       ],
