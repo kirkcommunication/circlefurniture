@@ -184,6 +184,10 @@ header.header.container nav.header__inline-menu ul li a span{ font-family: "Popp
 .section_how_it_work h2.image-with-text__heading{ font-size: 36px; font-weight:300; line-height: 46px; color:#5C4D3B; text-transform: uppercase;}
 .section_how_it_work .image-with-text__text h2{font-size:28px; font-weight: 400; line-height:38px; color:#5C4D3B;font-family: "Poppins", sans-serif;}
 
+.section_how_it_work a.button{ background:none; padding:15px 35px; line-height:initial; border-radius:30px; border:2px solid #fff; color:#fff; font-size:15px; text-decoration:none;}
+.section_how_it_work a.button:before, .section_how_it_work a.button:after{ display:none;}
+
+
 footer .footer-block__details-content .list-menu__item--link{ color:#fff; font-size:14px; font-weight:500;}
 h2.footer-block__heading{ font-size:16px; color:#fff; font-weight:600;}
 footer .footer-block__details-content ul{ margin:0px; padding:0px;}
