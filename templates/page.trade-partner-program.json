@@ -149,7 +149,7 @@
         "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
-        "section_class": "",
+        "section_class": "btn_primary",
         "background_color": "#f6f1ec",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
