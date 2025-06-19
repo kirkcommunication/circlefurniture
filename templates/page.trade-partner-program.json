@@ -115,6 +115,80 @@
         "padding_bottom": 80
       }
     },
+    "image_with_text_biLXNB": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_JYmqhE": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>1. JOIN</h2><p>Explore our extensive range of products in-store or online with the assistance of our design consultants. Our design consultants are dedicated to assisting you in selecting pieces that perfectly reflect your clients' lifestyle and taste, tailored specifically for any residential space. For commercial projects, we will collaborate closely with you and our vendors and manufacturers to ensure that every specification is meticulously fulfilled.<br/></p><h2>2. SHOP</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ex lorem, interdum eget vehicula quis, iaculis at lacus. Morbi interdum, nulla non imperdiet<br/></p><h2>3. EARN</h2><p>Earn commissions on every project while enjoying the benefits of our comprehensive support services</p>",
+            "text_style": "body"
+          }
+        },
+        "button_8XkG8g": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply Today",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "text_JYmqhE",
+        "button_8XkG8g"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "section_class": "",
+        "background_color": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonial_slider_7KQbXw": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "slide_cxKAyF": {
+          "type": "slide",
+          "settings": {
+            "heading": "Hawley Appleton",
+            "author_position": "Design Consultant, Cambridge",
+            "subheading": "There really is a difference between ordering something on line and working with a designer at a store. My experience at circle furniture affirms for me that there really are times when it's best to go to a showroom, see floor models and get help in real time. The design consultant was so helpful and patient as i considered my choices, and her expertise made such a difference. id highly recommend circle to anyone looking for quality furnishings and excellent service.",
+            "author_pics": "shopify://shop_images/Hawley_Appleton_pics.png",
+            "star_rating": "5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_cxKAyF"
+      ],
+      "name": "Testimonial",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "collapsible_content_Bt73D3": {
       "type": "collapsible-content",
       "blocks": {
@@ -166,39 +240,6 @@
         "desktop_layout": "image_second",
         "padding_top": 80,
         "padding_bottom": 80
-      }
-    },
-    "testimonial_slider_7KQbXw": {
-      "type": "testimonial-slider",
-      "blocks": {
-        "slide_cxKAyF": {
-          "type": "slide",
-          "settings": {
-            "heading": "Hawley Appleton",
-            "author_position": "Design Consultant, Cambridge",
-            "subheading": "There really is a difference between ordering something on line and working with a designer at a store. My experience at circle furniture affirms for me that there really are times when it's best to go to a showroom, see floor models and get help in real time. The design consultant was so helpful and patient as i considered my choices, and her expertise made such a difference. id highly recommend circle to anyone looking for quality furnishings and excellent service.",
-            "author_pics": "shopify://shop_images/Hawley_Appleton_pics.png",
-            "star_rating": "5",
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_cxKAyF"
-      ],
-      "name": "Testimonial",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
       }
     },
     "multicolumn_CqALKN": {
@@ -668,6 +709,7 @@
     "f818e213-0ec7-48f5-b560-9dc50bb12dff",
     "rich_text_nAj3Vj",
     "rich_text_fkFiFD",
+    "image_with_text_biLXNB",
     "testimonial_slider_7KQbXw",
     "collapsible_content_Bt73D3",
     "multicolumn_CqALKN",
