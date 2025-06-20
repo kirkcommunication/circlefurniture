@@ -37,6 +37,7 @@
     },
     "248b320e-3bc0-4186-9c84-df793580bf26": {
       "type": "top_right_col",
+      "disabled": true,
       "settings": {
         "background_color": "#5f807f",
         "top_leftmenu": "top-left-menu",
