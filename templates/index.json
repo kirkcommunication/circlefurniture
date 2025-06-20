@@ -240,6 +240,16 @@
             "link": "shopify://metaobjects/store_location/framingham"
           }
         },
+        "column_e4eP8i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/HYANNIs_new.jpg",
+            "title": "HYANNIS (NEW)",
+            "text": "<p><a href=\"tel:508-501-4301\">508-501-4301</a><br/>332 Iyannough Road, Hyannis, MA 02601</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_yKTVij": {
           "type": "column",
           "settings": {
@@ -269,16 +279,6 @@
             "link_label": "",
             "link": "shopify://metaobjects/store_location/portsmouth"
           }
-        },
-        "column_e4eP8i": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/HYANNIs_new.jpg",
-            "title": "HYANNIS (NEW)",
-            "text": "<p><a href=\"tel:999-888-7777\">999-888-7777</a><br/>123 Street Name Hyannis, MA 00000</p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -286,10 +286,10 @@
         "column_gg8KyL",
         "column_GLBRJ4",
         "column_pNBNDg",
+        "column_e4eP8i",
         "column_yKTVij",
         "column_Br9Jrw",
-        "column_JXF8Li",
-        "column_e4eP8i"
+        "column_JXF8Li"
       ],
       "settings": {
         "title": "EXPERIENCE OUR DESIGN LOCATIONS",
