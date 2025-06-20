@@ -416,6 +416,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
+        "section_class": "",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
@@ -528,6 +529,7 @@
         "template--21227774411025__85fcdf52-4a51-46c8-827e-f71bba142480-text-1",
         "template--21227774411025__85fcdf52-4a51-46c8-827e-f71bba142480-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/3100series-make-an-appointment.jpg",
         "height": "adapt",
@@ -576,6 +578,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
+        "section_class": "",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
