@@ -279,16 +279,6 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_q3kUCn": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/learn_more_img.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -299,8 +289,7 @@
         "column_yKTVij",
         "column_Br9Jrw",
         "column_JXF8Li",
-        "column_e4eP8i",
-        "column_q3kUCn"
+        "column_e4eP8i"
       ],
       "settings": {
         "title": "EXPERIENCE OUR DESIGN LOCATIONS",
