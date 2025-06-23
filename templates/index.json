@@ -444,7 +444,7 @@
           "type": "slide",
           "settings": {
             "heading": "Hawley Appleton",
-            "author_position": "Design Consultant, Cambridge",
+            "author_position": "Design Consultant, Boston - Seaport",
             "subheading": "I had a delightful experience. Our sales consultant, Hawley, was very informative and helpful in making our decision and purchase. We we welcomed with smiles from all sales personal. Even Catherine, VP of Stores, greeted us and thanked is for shopping at Circle Furniture. This isn't my first purchase at Circle and certainly will not be my last.- Paul J.",
             "author_pics": "shopify://shop_images/Hawley_Appleton_pics.png",
             "star_rating": "5",
@@ -456,13 +456,29 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_HTexaf": {
+          "type": "slide",
+          "settings": {
+            "heading": "Alex Wyman",
+            "author_position": "Design Consultant - Cambridge",
+            "subheading": "Yes - beautiful desks with keyboard drawers still exist! At Circle Furniture in Cambridge, you will find not only one but several to select from. I thought this was my mission, but because Alexander Wyman, Design Consultant, helped me, I was able to find a gorgeous bed frame, solidly made, that I have been looking for. Alex is professional and experienced, creative and caring. I am returning to the Circle Furniture soon for Alexander Wyman to help me buy more.  - Jamie Beth",
+            "author_pics": "shopify://shop_images/Alex_Wyman.jpg",
+            "star_rating": "5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_kVRYGG": {
           "type": "slide",
           "settings": {
-            "heading": "Hawley Appleton",
-            "author_position": "Design Consultant, Cambridge",
-            "subheading": "I had a delightful experience. Our sales consultant, Hawley, was very informative and helpful in making our decision and purchase. We we welcomed with smiles from all sales personal. Even Catherine, VP of Stores, greeted us and thanked is for shopping at Circle Furniture. This isn't my first purchase at Circle and certainly will not be my last.- Paul J.",
-            "author_pics": "shopify://shop_images/Hawley_Appleton_pics.png",
+            "heading": "Joanna Tisko",
+            "author_position": "Design Consultant, Pembroke",
+            "subheading": "Overwhelmed by the process of redecorating my living/dining space. The key was selecting a talented designer representing a company with quality furniture. Hit a home run ...Joanna has wonderful listening skills & provided several design scenarios with different quality furniture options. I'm sure Joanna's keen eye will turn my living/dining space into a cozy & stylish space where everything will feel just right. The furniture will blend beautifully, making the space warm & welcoming! Maureen",
+            "author_pics": "shopify://shop_images/Joanna-site-w.jpg",
             "star_rating": "5",
             "box_align": "middle-center",
             "show_text_box": true,
@@ -471,11 +487,29 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_9bDPme": {
+          "type": "slide",
+          "settings": {
+            "heading": "Justin Martel",
+            "author_position": "Design Consultant - Acton",
+            "subheading": "Justin is a professional and extremely knowledgeable design consultant. His understanding of the product line and sharing of creative solutions made for a most pleasant experience. I love the final product and cannot say enough about the services provided by Justin throughout the design, purchase, and delivery process. I look forward to working with Justin on future purchases from Circle Furniture in Acton, MA. - Paula B.",
+            "author_pics": "shopify://shop_images/justin-headshot.jpg",
+            "star_rating": "5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_mFf9Le",
-        "slide_kVRYGG"
+        "slide_HTexaf",
+        "slide_kVRYGG",
+        "slide_9bDPme"
       ],
       "settings": {
         "layout": "grid",
