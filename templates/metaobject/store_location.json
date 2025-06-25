@@ -305,6 +305,16 @@
             "link": ""
           }
         },
+        "column_BFTbwH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/HYANNIs_new.jpg",
+            "title": "Hyannis (NEW)",
+            "text": "<p><a href=\"tel:999-888-7777\">999-888-7777</a><br/>123 Street Name Hyannis, MA 00000</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_EgjEdP": {
           "type": "column",
           "settings": {
@@ -334,16 +344,6 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_BFTbwH": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/HYANNIs_new.jpg",
-            "title": "HYANNIS (NEW)",
-            "text": "<p><a href=\"tel:999-888-7777\">999-888-7777</a><br/>123 Street Name Hyannis, MA 00000</p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -351,10 +351,10 @@
         "column_hTKWRW",
         "column_KBpzXK",
         "column_kUhXNk",
+        "column_BFTbwH",
         "column_EgjEdP",
         "column_UrfeXR",
-        "column_QahXUE",
-        "column_BFTbwH"
+        "column_QahXUE"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
