@@ -134,12 +134,29 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_Hkbtpm": {
+          "type": "slide",
+          "settings": {
+            "heading": "Kim Sturdevant",
+            "author_position": "Design Consultant, Portsmouth",
+            "subheading": "Awesome customer service by Kimberly Sturdevant. She was professional, knowledgeable and answered all my questions about the different coffee tables I saw. Thank you Kimberly. - Elizabeth R.",
+            "author_pics": "shopify://shop_images/Kim.jpg",
+            "star_rating": "5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_hMLbyW",
         "slide_H7YgcH",
-        "slide_kz4WXR"
+        "slide_kz4WXR",
+        "slide_Hkbtpm"
       ],
       "name": "Testimonial",
       "settings": {
