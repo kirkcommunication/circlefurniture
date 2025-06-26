@@ -456,22 +456,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_pm3CY7": {
-          "type": "slide",
-          "settings": {
-            "heading": "Justin Martel",
-            "author_position": "Design Consultant - Acton",
-            "subheading": "Justin is a professional and extremely knowledgeable design consultant. His understanding of the product line and sharing of creative solutions made for a most pleasant experience. I love the final product and cannot say enough about the services provided by Justin throughout the design, purchase, and delivery process. I look forward to working with Justin on future purchases from Circle Furniture in Acton, MA. - Paula B.",
-            "author_pics": "shopify://shop_images/justin-headshot.jpg",
-            "star_rating": "5",
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_kVRYGG": {
           "type": "slide",
           "settings": {
@@ -485,6 +469,22 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_pm3CY7": {
+          "type": "slide",
+          "settings": {
+            "heading": "Justin Martel",
+            "author_position": "Design Consultant - Acton",
+            "subheading": "Justin is a professional and extremely knowledgeable design consultant. His understanding of the product line and sharing of creative solutions made for a most pleasant experience. I love the final product and cannot say enough about the services provided by Justin throughout the design, purchase, and delivery process. I look forward to working with Justin on future purchases from Circle Furniture in Acton, MA. - Paula B.",
+            "author_pics": "shopify://shop_images/justin-headshot.jpg",
+            "star_rating": "5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -523,8 +523,8 @@
       },
       "block_order": [
         "slide_HTexaf",
-        "slide_pm3CY7",
         "slide_kVRYGG",
+        "slide_pm3CY7",
         "slide_mFf9Le",
         "slide_9bDPme"
       ],
