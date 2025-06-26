@@ -118,11 +118,28 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_kz4WXR": {
+          "type": "slide",
+          "settings": {
+            "heading": "Helen Williamson",
+            "author_position": "Design Consultant, Acton",
+            "subheading": "Helen at Circle Furniture is fantastic. I built a new house, gave her my bed linens and ideas, and she put together the most amazing home with me. She did everything from floor plans, discussions, and my color schemes. She gave special attention to who was living there. There are no words for her design expertise and the beautiful products at Circle. She is amazing and made this project seamless. Some photos, the living room is still in progress. - Karen L.",
+            "author_pics": "shopify://shop_images/Helen-Williamson.jpg",
+            "star_rating": "5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_hMLbyW",
-        "slide_H7YgcH"
+        "slide_H7YgcH",
+        "slide_kz4WXR"
       ],
       "name": "Testimonial",
       "settings": {
