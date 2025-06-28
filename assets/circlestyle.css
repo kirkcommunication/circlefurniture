@@ -216,6 +216,7 @@ footer.footer .footer__content-bottom{ padding: 0px 0px 30px; border:none;}
 .article-template #breadcrumb_wrapper ul{ padding:50px 0px; color:#fff; display:flex; gap:10px;}
 .article-template #breadcrumb_wrapper ul li{ list-style-type:none; color:#fff; font-size:22px;}
 .article-template #breadcrumb_wrapper ul li a{ color:#fff; font-size:22px; text-decoration:none;}
+.article-template header{ max-width: 900px; padding:0px !important;}
 .article-template header .author_name span{ font-size:22px; padding-bottom:5px;}
 .article-template header time{ font-size:16px; color:#5f807f;}
 
