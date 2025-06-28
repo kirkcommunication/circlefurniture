@@ -84,6 +84,7 @@
         <div class="article_content">{{ article.content }} </div>
 
 <!-----------------sidebar code start----------------------------->
+  {% comment %}
 <div class="article_sidebar">  
 {% assign blog_handles = blog.handle | split:',' %}
 
@@ -121,6 +122,7 @@
   </a>
 {% endfor %}
 </div>
+  {% endcomment %}
 <!-----------------sidebar end--------------------------- -->
           
         </div>
