@@ -265,6 +265,8 @@ ul.product_detail_data > li .rightcol ul li:before{display:inline-block;transfor
 .product__info-container .price.price--large{ border-bottom:1px solid #ccc;}
 .product__info-container .product__description .learn_more_detail{ display:block;}
 
+.product.product--medium.product--left.product--thumbnail_slider .product__media-wrapper ul.thumbnail-list li img{ object-fit: contain;}
+
 ul#product-grid .card--card.card--media>.card__content{ align-items:end;}
 .slider-mobile-gutter ul.collection-list.contains-card .card__inner.ratio{ min-height:280px;}
 ul.collection-list.grid .card__inner.ratio{ min-height:280px;}
