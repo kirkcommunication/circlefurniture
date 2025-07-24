@@ -150,13 +150,109 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_ePfCfM": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "author_position": "Image slide",
+            "subheading": "Testimonial Quote",
+            "star_rating": "4.5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Vzt9tD": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "author_position": "Image slide",
+            "subheading": "Testimonial Quote",
+            "star_rating": "4.5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_aV4Vak": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "author_position": "Image slide",
+            "subheading": "Testimonial Quote",
+            "star_rating": "4.5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_3rVyfc": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "author_position": "Image slide",
+            "subheading": "Testimonial Quote",
+            "star_rating": "4.5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_pfh7gg": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "author_position": "Image slide",
+            "subheading": "Testimonial Quote",
+            "star_rating": "4.5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_fU4X6c": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "author_position": "Image slide",
+            "subheading": "Testimonial Quote",
+            "star_rating": "4.5",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_BdKbQC",
         "slide_H7YgcH",
         "slide_kz4WXR",
-        "slide_Hkbtpm"
+        "slide_Hkbtpm",
+        "slide_ePfCfM",
+        "slide_Vzt9tD",
+        "slide_aV4Vak",
+        "slide_3rVyfc",
+        "slide_pfh7gg",
+        "slide_fU4X6c"
       ],
       "name": "Testimonial",
       "settings": {
