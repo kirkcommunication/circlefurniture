@@ -32,6 +32,7 @@ header.header.container nav.header__inline-menu ul li a{ padding:15px 20px;}
 header.header.container nav.header__inline-menu ul li a:hover span{ text-decoration:none;}
 header.header.container nav.header__inline-menu ul li a span{ font-family: "Poppins", sans-serif; color:#000; text-decoration:none; font-size:22px;}
 header .header__search .search-modal.modal__content{ z-index: 999999; background: transparent;}
+header .header__search .search-modal.modal__content .search-modal__content{ align-items:flex-start; margin-top:40px;}
 
 .header--top-center .header__heading a.link{ line-height: 0px;}
 .page_content_wrapper h1, .h1{ font-size:46px; line-height:52px; font-weight:600; font-family: "Poppins", sans-serif;}
